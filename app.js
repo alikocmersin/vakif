@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (SF PRO & MEDIA SESSION API)
+   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (ÖZEL KONU SIRALAMASI)
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -29,9 +29,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const totalTimeLabel = document.getElementById("totalTimeLabel");
   const currentTopicTitle = document.getElementById("currentTopicTitle");
 
+  // Özel İstenen Sıralama
+  const topicOrder = ["genelbilgiler", "mevduat", "yatirim", "bireysel", "odemesistemleri"];
+
   // Uygulama Durumu
   let appData = {};
-  let currentTopicId = "mevduat";
+  let currentTopicId = "genelbilgiler";
   let activeParagraphIndex = -1;
   let isUserScrolling = false;
   let isAutoScrolling = false;
@@ -92,10 +95,18 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>`;
     });
 
-  // 4. KONU NAVİGASYON
+  // 4. KONU NAVİGASYON (ÖZEL İSTENEN SIRALAMA İLE)
   function initNavigation() {
     topicsNav.innerHTML = "";
-    Object.keys(appData).forEach((topicId) => {
+
+    // topicOrder dizisindeki sıraya göre çizdir
+    const availableKeys = topicOrder.filter(key => appData[key]);
+    // Eğer data.json'da topicOrder dışında anahtar varsa onları da sona ekle
+    Object.keys(appData).forEach(key => {
+      if (!availableKeys.includes(key)) availableKeys.push(key);
+    });
+
+    availableKeys.forEach((topicId) => {
       const topic = appData[topicId];
       const btn = document.createElement("button");
       btn.className = `topic-btn ${topicId === currentTopicId ? "active" : ""}`;
@@ -172,7 +183,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function switchTopicByOffset(offset) {
-    const keys = Object.keys(appData);
+    const keys = topicOrder.filter(k => appData[k]);
     const currentIndex = keys.indexOf(currentTopicId);
     if (currentIndex !== -1) {
       let targetIndex = (currentIndex + offset + keys.length) % keys.length;
@@ -440,7 +451,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   }
 
-  // 9. OYNAT / BEKLE (BAŞLAT / BEKLE) KONTROLÜ
+  // 9. OYNAT / BEKLE KONTROLÜ
   playToggleBtn.addEventListener("click", () => {
     if (audioPlayer.paused) {
       audioPlayer.play().catch((e) => console.log("Oynatma hatası:", e));

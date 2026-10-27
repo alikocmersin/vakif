@@ -1,966 +1,4 @@
 {
-  "mevduat": {
-    "id": "mevduat",
-    "title": "Mevduat İşlemleri",
-    "icon": "💰",
-    "duration": 1857.03,
-    "paragraphs": [
-      {
-        "index": 0,
-        "text": "1. MEVDUAT TANIMI VE TASNİFİ",
-        "start": 0.0,
-        "end": 3.44
-      },
-      {
-        "index": 1,
-        "text": "Mevduat Tanımı: Gerçek ve tüzel kişilerin faiz veya herhangi bir ivaz (borç yükümlülüğü) karşılığında ya da ivazsız olarak; istenildiği anda, belli bir vade sonunda veya belli bir ihbar sürecine uyarak geri almak üzere bankalara yatırdıkları paralardır.",
-        "start": 3.44,
-        "end": 20.4
-      },
-      {
-        "index": 2,
-        "text": "Tasnif Yetkisi: Mevduat hesaplarının vade ve türlerine göre tasnifi, Bankacılık Kanunu'nun verdiği yetkiyle B D D K'nın görüşü alınarak T C M B tarafından tespit edilir.",
-        "start": 20.4,
-        "end": 33.05
-      },
-      {
-        "index": 3,
-        "text": "1.1. Vade Bakımından Tasnif",
-        "start": 33.05,
-        "end": 36.96
-      },
-      {
-        "index": 4,
-        "text": "Vadesiz Mevduat: Bankanın izni aranmaksızın istenildiği zaman kısmen veya tamamen çekilebilen, ihbar veya vade koşulu taşımayan, faiz tahakkukları yıl sonunda veya hesabın kapatılmasında yapılan mevduattır.",
-        "start": 36.96,
-        "end": 51.55
-      },
-      {
-        "index": 5,
-        "text": "İhbarlı Mevduat: Çekileceği tarihten 7 gün önce yazılı bir ihbar verilmek suretiyle çekilebilen mevduattır.",
-        "start": 51.55,
-        "end": 59.88
-      },
-      {
-        "index": 6,
-        "text": "Vadeli Mevduat: 1 aya kadar (1 ay dahil), 3 aya kadar (3 ay dahil), 6 aya kadar (6 ay dahil), 1 yıla kadar ve 1 yıl ve daha uzun vadeli (1 ay, 3 ay, 6 ay ve yıllık faiz ödemeli) olarak açılabilen mevduattır.",
-        "start": 59.88,
-        "end": 76.55
-      },
-      {
-        "index": 7,
-        "text": "Kırık Vadeli Mevduat: 1 ay, 3 ay, 6 ay ve 1 yıl dışında belirlenen bir vade ile açılan hesaplardır.",
-        "start": 76.55,
-        "end": 85.8
-      },
-      {
-        "index": 8,
-        "text": "Birikimli Mevduat: Asgari 3 yıl vade ile açılan, sözleşme ile belirlenen aylık veya 3 aylık sürelerde hesaba para yatırmaya imkân veren mevduattır.",
-        "start": 85.8,
-        "end": 96.97
-      },
-      {
-        "index": 9,
-        "text": "Temdit (Yenileme): Aksine talimat yoksa vadeli hesap, yenileme tarihinde aynı vade ve o miktar için geçerli olan cari faiz oranı ile otomatik temdit edilir. Tahakkuk eden faiz, müşteri isteğine göre vadesiz hesaba aktarılır veya anaparaya eklenir; müşteri yenileme gününde hesap üzerinde her türlü tasarruf yetkisine sahiptir.",
-        "start": 96.97,
-        "end": 120.54
-      },
-      {
-        "index": 10,
-        "text": "1.2. Mudi Bakımından Tasnif",
-        "start": 120.54,
-        "end": 124.38
-      },
-      {
-        "index": 11,
-        "text": "Tasarruf Mevduatı: Gerçek kişilere ait olan ve münhasıran çek keşide edilmesi dışında ticari işlemlere konu olmayan mevduattır.",
-        "start": 124.38,
-        "end": 133.95
-      },
-      {
-        "index": 12,
-        "text": "Resmi Kuruluşlar Mevduatı: Genel ve özel bütçeli idarelere, düzenleyici ve denetleyici kurumlara, sosyal güvenlik kurumlarına, yerel yönetimlere, mahkemelere, savcılıklara, icra ve iflas dairelerine ve tereke hâkimliklerine ait hesaplardır.",
-        "start": 133.95,
-        "end": 150.92
-      },
-      {
-        "index": 13,
-        "text": "Ticari Kuruluşlar Mevduatı: Gerçek kişilerin ticari işletmelerine, her çeşit ortaklıklara, KİT'lere ve bağlı ortaklık/iştiraklerine, yerel yönetimlerin ticari işletmelerine, döner sermayeli kuruluşlara, vakıf/dernek/sendika/birlik/mesleki kuruluşların ticari işletmelerine, kooperatiflere, sigorta ve emeklilik şirketlerine ve banka dışı diğer mali kesime ait hesaplardır.",
-        "start": 150.92,
-        "end": 176.86
-      },
-      {
-        "index": 14,
-        "text": "Bankalar Mevduatı: T C M B, bankalar ve özel kanunlarına göre mevduat kabulüne yetkili kuruluşlara ait hesaplardır.",
-        "start": 176.86,
-        "end": 187.06
-      },
-      {
-        "index": 15,
-        "text": "Diğer Kuruluşlar Mevduatı: Vakıf, dernek, birlik, sendika, tasarruf ve yardımlaşma sandıkları, elçilik ve konsolosluklar, uluslararası kuruluşların Türkiye büro/temsilcilikleri, fonlar, apartman yönetimleri, noter teminat ve emanetleri ile mahkemeler/savcılıklar/icra ve iflas daireleri/tereke hâkimlikleri nezdindeki paralara ve mahkemelerce tevdi mahalli gösterilerek yatırılan paralara ilişkin hesaplardır. (Dikkat: Mahkeme/icra dairelerinin kendi kurum hesapları \"Resmi Kuruluşlar\", bu daireler nezdindeki paralar ve tevdi mahalli hesapları \"Diğer Kuruluşlar\" altındadır. )",
-        "start": 187.06,
-        "end": 226.94
-      },
-      {
-        "index": 16,
-        "text": "2. MEVDUAT HESABI UYGULAMALARI VE FAİZ ESASLARI",
-        "start": 226.94,
-        "end": 231.72
-      },
-      {
-        "index": 17,
-        "text": "Kimlik ve Adres Teyidi: Mevduat hesabı açılırken herhangi bir parasal sınır olmaksızın kimlik tespiti yapılması zorunludur; sürekli iş ilişkisinin kurulması anında beyan edilen adres teyidi de yapılmalıdır.",
-        "start": 231.72,
-        "end": 245.79
-      },
-      {
-        "index": 18,
-        "text": "Resmi Mevduat Hesabı Açılışı: Kamu kuruluşu adına resmi mevduat hesabı açılırken, kurumun başlıklı kâğıdına yazılmış ve hesabın bulunduğu şubeye hitap eden bir talimat mektubu alınır.",
-        "start": 245.79,
-        "end": 258.22
-      },
-      {
-        "index": 19,
-        "text": "Hesabın Kapatılma Nedenleri: Hesap sahibinin talebi üzerine, kanuni gereklerle (10 yıl aranmama nedeniyle zamanaşımı, haciz ve iflas) veya idari gereklerle kapatılır. Hacizde hesap müsaitse, haciz konulan miktar dışındaki bakiye üzerinde mudinin tasarruf yetkisi devam eder. Mevduat cüzdanının kaybedilmesi halinde hesap, sahibinin yazılı onay vermesi şartıyla kapatılır.",
-        "start": 258.22,
-        "end": 286.66
-      },
-      {
-        "index": 20,
-        "text": "Ortak Hesaplar (Paylı Mülkiyet): Aksi belirtilmedikçe hissedarların payları eşit kabul edilir.",
-        "start": 286.66,
-        "end": 294.24
-      },
-      {
-        "index": 21,
-        "text": "Müşterek İmza (Birlikte): Hesap açılışı ve para çekiminde tüm ortakların birlikte müracaatı ve imzası aranır. Ortaklardan biri veya birkaçı talimatla diğer ortağı hesaptan çıkartamaz. Ortaklardan biri hesapla ilgisini kesmek isterse vadesiz hesap kapatılarak paylar ödenir ve kalan ortaklara yeni hesap açılır; vadeli hesaplarda ise tüm ortaklardan muvafakat alınmadıkça bu talep vade sonunda yerine getirilir.",
-        "start": 294.24,
-        "end": 324.45
-      },
-      {
-        "index": 22,
-        "text": "Münferit İmza (Tek Başına): Hesap sahiplerinden her biri diğerlerinin iştirakine gerek kalmaksızın hesabın tamamı üzerinde tek başına tasarrufta bulunabilir ve dilediği miktarda para çekebilir.",
-        "start": 324.45,
-        "end": 337.04
-      },
-      {
-        "index": 23,
-        "text": "Mevduat Hesap Cüzdanı: Müşterinin tercihine göre fiziki veya elektronik olarak çift imza ile düzenlenen cüzdan verilmesi ya da cüzdan istemiyorsa istemediğine dair beyanının alınması zorunludur.",
-        "start": 337.04,
-        "end": 350.95
-      },
-      {
-        "index": 24,
-        "text": "Mevduatta Faiz Kuralları:",
-        "start": 350.95,
-        "end": 353.94
-      },
-      {
-        "index": 25,
-        "text": "Bankalar, T C M B'ye bildirdikleri azami oranları aşmamak kaydıyla faiz oranlarını şubelerde ve internet sitelerinde ilan ederler.",
-        "start": 353.94,
-        "end": 363.83
-      },
-      {
-        "index": 26,
-        "text": "Mevduata peşin faiz verilmez ve faiz dışında menfaat temin edilemez.",
-        "start": 363.83,
-        "end": 370.6
-      },
-      {
-        "index": 27,
-        "text": "Faiz oranları değişse bile, önceden açılmış vadeli hesapların faiz oranı vade sonuna kadar değiştirilemez.",
-        "start": 370.6,
-        "end": 380.03
-      },
-      {
-        "index": 28,
-        "text": "Vadesiz mevduat faiz tahakkukları yıl sonunda ve hesap kapanışında şube müdahalesi olmadan sistemden merkezi olarak yapılır.",
-        "start": 380.03,
-        "end": 389.04
-      },
-      {
-        "index": 29,
-        "text": "Kısmi Çekiliş (Kısmi Vade Bozumu): Bankanın izniyle vadeli hesaptan vadeden önce kısmi çekim yapılırsa, anlaşmaya göre hesabın tamamının veya sadece çekilen kısmın vadesi bozulabilir; kısmi bozumda çekilen kısma vadesiz mevduat faizi uygulanır, kalan kısım başlangıç şartlarıyla devam eder.",
-        "start": 389.04,
-        "end": 407.82
-      },
-      {
-        "index": 30,
-        "text": "3. VADELİ MEVDUAT ÜRÜN VE KAMPANYALARI",
-        "start": 407.82,
-        "end": 411.96
-      },
-      {
-        "index": 31,
-        "text": "ARI Hesabı:",
-        "start": 411.96,
-        "end": 414.07
-      },
-      {
-        "index": 32,
-        "text": "Özellik ve Kitle: Gecelik faiz kazandıran vadeli mevduat ürünüdür; gerçek kişiler ve ticari faaliyeti olan gerçek kişiler açabilir. Ortak hesap olarak açılamaz ve zorunlu valörlü açılır.",
-        "start": 414.07,
-        "end": 428.68
-      },
-      {
-        "index": 33,
-        "text": "Para Birimi ve Alt Limit: Türk Lirası, Amerikan Doları, Avro cinsinden; minimum 50.000 Türk Lirası, 10.000 Amerikan Doları, 10.000 Avro ile açılır.",
-        "start": 428.68,
-        "end": 439.79
-      },
-      {
-        "index": 34,
-        "text": "İşleyiş (Gölge Hesap): Açılışta otomatik olarak aynı para biriminde bir gölge vadesiz hesap ilişkilendirilir; vadesiz hesapta tutulması gereken bakiye düşüldükten sonra kalan vadeli tutara faiz işler.",
-        "start": 439.79,
-        "end": 453.32
-      },
-      {
-        "index": 35,
-        "text": "Asgari Bakiye: Para çekme/virman/E F T/F A S T sonrası hesapta kalması gereken asgari tutar 25.000 Türk Lirası, 1.000 Amerikan Doları, 1.000 Avro'dur.",
-        "start": 453.32,
-        "end": 465.67
-      },
-      {
-        "index": 36,
-        "text": "Tanışma Faizi: Süresi 30 gündür ve her döviz cinsi bazında ilk kez açılışta 1 kere yararlanılır. Üst limiti 25.000.000 Türk Lirası, 1.000.000 Amerikan Doları, 1.000.000 Avro'dur (üzerine limit üstü faiz işler). 30 gün içinde hesap kapatılırsa tanışma hakkı biter; en son kapanan ARI/Genç ARI hesabından 15 gün geçtikten sonra tekrar tanışma faizinden yararlanılabilir.",
-        "start": 465.67,
-        "end": 494.34
-      },
-      {
-        "index": 37,
-        "text": "İşlem Saatleri ve Ücret: Resmi tatil ve hafta sonları dahil para yatırma 09: 00 – 17: 00 (17: 00 sonrası otomatik talimatla ertesi gün), para çekme 06: 00 – 23: 00 saatleri arasındadır. İnternet ve Mobil Bankacılıktan yapılan E F T/havaleler ücretsizdir, Şube ve MİM'den yapılanlardan ücret alınır.",
-        "start": 494.34,
-        "end": 521.97
-      },
-      {
-        "index": 38,
-        "text": "Genç ARI Hesabı (ARI Hesabından Farkları):",
-        "start": 521.97,
-        "end": 526.11
-      },
-      {
-        "index": 39,
-        "text": "Yaş Kriteri: 18 – 35 yaş aralığındaki (35 yaş dahil) müşterilere açılır.",
-        "start": 526.11,
-        "end": 533.55
-      },
-      {
-        "index": 40,
-        "text": "Alt Limit: Minimum 25.000 Türk Lirası, 2.000 Amerikan Doları, 2.000 Avro.",
-        "start": 533.55,
-        "end": 540.25
-      },
-      {
-        "index": 41,
-        "text": "Tanışma Faizi Üst Limiti: 250.000 Türk Lirası, 100.000 Amerikan Doları, 100.000 Avro.",
-        "start": 540.25,
-        "end": 547.9
-      },
-      {
-        "index": 42,
-        "text": "Genç ARI hesabı olan müşterinin aynı anda aynı döviz cinsinden ARI hesabı olamaz.",
-        "start": 547.9,
-        "end": 555.02
-      },
-      {
-        "index": 43,
-        "text": "Yıldız ARI Hesabı:",
-        "start": 555.02,
-        "end": 557.54
-      },
-      {
-        "index": 44,
-        "text": "Kitle: 18 yaşını doldurmamış çocuğu olan veli tarafından kendi adına veya çocuğu adına açılabilir.",
-        "start": 557.54,
-        "end": 565.77
-      },
-      {
-        "index": 45,
-        "text": "Alt Limit: Minimum 5.000 Türk Lirası, 1.000 Amerikan Doları, 1.000 Avro.",
-        "start": 565.77,
-        "end": 571.74
-      },
-      {
-        "index": 46,
-        "text": "Tanışma Faizi Üst Limiti: 100.000 Türk Lirası, 75.000 Amerikan Doları, 75.000 Avro.",
-        "start": 571.74,
-        "end": 579.71
-      },
-      {
-        "index": 47,
-        "text": "Aynı çocuğun T C Kimlik Numarası'si ile ilişkili veya adına açılmış her döviz cinsinde (Türk Lirası/Amerikan Doları/Avro) aynı anda en fazla 1 adet açık hesap olabilir. Yıldız ARI sahibi müşteri, ilk kez ARI/Genç ARI açtığında da tanışma faizinden yararlanabilir.",
-        "start": 579.71,
-        "end": 599.53
-      },
-      {
-        "index": 48,
-        "text": "Tanışma Faizi Kampanyası / KOBİ Tanışma Faizi (ve Kampanya 2):",
-        "start": 599.53,
-        "end": 605.84
-      },
-      {
-        "index": 49,
-        "text": "Koşul: Açık bir vadeli hesabı (tanışma hesabı hariç) ve/veya son 15 gün içinde kapanmış vadeli hesabı olmayan müşterilere açılır.",
-        "start": 605.84,
-        "end": 615.92
-      },
-      {
-        "index": 50,
-        "text": "Vade ve Limit: Türk Lirası, Amerikan Doları ve Avro cinsinden 32 – 366 gün vade aralığında açılır. Üst limit 25.000.000 Türk Lirası, YP'de ise Avro-Amerikan Doları toplam 1.000.000 birimdir. Arada farklı vadeli hesap açmamak ve mevcut tanışma hesabı temdit/kapanış görmemek şartıyla 30 gün boyunca üst limite kadar parça parça birden fazla tanışma hesabı açılabilir.",
-        "start": 615.92,
-        "end": 645.4
-      },
-      {
-        "index": 51,
-        "text": "Valör Farkı: Mobil ve İnternetten 7/24 açılabilir. Kampanya 1'de saat 14: 00 öncesi açılırsa aynı gün, 14: 00 sonrası 1 iş günü valörlüdür; zorunlu valörlü olan Kampanya 2'de ise 14: 00 öncesi 1 iş günü, 14: 00 sonrası 2 iş günü valörlüdür.",
-        "start": 645.4,
-        "end": 668.37
-      },
-      {
-        "index": 52,
-        "text": "PLUS Hesap:",
-        "start": 668.37,
-        "end": 670.46
-      },
-      {
-        "index": 53,
-        "text": "İşleyiş: Vadesiz Türk Lirası hesabından düzenli işlem yapılması (PLUS İşlem Taahhüdü) veya belirli bakiye bulundurulması (PLUS Vadesiz Taahhüdü) durumunda vadeli hesaba ek faiz kazandıran üründür; zorunlu valörlü açılır.",
-        "start": 670.46,
-        "end": 686.1
-      },
-      {
-        "index": 54,
-        "text": "Kurallar: İki taahhüt aynı anda gerçekleşirse sadece daha yüksek ek faiz kazandıran tek bir taahhüt baz alınır. Taahhüt süresi açılış/temdit tarihinde başlar ve vade bitişinden 2 gün önce sona erer.",
-        "start": 686.1,
-        "end": 701.33
-      },
-      {
-        "index": 55,
-        "text": "Hesaplama: Yalnızca vadesiz Türk Lirası hesapları dikkate alınır; YP hesaplar, kredi kartı işlemleri, blokeli tutarlar ve ortak vadesiz hesaplar dahil edilmez. PLUS işlem hesaplamasında aynı gün gelen E F T/F A S T tutarından aynı gün giden E F T/F A S T tutarı düşülerek kalan net tutar dikkate alınır.",
-        "start": 701.33,
-        "end": 725.59
-      },
-      {
-        "index": 56,
-        "text": "Müşterinin aktif en fazla 1 adet PLUS Hesabı olabilir; Şube ve Mobil Bankacılıktan açılır.",
-        "start": 725.59,
-        "end": 732.82
-      },
-      {
-        "index": 57,
-        "text": "Gurbetçi Faizi:",
-        "start": 732.82,
-        "end": 735.21
-      },
-      {
-        "index": 58,
-        "text": "Yurt dışında çalışan/ikamet eden ve yurt dışında en az 1 adresi bulunan müşterilere sadece şube kanalından, Amerikan Doları ve Avro cinsinden, 92 – 750 gün vade aralığında açılır.",
-        "start": 735.21,
-        "end": 748.52
-      },
-      {
-        "index": 59,
-        "text": "Aynı döviz cinsinde birden fazla hesap açılabilir; hesap açıldıktan sonra ilk 7 gün içinde para çekmeye izin verilmez.",
-        "start": 748.52,
-        "end": 758.76
-      },
-      {
-        "index": 60,
-        "text": "Ara Dönem Getirili Mevduat Hesabı:",
-        "start": 758.76,
-        "end": 762.2
-      },
-      {
-        "index": 61,
-        "text": "366 gün vade ile Türk Lirası/Amerikan Doları/Avro cinsinden, sabit faizle açılır; aylık, 3 aylık veya 6 aylık dönemlerde kazanılan faizler ilişkili vadesiz hesaba aktarılır.",
-        "start": 762.2,
-        "end": 775.92
-      },
-      {
-        "index": 62,
-        "text": "Alt Limit: 50.000 Türk Lirası, 10.000 Amerikan Doları, 10.000 Avro (üst limit yoktur, birden fazla açılabilir).",
-        "start": 775.92,
-        "end": 785.24
-      },
-      {
-        "index": 63,
-        "text": "Kısıtlar: Vade başlangıcında veya ara dönemde para çekilemez; sadece vade başlangıcında ve temdit gününde para yatırılabilir. Vadeden önce kapatılırsa, ödenmiş ara dönem brüt faiz tutarları anaparadan düşülür.",
-        "start": 785.24,
-        "end": 801.92
-      },
-      {
-        "index": 64,
-        "text": "Birikimli Mevduat Hesabı:",
-        "start": 801.92,
-        "end": 804.94
-      },
-      {
-        "index": 65,
-        "text": "Vade ve Limit: Türk Lirası, Amerikan Doları ve Avro cinsinden asgari 3 yıl, azami 10 yıl vade ile açılır; ortak hesap olarak açılamaz. Hesap açılış alt limiti 50.000 Türk Lirası, 10.000 Amerikan Doları/Avro'dur.",
-        "start": 804.94,
-        "end": 821.89
-      },
-      {
-        "index": 66,
-        "text": "Düzenli Ödeme Tutarları: Aylık ödemelerde min. 50 Türk Lirası, 25 Amerikan Doları/Avro; 3 aylık ödemelerde min. 150 Türk Lirası, 75 Amerikan Doları/Avro'dur (ilgili periyotta tek seferde yatırılması zorunlu değildir).",
-        "start": 821.89,
-        "end": 841.95
-      },
-      {
-        "index": 67,
-        "text": "Faiz Güncellemesi ve İhlal: Faiz oranı her 1 yıllık (12 ay) dönem sonunda Bankanın ilan ettiği oranla güncellenir. Bir yıllık dönemde aylık planda 7 defadan fazla, 3 aylık planda 2 defadan fazla minimum ödeme yapılmazsa hesap talimatsız kapatılır.",
-        "start": 841.95,
-        "end": 861.57
-      },
-      {
-        "index": 68,
-        "text": "Erken Çekim: Min. 3 yıldan önce para çekilmek istenirse hesap kapatılır, varsa ödenmiş net faiz tutarları bakiyeden düşülerek kalan tutar vadesiz hesaba aktarılır. Sözleşme süresi dolduğunda hesap otomatik kapanır.",
-        "start": 861.57,
-        "end": 877.39
-      },
-      {
-        "index": 69,
-        "text": "Hiper Hesap:",
-        "start": 877.39,
-        "end": 879.51
-      },
-      {
-        "index": 70,
-        "text": "Gerçek ve ticari faaliyeti olan gerçek müşterilere sadece Şubelerden aynı anda Türk Lirası, Amerikan Doları ve Avro cinsinden açılır (aynı döviz cinslerinde vadesiz hesap da bulunmalıdır).",
-        "start": 879.51,
-        "end": 893.09
-      },
-      {
-        "index": 71,
-        "text": "Alt Limit: Minimum 5.000.000 Türk Lirası veya karşılığı Amerikan Doları/Avro.",
-        "start": 893.09,
-        "end": 899.57
-      },
-      {
-        "index": 72,
-        "text": "Vade ve İşleyiş: Sözleşme süresi 32 – 35 gün aralığında seçimliktir, ancak, vade gün sayısı 1 olup gecelik sabit faiz işletilir. Sözleşme boyunca Türk Lirası, Amerikan Doları ve Avro arasında şube aracılığıyla valörsüz dönüşüm yapılabilir. Para çekme ve dönüşümlerde bakiye açılış limitinin altına düşmemelidir; sözleşme süresi sonunda hesap otomatik kapanır.",
-        "start": 899.57,
-        "end": 927.77
-      },
-      {
-        "index": 73,
-        "text": "4. ÖLEN KİŞİLERE AİT MEVDUAT VE TMSF SİGORTASI",
-        "start": 927.77,
-        "end": 933.18
-      },
-      {
-        "index": 74,
-        "text": "Mirasçıların Tasarrufu: Mirasçılar; mahkemeden alınan veraset ilamı veya noterden alınan mirasçılık belgesi ile Vergi Dairesinden alacakları veraset ve intikal vergisi ilişiksizlik belgesini ibraz ederek ilamdaki hisseleri oranında tasarrufa yetkili olurlar.",
-        "start": 933.18,
-        "end": 950.65
-      },
-      {
-        "index": 75,
-        "text": "Vefat Halinde Faiz: Vefat tarihinden ödeme tarihine kadar geçen süre faiz tahakkukuna engel değildir. Vefattan haberdar olunmadan hesap temdit edilmişse, ölen mudinin önceden yazılı yenileme talimatı varsa vadeli mevduat faizi mirasçılara ödenir.",
-        "start": 950.65,
-        "end": 969.74
-      },
-      {
-        "index": 76,
-        "text": "Tasarruf Mevduatı Sigortası (TMSF):",
-        "start": 969.74,
-        "end": 973.99
-      },
-      {
-        "index": 77,
-        "text": "Kapsam ve Tutar: Yurt içi şubelerde gerçek kişiler adına açılmış, çek keşide edilmesi dışında ticari işlemlere konu olmayan Türk Lirası, döviz ve kıymetli maden cinsinden tasarruf mevduatı hesaplarının anapara ve faiz reeskontları toplamının 1.200.000 Türk Lirası'ye kadar olan kısmı sigorta kapsamındadır (yurt dışında yaşayan yerli/yabancı gerçek kişilerin yurt içi şube hesapları da dahildir). Sigorta primleri kredi kuruluşu tarafından TMSF'ye ödenir.",
-        "start": 973.99,
-        "end": 1005.9
-      },
-      {
-        "index": 78,
-        "text": "Kapsam Dışı Hesaplar: Yurt dışı şubelerde açılan hesaplar ile gerçek veya tüzel kişilere ait ticari işlemlere konu olan hesaplar sigorta kapsamında değildir.",
-        "start": 1005.9,
-        "end": 1017.77
-      },
-      {
-        "index": 79,
-        "text": "Birden Fazla Banka / Ortak Hesap: Kişinin farklı bankalardaki mevduatları her bir banka için ayrı ayrı 1.200.000 Türk Lirası'ye kadar sigortalıdır. Ortak hesaplarda sigorta kapsamı her bir ortak için (pay belirtilmemişse eşit kabul edilerek) ayrı ayrı hesaplanır; ortağın aynı bankada tekil hesabı da varsa ortak hesaptaki payı ile tekil hesabının toplamı 1.200.000 Türk Lirası'ye kadar sigortalıdır.",
-        "start": 1017.77,
-        "end": 1045.94
-      },
-      {
-        "index": 80,
-        "text": "5. MEVDUATTA ZAMANAŞIMI (5411 Sayılı Kanun Md. 62)",
-        "start": 1045.94,
-        "end": 1052.57
-      },
-      {
-        "index": 81,
-        "text": "Süre ve Kapsam: Hak sahibinin en son talebi, işlemi veya yazılı talimatı tarihinden başlayarak 10 yıl içinde aranmayan her türlü mevduat, katılım fonu, emanet ve alacaklar (bekleyen havaleler, alacaklı geçici hesaplar, 10 yılı aşkın ziyaret edilmeyen/tahsilatı yapılamayan kiralık kasalar dahil) zamanaşımına uğrar ve TMSF'ye gelir kaydedilir.",
-        "start": 1052.57,
-        "end": 1076.02
-      },
-      {
-        "index": 82,
-        "text": "Zamanaşımını Kesen ve Kesmeyen İşlemler: Hesaptan para çekme, para yatırma, adres değişikliği bildirme, cüzdana faiz kaydettirme ve rehin koyma zamanaşımını keser. Bankanın tek taraflı olarak faiz yürütmesi/işlemesi veya hesap işletim ücreti/kesinti tahsil etmesi zamanaşımını kesmez.",
-        "start": 1076.02,
-        "end": 1096.71
-      },
-      {
-        "index": 83,
-        "text": "Sahibinin Müracaatını Bekleyen Paralar: Zamanaşımı başlangıcı paranın bu hesaba aktarıldığı tarih değil, hak sahibinin en son talebi/işlemi/yazılı talimatı tarihidir (isme gelen ve alınmayan havalelerde ise hesaba intikal tarihinden itibaren 10 yıldır).",
-        "start": 1096.71,
-        "end": 1114.6
-      },
-      {
-        "index": 84,
-        "text": "Kiralık Kasalarda Zamanaşımı Başlangıcı: Kasa kira bedelinin en son tahsil edildiği ya da kasanın en son açıldığı tarihten itibaren 10 yıldır.",
-        "start": 1114.6,
-        "end": 1125.84
-      },
-      {
-        "index": 85,
-        "text": "Bildirim ve İlan Takvimi:",
-        "start": 1125.84,
-        "end": 1128.77
-      },
-      {
-        "index": 86,
-        "text": "Ocak Ayı Sonuna Kadar: Tutarı 1.000 Türk Lirası ve üzerindeki hesapların sahipleri iadeli taahhütlü mektupla uyarılır.",
-        "start": 1128.77,
-        "end": 1137.12
-      },
-      {
-        "index": 87,
-        "text": "Şubat Ayı Başından İtibaren (4 Ay Süreyle): Tutarı 1.000 Türk Lirası'yi aşsın veya aşmasın tüm hesaplar bankanın internet sitesinde liste halinde 4 ay ilan edilir ve eşzamanlı TMSF'ye gönderilir.",
-        "start": 1137.12,
-        "end": 1151.15
-      },
-      {
-        "index": 88,
-        "text": "Şubat Ayının 15. Gününe Kadar: Listelerin banka internet sitesinde ilan edildiği hususu, tirajı en yüksek 2 gazetede 2 gün süreyle ilan edilir.",
-        "start": 1151.15,
-        "end": 1162.39
-      },
-      {
-        "index": 89,
-        "text": "Mayıs Ayı Sonuna Kadar: TMSF listeleri konsolide ederek kendi internet sitesinde yayınlar.",
-        "start": 1162.39,
-        "end": 1169.75
-      },
-      {
-        "index": 90,
-        "text": "Sürenin İşlememesi ve Gecikme: Hak sahibinin işlem/talimat yapması hukuken mümkün olmayan (bloke/tedbir vb. ) hesaplarda bu durum sürdükçe zamanaşımı işlemez. Süresinde TMSF'ye devredilmeyen değerler 6183 sayılı Kanun uyarınca gecikme zamlarıyla birlikte devredilir.",
-        "start": 1169.75,
-        "end": 1191.07
-      },
-      {
-        "index": 91,
-        "text": "6. KİRALIK KASA İŞLEMLERİ",
-        "start": 1191.07,
-        "end": 1194.33
-      },
-      {
-        "index": 92,
-        "text": "Genel Kurallar ve Vekâlet: Kiralık kasalar gerçek/tüzel kişilere veya ortak olarak birden fazla kişiye kiralanabilir; kiracıların reşit ve kanuni ehliyete sahip olması şarttır. Ziyaretlerde sistemden alınan ziyaret formu imzalatılarak DYS'ye taranır, kasa kontrol anahtarı ve müşteri anahtarıyla birlikte açılır. Noter onaylı vekâletname ile kullanım yetkisi devredilebilir (Banka uygun görmezse vekilin değiştirilmesini isteyebilir).",
-        "start": 1194.33,
-        "end": 1226.17
-      },
-      {
-        "index": 93,
-        "text": "Anahtar Kaybı: Anahtarlardan birinin veya ikisinin kaybı halinde kasa sistemde arızalı duruma getirilir, tutanakla kilit değiştirilir ve tüm masraflar kiracıya aittir.",
-        "start": 1226.17,
-        "end": 1238.57
-      },
-      {
-        "index": 94,
-        "text": "Sözleşme Süresi ve Yenileme: Sözleşmeler aksi kararlaştırılmadıkça 1 yıllıktır. Süre bitiminde müşteri yenilemeyeceğini bildirmez veya her iki anahtarı teslim etmezse sözleşme aynı şartlarla yenilenir (kullanım için kiranın ödenmesi şarttır). Sözleşme iptalinde her iki anahtar teslim alınır, ibraname imzalatılır ve ilişiği yoksa depozitosu iade edilir. Sözleşme süresi bitmeden Bankaca feshedilirse, peşin alınan kiranın kullanılmayan kısmı iade edilir.",
-        "start": 1238.57,
-        "end": 1274.14
-      },
-      {
-        "index": 95,
-        "text": "Kiranın Ödenmemesi ve Takip Süreci:",
-        "start": 1274.14,
-        "end": 1277.83
-      },
-      {
-        "index": 96,
-        "text": "Vadeden itibaren 1 ay içinde ücret yatırılmazsa, birinci ayı takip eden 15 gün içinde iadeli taahhütlü ihtarname gönderilir.",
-        "start": 1277.83,
-        "end": 1288.31
-      },
-      {
-        "index": 97,
-        "text": "Vadeden itibaren en fazla 3 ay beklenir; 3 ay sonunda Genel Müdürlükten takip yetkisi alınır ve kasa noter huzurunda açtırılarak içindekiler mühürlü torbada müşterek muhafazaya alınır.",
-        "start": 1288.31,
-        "end": 1301.34
-      },
-      {
-        "index": 98,
-        "text": "Kiracının Ölümü:",
-        "start": 1301.34,
-        "end": 1303.61
-      },
-      {
-        "index": 99,
-        "text": "Banka, ölümü öğrendiğinde 15 gün içinde bağlı bulunulan Vergi Dairesine bilgi verir.",
-        "start": 1303.61,
-        "end": 1311.04
-      },
-      {
-        "index": 100,
-        "text": "Ölüm ihbarından sonra (Sulh Hâkiminin tespit işlemi hariç) Vergi Dairesi yetkili memuru hazır bulunmadıkça kasa açılamaz.",
-        "start": 1311.04,
-        "end": 1320.75
-      },
-      {
-        "index": 101,
-        "text": "Tüm mirasçılar (veya vekilleri) ve Maliye memuru huzurunda kasa açılarak içerik 2 kopya tutanakla tespit edilir ve vergi ilişiksizlik belgesi getirilene kadar mühürlü torbada müşterek muhafazaya alınır. Kiracının ölümüyle üçüncü kişilerin kasa kullanma yetkisi sona erer.",
-        "start": 1320.75,
-        "end": 1339.5
-      },
-      {
-        "index": 102,
-        "text": "Haciz İhbarnamesi: Kasa üzerine sistemden haciz işlenerek İcra Müdürlüğüne bildirilir ve müşterinin kasayı açması engellenir. Müşteri davete rağmen gelmez ve İcra Müdürlüğü kasayı zorla açtırmak isterse Baş Hukuk Danışmanlığı görüşü alınarak hareket edilir.",
-        "start": 1339.5,
-        "end": 1359.37
-      },
-      {
-        "index": 103,
-        "text": "7. HAVALE İŞLEMLERİ",
-        "start": 1359.37,
-        "end": 1362.38
-      },
-      {
-        "index": 104,
-        "text": "Hukuki Niteliği ve Tarafları: Havale bir sözleşme değil, Borçlar Kanunu'nda düzenlenen yetki vermeye ilişkin hukuki bir işlemdir. Tarafları: Havale Eden (Amir), Havale Ödeyicisi (Banka) ve Havale Alıcısı (Lehtar).",
-        "start": 1362.38,
-        "end": 1379.24
-      },
-      {
-        "index": 105,
-        "text": "Havalede Mülkiyetin Geçişi:",
-        "start": 1379.24,
-        "end": 1382.25
-      },
-      {
-        "index": 106,
-        "text": "Hesaba Gelen Havalede: Paranın hesaba yattığı anda mülkiyet alıcıya geçer (alıcı kabul etmeyip yazılı onayla reddedebilir).",
-        "start": 1382.25,
-        "end": 1391.49
-      },
-      {
-        "index": 107,
-        "text": "İsme Gelen Havalede: Alıcıya aynı gün Posta İşletmesi ile taahhütlü ihbarname gönderildiği anda mülkiyet alıcıya geçer. (İhbarnamede gönderenin adı, havale miktarı ve nereden geldiği gibi gizlilik içeren bilgiler yazılmaz. )",
-        "start": 1391.49,
-        "end": 1408.25
-      },
-      {
-        "index": 108,
-        "text": "Ödenmeyen Havalelerde Süreler ve Özel Durumlar:",
-        "start": 1408.25,
-        "end": 1412.59
-      },
-      {
-        "index": 109,
-        "text": "Başvurmama: Aynı gün çıkarılan ilk ihbarnameden sonra 15 gün içinde başvurulmazsa 15. gün sonunda ikinci kez taahhütlü ihbarname gönderilir; gelişinden itibaren 2 ayın sonunda alınmayan havale iptal edilerek gönderen şubeye iade edilir (alıcı o yerden ayrılmışsa 2 ay beklenmez). İadelerde ek haberleşme masrafı alınmaz, önceki masraflar da iade edilmez.",
-        "start": 1412.59,
-        "end": 1440.68
-      },
-      {
-        "index": 110,
-        "text": "Havalenin İptali: İhbarname gönderilmemişse amir havaleyi iptal edebilir; ihbarname gönderilmişse mülkiyet alıcıya geçtiğinden alıcının uygun görüşü alınmadan iptal edilemez.",
-        "start": 1440.68,
-        "end": 1453.62
-      },
-      {
-        "index": 111,
-        "text": "Havale Edenin (Amirin) Ölümü: İhbarname gönderilmeden önce ölürse amirin varislerine, ihbarname gönderildikten sonra ölürse havale alıcısına ödenir.",
-        "start": 1453.62,
-        "end": 1465.03
-      },
-      {
-        "index": 112,
-        "text": "Havale Alıcısının Ölümü: İhbarname gönderilmeden önce ölürse ihbarname gönderilmez ve amirin talimatı alınmak üzere ilgili şubeye bildirilir; ihbarname gönderildikten sonra ölürse alıcının varislerine veraset ilamına göre ödenir.",
-        "start": 1465.03,
-        "end": 1481.04
-      },
-      {
-        "index": 113,
-        "text": "8. NAKİT OPERASYONLARI VE TEMEL TANIMLAR",
-        "start": 1481.04,
-        "end": 1485.37
-      },
-      {
-        "index": 114,
-        "text": "Yönetim ve Kasa Farkları: Nakit operasyonları Hazine Operasyonları Başkanlığı'na bağlı Ankara Ankes Yönetimi Müdürlüğü tarafından yürütülür.",
-        "start": 1485.37,
-        "end": 1495.06
-      },
-      {
-        "index": 115,
-        "text": "Kasa Açığı (Noksanı): 50.000 Türk Lirası ve üzerindeki açıklar Ankara Ankes Yönetimi Müdürlüğü'ne bildirilir; 50.000 Türk Lirası altındaki açıklar ilgili ayın son iş gününe kadar kapatılarak muhasebeleştirilir.",
-        "start": 1495.06,
-        "end": 1508.85
-      },
-      {
-        "index": 116,
-        "text": "Kasa Fazlası: 100.000 Türk Lirası ve üzerindeki fazlalar Ankara Ankes Yönetimi Müdürlüğü'ne bildirilir; 100.000 Türk Lirası altındaki fazlalar bulunamazsa oluştuğu tarihten itibaren 6 ayın sonunda ilgili gelir hesaplarına alınarak kapatılır.",
-        "start": 1508.85,
-        "end": 1524.76
-      },
-      {
-        "index": 117,
-        "text": "Önemli Tanımlar:",
-        "start": 1524.76,
-        "end": 1527.05
-      },
-      {
-        "index": 118,
-        "text": "Nakit: Türk Lirası ve konvertibl yabancı paralar dahil her türlü para.",
-        "start": 1527.05,
-        "end": 1532.93
-      },
-      {
-        "index": 119,
-        "text": "Efektif: Yabancı ülke banknotları.",
-        "start": 1532.93,
-        "end": 1536.56
-      },
-      {
-        "index": 120,
-        "text": "Döviz: Yabancı para cinsinden çek, DTH, transfer vb. kaydi parasal değerler.",
-        "start": 1536.56,
-        "end": 1543.47
-      },
-      {
-        "index": 121,
-        "text": "Ankes Yönetimi Müdürlükleri: Para nakil işlemlerini merkezileştirmek üzere kurulan, bağlı şubelerin para fazlalarını değerlendiren ve ihtiyaçlarını karşılayan merkezler.",
-        "start": 1543.47,
-        "end": 1554.98
-      },
-      {
-        "index": 122,
-        "text": "Temerküz Şube: T C M B şubelerinin bulunduğu illerde yetkilendirilmiş, bağlı şubelerin para fazlası/ihtiyacını karşılayan şubelerimiz.",
-        "start": 1554.98,
-        "end": 1565.5
-      },
-      {
-        "index": 123,
-        "text": "Depo Şube: T C M B şubesi bulunmayan ancak, Ziraat Bankası şubeleri içinde T C M B Banknot Depoları kurulmuş şehirlerde yetkilendirilmiş şubelerimiz.",
-        "start": 1565.5,
-        "end": 1577.19
-      },
-      {
-        "index": 124,
-        "text": "Grup Nakli: Merkezler ve şubeler arası ihtiyaç duyulan paranın temini ve ihtiyaç fazlası paranın alınması işlemi.",
-        "start": 1577.19,
-        "end": 1585.63
-      },
-      {
-        "index": 125,
-        "text": "Deste / Balya / Parça Para: Deste: Aynı cinsten 100 adet paradan oluşan, banka logosu ve şube kaşeli para bandıyla paketlenmiş topluluk. Balya: Aynı para cinsinden 10 adet desteden (1.000 adet para) oluşan topluluk. Parça Para: 100 adetten az, deste olamayacak para topluluğu.",
-        "start": 1585.63,
-        "end": 1608.81
-      },
-      {
-        "index": 126,
-        "text": "Spesimen Kataloğu: Türk Lirası ve yabancı paraların ebat, renk ve güvenlik özelliklerini tanıtan katalog.",
-        "start": 1608.81,
-        "end": 1616.75
-      },
-      {
-        "index": 127,
-        "text": "Fersude Para: Yıpranmış, yırtılmış, para sayım makinelerinde sayılamayacak kadar eski, şeklini/rengini yitirmiş para.",
-        "start": 1616.75,
-        "end": 1625.53
-      },
-      {
-        "index": 128,
-        "text": "Eksik Para: Fiziki bütünlüğü bozulmuş ancak, yüzde 51'i ve daha fazlası mevcut olan, T C M B tarafından aynı değerde değiştirilmesi ve piyasadan çekilmesi gereken para.",
-        "start": 1625.53,
-        "end": 1637.91
-      },
-      {
-        "index": 129,
-        "text": "Sigorta Limitleri: Kasa Hırsızlık ve Yangın Sigortası Limiti kasalardaki efektiflerin T C M B döviz satış kuru karşılığı ile Türk Lirası değerlerin satış fiyatı toplamından; Taşınan Para Sigortası Limiti ise taşınan Türk Lirası/YP ve kıymetli değerlerin evalüasyon kuru ve alış değerleri toplamından oluşur (aşım halinde aşım tutarı kadar günlük ek sigorta yapılır).",
-        "start": 1637.91,
-        "end": 1660.89
-      },
-      {
-        "index": 130,
-        "text": "9. E F T VE F A S T İŞLEMLERİ",
-        "start": 1660.89,
-        "end": 1665.53
-      },
-      {
-        "index": 131,
-        "text": "9.1. E F T (Elektronik Fon Transferi) Sistemi",
-        "start": 1665.53,
-        "end": 1670.97
-      },
-      {
-        "index": 132,
-        "text": "Tarihçe: T C M B tarafından 1992 yılında kurulmuş, 2012 yılında KAS (Katılımcı Arayüzü Sistemi) Uygulamaları adını almıştır.",
-        "start": 1670.97,
-        "end": 1682.32
-      },
-      {
-        "index": 133,
-        "text": "Kanal Gönderim Saat ve Limitleri:",
-        "start": 1682.32,
-        "end": 1685.66
-      },
-      {
-        "index": 134,
-        "text": "Şube Kanalı: 09: 00 – 16: 00 arası Limitsiz; 16: 00 – 17: 15 arası belirlenen tutar üstü için serbest şube talebi girilerek; 17: 15 – 17: 30 arası tüm tutarlar için serbest şube talebi girilerek.",
-        "start": 1685.66,
-        "end": 1704.85
-      },
-      {
-        "index": 135,
-        "text": "Çağrı Merkezi ve Mobil/İnternet Bankacılığı: 17: 15'e kadar müşterinin E F T limiti kadar.",
-        "start": 1704.85,
-        "end": 1712.97
-      },
-      {
-        "index": 136,
-        "text": "Sık Kullanılan E F T Mesaj Türü Kodları:",
-        "start": 1712.97,
-        "end": 1717.0
-      },
-      {
-        "index": 137,
-        "text": "M01: Hesaba Ödeme",
-        "start": 1717.0,
-        "end": 1720.37
-      },
-      {
-        "index": 138,
-        "text": "M02: İsme Ödeme",
-        "start": 1720.37,
-        "end": 1723.66
-      },
-      {
-        "index": 139,
-        "text": "M03: Kamu Ödemesi (KEÖS aracılığıyla)",
-        "start": 1723.66,
-        "end": 1728.2
-      },
-      {
-        "index": 140,
-        "text": "M08: Kredi Kartı Ödemesi",
-        "start": 1728.2,
-        "end": 1731.93
-      },
-      {
-        "index": 141,
-        "text": "M09: Ödemenin İadesi",
-        "start": 1731.93,
-        "end": 1735.57
-      },
-      {
-        "index": 142,
-        "text": "H01: İade İsteği",
-        "start": 1735.57,
-        "end": 1738.79
-      },
-      {
-        "index": 143,
-        "text": "K12: Katılımcı Ödemesi (bankalar arası hizmet, ikincil piyasa ve senet ödemeleri)",
-        "start": 1738.79,
-        "end": 1745.94
-      },
-      {
-        "index": 144,
-        "text": "K14 / K20 (MX): Muhabirlik Ödemesi",
-        "start": 1745.94,
-        "end": 1750.64
-      },
-      {
-        "index": 145,
-        "text": "9.2. F A S T (Fonların Anlık ve Sürekli Transferi) ve KOLAS",
-        "start": 1750.64,
-        "end": 1757.68
-      },
-      {
-        "index": 146,
-        "text": "İşleyiş ve Süreler: Sadece Türk Lirası ödemelerin gerçekleştiği, 7/24 çalışan, alacaklandırma yöntemi ve gerçek zamanlı birebir mutabakat ilkesiyle işleyen sistemdir. İşlemler takvim günü ile işlenir ve E F T kapanış anı gündönümü hesaplaması için kullanılır.",
-        "start": 1757.68,
-        "end": 1778.05
-      },
-      {
-        "index": 147,
-        "text": "Zamanaşımı Süresi: Gönderen katılımcının mesajı gönderdiği andan itibaren F A S T platformunda işlemin 25 saniye içinde tamamlanmaması halinde zamanaşımı oluşur ve işlem iptal edilir; uçtan uca tüm sürecin en geç 30 saniyede tamamlanması gerekir.",
-        "start": 1778.05,
-        "end": 1796.22
-      },
-      {
-        "index": 148,
-        "text": "Kolay Adresleme Sistemi (KOLAS):",
-        "start": 1796.22,
-        "end": 1799.7
-      },
-      {
-        "index": 149,
-        "text": "Kolay adres tipleri: T C Kimlik Numarası / Vergi Kimlik Numarası / YKN, Cep Telefonu, E-posta, Pasaport No.",
-        "start": 1799.7,
-        "end": 1808.62
-      },
-      {
-        "index": 150,
-        "text": "Bir müşterinin en fazla 5 kolay adresi olabilir.",
-        "start": 1808.62,
-        "end": 1813.04
-      },
-      {
-        "index": 151,
-        "text": "Eşleştirme Kuralı: Bir kolay adrese sadece 1 hesap eşleştirilebilir; ancak, 1 hesap birden fazla kolay adresle eşleştirilebilir.",
-        "start": 1813.04,
-        "end": 1823.36
-      },
-      {
-        "index": 152,
-        "text": "F A S T Anlık Ödeme İşlem Türü Kodları:",
-        "start": 1823.36,
-        "end": 1827.49
-      },
-      {
-        "index": 153,
-        "text": "A01: Anlık Ödeme (alıcı katılımcının teyidi gerekir)",
-        "start": 1827.49,
-        "end": 1832.7
-      },
-      {
-        "index": 154,
-        "text": "A09: Ödeme İadesi",
-        "start": 1832.7,
-        "end": 1836.22
-      },
-      {
-        "index": 155,
-        "text": "H31: İade İsteği",
-        "start": 1836.22,
-        "end": 1839.47
-      },
-      {
-        "index": 156,
-        "text": "H32: Genel Amaçlı Bilgi (katılımcılar arası haberleşme)",
-        "start": 1839.47,
-        "end": 1844.9
-      },
-      {
-        "index": 157,
-        "text": "T01: Katılımcının İşlem Teyidi (Kabul: 1, Ret: 0)",
-        "start": 1844.9,
-        "end": 1850.7
-      },
-      {
-        "index": 158,
-        "text": "T02: Katılımcıya İşlem Sonucu (Başarılı: 1, Başarısız: 0)",
-        "start": 1850.7,
-        "end": 1857.03
-      }
-    ]
-  },
   "genelbilgiler": {
     "id": "genelbilgiler",
     "title": "Genel Bilgiler",
@@ -2532,6 +1570,968 @@
         "text": "Monetary (Parasal Değer): Müşterinin Bankamızda yarattığı finansal hacmi ifade eder (Vadesiz/vadeli mevduat hacmi, kredi kartı harcama toplamı, kullanılan toplam kredi hacmi ve yatırım işlem hacmi).",
         "start": 2969.02,
         "end": 2983.13
+      }
+    ]
+  },
+  "mevduat": {
+    "id": "mevduat",
+    "title": "Mevduat İşlemleri",
+    "icon": "💰",
+    "duration": 1857.03,
+    "paragraphs": [
+      {
+        "index": 0,
+        "text": "1. MEVDUAT TANIMI VE TASNİFİ",
+        "start": 0.0,
+        "end": 3.44
+      },
+      {
+        "index": 1,
+        "text": "Mevduat Tanımı: Gerçek ve tüzel kişilerin faiz veya herhangi bir ivaz (borç yükümlülüğü) karşılığında ya da ivazsız olarak; istenildiği anda, belli bir vade sonunda veya belli bir ihbar sürecine uyarak geri almak üzere bankalara yatırdıkları paralardır.",
+        "start": 3.44,
+        "end": 20.4
+      },
+      {
+        "index": 2,
+        "text": "Tasnif Yetkisi: Mevduat hesaplarının vade ve türlerine göre tasnifi, Bankacılık Kanunu'nun verdiği yetkiyle B D D K'nın görüşü alınarak T C M B tarafından tespit edilir.",
+        "start": 20.4,
+        "end": 33.05
+      },
+      {
+        "index": 3,
+        "text": "1.1. Vade Bakımından Tasnif",
+        "start": 33.05,
+        "end": 36.96
+      },
+      {
+        "index": 4,
+        "text": "Vadesiz Mevduat: Bankanın izni aranmaksızın istenildiği zaman kısmen veya tamamen çekilebilen, ihbar veya vade koşulu taşımayan, faiz tahakkukları yıl sonunda veya hesabın kapatılmasında yapılan mevduattır.",
+        "start": 36.96,
+        "end": 51.55
+      },
+      {
+        "index": 5,
+        "text": "İhbarlı Mevduat: Çekileceği tarihten 7 gün önce yazılı bir ihbar verilmek suretiyle çekilebilen mevduattır.",
+        "start": 51.55,
+        "end": 59.88
+      },
+      {
+        "index": 6,
+        "text": "Vadeli Mevduat: 1 aya kadar (1 ay dahil), 3 aya kadar (3 ay dahil), 6 aya kadar (6 ay dahil), 1 yıla kadar ve 1 yıl ve daha uzun vadeli (1 ay, 3 ay, 6 ay ve yıllık faiz ödemeli) olarak açılabilen mevduattır.",
+        "start": 59.88,
+        "end": 76.55
+      },
+      {
+        "index": 7,
+        "text": "Kırık Vadeli Mevduat: 1 ay, 3 ay, 6 ay ve 1 yıl dışında belirlenen bir vade ile açılan hesaplardır.",
+        "start": 76.55,
+        "end": 85.8
+      },
+      {
+        "index": 8,
+        "text": "Birikimli Mevduat: Asgari 3 yıl vade ile açılan, sözleşme ile belirlenen aylık veya 3 aylık sürelerde hesaba para yatırmaya imkân veren mevduattır.",
+        "start": 85.8,
+        "end": 96.97
+      },
+      {
+        "index": 9,
+        "text": "Temdit (Yenileme): Aksine talimat yoksa vadeli hesap, yenileme tarihinde aynı vade ve o miktar için geçerli olan cari faiz oranı ile otomatik temdit edilir. Tahakkuk eden faiz, müşteri isteğine göre vadesiz hesaba aktarılır veya anaparaya eklenir; müşteri yenileme gününde hesap üzerinde her türlü tasarruf yetkisine sahiptir.",
+        "start": 96.97,
+        "end": 120.54
+      },
+      {
+        "index": 10,
+        "text": "1.2. Mudi Bakımından Tasnif",
+        "start": 120.54,
+        "end": 124.38
+      },
+      {
+        "index": 11,
+        "text": "Tasarruf Mevduatı: Gerçek kişilere ait olan ve münhasıran çek keşide edilmesi dışında ticari işlemlere konu olmayan mevduattır.",
+        "start": 124.38,
+        "end": 133.95
+      },
+      {
+        "index": 12,
+        "text": "Resmi Kuruluşlar Mevduatı: Genel ve özel bütçeli idarelere, düzenleyici ve denetleyici kurumlara, sosyal güvenlik kurumlarına, yerel yönetimlere, mahkemelere, savcılıklara, icra ve iflas dairelerine ve tereke hâkimliklerine ait hesaplardır.",
+        "start": 133.95,
+        "end": 150.92
+      },
+      {
+        "index": 13,
+        "text": "Ticari Kuruluşlar Mevduatı: Gerçek kişilerin ticari işletmelerine, her çeşit ortaklıklara, KİT'lere ve bağlı ortaklık/iştiraklerine, yerel yönetimlerin ticari işletmelerine, döner sermayeli kuruluşlara, vakıf/dernek/sendika/birlik/mesleki kuruluşların ticari işletmelerine, kooperatiflere, sigorta ve emeklilik şirketlerine ve banka dışı diğer mali kesime ait hesaplardır.",
+        "start": 150.92,
+        "end": 176.86
+      },
+      {
+        "index": 14,
+        "text": "Bankalar Mevduatı: T C M B, bankalar ve özel kanunlarına göre mevduat kabulüne yetkili kuruluşlara ait hesaplardır.",
+        "start": 176.86,
+        "end": 187.06
+      },
+      {
+        "index": 15,
+        "text": "Diğer Kuruluşlar Mevduatı: Vakıf, dernek, birlik, sendika, tasarruf ve yardımlaşma sandıkları, elçilik ve konsolosluklar, uluslararası kuruluşların Türkiye büro/temsilcilikleri, fonlar, apartman yönetimleri, noter teminat ve emanetleri ile mahkemeler/savcılıklar/icra ve iflas daireleri/tereke hâkimlikleri nezdindeki paralara ve mahkemelerce tevdi mahalli gösterilerek yatırılan paralara ilişkin hesaplardır. (Dikkat: Mahkeme/icra dairelerinin kendi kurum hesapları \"Resmi Kuruluşlar\", bu daireler nezdindeki paralar ve tevdi mahalli hesapları \"Diğer Kuruluşlar\" altındadır. )",
+        "start": 187.06,
+        "end": 226.94
+      },
+      {
+        "index": 16,
+        "text": "2. MEVDUAT HESABI UYGULAMALARI VE FAİZ ESASLARI",
+        "start": 226.94,
+        "end": 231.72
+      },
+      {
+        "index": 17,
+        "text": "Kimlik ve Adres Teyidi: Mevduat hesabı açılırken herhangi bir parasal sınır olmaksızın kimlik tespiti yapılması zorunludur; sürekli iş ilişkisinin kurulması anında beyan edilen adres teyidi de yapılmalıdır.",
+        "start": 231.72,
+        "end": 245.79
+      },
+      {
+        "index": 18,
+        "text": "Resmi Mevduat Hesabı Açılışı: Kamu kuruluşu adına resmi mevduat hesabı açılırken, kurumun başlıklı kâğıdına yazılmış ve hesabın bulunduğu şubeye hitap eden bir talimat mektubu alınır.",
+        "start": 245.79,
+        "end": 258.22
+      },
+      {
+        "index": 19,
+        "text": "Hesabın Kapatılma Nedenleri: Hesap sahibinin talebi üzerine, kanuni gereklerle (10 yıl aranmama nedeniyle zamanaşımı, haciz ve iflas) veya idari gereklerle kapatılır. Hacizde hesap müsaitse, haciz konulan miktar dışındaki bakiye üzerinde mudinin tasarruf yetkisi devam eder. Mevduat cüzdanının kaybedilmesi halinde hesap, sahibinin yazılı onay vermesi şartıyla kapatılır.",
+        "start": 258.22,
+        "end": 286.66
+      },
+      {
+        "index": 20,
+        "text": "Ortak Hesaplar (Paylı Mülkiyet): Aksi belirtilmedikçe hissedarların payları eşit kabul edilir.",
+        "start": 286.66,
+        "end": 294.24
+      },
+      {
+        "index": 21,
+        "text": "Müşterek İmza (Birlikte): Hesap açılışı ve para çekiminde tüm ortakların birlikte müracaatı ve imzası aranır. Ortaklardan biri veya birkaçı talimatla diğer ortağı hesaptan çıkartamaz. Ortaklardan biri hesapla ilgisini kesmek isterse vadesiz hesap kapatılarak paylar ödenir ve kalan ortaklara yeni hesap açılır; vadeli hesaplarda ise tüm ortaklardan muvafakat alınmadıkça bu talep vade sonunda yerine getirilir.",
+        "start": 294.24,
+        "end": 324.45
+      },
+      {
+        "index": 22,
+        "text": "Münferit İmza (Tek Başına): Hesap sahiplerinden her biri diğerlerinin iştirakine gerek kalmaksızın hesabın tamamı üzerinde tek başına tasarrufta bulunabilir ve dilediği miktarda para çekebilir.",
+        "start": 324.45,
+        "end": 337.04
+      },
+      {
+        "index": 23,
+        "text": "Mevduat Hesap Cüzdanı: Müşterinin tercihine göre fiziki veya elektronik olarak çift imza ile düzenlenen cüzdan verilmesi ya da cüzdan istemiyorsa istemediğine dair beyanının alınması zorunludur.",
+        "start": 337.04,
+        "end": 350.95
+      },
+      {
+        "index": 24,
+        "text": "Mevduatta Faiz Kuralları:",
+        "start": 350.95,
+        "end": 353.94
+      },
+      {
+        "index": 25,
+        "text": "Bankalar, T C M B'ye bildirdikleri azami oranları aşmamak kaydıyla faiz oranlarını şubelerde ve internet sitelerinde ilan ederler.",
+        "start": 353.94,
+        "end": 363.83
+      },
+      {
+        "index": 26,
+        "text": "Mevduata peşin faiz verilmez ve faiz dışında menfaat temin edilemez.",
+        "start": 363.83,
+        "end": 370.6
+      },
+      {
+        "index": 27,
+        "text": "Faiz oranları değişse bile, önceden açılmış vadeli hesapların faiz oranı vade sonuna kadar değiştirilemez.",
+        "start": 370.6,
+        "end": 380.03
+      },
+      {
+        "index": 28,
+        "text": "Vadesiz mevduat faiz tahakkukları yıl sonunda ve hesap kapanışında şube müdahalesi olmadan sistemden merkezi olarak yapılır.",
+        "start": 380.03,
+        "end": 389.04
+      },
+      {
+        "index": 29,
+        "text": "Kısmi Çekiliş (Kısmi Vade Bozumu): Bankanın izniyle vadeli hesaptan vadeden önce kısmi çekim yapılırsa, anlaşmaya göre hesabın tamamının veya sadece çekilen kısmın vadesi bozulabilir; kısmi bozumda çekilen kısma vadesiz mevduat faizi uygulanır, kalan kısım başlangıç şartlarıyla devam eder.",
+        "start": 389.04,
+        "end": 407.82
+      },
+      {
+        "index": 30,
+        "text": "3. VADELİ MEVDUAT ÜRÜN VE KAMPANYALARI",
+        "start": 407.82,
+        "end": 411.96
+      },
+      {
+        "index": 31,
+        "text": "ARI Hesabı:",
+        "start": 411.96,
+        "end": 414.07
+      },
+      {
+        "index": 32,
+        "text": "Özellik ve Kitle: Gecelik faiz kazandıran vadeli mevduat ürünüdür; gerçek kişiler ve ticari faaliyeti olan gerçek kişiler açabilir. Ortak hesap olarak açılamaz ve zorunlu valörlü açılır.",
+        "start": 414.07,
+        "end": 428.68
+      },
+      {
+        "index": 33,
+        "text": "Para Birimi ve Alt Limit: Türk Lirası, Amerikan Doları, Avro cinsinden; minimum 50.000 Türk Lirası, 10.000 Amerikan Doları, 10.000 Avro ile açılır.",
+        "start": 428.68,
+        "end": 439.79
+      },
+      {
+        "index": 34,
+        "text": "İşleyiş (Gölge Hesap): Açılışta otomatik olarak aynı para biriminde bir gölge vadesiz hesap ilişkilendirilir; vadesiz hesapta tutulması gereken bakiye düşüldükten sonra kalan vadeli tutara faiz işler.",
+        "start": 439.79,
+        "end": 453.32
+      },
+      {
+        "index": 35,
+        "text": "Asgari Bakiye: Para çekme/virman/E F T/F A S T sonrası hesapta kalması gereken asgari tutar 25.000 Türk Lirası, 1.000 Amerikan Doları, 1.000 Avro'dur.",
+        "start": 453.32,
+        "end": 465.67
+      },
+      {
+        "index": 36,
+        "text": "Tanışma Faizi: Süresi 30 gündür ve her döviz cinsi bazında ilk kez açılışta 1 kere yararlanılır. Üst limiti 25.000.000 Türk Lirası, 1.000.000 Amerikan Doları, 1.000.000 Avro'dur (üzerine limit üstü faiz işler). 30 gün içinde hesap kapatılırsa tanışma hakkı biter; en son kapanan ARI/Genç ARI hesabından 15 gün geçtikten sonra tekrar tanışma faizinden yararlanılabilir.",
+        "start": 465.67,
+        "end": 494.34
+      },
+      {
+        "index": 37,
+        "text": "İşlem Saatleri ve Ücret: Resmi tatil ve hafta sonları dahil para yatırma 09: 00 – 17: 00 (17: 00 sonrası otomatik talimatla ertesi gün), para çekme 06: 00 – 23: 00 saatleri arasındadır. İnternet ve Mobil Bankacılıktan yapılan E F T/havaleler ücretsizdir, Şube ve MİM'den yapılanlardan ücret alınır.",
+        "start": 494.34,
+        "end": 521.97
+      },
+      {
+        "index": 38,
+        "text": "Genç ARI Hesabı (ARI Hesabından Farkları):",
+        "start": 521.97,
+        "end": 526.11
+      },
+      {
+        "index": 39,
+        "text": "Yaş Kriteri: 18 – 35 yaş aralığındaki (35 yaş dahil) müşterilere açılır.",
+        "start": 526.11,
+        "end": 533.55
+      },
+      {
+        "index": 40,
+        "text": "Alt Limit: Minimum 25.000 Türk Lirası, 2.000 Amerikan Doları, 2.000 Avro.",
+        "start": 533.55,
+        "end": 540.25
+      },
+      {
+        "index": 41,
+        "text": "Tanışma Faizi Üst Limiti: 250.000 Türk Lirası, 100.000 Amerikan Doları, 100.000 Avro.",
+        "start": 540.25,
+        "end": 547.9
+      },
+      {
+        "index": 42,
+        "text": "Genç ARI hesabı olan müşterinin aynı anda aynı döviz cinsinden ARI hesabı olamaz.",
+        "start": 547.9,
+        "end": 555.02
+      },
+      {
+        "index": 43,
+        "text": "Yıldız ARI Hesabı:",
+        "start": 555.02,
+        "end": 557.54
+      },
+      {
+        "index": 44,
+        "text": "Kitle: 18 yaşını doldurmamış çocuğu olan veli tarafından kendi adına veya çocuğu adına açılabilir.",
+        "start": 557.54,
+        "end": 565.77
+      },
+      {
+        "index": 45,
+        "text": "Alt Limit: Minimum 5.000 Türk Lirası, 1.000 Amerikan Doları, 1.000 Avro.",
+        "start": 565.77,
+        "end": 571.74
+      },
+      {
+        "index": 46,
+        "text": "Tanışma Faizi Üst Limiti: 100.000 Türk Lirası, 75.000 Amerikan Doları, 75.000 Avro.",
+        "start": 571.74,
+        "end": 579.71
+      },
+      {
+        "index": 47,
+        "text": "Aynı çocuğun T C Kimlik Numarası'si ile ilişkili veya adına açılmış her döviz cinsinde (Türk Lirası/Amerikan Doları/Avro) aynı anda en fazla 1 adet açık hesap olabilir. Yıldız ARI sahibi müşteri, ilk kez ARI/Genç ARI açtığında da tanışma faizinden yararlanabilir.",
+        "start": 579.71,
+        "end": 599.53
+      },
+      {
+        "index": 48,
+        "text": "Tanışma Faizi Kampanyası / KOBİ Tanışma Faizi (ve Kampanya 2):",
+        "start": 599.53,
+        "end": 605.84
+      },
+      {
+        "index": 49,
+        "text": "Koşul: Açık bir vadeli hesabı (tanışma hesabı hariç) ve/veya son 15 gün içinde kapanmış vadeli hesabı olmayan müşterilere açılır.",
+        "start": 605.84,
+        "end": 615.92
+      },
+      {
+        "index": 50,
+        "text": "Vade ve Limit: Türk Lirası, Amerikan Doları ve Avro cinsinden 32 – 366 gün vade aralığında açılır. Üst limit 25.000.000 Türk Lirası, YP'de ise Avro-Amerikan Doları toplam 1.000.000 birimdir. Arada farklı vadeli hesap açmamak ve mevcut tanışma hesabı temdit/kapanış görmemek şartıyla 30 gün boyunca üst limite kadar parça parça birden fazla tanışma hesabı açılabilir.",
+        "start": 615.92,
+        "end": 645.4
+      },
+      {
+        "index": 51,
+        "text": "Valör Farkı: Mobil ve İnternetten 7/24 açılabilir. Kampanya 1'de saat 14: 00 öncesi açılırsa aynı gün, 14: 00 sonrası 1 iş günü valörlüdür; zorunlu valörlü olan Kampanya 2'de ise 14: 00 öncesi 1 iş günü, 14: 00 sonrası 2 iş günü valörlüdür.",
+        "start": 645.4,
+        "end": 668.37
+      },
+      {
+        "index": 52,
+        "text": "PLUS Hesap:",
+        "start": 668.37,
+        "end": 670.46
+      },
+      {
+        "index": 53,
+        "text": "İşleyiş: Vadesiz Türk Lirası hesabından düzenli işlem yapılması (PLUS İşlem Taahhüdü) veya belirli bakiye bulundurulması (PLUS Vadesiz Taahhüdü) durumunda vadeli hesaba ek faiz kazandıran üründür; zorunlu valörlü açılır.",
+        "start": 670.46,
+        "end": 686.1
+      },
+      {
+        "index": 54,
+        "text": "Kurallar: İki taahhüt aynı anda gerçekleşirse sadece daha yüksek ek faiz kazandıran tek bir taahhüt baz alınır. Taahhüt süresi açılış/temdit tarihinde başlar ve vade bitişinden 2 gün önce sona erer.",
+        "start": 686.1,
+        "end": 701.33
+      },
+      {
+        "index": 55,
+        "text": "Hesaplama: Yalnızca vadesiz Türk Lirası hesapları dikkate alınır; YP hesaplar, kredi kartı işlemleri, blokeli tutarlar ve ortak vadesiz hesaplar dahil edilmez. PLUS işlem hesaplamasında aynı gün gelen E F T/F A S T tutarından aynı gün giden E F T/F A S T tutarı düşülerek kalan net tutar dikkate alınır.",
+        "start": 701.33,
+        "end": 725.59
+      },
+      {
+        "index": 56,
+        "text": "Müşterinin aktif en fazla 1 adet PLUS Hesabı olabilir; Şube ve Mobil Bankacılıktan açılır.",
+        "start": 725.59,
+        "end": 732.82
+      },
+      {
+        "index": 57,
+        "text": "Gurbetçi Faizi:",
+        "start": 732.82,
+        "end": 735.21
+      },
+      {
+        "index": 58,
+        "text": "Yurt dışında çalışan/ikamet eden ve yurt dışında en az 1 adresi bulunan müşterilere sadece şube kanalından, Amerikan Doları ve Avro cinsinden, 92 – 750 gün vade aralığında açılır.",
+        "start": 735.21,
+        "end": 748.52
+      },
+      {
+        "index": 59,
+        "text": "Aynı döviz cinsinde birden fazla hesap açılabilir; hesap açıldıktan sonra ilk 7 gün içinde para çekmeye izin verilmez.",
+        "start": 748.52,
+        "end": 758.76
+      },
+      {
+        "index": 60,
+        "text": "Ara Dönem Getirili Mevduat Hesabı:",
+        "start": 758.76,
+        "end": 762.2
+      },
+      {
+        "index": 61,
+        "text": "366 gün vade ile Türk Lirası/Amerikan Doları/Avro cinsinden, sabit faizle açılır; aylık, 3 aylık veya 6 aylık dönemlerde kazanılan faizler ilişkili vadesiz hesaba aktarılır.",
+        "start": 762.2,
+        "end": 775.92
+      },
+      {
+        "index": 62,
+        "text": "Alt Limit: 50.000 Türk Lirası, 10.000 Amerikan Doları, 10.000 Avro (üst limit yoktur, birden fazla açılabilir).",
+        "start": 775.92,
+        "end": 785.24
+      },
+      {
+        "index": 63,
+        "text": "Kısıtlar: Vade başlangıcında veya ara dönemde para çekilemez; sadece vade başlangıcında ve temdit gününde para yatırılabilir. Vadeden önce kapatılırsa, ödenmiş ara dönem brüt faiz tutarları anaparadan düşülür.",
+        "start": 785.24,
+        "end": 801.92
+      },
+      {
+        "index": 64,
+        "text": "Birikimli Mevduat Hesabı:",
+        "start": 801.92,
+        "end": 804.94
+      },
+      {
+        "index": 65,
+        "text": "Vade ve Limit: Türk Lirası, Amerikan Doları ve Avro cinsinden asgari 3 yıl, azami 10 yıl vade ile açılır; ortak hesap olarak açılamaz. Hesap açılış alt limiti 50.000 Türk Lirası, 10.000 Amerikan Doları/Avro'dur.",
+        "start": 804.94,
+        "end": 821.89
+      },
+      {
+        "index": 66,
+        "text": "Düzenli Ödeme Tutarları: Aylık ödemelerde min. 50 Türk Lirası, 25 Amerikan Doları/Avro; 3 aylık ödemelerde min. 150 Türk Lirası, 75 Amerikan Doları/Avro'dur (ilgili periyotta tek seferde yatırılması zorunlu değildir).",
+        "start": 821.89,
+        "end": 841.95
+      },
+      {
+        "index": 67,
+        "text": "Faiz Güncellemesi ve İhlal: Faiz oranı her 1 yıllık (12 ay) dönem sonunda Bankanın ilan ettiği oranla güncellenir. Bir yıllık dönemde aylık planda 7 defadan fazla, 3 aylık planda 2 defadan fazla minimum ödeme yapılmazsa hesap talimatsız kapatılır.",
+        "start": 841.95,
+        "end": 861.57
+      },
+      {
+        "index": 68,
+        "text": "Erken Çekim: Min. 3 yıldan önce para çekilmek istenirse hesap kapatılır, varsa ödenmiş net faiz tutarları bakiyeden düşülerek kalan tutar vadesiz hesaba aktarılır. Sözleşme süresi dolduğunda hesap otomatik kapanır.",
+        "start": 861.57,
+        "end": 877.39
+      },
+      {
+        "index": 69,
+        "text": "Hiper Hesap:",
+        "start": 877.39,
+        "end": 879.51
+      },
+      {
+        "index": 70,
+        "text": "Gerçek ve ticari faaliyeti olan gerçek müşterilere sadece Şubelerden aynı anda Türk Lirası, Amerikan Doları ve Avro cinsinden açılır (aynı döviz cinslerinde vadesiz hesap da bulunmalıdır).",
+        "start": 879.51,
+        "end": 893.09
+      },
+      {
+        "index": 71,
+        "text": "Alt Limit: Minimum 5.000.000 Türk Lirası veya karşılığı Amerikan Doları/Avro.",
+        "start": 893.09,
+        "end": 899.57
+      },
+      {
+        "index": 72,
+        "text": "Vade ve İşleyiş: Sözleşme süresi 32 – 35 gün aralığında seçimliktir, ancak, vade gün sayısı 1 olup gecelik sabit faiz işletilir. Sözleşme boyunca Türk Lirası, Amerikan Doları ve Avro arasında şube aracılığıyla valörsüz dönüşüm yapılabilir. Para çekme ve dönüşümlerde bakiye açılış limitinin altına düşmemelidir; sözleşme süresi sonunda hesap otomatik kapanır.",
+        "start": 899.57,
+        "end": 927.77
+      },
+      {
+        "index": 73,
+        "text": "4. ÖLEN KİŞİLERE AİT MEVDUAT VE TMSF SİGORTASI",
+        "start": 927.77,
+        "end": 933.18
+      },
+      {
+        "index": 74,
+        "text": "Mirasçıların Tasarrufu: Mirasçılar; mahkemeden alınan veraset ilamı veya noterden alınan mirasçılık belgesi ile Vergi Dairesinden alacakları veraset ve intikal vergisi ilişiksizlik belgesini ibraz ederek ilamdaki hisseleri oranında tasarrufa yetkili olurlar.",
+        "start": 933.18,
+        "end": 950.65
+      },
+      {
+        "index": 75,
+        "text": "Vefat Halinde Faiz: Vefat tarihinden ödeme tarihine kadar geçen süre faiz tahakkukuna engel değildir. Vefattan haberdar olunmadan hesap temdit edilmişse, ölen mudinin önceden yazılı yenileme talimatı varsa vadeli mevduat faizi mirasçılara ödenir.",
+        "start": 950.65,
+        "end": 969.74
+      },
+      {
+        "index": 76,
+        "text": "Tasarruf Mevduatı Sigortası (TMSF):",
+        "start": 969.74,
+        "end": 973.99
+      },
+      {
+        "index": 77,
+        "text": "Kapsam ve Tutar: Yurt içi şubelerde gerçek kişiler adına açılmış, çek keşide edilmesi dışında ticari işlemlere konu olmayan Türk Lirası, döviz ve kıymetli maden cinsinden tasarruf mevduatı hesaplarının anapara ve faiz reeskontları toplamının 1.200.000 Türk Lirası'ye kadar olan kısmı sigorta kapsamındadır (yurt dışında yaşayan yerli/yabancı gerçek kişilerin yurt içi şube hesapları da dahildir). Sigorta primleri kredi kuruluşu tarafından TMSF'ye ödenir.",
+        "start": 973.99,
+        "end": 1005.9
+      },
+      {
+        "index": 78,
+        "text": "Kapsam Dışı Hesaplar: Yurt dışı şubelerde açılan hesaplar ile gerçek veya tüzel kişilere ait ticari işlemlere konu olan hesaplar sigorta kapsamında değildir.",
+        "start": 1005.9,
+        "end": 1017.77
+      },
+      {
+        "index": 79,
+        "text": "Birden Fazla Banka / Ortak Hesap: Kişinin farklı bankalardaki mevduatları her bir banka için ayrı ayrı 1.200.000 Türk Lirası'ye kadar sigortalıdır. Ortak hesaplarda sigorta kapsamı her bir ortak için (pay belirtilmemişse eşit kabul edilerek) ayrı ayrı hesaplanır; ortağın aynı bankada tekil hesabı da varsa ortak hesaptaki payı ile tekil hesabının toplamı 1.200.000 Türk Lirası'ye kadar sigortalıdır.",
+        "start": 1017.77,
+        "end": 1045.94
+      },
+      {
+        "index": 80,
+        "text": "5. MEVDUATTA ZAMANAŞIMI (5411 Sayılı Kanun Md. 62)",
+        "start": 1045.94,
+        "end": 1052.57
+      },
+      {
+        "index": 81,
+        "text": "Süre ve Kapsam: Hak sahibinin en son talebi, işlemi veya yazılı talimatı tarihinden başlayarak 10 yıl içinde aranmayan her türlü mevduat, katılım fonu, emanet ve alacaklar (bekleyen havaleler, alacaklı geçici hesaplar, 10 yılı aşkın ziyaret edilmeyen/tahsilatı yapılamayan kiralık kasalar dahil) zamanaşımına uğrar ve TMSF'ye gelir kaydedilir.",
+        "start": 1052.57,
+        "end": 1076.02
+      },
+      {
+        "index": 82,
+        "text": "Zamanaşımını Kesen ve Kesmeyen İşlemler: Hesaptan para çekme, para yatırma, adres değişikliği bildirme, cüzdana faiz kaydettirme ve rehin koyma zamanaşımını keser. Bankanın tek taraflı olarak faiz yürütmesi/işlemesi veya hesap işletim ücreti/kesinti tahsil etmesi zamanaşımını kesmez.",
+        "start": 1076.02,
+        "end": 1096.71
+      },
+      {
+        "index": 83,
+        "text": "Sahibinin Müracaatını Bekleyen Paralar: Zamanaşımı başlangıcı paranın bu hesaba aktarıldığı tarih değil, hak sahibinin en son talebi/işlemi/yazılı talimatı tarihidir (isme gelen ve alınmayan havalelerde ise hesaba intikal tarihinden itibaren 10 yıldır).",
+        "start": 1096.71,
+        "end": 1114.6
+      },
+      {
+        "index": 84,
+        "text": "Kiralık Kasalarda Zamanaşımı Başlangıcı: Kasa kira bedelinin en son tahsil edildiği ya da kasanın en son açıldığı tarihten itibaren 10 yıldır.",
+        "start": 1114.6,
+        "end": 1125.84
+      },
+      {
+        "index": 85,
+        "text": "Bildirim ve İlan Takvimi:",
+        "start": 1125.84,
+        "end": 1128.77
+      },
+      {
+        "index": 86,
+        "text": "Ocak Ayı Sonuna Kadar: Tutarı 1.000 Türk Lirası ve üzerindeki hesapların sahipleri iadeli taahhütlü mektupla uyarılır.",
+        "start": 1128.77,
+        "end": 1137.12
+      },
+      {
+        "index": 87,
+        "text": "Şubat Ayı Başından İtibaren (4 Ay Süreyle): Tutarı 1.000 Türk Lirası'yi aşsın veya aşmasın tüm hesaplar bankanın internet sitesinde liste halinde 4 ay ilan edilir ve eşzamanlı TMSF'ye gönderilir.",
+        "start": 1137.12,
+        "end": 1151.15
+      },
+      {
+        "index": 88,
+        "text": "Şubat Ayının 15. Gününe Kadar: Listelerin banka internet sitesinde ilan edildiği hususu, tirajı en yüksek 2 gazetede 2 gün süreyle ilan edilir.",
+        "start": 1151.15,
+        "end": 1162.39
+      },
+      {
+        "index": 89,
+        "text": "Mayıs Ayı Sonuna Kadar: TMSF listeleri konsolide ederek kendi internet sitesinde yayınlar.",
+        "start": 1162.39,
+        "end": 1169.75
+      },
+      {
+        "index": 90,
+        "text": "Sürenin İşlememesi ve Gecikme: Hak sahibinin işlem/talimat yapması hukuken mümkün olmayan (bloke/tedbir vb. ) hesaplarda bu durum sürdükçe zamanaşımı işlemez. Süresinde TMSF'ye devredilmeyen değerler 6183 sayılı Kanun uyarınca gecikme zamlarıyla birlikte devredilir.",
+        "start": 1169.75,
+        "end": 1191.07
+      },
+      {
+        "index": 91,
+        "text": "6. KİRALIK KASA İŞLEMLERİ",
+        "start": 1191.07,
+        "end": 1194.33
+      },
+      {
+        "index": 92,
+        "text": "Genel Kurallar ve Vekâlet: Kiralık kasalar gerçek/tüzel kişilere veya ortak olarak birden fazla kişiye kiralanabilir; kiracıların reşit ve kanuni ehliyete sahip olması şarttır. Ziyaretlerde sistemden alınan ziyaret formu imzalatılarak DYS'ye taranır, kasa kontrol anahtarı ve müşteri anahtarıyla birlikte açılır. Noter onaylı vekâletname ile kullanım yetkisi devredilebilir (Banka uygun görmezse vekilin değiştirilmesini isteyebilir).",
+        "start": 1194.33,
+        "end": 1226.17
+      },
+      {
+        "index": 93,
+        "text": "Anahtar Kaybı: Anahtarlardan birinin veya ikisinin kaybı halinde kasa sistemde arızalı duruma getirilir, tutanakla kilit değiştirilir ve tüm masraflar kiracıya aittir.",
+        "start": 1226.17,
+        "end": 1238.57
+      },
+      {
+        "index": 94,
+        "text": "Sözleşme Süresi ve Yenileme: Sözleşmeler aksi kararlaştırılmadıkça 1 yıllıktır. Süre bitiminde müşteri yenilemeyeceğini bildirmez veya her iki anahtarı teslim etmezse sözleşme aynı şartlarla yenilenir (kullanım için kiranın ödenmesi şarttır). Sözleşme iptalinde her iki anahtar teslim alınır, ibraname imzalatılır ve ilişiği yoksa depozitosu iade edilir. Sözleşme süresi bitmeden Bankaca feshedilirse, peşin alınan kiranın kullanılmayan kısmı iade edilir.",
+        "start": 1238.57,
+        "end": 1274.14
+      },
+      {
+        "index": 95,
+        "text": "Kiranın Ödenmemesi ve Takip Süreci:",
+        "start": 1274.14,
+        "end": 1277.83
+      },
+      {
+        "index": 96,
+        "text": "Vadeden itibaren 1 ay içinde ücret yatırılmazsa, birinci ayı takip eden 15 gün içinde iadeli taahhütlü ihtarname gönderilir.",
+        "start": 1277.83,
+        "end": 1288.31
+      },
+      {
+        "index": 97,
+        "text": "Vadeden itibaren en fazla 3 ay beklenir; 3 ay sonunda Genel Müdürlükten takip yetkisi alınır ve kasa noter huzurunda açtırılarak içindekiler mühürlü torbada müşterek muhafazaya alınır.",
+        "start": 1288.31,
+        "end": 1301.34
+      },
+      {
+        "index": 98,
+        "text": "Kiracının Ölümü:",
+        "start": 1301.34,
+        "end": 1303.61
+      },
+      {
+        "index": 99,
+        "text": "Banka, ölümü öğrendiğinde 15 gün içinde bağlı bulunulan Vergi Dairesine bilgi verir.",
+        "start": 1303.61,
+        "end": 1311.04
+      },
+      {
+        "index": 100,
+        "text": "Ölüm ihbarından sonra (Sulh Hâkiminin tespit işlemi hariç) Vergi Dairesi yetkili memuru hazır bulunmadıkça kasa açılamaz.",
+        "start": 1311.04,
+        "end": 1320.75
+      },
+      {
+        "index": 101,
+        "text": "Tüm mirasçılar (veya vekilleri) ve Maliye memuru huzurunda kasa açılarak içerik 2 kopya tutanakla tespit edilir ve vergi ilişiksizlik belgesi getirilene kadar mühürlü torbada müşterek muhafazaya alınır. Kiracının ölümüyle üçüncü kişilerin kasa kullanma yetkisi sona erer.",
+        "start": 1320.75,
+        "end": 1339.5
+      },
+      {
+        "index": 102,
+        "text": "Haciz İhbarnamesi: Kasa üzerine sistemden haciz işlenerek İcra Müdürlüğüne bildirilir ve müşterinin kasayı açması engellenir. Müşteri davete rağmen gelmez ve İcra Müdürlüğü kasayı zorla açtırmak isterse Baş Hukuk Danışmanlığı görüşü alınarak hareket edilir.",
+        "start": 1339.5,
+        "end": 1359.37
+      },
+      {
+        "index": 103,
+        "text": "7. HAVALE İŞLEMLERİ",
+        "start": 1359.37,
+        "end": 1362.38
+      },
+      {
+        "index": 104,
+        "text": "Hukuki Niteliği ve Tarafları: Havale bir sözleşme değil, Borçlar Kanunu'nda düzenlenen yetki vermeye ilişkin hukuki bir işlemdir. Tarafları: Havale Eden (Amir), Havale Ödeyicisi (Banka) ve Havale Alıcısı (Lehtar).",
+        "start": 1362.38,
+        "end": 1379.24
+      },
+      {
+        "index": 105,
+        "text": "Havalede Mülkiyetin Geçişi:",
+        "start": 1379.24,
+        "end": 1382.25
+      },
+      {
+        "index": 106,
+        "text": "Hesaba Gelen Havalede: Paranın hesaba yattığı anda mülkiyet alıcıya geçer (alıcı kabul etmeyip yazılı onayla reddedebilir).",
+        "start": 1382.25,
+        "end": 1391.49
+      },
+      {
+        "index": 107,
+        "text": "İsme Gelen Havalede: Alıcıya aynı gün Posta İşletmesi ile taahhütlü ihbarname gönderildiği anda mülkiyet alıcıya geçer. (İhbarnamede gönderenin adı, havale miktarı ve nereden geldiği gibi gizlilik içeren bilgiler yazılmaz. )",
+        "start": 1391.49,
+        "end": 1408.25
+      },
+      {
+        "index": 108,
+        "text": "Ödenmeyen Havalelerde Süreler ve Özel Durumlar:",
+        "start": 1408.25,
+        "end": 1412.59
+      },
+      {
+        "index": 109,
+        "text": "Başvurmama: Aynı gün çıkarılan ilk ihbarnameden sonra 15 gün içinde başvurulmazsa 15. gün sonunda ikinci kez taahhütlü ihbarname gönderilir; gelişinden itibaren 2 ayın sonunda alınmayan havale iptal edilerek gönderen şubeye iade edilir (alıcı o yerden ayrılmışsa 2 ay beklenmez). İadelerde ek haberleşme masrafı alınmaz, önceki masraflar da iade edilmez.",
+        "start": 1412.59,
+        "end": 1440.68
+      },
+      {
+        "index": 110,
+        "text": "Havalenin İptali: İhbarname gönderilmemişse amir havaleyi iptal edebilir; ihbarname gönderilmişse mülkiyet alıcıya geçtiğinden alıcının uygun görüşü alınmadan iptal edilemez.",
+        "start": 1440.68,
+        "end": 1453.62
+      },
+      {
+        "index": 111,
+        "text": "Havale Edenin (Amirin) Ölümü: İhbarname gönderilmeden önce ölürse amirin varislerine, ihbarname gönderildikten sonra ölürse havale alıcısına ödenir.",
+        "start": 1453.62,
+        "end": 1465.03
+      },
+      {
+        "index": 112,
+        "text": "Havale Alıcısının Ölümü: İhbarname gönderilmeden önce ölürse ihbarname gönderilmez ve amirin talimatı alınmak üzere ilgili şubeye bildirilir; ihbarname gönderildikten sonra ölürse alıcının varislerine veraset ilamına göre ödenir.",
+        "start": 1465.03,
+        "end": 1481.04
+      },
+      {
+        "index": 113,
+        "text": "8. NAKİT OPERASYONLARI VE TEMEL TANIMLAR",
+        "start": 1481.04,
+        "end": 1485.37
+      },
+      {
+        "index": 114,
+        "text": "Yönetim ve Kasa Farkları: Nakit operasyonları Hazine Operasyonları Başkanlığı'na bağlı Ankara Ankes Yönetimi Müdürlüğü tarafından yürütülür.",
+        "start": 1485.37,
+        "end": 1495.06
+      },
+      {
+        "index": 115,
+        "text": "Kasa Açığı (Noksanı): 50.000 Türk Lirası ve üzerindeki açıklar Ankara Ankes Yönetimi Müdürlüğü'ne bildirilir; 50.000 Türk Lirası altındaki açıklar ilgili ayın son iş gününe kadar kapatılarak muhasebeleştirilir.",
+        "start": 1495.06,
+        "end": 1508.85
+      },
+      {
+        "index": 116,
+        "text": "Kasa Fazlası: 100.000 Türk Lirası ve üzerindeki fazlalar Ankara Ankes Yönetimi Müdürlüğü'ne bildirilir; 100.000 Türk Lirası altındaki fazlalar bulunamazsa oluştuğu tarihten itibaren 6 ayın sonunda ilgili gelir hesaplarına alınarak kapatılır.",
+        "start": 1508.85,
+        "end": 1524.76
+      },
+      {
+        "index": 117,
+        "text": "Önemli Tanımlar:",
+        "start": 1524.76,
+        "end": 1527.05
+      },
+      {
+        "index": 118,
+        "text": "Nakit: Türk Lirası ve konvertibl yabancı paralar dahil her türlü para.",
+        "start": 1527.05,
+        "end": 1532.93
+      },
+      {
+        "index": 119,
+        "text": "Efektif: Yabancı ülke banknotları.",
+        "start": 1532.93,
+        "end": 1536.56
+      },
+      {
+        "index": 120,
+        "text": "Döviz: Yabancı para cinsinden çek, DTH, transfer vb. kaydi parasal değerler.",
+        "start": 1536.56,
+        "end": 1543.47
+      },
+      {
+        "index": 121,
+        "text": "Ankes Yönetimi Müdürlükleri: Para nakil işlemlerini merkezileştirmek üzere kurulan, bağlı şubelerin para fazlalarını değerlendiren ve ihtiyaçlarını karşılayan merkezler.",
+        "start": 1543.47,
+        "end": 1554.98
+      },
+      {
+        "index": 122,
+        "text": "Temerküz Şube: T C M B şubelerinin bulunduğu illerde yetkilendirilmiş, bağlı şubelerin para fazlası/ihtiyacını karşılayan şubelerimiz.",
+        "start": 1554.98,
+        "end": 1565.5
+      },
+      {
+        "index": 123,
+        "text": "Depo Şube: T C M B şubesi bulunmayan ancak, Ziraat Bankası şubeleri içinde T C M B Banknot Depoları kurulmuş şehirlerde yetkilendirilmiş şubelerimiz.",
+        "start": 1565.5,
+        "end": 1577.19
+      },
+      {
+        "index": 124,
+        "text": "Grup Nakli: Merkezler ve şubeler arası ihtiyaç duyulan paranın temini ve ihtiyaç fazlası paranın alınması işlemi.",
+        "start": 1577.19,
+        "end": 1585.63
+      },
+      {
+        "index": 125,
+        "text": "Deste / Balya / Parça Para: Deste: Aynı cinsten 100 adet paradan oluşan, banka logosu ve şube kaşeli para bandıyla paketlenmiş topluluk. Balya: Aynı para cinsinden 10 adet desteden (1.000 adet para) oluşan topluluk. Parça Para: 100 adetten az, deste olamayacak para topluluğu.",
+        "start": 1585.63,
+        "end": 1608.81
+      },
+      {
+        "index": 126,
+        "text": "Spesimen Kataloğu: Türk Lirası ve yabancı paraların ebat, renk ve güvenlik özelliklerini tanıtan katalog.",
+        "start": 1608.81,
+        "end": 1616.75
+      },
+      {
+        "index": 127,
+        "text": "Fersude Para: Yıpranmış, yırtılmış, para sayım makinelerinde sayılamayacak kadar eski, şeklini/rengini yitirmiş para.",
+        "start": 1616.75,
+        "end": 1625.53
+      },
+      {
+        "index": 128,
+        "text": "Eksik Para: Fiziki bütünlüğü bozulmuş ancak, yüzde 51'i ve daha fazlası mevcut olan, T C M B tarafından aynı değerde değiştirilmesi ve piyasadan çekilmesi gereken para.",
+        "start": 1625.53,
+        "end": 1637.91
+      },
+      {
+        "index": 129,
+        "text": "Sigorta Limitleri: Kasa Hırsızlık ve Yangın Sigortası Limiti kasalardaki efektiflerin T C M B döviz satış kuru karşılığı ile Türk Lirası değerlerin satış fiyatı toplamından; Taşınan Para Sigortası Limiti ise taşınan Türk Lirası/YP ve kıymetli değerlerin evalüasyon kuru ve alış değerleri toplamından oluşur (aşım halinde aşım tutarı kadar günlük ek sigorta yapılır).",
+        "start": 1637.91,
+        "end": 1660.89
+      },
+      {
+        "index": 130,
+        "text": "9. E F T VE F A S T İŞLEMLERİ",
+        "start": 1660.89,
+        "end": 1665.53
+      },
+      {
+        "index": 131,
+        "text": "9.1. E F T (Elektronik Fon Transferi) Sistemi",
+        "start": 1665.53,
+        "end": 1670.97
+      },
+      {
+        "index": 132,
+        "text": "Tarihçe: T C M B tarafından 1992 yılında kurulmuş, 2012 yılında KAS (Katılımcı Arayüzü Sistemi) Uygulamaları adını almıştır.",
+        "start": 1670.97,
+        "end": 1682.32
+      },
+      {
+        "index": 133,
+        "text": "Kanal Gönderim Saat ve Limitleri:",
+        "start": 1682.32,
+        "end": 1685.66
+      },
+      {
+        "index": 134,
+        "text": "Şube Kanalı: 09: 00 – 16: 00 arası Limitsiz; 16: 00 – 17: 15 arası belirlenen tutar üstü için serbest şube talebi girilerek; 17: 15 – 17: 30 arası tüm tutarlar için serbest şube talebi girilerek.",
+        "start": 1685.66,
+        "end": 1704.85
+      },
+      {
+        "index": 135,
+        "text": "Çağrı Merkezi ve Mobil/İnternet Bankacılığı: 17: 15'e kadar müşterinin E F T limiti kadar.",
+        "start": 1704.85,
+        "end": 1712.97
+      },
+      {
+        "index": 136,
+        "text": "Sık Kullanılan E F T Mesaj Türü Kodları:",
+        "start": 1712.97,
+        "end": 1717.0
+      },
+      {
+        "index": 137,
+        "text": "M01: Hesaba Ödeme",
+        "start": 1717.0,
+        "end": 1720.37
+      },
+      {
+        "index": 138,
+        "text": "M02: İsme Ödeme",
+        "start": 1720.37,
+        "end": 1723.66
+      },
+      {
+        "index": 139,
+        "text": "M03: Kamu Ödemesi (KEÖS aracılığıyla)",
+        "start": 1723.66,
+        "end": 1728.2
+      },
+      {
+        "index": 140,
+        "text": "M08: Kredi Kartı Ödemesi",
+        "start": 1728.2,
+        "end": 1731.93
+      },
+      {
+        "index": 141,
+        "text": "M09: Ödemenin İadesi",
+        "start": 1731.93,
+        "end": 1735.57
+      },
+      {
+        "index": 142,
+        "text": "H01: İade İsteği",
+        "start": 1735.57,
+        "end": 1738.79
+      },
+      {
+        "index": 143,
+        "text": "K12: Katılımcı Ödemesi (bankalar arası hizmet, ikincil piyasa ve senet ödemeleri)",
+        "start": 1738.79,
+        "end": 1745.94
+      },
+      {
+        "index": 144,
+        "text": "K14 / K20 (MX): Muhabirlik Ödemesi",
+        "start": 1745.94,
+        "end": 1750.64
+      },
+      {
+        "index": 145,
+        "text": "9.2. F A S T (Fonların Anlık ve Sürekli Transferi) ve KOLAS",
+        "start": 1750.64,
+        "end": 1757.68
+      },
+      {
+        "index": 146,
+        "text": "İşleyiş ve Süreler: Sadece Türk Lirası ödemelerin gerçekleştiği, 7/24 çalışan, alacaklandırma yöntemi ve gerçek zamanlı birebir mutabakat ilkesiyle işleyen sistemdir. İşlemler takvim günü ile işlenir ve E F T kapanış anı gündönümü hesaplaması için kullanılır.",
+        "start": 1757.68,
+        "end": 1778.05
+      },
+      {
+        "index": 147,
+        "text": "Zamanaşımı Süresi: Gönderen katılımcının mesajı gönderdiği andan itibaren F A S T platformunda işlemin 25 saniye içinde tamamlanmaması halinde zamanaşımı oluşur ve işlem iptal edilir; uçtan uca tüm sürecin en geç 30 saniyede tamamlanması gerekir.",
+        "start": 1778.05,
+        "end": 1796.22
+      },
+      {
+        "index": 148,
+        "text": "Kolay Adresleme Sistemi (KOLAS):",
+        "start": 1796.22,
+        "end": 1799.7
+      },
+      {
+        "index": 149,
+        "text": "Kolay adres tipleri: T C Kimlik Numarası / Vergi Kimlik Numarası / YKN, Cep Telefonu, E-posta, Pasaport No.",
+        "start": 1799.7,
+        "end": 1808.62
+      },
+      {
+        "index": 150,
+        "text": "Bir müşterinin en fazla 5 kolay adresi olabilir.",
+        "start": 1808.62,
+        "end": 1813.04
+      },
+      {
+        "index": 151,
+        "text": "Eşleştirme Kuralı: Bir kolay adrese sadece 1 hesap eşleştirilebilir; ancak, 1 hesap birden fazla kolay adresle eşleştirilebilir.",
+        "start": 1813.04,
+        "end": 1823.36
+      },
+      {
+        "index": 152,
+        "text": "F A S T Anlık Ödeme İşlem Türü Kodları:",
+        "start": 1823.36,
+        "end": 1827.49
+      },
+      {
+        "index": 153,
+        "text": "A01: Anlık Ödeme (alıcı katılımcının teyidi gerekir)",
+        "start": 1827.49,
+        "end": 1832.7
+      },
+      {
+        "index": 154,
+        "text": "A09: Ödeme İadesi",
+        "start": 1832.7,
+        "end": 1836.22
+      },
+      {
+        "index": 155,
+        "text": "H31: İade İsteği",
+        "start": 1836.22,
+        "end": 1839.47
+      },
+      {
+        "index": 156,
+        "text": "H32: Genel Amaçlı Bilgi (katılımcılar arası haberleşme)",
+        "start": 1839.47,
+        "end": 1844.9
+      },
+      {
+        "index": 157,
+        "text": "T01: Katılımcının İşlem Teyidi (Kabul: 1, Ret: 0)",
+        "start": 1844.9,
+        "end": 1850.7
+      },
+      {
+        "index": 158,
+        "text": "T02: Katılımcıya İşlem Sonucu (Başarılı: 1, Başarısız: 0)",
+        "start": 1850.7,
+        "end": 1857.03
       }
     ]
   },
