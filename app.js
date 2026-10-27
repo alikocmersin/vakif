@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (JAVASCRIPT ENGINE)
+   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (STABİL & HATA ENGELLEMELİ)
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -28,10 +28,11 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentTopicId = "mevduat";
   let activeParagraphIndex = -1;
   let isUserScrolling = false;
+  let isAutoScrolling = false;
   let scrollTimeout = null;
   let isMuted = false;
 
-  // 1. TEMA YÖNETİMİ (Aydınlık / Karanlık Mod)
+  // 1. TEMA YÖNETİMİ
   const savedTheme = localStorage.getItem("theme") || "light";
   document.documentElement.setAttribute("data-theme", savedTheme);
   themeToggleBtn.textContent = savedTheme === "dark" ? "☀️" : "🌙";
@@ -52,10 +53,14 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   speedSelect.addEventListener("change", (e) => {
-    audioPlayer.playbackRate = parseFloat(e.target.value);
+    try {
+      audioPlayer.playbackRate = parseFloat(e.target.value);
+    } catch (err) {
+      console.warn("Hız değiştirme hatası:", err);
+    }
   });
 
-  // 3. VERİ YÜKLEME (data.json)
+  // 3. VERİ YÜKLEME
   fetch("data.json")
     .then((res) => res.json())
     .then((data) => {
@@ -70,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>`;
     });
 
-  // 4. KONU KATALOG BUTONLARINI OLUŞTURMA
+  // 4. KONU KATALOG BUTONLARI
   function initNavigation() {
     topicsNav.innerHTML = "";
     Object.keys(appData).forEach((topicId) => {
@@ -93,19 +98,20 @@ document.addEventListener("DOMContentLoaded", () => {
     currentTopicId = topicId;
     activeParagraphIndex = -1;
 
-    // Buton aktifliğini güncelle
     document.querySelectorAll(".topic-btn").forEach((btn) => {
       btn.classList.toggle("active", btn.dataset.id === topicId);
     });
 
     const topic = appData[topicId];
+    if (!topic) return;
+
     currentTopicTitle.textContent = topic.title;
 
-    // MP3 Ses Dosyasını Yükle
+    // MP3 Yükle
     audioPlayer.src = `audio/${topicId}.mp3`;
     audioPlayer.load();
 
-    // Metin Paragraflarını Ekran Kartları Olarak Oluştur
+    // Metin Kartları
     contentArea.innerHTML = "";
     topic.paragraphs.forEach((p) => {
       const card = document.createElement("div");
@@ -115,11 +121,11 @@ document.addEventListener("DOMContentLoaded", () => {
       card.dataset.end = p.end;
       card.textContent = p.text;
 
-      // Paragrafa Tıklandığında O Anki Saniyelere Git
+      // Paragraf Tıklama
       card.addEventListener("click", () => {
-        audioPlayer.currentTime = p.start;
+        safeSeekAudio(p.start);
         if (audioPlayer.paused) {
-          audioPlayer.play();
+          audioPlayer.play().catch((e) => console.log("Oynatma engellendi:", e));
         }
         highlightParagraph(p.index);
       });
@@ -127,9 +133,20 @@ document.addEventListener("DOMContentLoaded", () => {
       contentArea.appendChild(card);
     });
 
-    // Arama Çubuğunu Sıfırla
     searchInput.value = "";
     updatePlayButtonState();
+  }
+
+  // Güvenli Ses Sarma Fonksiyonu (Hataları Önler)
+  function safeSeekAudio(seconds) {
+    if (isNaN(seconds) || seconds < 0) return;
+    try {
+      const duration = audioPlayer.duration || Infinity;
+      const targetTime = Math.min(Math.max(0, seconds), duration);
+      audioPlayer.currentTime = targetTime;
+    } catch (e) {
+      console.warn("Ses sarma hatası önlendi:", e);
+    }
   }
 
   // 6. SESE GÖRE PARAGRAF VURGULAMA & KARAOKE TAKİBİ
@@ -137,7 +154,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const currentTime = audioPlayer.currentTime;
     const duration = audioPlayer.duration || 1;
 
-    // İlerleme çubuğunu güncelle
     progressSlider.value = (currentTime / duration) * 100;
     currentTimeLabel.textContent = formatTime(currentTime);
     totalTimeLabel.textContent = formatTime(duration);
@@ -168,9 +184,12 @@ document.addEventListener("DOMContentLoaded", () => {
       if (cardIndex === index) {
         card.classList.add("active-reading");
 
-        // Kullanıcı kendi elle kaydırmıyorsa otomatik merkeze kaydır
         if (autoScrollCheck.checked && !isUserScrolling) {
+          isAutoScrolling = true;
           card.scrollIntoView({ behavior: "smooth", block: "center" });
+          setTimeout(() => {
+            isAutoScrolling = false;
+          }, 500);
         }
       } else {
         card.classList.remove("active-reading");
@@ -178,23 +197,28 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 7. KULLANICI YUKARI/AŞAĞI KAYDIRDIĞINDA SESİ İLERİ/GERİ ALMA (ÇİFT YÖNLÜ TAKİP)
+  // 7. KULLANICI MOUSE / DOKUNMATİK KAYDIRMA HATA ENGELLEMELİ SENKRONİZASYON
   window.addEventListener("scroll", () => {
+    // Otomatik kaydırma esnasında döngüye girmesini engelle
+    if (isAutoScrolling) return;
+
     isUserScrolling = true;
     clearTimeout(scrollTimeout);
 
     scrollTimeout = setTimeout(() => {
       isUserScrolling = false;
 
-      // Kullanıcı durduğunda ekranda merkeze en yakın olan paragrafı bul ve sesi oraya sar
-      if (!audioPlayer.paused) {
+      // Sadece ses çalarken ve kaydırma durduğunda senkronize et
+      if (!audioPlayer.paused && audioPlayer.readyState >= 2) {
         syncAudioToViewport();
       }
-    }, 250);
+    }, 300);
   });
 
   function syncAudioToViewport() {
     const cards = document.querySelectorAll(".paragraph-card:not(.hidden)");
+    if (!cards.length) return;
+
     let closestCard = null;
     let minDistance = Infinity;
     const viewportCenter = window.innerHeight / 2;
@@ -210,19 +234,18 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
-    if (closestCard) {
+    if (closestCard && closestCard.dataset.start) {
       const startSec = parseFloat(closestCard.dataset.start);
-      // Eğer mevcut ses süresi ile hedef süre arasında fark varsa sesi güncelle
-      if (Math.abs(audioPlayer.currentTime - startSec) > 2) {
-        audioPlayer.currentTime = startSec;
+      if (!isNaN(startSec) && Math.abs(audioPlayer.currentTime - startSec) > 3) {
+        safeSeekAudio(startSec);
       }
     }
   }
 
-  // 8. OYNAT / SESSİZE AL (BAŞLAT / DURAKLAT) BUTON KONTROLÜ
+  // 8. OYNAT / SESSİZE AL (BAŞLAT / DURAKLAT)
   playToggleBtn.addEventListener("click", () => {
     if (audioPlayer.paused) {
-      audioPlayer.play();
+      audioPlayer.play().catch((e) => console.log("Oynatma hatası:", e));
     } else {
       audioPlayer.pause();
     }
@@ -242,20 +265,18 @@ document.addEventListener("DOMContentLoaded", () => {
   audioPlayer.addEventListener("play", updatePlayButtonState);
   audioPlayer.addEventListener("pause", updatePlayButtonState);
 
-  // Mute (Sessize Al) Butonu
   muteBtn.addEventListener("click", () => {
     isMuted = !isMuted;
     audioPlayer.muted = isMuted;
     muteBtn.textContent = isMuted ? "🔇" : "🔊";
   });
 
-  // İlerleme Slider Değişimi
   progressSlider.addEventListener("input", (e) => {
     const duration = audioPlayer.duration || 1;
-    audioPlayer.currentTime = (e.target.value / 100) * duration;
+    safeSeekAudio((e.target.value / 100) * duration);
   });
 
-  // 9. ARAMA ÇUBUĞU FİLTRELEME ("Konularda Ara")
+  // 9. ARAMA ÇUBUĞU FİLTRELEME
   searchInput.addEventListener("input", (e) => {
     const query = e.target.value.trim().toLowerCase();
     const cards = document.querySelectorAll(".paragraph-card");
@@ -270,9 +291,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Zaman Formatlama Yardımcısı
   function formatTime(seconds) {
-    if (isNaN(seconds)) return "00:00";
+    if (isNaN(seconds) || seconds < 0) return "00:00";
     const mins = Math.floor(seconds / 60);
     const secs = Math.floor(seconds % 60);
     return `${mins.toString().padStart(2, "0")}:${secs.toString().padStart(2, "0")}`;
