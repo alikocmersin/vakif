@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (3 TIKLAMALI SEPYA TEMA ENGINE)
+   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (ŞIK ŞABLONLU PDF ENGINE)
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const printPdfBtn = document.getElementById("printPdfBtn");
   const themeToggleBtn = document.getElementById("themeToggleBtn");
   const settingsBtn = document.getElementById("settingsBtn");
-  const settingsModal = document.getElementById("settingsModal");
   const closeModalBtn = document.getElementById("closeModalBtn");
   const speedSelect = document.getElementById("speedSelect");
   const themeSelect = document.getElementById("themeSelect");
@@ -57,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .toLocaleLowerCase("tr");
   }
 
-  // 1. KUSURSUZ 3 AŞAMALI TEMA DÖNGÜSÜ (AYDINLIK -> SEPYA -> KARANLIK)
+  // 1. TEMA YÖNETİMİ (3 AŞAMALI DÖNGÜ)
   const themeCycle = ["light", "sepya", "dark"];
   const themeIcons = {
     light: "☀️",
@@ -112,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 2. DOĞRUDAN .PDF İNDİRME MOTORU (html2pdf.js)
+  // 2. ŞIK KURUMSAL DERS NOTU PDF ÇIKTISI ENGINE (html2pdf.js)
   if (printPdfBtn) {
     printPdfBtn.addEventListener("click", () => {
       generatePdf();
@@ -125,34 +124,54 @@ document.addEventListener("DOMContentLoaded", () => {
 
     printPdfBtn.textContent = "⏳";
 
+    const todayStr = new Date().toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' });
+
+    // Şık Kitap/Ders Notu Şablonu
     const pdfContainer = document.createElement("div");
-    pdfContainer.style.padding = "24px";
-    pdfContainer.style.fontFamily = "sans-serif";
+    pdfContainer.style.width = "750px";
+    pdfContainer.style.padding = "32px";
+    pdfContainer.style.fontFamily = "'Helvetica Neue', Arial, sans-serif";
     pdfContainer.style.color = "#0f172a";
     pdfContainer.style.backgroundColor = "#ffffff";
 
-    const titleEl = document.createElement("h1");
-    titleEl.style.fontSize = "22px";
-    titleEl.style.fontWeight = "bold";
-    titleEl.style.color = "#0284c7";
-    titleEl.style.marginBottom = "18px";
-    titleEl.style.borderBottom = "2px solid #0284c7";
-    titleEl.style.paddingBottom = "8px";
-    titleEl.textContent = `${topic.title} - Ders Notları`;
-    pdfContainer.appendChild(titleEl);
+    // Üst Kapak Başlığı
+    const headerHtml = `
+      <div style="border-bottom: 3px solid #0284c7; padding-bottom: 16px; margin-bottom: 24px; display: flex; justify-content: space-between; align-items: flex-end;">
+        <div>
+          <div style="font-size: 11px; font-weight: bold; color: #0284c7; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px;">DERS NOTLARI VE EĞİTİM REHBERİ</div>
+          <h1 style="font-size: 24px; font-weight: 800; color: #0f172a; margin: 0;">${topic.title}</h1>
+        </div>
+        <div style="text-align: right; font-size: 11px; color: #64748b;">
+          <div>Tarih: ${todayStr}</div>
+          <div>Toplam Paragraf: ${topic.paragraphs.length}</div>
+        </div>
+      </div>
+    `;
 
+    // Paragraf Kartları
+    let paragraphsHtml = '<div style="display: flex; flex-direction: column; gap: 12px;">';
     topic.paragraphs.forEach((p, idx) => {
-      const pEl = document.createElement("p");
-      pEl.style.fontSize = "13px";
-      pEl.style.lineHeight = "1.6";
-      pEl.style.marginBottom = "12px";
-      pEl.style.color = "#1e293b";
-      pEl.textContent = `${idx + 1}. ${p.text}`;
-      pdfContainer.appendChild(pEl);
+      paragraphsHtml += `
+        <div style="background-color: #f8fafc; border-left: 4px solid #0284c7; border-radius: 8px; padding: 12px 16px; page-break-inside: avoid;">
+          <div style="font-size: 10px; font-weight: bold; color: #0284c7; margin-bottom: 4px;">MADDE / PARAGRAF ${idx + 1}</div>
+          <div style="font-size: 13px; line-height: 1.65; color: #1e293b;">${p.text}</div>
+        </div>
+      `;
     });
+    paragraphsHtml += '</div>';
+
+    // Alt Bilgi
+    const footerHtml = `
+      <div style="margin-top: 32px; border-top: 1px solid #e2e8f0; padding-top: 12px; display: flex; justify-content: space-between; font-size: 10px; color: #94a3b8;">
+        <span>Sesli Notlar Dijital Kütüphanesi</span>
+        <span>https://alikocmersin.github.io/vakif/</span>
+      </div>
+    `;
+
+    pdfContainer.innerHTML = headerHtml + paragraphsHtml + footerHtml;
 
     const opt = {
-      margin: 12,
+      margin: 10,
       filename: `${topic.title.replace(/\s+/g, '_')}_Ders_Notlari.pdf`,
       image: { type: 'jpeg', quality: 0.98 },
       html2canvas: { scale: 2, useCORS: true },
@@ -258,7 +277,6 @@ document.addEventListener("DOMContentLoaded", () => {
     updatePlayButtonState();
   }
 
-  // iOS KİLİT EKRANI CANLI PARAGRAF GÜNCELLEME
   function updateLockScreenMetadata(topicTitle, paragraphText) {
     if ("mediaSession" in navigator) {
       const displayText = paragraphText || topicTitle;
