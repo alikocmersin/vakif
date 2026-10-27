@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA WEB UYGULAMASI (STABİL & GELİŞMİŞ UX)
+   METİN SESLENDİRME & KARAOKE OKUMA WEB UYGULAMASI (SF PRO & MEDIA SESSION API)
    ========================================================================== */
 
 :root {
@@ -18,6 +18,7 @@
   --shadow-color: rgba(0, 0, 0, 0.08);
   --mark-bg: #fef08a;
   --mark-color: #000000;
+  --para-font-size: 16.5px;
 }
 
 [data-theme="dark"] {
@@ -46,7 +47,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: "SF Pro Text", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background-color: var(--bg-color);
   color: var(--text-main);
   line-height: 1.6;
@@ -56,9 +57,7 @@ body {
   padding-bottom: calc(140px + env(safe-area-inset-bottom));
 }
 
-/* ==========================================================================
-   ÜST HEADER
-   ========================================================================== */
+/* ÜST HEADER */
 .header-bar {
   position: sticky;
   top: 0;
@@ -87,6 +86,7 @@ body {
   background-color: var(--card-bg);
   color: var(--text-main);
   font-size: 15px;
+  font-family: inherit;
   outline: none;
   transition: all 0.2s ease;
 }
@@ -150,9 +150,7 @@ body {
   transform: scale(0.92);
 }
 
-/* ==========================================================================
-   ARAMA BİLGİ VE DİĞER KONU ÖNERİ BARI
-   ========================================================================== */
+/* ARAMA BİLGİ BARI */
 .search-info-bar {
   background-color: var(--card-bg);
   border-bottom: 1px solid var(--border-color);
@@ -183,9 +181,7 @@ body {
   border: none;
 }
 
-/* ==========================================================================
-   KONU KATALOG BUTONLARI
-   ========================================================================== */
+/* KONU KATALOG BUTONLARI */
 .topics-nav {
   display: flex;
   gap: 8px;
@@ -208,6 +204,7 @@ body {
   color: var(--text-main);
   font-size: 14px;
   font-weight: 600;
+  font-family: inherit;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -223,9 +220,7 @@ body {
   box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
 }
 
-/* ==========================================================================
-   METİN GÖSTERİM ALANI & KARAOKE SATIRLARI
-   ========================================================================== */
+/* METİN KARTLARI (PARAGRAFLAR) */
 .content-area {
   padding: 16px;
   max-width: 600px;
@@ -238,7 +233,7 @@ body {
   border-radius: 16px;
   padding: 16px 18px;
   margin-bottom: 12px;
-  font-size: 16.5px;
+  font-size: var(--para-font-size);
   line-height: 1.65;
   cursor: pointer;
   transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
@@ -266,7 +261,6 @@ body {
   margin-right: 4px;
 }
 
-/* Arama Kelimesi Parlatması */
 mark {
   background-color: var(--mark-bg);
   color: var(--mark-color);
@@ -279,9 +273,7 @@ mark {
   display: none !important;
 }
 
-/* ==========================================================================
-   SABİT DOKUNMATİK ODAKLANMA BUTONU
-   ========================================================================== */
+/* SABİT ODAKLANMA BUTONU */
 .focus-active-btn {
   position: fixed;
   bottom: 140px;
@@ -303,9 +295,7 @@ mark {
   transform: scale(0.94);
 }
 
-/* ==========================================================================
-   SABİT ALT MÜZİK/SES KONTROL BARI
-   ========================================================================== */
+/* ALT OYNATICI BARI */
 .audio-bar {
   position: fixed;
   bottom: 0;
@@ -484,4 +474,5 @@ mark {
   color: var(--text-main);
   font-size: 14px;
   outline: none;
+  font-family: inherit;
 }

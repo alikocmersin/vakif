@@ -48,7 +48,7 @@
     <!-- Dinamik Metin Kartları (Paragraflar) Burada Görünür -->
   </main>
 
-  <!-- YAZI AŞAĞIDA VEYA YUKARIDA KALDIĞINDA OKUNAN SATIRA HIZLI ODAKLANMA BUTONU -->
+  <!-- OKUNAN SATIRA HIZLI ODAKLANMA BUTONU -->
   <button id="focusActiveBtn" class="focus-active-btn" style="display: none;">
     🎯 Okunan Satıra Odaklan
   </button>
@@ -81,10 +81,22 @@
   <div class="modal-overlay" id="settingsModal">
     <div class="modal-card">
       <div class="modal-header">
-        <h3 class="modal-title">Okuma Ayarları</h3>
+        <h3 class="modal-title">Okuma & Ses Ayarları</h3>
         <button class="modal-close-btn" id="closeModalBtn">&times;</button>
       </div>
 
+      <!-- Metin Boyutu Seçimi -->
+      <div class="setting-option">
+        <span class="setting-label">Metin Boyutu</span>
+        <select id="fontSizeSelect" class="speed-select">
+          <option value="14px">Küçük (14px)</option>
+          <option value="16.5px" selected>Normal (16.5px)</option>
+          <option value="19px">Büyük (19px)</option>
+          <option value="22px">Çok Büyük (22px)</option>
+        </select>
+      </div>
+
+      <!-- Okuma Hızı Seçimi -->
       <div class="setting-option">
         <span class="setting-label">Okuma Hızı</span>
         <select id="speedSelect" class="speed-select">
@@ -96,6 +108,7 @@
         </select>
       </div>
 
+      <!-- Otomatik Kaydırma Seçeneği -->
       <div class="setting-option">
         <span class="setting-label">Otomatik Kaydırma</span>
         <input type="checkbox" id="autoScrollCheck" checked style="width: 20px; height: 20px;">

@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (GELİŞMİŞ ARAMA VE UX)
+   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (SF PRO & MEDIA SESSION API)
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const settingsModal = document.getElementById("settingsModal");
   const closeModalBtn = document.getElementById("closeModalBtn");
   const speedSelect = document.getElementById("speedSelect");
+  const fontSizeSelect = document.getElementById("fontSizeSelect");
   const autoScrollCheck = document.getElementById("autoScrollCheck");
   const progressSlider = document.getElementById("progressSlider");
   const currentTimeLabel = document.getElementById("currentTimeLabel");
@@ -37,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let scrollTimeout = null;
   let isMuted = false;
 
-  // 1. TEMA YÖNETİMİ
+  // 1. TEMA VE METİN BOYUTU YÖNETİMİ (SF PRO TIPOGRAFI)
   const savedTheme = localStorage.getItem("theme") || "light";
   document.documentElement.setAttribute("data-theme", savedTheme);
   themeToggleBtn.textContent = savedTheme === "dark" ? "☀️" : "🌙";
@@ -50,7 +51,19 @@ document.addEventListener("DOMContentLoaded", () => {
     themeToggleBtn.textContent = newTheme === "dark" ? "☀️" : "🌙";
   });
 
-  // 2. AYARLAR MODAL
+  // Metin Boyutu Ayarı
+  const savedFontSize = localStorage.getItem("fontSize") || "16.5px";
+  document.documentElement.style.setProperty("--para-font-size", savedFontSize);
+  if (fontSizeSelect) {
+    fontSizeSelect.value = savedFontSize;
+    fontSizeSelect.addEventListener("change", (e) => {
+      const newSize = e.target.value;
+      document.documentElement.style.setProperty("--para-font-size", newSize);
+      localStorage.setItem("fontSize", newSize);
+    });
+  }
+
+  // 2. AYARLAR MODAL PANELSİ
   settingsBtn.addEventListener("click", () => settingsModal.classList.add("active"));
   closeModalBtn.addEventListener("click", () => settingsModal.classList.remove("active"));
   settingsModal.addEventListener("click", (e) => {
@@ -99,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 5. KONU YÜKLEME
+  // 5. KONU YÜKLEME & MEDIA SESSION API
   function loadTopic(topicId) {
     currentTopicId = topicId;
     activeParagraphIndex = -1;
@@ -118,6 +131,56 @@ document.addEventListener("DOMContentLoaded", () => {
 
     renderParagraphs(topic.paragraphs);
     updatePlayButtonState();
+    setupMediaSession(topic);
+  }
+
+  // iOS KİLİT EKRANI VE BİLDİRİM BARI MEDYA KONTROLLERİ (Media Session API)
+  function setupMediaSession(topic) {
+    if ("mediaSession" in navigator) {
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: topic.title,
+        artist: "Vakıfbank Sesli Eğitim",
+        album: "Metin Seslendirme ve Karaoke",
+        artwork: [
+          { src: "https://img.icons8.com/color/512/bank-building.png", sizes: "512x512", type: "image/png" }
+        ]
+      });
+
+      try {
+        navigator.mediaSession.setActionHandler("play", () => {
+          audioPlayer.play();
+          updatePlayButtonState();
+        });
+        navigator.mediaSession.setActionHandler("pause", () => {
+          audioPlayer.pause();
+          updatePlayButtonState();
+        });
+        navigator.mediaSession.setActionHandler("seekbackward", () => {
+          safeSeekAudio(audioPlayer.currentTime - 10);
+        });
+        navigator.mediaSession.setActionHandler("seekforward", () => {
+          safeSeekAudio(audioPlayer.currentTime + 10);
+        });
+        navigator.mediaSession.setActionHandler("previoustrack", () => {
+          switchTopicByOffset(-1);
+        });
+        navigator.mediaSession.setActionHandler("nexttrack", () => {
+          switchTopicByOffset(1);
+        });
+      } catch (e) {
+        console.log("MediaSession eylem atama uyarısı:", e);
+      }
+    }
+  }
+
+  function switchTopicByOffset(offset) {
+    const keys = Object.keys(appData);
+    const currentIndex = keys.indexOf(currentTopicId);
+    if (currentIndex !== -1) {
+      let targetIndex = (currentIndex + offset + keys.length) % keys.length;
+      loadTopic(keys[targetIndex]);
+      audioPlayer.play();
+    }
   }
 
   // Paragrafları Ekrama Çizme
@@ -132,11 +195,10 @@ document.addEventListener("DOMContentLoaded", () => {
       card.dataset.rawText = p.text;
       card.textContent = p.text;
 
-      // Paragrafa Tıklandığında Aramayı Temizle, O Anki Saniyeye Git ve Çal
+      // Paragraf Tıklama
       card.addEventListener("click", () => {
-        // Eğer arama yapılmışsa tıklanınca aramayı temizle ama tıklanan yeri koru
         if (searchInput.value.trim() !== "") {
-          clearSearch(false); // arama çubuğunu temizle ama paragrafları görünür kıl
+          clearSearch(false);
         }
 
         safeSeekAudio(p.start);
@@ -162,7 +224,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // 6. SESE GÖRE PARAGRAF VURGULAMA
+  // 6. SESE GÖRE PARAGRAF VURGULAMA & KARAOKE
   audioPlayer.addEventListener("timeupdate", () => {
     const currentTime = audioPlayer.currentTime;
     const duration = audioPlayer.duration || 1;
@@ -170,6 +232,17 @@ document.addEventListener("DOMContentLoaded", () => {
     progressSlider.value = (currentTime / duration) * 100;
     currentTimeLabel.textContent = formatTime(currentTime);
     totalTimeLabel.textContent = formatTime(duration);
+
+    // Kilit Ekranı İlerleme Çubuğunu Güncelle
+    if ("mediaSession" in navigator && "setPositionState" in navigator.mediaSession) {
+      try {
+        navigator.mediaSession.setPositionState({
+          duration: duration,
+          playbackRate: audioPlayer.playbackRate,
+          position: currentTime
+        });
+      } catch (e) {}
+    }
 
     if (!appData[currentTopicId]) return;
 
@@ -212,7 +285,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Okunan Satır Ekran Dışında Kalırsa "Okunan Satıra Odaklan" Butonunu Göster
   function checkActiveVisibility() {
     const activeCard = document.querySelector(".paragraph-card.active-reading");
     if (!activeCard) {
@@ -314,7 +386,6 @@ document.addEventListener("DOMContentLoaded", () => {
           firstMatchedCard = card;
         }
 
-        // Eşleşen kelimeleri parlat (<mark>)
         const regex = new RegExp(`(${escapeRegExp(query)})`, "gi");
         card.innerHTML = rawText.replace(regex, "<mark>$1</mark>");
       } else {
@@ -325,14 +396,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     searchResultCount.textContent = `${currentTopicMatchCount} sonuç bulundu (${appData[currentTopicId].title})`;
 
-    // Eğer eşleşen varsa otomatik ilk eşleşene kaydır
     if (firstMatchedCard) {
       isAutoScrolling = true;
       firstMatchedCard.scrollIntoView({ behavior: "smooth", block: "center" });
       setTimeout(() => { isAutoScrolling = false; }, 500);
     }
 
-    // Diğer konulardaki eşleşmeleri kontrol et
     checkOtherTopicsSearch(query);
   }
 
@@ -411,7 +480,6 @@ document.addEventListener("DOMContentLoaded", () => {
     safeSeekAudio((e.target.value / 100) * duration);
   });
 
-  // Klavye Kısayolları (Space: Oynat/Duraklat, Sol/Sağ Ok: 5 Sn İleri/Geri)
   document.addEventListener("keydown", (e) => {
     if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") return;
 
