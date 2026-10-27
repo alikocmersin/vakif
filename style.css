@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA WEB UYGULAMASI (SEPYA TEMA & PDF/YAZDIR)
+   METİN SESLENDİRME & KARAOKE OKUMA WEB UYGULAMASI (3 AŞAMALI TEMA DÖNGÜSÜ)
    ========================================================================== */
 
 :root {
@@ -23,40 +23,40 @@
 
 /* 📜 SEPYA (GÖZ YAKMAYAN KİTAP SARISI) TEMA */
 [data-theme="sepya"] {
-  --bg-color: #fbf0d9;
-  --card-bg: #f4e4bc;
-  --text-main: #433422;
-  --text-muted: #7c684e;
-  --primary-color: #a06028;
-  --primary-light: #ebd6a7;
-  --active-highlight: #e8cc82;
-  --active-text: #2c1d0b;
-  --active-border: #c89d38;
-  --border-color: #e2d1a8;
-  --header-bg: rgba(251, 240, 217, 0.9);
-  --control-bg: #f4e4bc;
-  --shadow-color: rgba(67, 52, 34, 0.12);
-  --mark-bg: #e2bf65;
-  --mark-color: #2c1d0b;
+  --bg-color: #fbf0d9 !important;
+  --card-bg: #f4e4bc !important;
+  --text-main: #433422 !important;
+  --text-muted: #7c684e !important;
+  --primary-color: #a06028 !important;
+  --primary-light: #ebd6a7 !important;
+  --active-highlight: #e8cc82 !important;
+  --active-text: #2c1d0b !important;
+  --active-border: #c89d38 !important;
+  --border-color: #e2d1a8 !important;
+  --header-bg: rgba(251, 240, 217, 0.95) !important;
+  --control-bg: #f4e4bc !important;
+  --shadow-color: rgba(67, 52, 34, 0.15) !important;
+  --mark-bg: #e2bf65 !important;
+  --mark-color: #2c1d0b !important;
 }
 
 /* 🌙 KARANLIK TEMA */
 [data-theme="dark"] {
-  --bg-color: #0f172a;
-  --card-bg: #1e293b;
-  --text-main: #f8fafc;
-  --text-muted: #94a3b8;
-  --primary-color: #38bdf8;
-  --primary-light: #0369a1;
-  --active-highlight: #854d0e;
-  --active-text: #fef08a;
-  --active-border: #facc15;
-  --border-color: #334155;
-  --header-bg: rgba(15, 23, 42, 0.85);
-  --control-bg: #1e293b;
-  --shadow-color: rgba(0, 0, 0, 0.3);
-  --mark-bg: #854d0e;
-  --mark-color: #ffffff;
+  --bg-color: #0f172a !important;
+  --card-bg: #1e293b !important;
+  --text-main: #f8fafc !important;
+  --text-muted: #94a3b8 !important;
+  --primary-color: #38bdf8 !important;
+  --primary-light: #0369a1 !important;
+  --active-highlight: #854d0e !important;
+  --active-text: #fef08a !important;
+  --active-border: #facc15 !important;
+  --border-color: #334155 !important;
+  --header-bg: rgba(15, 23, 42, 0.85) !important;
+  --control-bg: #1e293b !important;
+  --shadow-color: rgba(0, 0, 0, 0.3) !important;
+  --mark-bg: #854d0e !important;
+  --mark-color: #ffffff !important;
 }
 
 * {
@@ -234,9 +234,9 @@ body {
 }
 
 .topic-btn.active {
-  background-color: var(--primary-color);
-  color: #ffffff;
-  border-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
+  color: #ffffff !important;
+  border-color: var(--primary-color) !important;
   box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
 }
 
@@ -266,9 +266,9 @@ body {
 }
 
 .paragraph-card.active-reading {
-  background-color: var(--active-highlight);
-  color: var(--active-text);
-  border-color: var(--active-border);
+  background-color: var(--active-highlight) !important;
+  color: var(--active-text) !important;
+  border-color: var(--active-border) !important;
   font-weight: 600;
   box-shadow: 0 6px 16px rgba(234, 179, 8, 0.25);
   transform: scale(1.01);
@@ -415,7 +415,9 @@ mark {
   cursor: pointer;
 }
 
-/* AYARLAR MODAL */
+/* ==========================================================================
+   AYARLAR MODAL
+   ========================================================================== */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -504,9 +506,7 @@ mark {
   font-family: inherit;
 }
 
-/* ==========================================================================
-   📄 YAZDIRMA VE PDF ÇIKTISI TASARIMI (@media print)
-   ========================================================================== */
+/* YAZDIRMA VE PDF ÇIKTISI */
 @media print {
   body {
     background-color: #ffffff !important;

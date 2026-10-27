@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (GERÇEK PDF İNDİRME ENGINE)
+   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (3 TIKLAMALI SEPYA TEMA ENGINE)
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -57,33 +57,47 @@ document.addEventListener("DOMContentLoaded", () => {
       .toLocaleLowerCase("tr");
   }
 
-  // 1. TEMA YÖNETİMİ
+  // 1. KUSURSUZ 3 AŞAMALI TEMA DÖNGÜSÜ (AYDINLIK -> SEPYA -> KARANLIK)
+  const themeCycle = ["light", "sepya", "dark"];
   const themeIcons = {
     light: "☀️",
     sepya: "📜",
     dark: "🌙"
   };
 
-  let savedTheme = localStorage.getItem("theme") || "light";
-  setTheme(savedTheme);
+  let currentTheme = localStorage.getItem("theme") || "light";
+  if (!themeCycle.includes(currentTheme)) {
+    currentTheme = "light";
+  }
+  setTheme(currentTheme);
 
   function setTheme(theme) {
-    savedTheme = theme;
+    if (!themeCycle.includes(theme)) theme = "light";
+    currentTheme = theme;
     document.documentElement.setAttribute("data-theme", theme);
     localStorage.setItem("theme", theme);
-    themeToggleBtn.textContent = themeIcons[theme] || "☀️";
-    if (themeSelect) themeSelect.value = theme;
+
+    if (themeToggleBtn) {
+      themeToggleBtn.textContent = themeIcons[theme] || "☀️";
+    }
+    if (themeSelect) {
+      themeSelect.value = theme;
+    }
   }
 
-  themeToggleBtn.addEventListener("click", () => {
-    const themeCycle = ["light", "sepya", "dark"];
-    const currentIndex = themeCycle.indexOf(savedTheme);
-    const nextTheme = themeCycle[(currentIndex + 1) % themeCycle.length];
-    setTheme(nextTheme);
-  });
+  if (themeToggleBtn) {
+    themeToggleBtn.addEventListener("click", () => {
+      let idx = themeCycle.indexOf(currentTheme);
+      if (idx === -1) idx = 0;
+      const nextTheme = themeCycle[(idx + 1) % themeCycle.length];
+      setTheme(nextTheme);
+    });
+  }
 
   if (themeSelect) {
-    themeSelect.addEventListener("change", (e) => setTheme(e.target.value));
+    themeSelect.addEventListener("change", (e) => {
+      setTheme(e.target.value);
+    });
   }
 
   // METİN BOYUTU YÖNETİMİ
@@ -111,7 +125,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     printPdfBtn.textContent = "⏳";
 
-    // Temiz PDF Sayfa Düzeni Oluştur
     const pdfContainer = document.createElement("div");
     pdfContainer.style.padding = "24px";
     pdfContainer.style.fontFamily = "sans-serif";
@@ -245,6 +258,7 @@ document.addEventListener("DOMContentLoaded", () => {
     updatePlayButtonState();
   }
 
+  // iOS KİLİT EKRANI CANLI PARAGRAF GÜNCELLEME
   function updateLockScreenMetadata(topicTitle, paragraphText) {
     if ("mediaSession" in navigator) {
       const displayText = paragraphText || topicTitle;
