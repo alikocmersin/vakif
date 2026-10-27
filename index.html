@@ -20,6 +20,7 @@
     <div class="search-container">
       <span class="search-icon">🔍</span>
       <input type="text" id="searchInput" class="search-input" placeholder="Konularda Ara..." autocomplete="off">
+      <button id="clearSearchBtn" class="clear-search-btn" title="Aramayı Temizle" style="display:none;">&times;</button>
     </div>
 
     <!-- Sağ Aksiyon İkonları -->
@@ -31,6 +32,12 @@
     </div>
   </header>
 
+  <!-- ARAMA BİLGİ VE DİĞER KONU ÖNERİ BARI -->
+  <div id="searchInfoBar" class="search-info-bar" style="display: none;">
+    <span id="searchResultCount">0 sonuç bulundu</span>
+    <div id="otherTopicSuggestions" class="other-topic-suggestions"></div>
+  </div>
+
   <!-- KONU KATALOG BUTONLARI -->
   <nav class="topics-nav" id="topicsNav">
     <!-- JavaScript ile Dinamik Doldurulur -->
@@ -40,6 +47,11 @@
   <main class="content-area" id="contentArea">
     <!-- Dinamik Metin Kartları (Paragraflar) Burada Görünür -->
   </main>
+
+  <!-- YAZI AŞAĞIDA VEYA YUKARIDA KALDIĞINDA OKUNAN SATIRA HIZLI ODAKLANMA BUTONU -->
+  <button id="focusActiveBtn" class="focus-active-btn" style="display: none;">
+    🎯 Okunan Satıra Odaklan
+  </button>
 
   <!-- SABİT ALT SES KONTROL BARI -->
   <div class="audio-bar">
@@ -54,7 +66,7 @@
     <div class="controls-main">
       <div class="current-topic-label" id="currentTopicTitle">Mevduat İşlemleri</div>
 
-      <!-- Ana Başlat / Duraklat Tuşu (Sessize Al / Başlat) -->
+      <!-- Ana Başlat / Duraklat Tuşu -->
       <button id="playToggleBtn" class="play-toggle-btn">
         <span id="playIcon">⏸️</span>
         <span id="playText">Sessize Al</span>

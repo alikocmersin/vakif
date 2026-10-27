@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (STABİL & HATA ENGELLEMELİ)
+   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (GELİŞMİŞ ARAMA VE UX)
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -12,6 +12,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const playText = document.getElementById("playText");
   const muteBtn = document.getElementById("muteBtn");
   const searchInput = document.getElementById("searchInput");
+  const clearSearchBtn = document.getElementById("clearSearchBtn");
+  const searchInfoBar = document.getElementById("searchInfoBar");
+  const searchResultCount = document.getElementById("searchResultCount");
+  const otherTopicSuggestions = document.getElementById("otherTopicSuggestions");
+  const focusActiveBtn = document.getElementById("focusActiveBtn");
   const themeToggleBtn = document.getElementById("themeToggleBtn");
   const settingsBtn = document.getElementById("settingsBtn");
   const settingsModal = document.getElementById("settingsModal");
@@ -23,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const totalTimeLabel = document.getElementById("totalTimeLabel");
   const currentTopicTitle = document.getElementById("currentTopicTitle");
 
-  // Uygulama Durumu (State)
+  // Uygulama Durumu
   let appData = {};
   let currentTopicId = "mevduat";
   let activeParagraphIndex = -1;
@@ -45,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
     themeToggleBtn.textContent = newTheme === "dark" ? "☀️" : "🌙";
   });
 
-  // 2. AYARLAR MODAL YÖNETİMİ
+  // 2. AYARLAR MODAL
   settingsBtn.addEventListener("click", () => settingsModal.classList.add("active"));
   closeModalBtn.addEventListener("click", () => settingsModal.classList.remove("active"));
   settingsModal.addEventListener("click", (e) => {
@@ -60,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // 3. VERİ YÜKLEME
+  // 3. VERİ YÜKLEME (data.json)
   fetch("data.json")
     .then((res) => res.json())
     .then((data) => {
@@ -75,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>`;
     });
 
-  // 4. KONU KATALOG BUTONLARI
+  // 4. KONU NAVİGASYON
   function initNavigation() {
     topicsNav.innerHTML = "";
     Object.keys(appData).forEach((topicId) => {
@@ -86,6 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.innerHTML = `<span>${topic.icon}</span> <span>${topic.title}</span>`;
       btn.addEventListener("click", () => {
         if (currentTopicId !== topicId) {
+          clearSearch();
           loadTopic(topicId);
         }
       });
@@ -93,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 5. KONU YÜKLEME İŞLEMİ
+  // 5. KONU YÜKLEME
   function loadTopic(topicId) {
     currentTopicId = topicId;
     activeParagraphIndex = -1;
@@ -107,37 +113,44 @@ document.addEventListener("DOMContentLoaded", () => {
 
     currentTopicTitle.textContent = topic.title;
 
-    // MP3 Yükle
     audioPlayer.src = `audio/${topicId}.mp3`;
     audioPlayer.load();
 
-    // Metin Kartları
+    renderParagraphs(topic.paragraphs);
+    updatePlayButtonState();
+  }
+
+  // Paragrafları Ekrama Çizme
+  function renderParagraphs(paragraphs) {
     contentArea.innerHTML = "";
-    topic.paragraphs.forEach((p) => {
+    paragraphs.forEach((p) => {
       const card = document.createElement("div");
       card.className = "paragraph-card";
       card.dataset.index = p.index;
       card.dataset.start = p.start;
       card.dataset.end = p.end;
+      card.dataset.rawText = p.text;
       card.textContent = p.text;
 
-      // Paragraf Tıklama
+      // Paragrafa Tıklandığında Aramayı Temizle, O Anki Saniyeye Git ve Çal
       card.addEventListener("click", () => {
+        // Eğer arama yapılmışsa tıklanınca aramayı temizle ama tıklanan yeri koru
+        if (searchInput.value.trim() !== "") {
+          clearSearch(false); // arama çubuğunu temizle ama paragrafları görünür kıl
+        }
+
         safeSeekAudio(p.start);
         if (audioPlayer.paused) {
           audioPlayer.play().catch((e) => console.log("Oynatma engellendi:", e));
         }
-        highlightParagraph(p.index);
+        highlightParagraph(p.index, true);
       });
 
       contentArea.appendChild(card);
     });
-
-    searchInput.value = "";
-    updatePlayButtonState();
   }
 
-  // Güvenli Ses Sarma Fonksiyonu (Hataları Önler)
+  // Güvenli Ses Sarma
   function safeSeekAudio(seconds) {
     if (isNaN(seconds) || seconds < 0) return;
     try {
@@ -149,7 +162,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // 6. SESE GÖRE PARAGRAF VURGULAMA & KARAOKE TAKİBİ
+  // 6. SESE GÖRE PARAGRAF VURGULAMA
   audioPlayer.addEventListener("timeupdate", () => {
     const currentTime = audioPlayer.currentTime;
     const duration = audioPlayer.duration || 1;
@@ -173,9 +186,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (foundIndex !== -1 && foundIndex !== activeParagraphIndex) {
       highlightParagraph(foundIndex);
     }
+
+    checkActiveVisibility();
   });
 
-  function highlightParagraph(index) {
+  function highlightParagraph(index, forceScroll = false) {
     activeParagraphIndex = index;
     const cards = document.querySelectorAll(".paragraph-card");
 
@@ -184,7 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (cardIndex === index) {
         card.classList.add("active-reading");
 
-        if (autoScrollCheck.checked && !isUserScrolling) {
+        if ((autoScrollCheck.checked && !isUserScrolling) || forceScroll) {
           isAutoScrolling = true;
           card.scrollIntoView({ behavior: "smooth", block: "center" });
           setTimeout(() => {
@@ -197,9 +212,32 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 7. KULLANICI MOUSE / DOKUNMATİK KAYDIRMA HATA ENGELLEMELİ SENKRONİZASYON
+  // Okunan Satır Ekran Dışında Kalırsa "Okunan Satıra Odaklan" Butonunu Göster
+  function checkActiveVisibility() {
+    const activeCard = document.querySelector(".paragraph-card.active-reading");
+    if (!activeCard) {
+      focusActiveBtn.style.display = "none";
+      return;
+    }
+
+    const rect = activeCard.getBoundingClientRect();
+    const isVisible = rect.top >= 0 && rect.bottom <= window.innerHeight;
+
+    if (!isVisible && !audioPlayer.paused) {
+      focusActiveBtn.style.display = "block";
+    } else {
+      focusActiveBtn.style.display = "none";
+    }
+  }
+
+  focusActiveBtn.addEventListener("click", () => {
+    if (activeParagraphIndex !== -1) {
+      highlightParagraph(activeParagraphIndex, true);
+    }
+  });
+
+  // 7. KULLANICI KAYDIRMA SENKRONİZASYONU
   window.addEventListener("scroll", () => {
-    // Otomatik kaydırma esnasında döngüye girmesini engelle
     if (isAutoScrolling) return;
 
     isUserScrolling = true;
@@ -207,8 +245,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     scrollTimeout = setTimeout(() => {
       isUserScrolling = false;
-
-      // Sadece ses çalarken ve kaydırma durduğunda senkronize et
       if (!audioPlayer.paused && audioPlayer.readyState >= 2) {
         syncAudioToViewport();
       }
@@ -242,7 +278,106 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // 8. OYNAT / SESSİZE AL (BAŞLAT / DURAKLAT)
+  // 8. GELİŞMİŞ ARAMA MANTIĞI ("Konularda Ara")
+  searchInput.addEventListener("input", (e) => {
+    performSearch(e.target.value);
+  });
+
+  clearSearchBtn.addEventListener("click", () => {
+    clearSearch(true);
+  });
+
+  function performSearch(query) {
+    query = query.trim().toLowerCase();
+
+    if (!query) {
+      clearSearch(false);
+      return;
+    }
+
+    clearSearchBtn.style.display = "block";
+    searchInfoBar.style.display = "flex";
+
+    const cards = document.querySelectorAll(".paragraph-card");
+    let currentTopicMatchCount = 0;
+    let firstMatchedCard = null;
+
+    cards.forEach((card) => {
+      const rawText = card.dataset.rawText || card.textContent;
+      const textLower = rawText.toLowerCase();
+
+      if (textLower.includes(query)) {
+        card.classList.remove("hidden");
+        currentTopicMatchCount++;
+
+        if (!firstMatchedCard) {
+          firstMatchedCard = card;
+        }
+
+        // Eşleşen kelimeleri parlat (<mark>)
+        const regex = new RegExp(`(${escapeRegExp(query)})`, "gi");
+        card.innerHTML = rawText.replace(regex, "<mark>$1</mark>");
+      } else {
+        card.classList.add("hidden");
+        card.innerHTML = rawText;
+      }
+    });
+
+    searchResultCount.textContent = `${currentTopicMatchCount} sonuç bulundu (${appData[currentTopicId].title})`;
+
+    // Eğer eşleşen varsa otomatik ilk eşleşene kaydır
+    if (firstMatchedCard) {
+      isAutoScrolling = true;
+      firstMatchedCard.scrollIntoView({ behavior: "smooth", block: "center" });
+      setTimeout(() => { isAutoScrolling = false; }, 500);
+    }
+
+    // Diğer konulardaki eşleşmeleri kontrol et
+    checkOtherTopicsSearch(query);
+  }
+
+  function checkOtherTopicsSearch(query) {
+    otherTopicSuggestions.innerHTML = "";
+    Object.keys(appData).forEach((topicId) => {
+      if (topicId === currentTopicId) return;
+
+      const topic = appData[topicId];
+      const matchCount = topic.paragraphs.filter((p) => p.text.toLowerCase().includes(query)).length;
+
+      if (matchCount > 0) {
+        const chip = document.createElement("button");
+        chip.className = "suggestion-chip";
+        chip.textContent = `${topic.title}: ${matchCount} sonuç -> Git`;
+        chip.addEventListener("click", () => {
+          loadTopic(topicId);
+          searchInput.value = query;
+          performSearch(query);
+        });
+        otherTopicSuggestions.appendChild(chip);
+      }
+    });
+  }
+
+  function clearSearch(resetRender = true) {
+    searchInput.value = "";
+    clearSearchBtn.style.display = "none";
+    searchInfoBar.style.display = "none";
+    otherTopicSuggestions.innerHTML = "";
+
+    const cards = document.querySelectorAll(".paragraph-card");
+    cards.forEach((card) => {
+      card.classList.remove("hidden");
+      if (card.dataset.rawText) {
+        card.textContent = card.dataset.rawText;
+      }
+    });
+  }
+
+  function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  // 9. OYNAT / SESSİZE AL & KISAYOLLAR
   playToggleBtn.addEventListener("click", () => {
     if (audioPlayer.paused) {
       audioPlayer.play().catch((e) => console.log("Oynatma hatası:", e));
@@ -276,19 +411,18 @@ document.addEventListener("DOMContentLoaded", () => {
     safeSeekAudio((e.target.value / 100) * duration);
   });
 
-  // 9. ARAMA ÇUBUĞU FİLTRELEME
-  searchInput.addEventListener("input", (e) => {
-    const query = e.target.value.trim().toLowerCase();
-    const cards = document.querySelectorAll(".paragraph-card");
+  // Klavye Kısayolları (Space: Oynat/Duraklat, Sol/Sağ Ok: 5 Sn İleri/Geri)
+  document.addEventListener("keydown", (e) => {
+    if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") return;
 
-    cards.forEach((card) => {
-      const text = card.textContent.toLowerCase();
-      if (!query || text.includes(query)) {
-        card.classList.remove("hidden");
-      } else {
-        card.classList.add("hidden");
-      }
-    });
+    if (e.code === "Space") {
+      e.preventDefault();
+      playToggleBtn.click();
+    } else if (e.code === "ArrowLeft") {
+      safeSeekAudio(audioPlayer.currentTime - 5);
+    } else if (e.code === "ArrowRight") {
+      safeSeekAudio(audioPlayer.currentTime + 5);
+    }
   });
 
   function formatTime(seconds) {

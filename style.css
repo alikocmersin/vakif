@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA WEB UYGULAMASI (iPhone / iOS UYUMLU)
+   METİN SESLENDİRME & KARAOKE OKUMA WEB UYGULAMASI (STABİL & GELİŞMİŞ UX)
    ========================================================================== */
 
 :root {
@@ -16,6 +16,8 @@
   --header-bg: rgba(255, 255, 255, 0.85);
   --control-bg: #ffffff;
   --shadow-color: rgba(0, 0, 0, 0.08);
+  --mark-bg: #fef08a;
+  --mark-color: #000000;
 }
 
 [data-theme="dark"] {
@@ -32,6 +34,8 @@
   --header-bg: rgba(15, 23, 42, 0.85);
   --control-bg: #1e293b;
   --shadow-color: rgba(0, 0, 0, 0.3);
+  --mark-bg: #854d0e;
+  --mark-color: #ffffff;
 }
 
 * {
@@ -49,11 +53,11 @@ body {
   font-size: 16px;
   overflow-x: hidden;
   transition: background-color 0.3s ease, color 0.3s ease;
-  padding-bottom: 140px; /* Space for fixed bottom player */
+  padding-bottom: calc(140px + env(safe-area-inset-bottom));
 }
 
 /* ==========================================================================
-   SADE VE TEMİZ ÜST HEADER
+   ÜST HEADER
    ========================================================================== */
 .header-bar {
   position: sticky;
@@ -70,7 +74,6 @@ body {
   gap: 12px;
 }
 
-/* Sol Arama Çubuğu */
 .search-container {
   flex: 1;
   position: relative;
@@ -78,7 +81,7 @@ body {
 
 .search-input {
   width: 100%;
-  padding: 10px 14px 10px 38px;
+  padding: 10px 38px 10px 38px;
   border-radius: 20px;
   border: 1px solid var(--border-color);
   background-color: var(--card-bg);
@@ -108,7 +111,19 @@ body {
   pointer-events: none;
 }
 
-/* Sağ Butonlar (Tema ve Ayarlar) */
+.clear-search-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 4px;
+}
+
 .header-actions {
   display: flex;
   align-items: center;
@@ -136,7 +151,40 @@ body {
 }
 
 /* ==========================================================================
-   KONU KATALOG BUTONLARI (TOPICS NAV)
+   ARAMA BİLGİ VE DİĞER KONU ÖNERİ BARI
+   ========================================================================== */
+.search-info-bar {
+  background-color: var(--card-bg);
+  border-bottom: 1px solid var(--border-color);
+  padding: 10px 16px;
+  font-size: 13px;
+  color: var(--text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.other-topic-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.suggestion-chip {
+  background-color: var(--primary-light);
+  color: var(--primary-color);
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+/* ==========================================================================
+   KONU KATALOG BUTONLARI
    ========================================================================== */
 .topics-nav {
   display: flex;
@@ -218,9 +266,41 @@ body {
   margin-right: 4px;
 }
 
-/* Arama Filtresi / Eşleşmeyenleri Gizleme */
+/* Arama Kelimesi Parlatması */
+mark {
+  background-color: var(--mark-bg);
+  color: var(--mark-color);
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
 .paragraph-card.hidden {
   display: none !important;
+}
+
+/* ==========================================================================
+   SABİT DOKUNMATİK ODAKLANMA BUTONU
+   ========================================================================== */
+.focus-active-btn {
+  position: fixed;
+  bottom: 140px;
+  right: 16px;
+  z-index: 150;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 700;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.focus-active-btn:active {
+  transform: scale(0.94);
 }
 
 /* ==========================================================================
@@ -236,7 +316,7 @@ body {
   border-top: 1px solid var(--border-color);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  padding: 12px 16px;
+  padding: 12px 16px calc(12px + env(safe-area-inset-bottom)) 16px;
   box-shadow: 0 -4px 20px var(--shadow-color);
   display: flex;
   flex-direction: column;
@@ -276,7 +356,6 @@ body {
   cursor: pointer;
 }
 
-/* Alt Ana Tuşlar */
 .controls-main {
   display: flex;
   align-items: center;
@@ -327,9 +406,7 @@ body {
   cursor: pointer;
 }
 
-/* ==========================================================================
-   AYARLAR MODAL
-   ========================================================================== */
+/* AYARLAR MODAL */
 .modal-overlay {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
