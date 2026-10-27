@@ -3729,7 +3729,7 @@
     "id": "bireysel",
     "title": "Bireysel Bankacılık",
     "icon": "💳",
-    "duration": 2343.19,
+    "duration": 2261.11,
     "paragraphs": [
       {
         "index": 0,
@@ -3739,7 +3739,7 @@
       },
       {
         "index": 1,
-        "text": "* Bireysel Kredi Kullandırılabilecek Müşteri Grupları (Hedef Kitle):",
+        "text": "* Bireysel Kredi Kullandırılabilecek Müşteri Grupları (Hedef Kitle)",
         "start": 2.64,
         "end": 7.71
       },
@@ -3769,1557 +3769,1533 @@
       },
       {
         "index": 6,
-        "text": "- İNCE NOKTA (Çiftçi-Besici Meslek Kodu): Bankamızda Tarım Kredisi, Tarım Kartı veya Tarım Ek Hesabı olan fakat, tarımsal faaliyet gelirine ilave olarak BİREYSEL NİTELİKLİ GELİRİ de bulunan Çiftçi-Besici meslek kodlu müşterilere bireysel kredi ürünleri kullandırılabilir.",
+        "text": "- İNCE NOKTA (Çiftçi-Besici Meslek Kodu) Bankamızda Tarım Kredisi, Tarım Kartı veya Tarım Ek Hesabı olan fakat, tarımsal faaliyet gelirine ilave olarak BİREYSEL NİTELİKLİ GELİRİ de bulunan Çiftçi-Besici meslek kodlu müşterilere bireysel kredi ürünleri kullandırılabilir.",
         "start": 49.08,
-        "end": 65.87
+        "end": 66.0
       },
       {
         "index": 7,
         "text": "- İSTİSNA: Otorize nitelikli ticari müşterilere veya tarım kredisine ilave ticari limiti/riski bulunan ticari müşterilere bireysel kredi kullandırımı ilgili Genel Müdürlük Makamı'ndan (Ticari, KOBİ ve Perakende, Tarım veya Bölge Krediler Müdürlükleri vb. ) limit tesis edilerek yapılır.",
-        "start": 65.87,
-        "end": 84.61
+        "start": 66.0,
+        "end": 84.73
       },
       {
         "index": 8,
         "text": "5) Gerçek Kişi Firma Sahibi veya Tüzel Kişi Firma Ortakları: Bankamızda ticari kredi limiti/riski bulunmayan gerçek kişi firma sahipleri ile tüzel kişi firma ortaklarının (mevzuatı bireysel olmak kaydıyla) TİK, Konut, Ek Hesap, Vinov ve Taşıt kredisi talepleri Şubece değerlendirilebilir (Tarım sektöründe faaliyet gösterenlere de Genel Müdürlük esasları dahilinde Şubece re'sen bireysel kredi kullandırılabilir).",
-        "start": 84.61,
-        "end": 112.21
+        "start": 84.73,
+        "end": 112.34
       },
       {
         "index": 9,
         "text": "- İSTİSNA: Bankamızla ticari kredi ilişkisi olan firma ortakları ile ticari faaliyetle iştigal eden gerçek ve tüzel kişilerin mevzuatı ticari olduğundan limit tahsisi Ticari Kredi Mevzuatı çerçevesinde yapılır.",
-        "start": 112.21,
-        "end": 126.39
+        "start": 112.34,
+        "end": 126.51
       },
       {
         "index": 10,
-        "text": "2. TÜKETİCİ KREDİLERİNDE BANKAMIZ UYGULAMALARI VE YASAL KURALLAR",
-        "start": 126.39,
-        "end": 132.13
+        "text": "TÜKETİCİ KREDİLERİNDE BANKAMIZ UYGULAMALARI VE YASAL KURALLAR",
+        "start": 126.51,
+        "end": 131.7
       },
       {
         "index": 11,
-        "text": "* Kullandırım Aşamaları (Sırasıyla 4 Aşama):",
-        "start": 132.13,
-        "end": 136.06
+        "text": "* Kullandırım Aşamaları (Sırasıyla 4 Aşama)",
+        "start": 131.7,
+        "end": 135.63
       },
       {
         "index": 12,
         "text": "1) Başvuru ve Dosya Oluşturma Aşaması (Bireysel Krediler Başvuru Formu, Nüfus Cüzdanı, APS çıktısı adres teyidi, bordro vb. alınması)",
-        "start": 136.06,
-        "end": 147.56
+        "start": 135.63,
+        "end": 147.13
       },
       {
         "index": 13,
         "text": "2) Başvuru Sorgulama ve Değerlendirme Aşaması (İstihbarat ve limit belirleme)",
-        "start": 147.56,
-        "end": 153.98
+        "start": 147.13,
+        "end": 153.55
       },
       {
         "index": 14,
         "text": "3) Kredi Kullandırım Aşaması (Sözleşmeye müşteri ve kefil imzalarının Şube yetkilileri huzurunda alınması ve ödeme planının bir nüshasının verilmesi)",
-        "start": 153.98,
-        "end": 164.73
+        "start": 153.55,
+        "end": 164.3
       },
       {
         "index": 15,
         "text": "4) Tahsil ve Tasfiye Aşaması",
-        "start": 164.73,
-        "end": 168.29
+        "start": 164.3,
+        "end": 167.86
       },
       {
         "index": 16,
         "text": "* Kullandırımda Kritik Yasaklar ve Kurallar:",
-        "start": 168.29,
-        "end": 172.09
+        "start": 167.86,
+        "end": 171.66
       },
       {
         "index": 17,
         "text": "- Karşılıklı kefalet ile kesinlikle kredi kullandırılmaz.",
-        "start": 172.09,
-        "end": 176.78
+        "start": 171.66,
+        "end": 176.35
       },
       {
         "index": 18,
         "text": "- Bankamız mensuplarına (emekliler dışında) Bankalar Kanunu sınırlamaları gereğince Tüketici Kredisi kullandırılmaz.",
-        "start": 176.78,
-        "end": 185.52
+        "start": 176.35,
+        "end": 185.09
       },
       {
         "index": 19,
         "text": "- Sözleşmelere borçlu ve kefiller Şubede yetkililerin huzurunda imza atmalıdır.",
-        "start": 185.52,
-        "end": 192.7
+        "start": 185.09,
+        "end": 192.27
       },
       {
         "index": 20,
         "text": "- Akdedilen sözleşmelere mutlaka TEMERRÜT FAİZİ yazılmalıdır.",
-        "start": 192.7,
-        "end": 198.31
+        "start": 192.27,
+        "end": 197.88
       },
       {
         "index": 21,
         "text": "* TTK 39. Madde Kapsamında Banka Evraklarında Bulunması Zorunlu 4 Bilgi:",
-        "start": 198.31,
-        "end": 204.95
+        "start": 197.88,
+        "end": 204.52
       },
       {
         "index": 22,
         "text": "Bankamızın düzenlediği antetli kağıtlar, Döviz Alım/Satım Belgeleri, mevduat/menkul kıymet/kredi kartı ekstreleri, dekontlar, sözleşmeler, ihbarname/ihtarnameler, gider pusulası, mevduat cüzdanı ve internet bankacılığı işlem çıktılarında şu 4 bilgi zorunludur:",
-        "start": 204.95,
-        "end": 223.17
+        "start": 204.52,
+        "end": 222.74
       },
       {
         "index": 23,
         "text": "1) Tacirin Mersis Numarası",
-        "start": 223.17,
-        "end": 226.43
+        "start": 222.74,
+        "end": 226.0
       },
       {
         "index": 24,
         "text": "2) Ticaret Ünvanı",
-        "start": 226.43,
-        "end": 229.12
+        "start": 226.0,
+        "end": 228.69
       },
       {
         "index": 25,
         "text": "3) İşletmesinin Merkez Adresi",
-        "start": 229.12,
-        "end": 232.51
+        "start": 228.69,
+        "end": 232.08
       },
       {
         "index": 26,
         "text": "4) İnternet Sitesinin Adresi",
-        "start": 232.51,
-        "end": 235.95
+        "start": 232.08,
+        "end": 235.52
       },
       {
         "index": 27,
         "text": "* K K B, Otomatik İstihbarat ve Skorlama:",
-        "start": 235.95,
-        "end": 240.15
+        "start": 235.52,
+        "end": 239.72
       },
       {
         "index": 28,
         "text": "- T. C. Kimlik Numarası ile K K B, T C M B karşılıksız çek, Risk Merkezi FK kayıtları, T C M B memzuç, Bankamız aksama/takip, MERNİS ve sahte kimlik kontrolleri merkezi sistemce otomatik yapılır ve KABUL, RET veya GRİ olarak sonuçlanır.",
-        "start": 240.15,
-        "end": 257.69
+        "start": 239.72,
+        "end": 257.26
       },
       {
         "index": 29,
         "text": "- VIT ekranında müşterinin demografik bilgileri, ödeme alışkanlıkları, geliri, Bankamız skoru, K K B skoru ve PD değeri dikkate alınarak sistemin ürettiği \"Final Kararı\"na göre kullanılabilir limit hesaplanır.",
-        "start": 257.69,
-        "end": 272.31
+        "start": 257.26,
+        "end": 271.88
       },
       {
         "index": 30,
         "text": "- Kullanılabilir limitin üzerinde limit tahsisi için Bireysel Krediler Müdürlüğünden yetki alınmalıdır.",
-        "start": 272.31,
-        "end": 280.3
+        "start": 271.88,
+        "end": 279.87
       },
       {
         "index": 31,
-        "text": "* Muacceliyet ve Temerrüt (6502 Sayılı Tüketici Kanunu):",
-        "start": 280.3,
-        "end": 286.17
+        "text": "* Muacceliyet ve Temerrüt (6502 Sayılı Tüketici Kanunu)",
+        "start": 279.87,
+        "end": 285.74
       },
       {
         "index": 32,
         "text": "- Her taksit kendi vade tarihinde muaccel olur ve zamanaşımı muacceliyet tarihinden itibaren işler.",
-        "start": 286.17,
-        "end": 294.34
+        "start": 285.74,
+        "end": 293.91
       },
       {
         "index": 33,
         "text": "- Borcun tamamının muaccel olması için: Birbirini izleyen EN AZ 2 TAKSİTİN ödenmemesi, ihtarname çekilmesi ve tüketiciye EN AZ 30 GÜN süre verilmesi zorunludur.",
-        "start": 294.34,
-        "end": 305.84
+        "start": 293.91,
+        "end": 305.41
       },
       {
         "index": 34,
         "text": "- Tüketici işlemlerinde alınan şahsi teminatlar ADİ KEFALET sayılır; borçluyla ilgili takibata geçilmeden doğrudan kefile gidilerek takibat başlatılamaz.",
-        "start": 305.84,
-        "end": 316.92
+        "start": 305.41,
+        "end": 316.48
       },
       {
         "index": 35,
         "text": "- Tüketici kredilerine (Ek Hesap hariç) uygulanacak temerrüt faiz oranı, krediye uygulanan yıllık akdi faiz oranının yüzde 30 FAZLASIDIR. (Bileşik faiz uygulanamaz, basit faiz işletilir).",
-        "start": 316.92,
-        "end": 331.39
+        "start": 316.48,
+        "end": 330.96
       },
       {
         "index": 36,
         "text": "* Kredi Hayat Sigortası:",
-        "start": 331.39,
-        "end": 334.1
+        "start": 330.96,
+        "end": 333.67
       },
       {
         "index": 37,
         "text": "- Tüm bireysel kredilerde \"Uzun Süreli, Yaş Ayrımlı, N Yıl Hayat Sigortası Tarifesi\" uygulanır.",
-        "start": 334.1,
-        "end": 342.26
+        "start": 333.67,
+        "end": 341.83
       },
       {
         "index": 38,
         "text": "- Ödeme planı ile uyumlu olmak kaydıyla; Peşin, Taksitli veya Yıllık Peşin tahsilat yapılabilir.",
-        "start": 342.26,
-        "end": 350.0
+        "start": 341.83,
+        "end": 349.57
       },
       {
         "index": 39,
         "text": "- 18 - 75 yaş aralığındaki müşterilere yapılabilir; müşterinin yaşı ile açılacak kredinin vadesi toplamı 75'i aşmamalıdır.",
-        "start": 350.0,
-        "end": 359.94
+        "start": 349.57,
+        "end": 359.51
       },
       {
         "index": 40,
-        "text": "3. TÜKETİCİ KREDİSİ KULLANDIRILIRKEN GELİR TESPİTİ VE İSTİSNALAR",
-        "start": 359.94,
-        "end": 365.7
+        "text": "TÜKETİCİ KREDİSİ KULLANDIRILIRKEN GELİR TESPİTİ VE İSTİSNALAR",
+        "start": 359.51,
+        "end": 364.69
       },
       {
         "index": 41,
-        "text": "* Özel Sektör Çalışanları (Maaşını Bankamızdan Alanlar):",
-        "start": 365.7,
-        "end": 370.51
+        "text": "* Özel Sektör Çalışanları (Maaşını Bankamızdan Alanlar)",
+        "start": 364.69,
+        "end": 369.5
       },
       {
         "index": 42,
         "text": "- Son 12 aylık maaş hareketleri kontrol edilir; toplam 12 ay, son işyerinde ise 3 aydır maaş yattığı görülürse Barkodlu/Karekodlu S G K Hizmet Dökümü alınmasına GEREK YOKTUR.",
-        "start": 370.51,
-        "end": 383.8
+        "start": 369.5,
+        "end": 382.79
       },
       {
         "index": 43,
         "text": "- Gelir olarak sistem ortalaması dikkate alınır.",
-        "start": 383.8,
-        "end": 387.68
+        "start": 382.79,
+        "end": 386.67
       },
       {
         "index": 44,
         "text": "- Gelir vergisi diliminden kaynaklı maaş artışında ek gelir girişi yapılmaz.",
-        "start": 387.68,
-        "end": 393.64
+        "start": 386.67,
+        "end": 392.63
       },
       {
         "index": 45,
-        "text": "* Özel Sektör Çalışanları (Maaşını Bankamızdan Almayanlar):",
-        "start": 393.64,
-        "end": 398.64
+        "text": "* Özel Sektör Çalışanları (Maaşını Bankamızdan Almayanlar)",
+        "start": 392.63,
+        "end": 397.63
       },
       {
         "index": 46,
         "text": "- Son aya ait (güncel) onaylı maaş bordrosu ve Barkodlu/Karekodlu S G K Hizmet Dökümü alınır.",
-        "start": 398.64,
-        "end": 406.91
+        "start": 397.63,
+        "end": 405.91
       },
       {
         "index": 47,
         "text": "- S G K Hizmet Dökümü 3 yöntemden en az biriyle (S G K resmi sitesi, E-Devlet belge doğrulama veya E-Devlet mobil uygulama karekod okutma) doğrulanır.",
-        "start": 406.91,
-        "end": 418.52
+        "start": 405.91,
+        "end": 417.52
       },
       {
         "index": 48,
         "text": "- S G K Hizmet Dökümündeki İşyeri/Kurum/Sandık No ile İş Yeri Sicil Numarasının 10. ile 16. hanesindeki 7 basamaklı sayı aynı olmalıdır.",
-        "start": 418.52,
-        "end": 429.88
+        "start": 417.52,
+        "end": 428.87
       },
       {
         "index": 49,
         "text": "- Vergi Kimlik Numarası bulunmayan bordrolarda kaşe-imza veya e-imza zorunludur; Vergi Kimlik Numarası, VIT -> Mersis/Esbis ekranından kontrol edilir.",
-        "start": 429.88,
-        "end": 441.23
+        "start": 428.87,
+        "end": 440.22
       },
       {
         "index": 50,
         "text": "- Onaylı bordrodaki net maaş ile S G K Hizmet Dökümündeki son 3 aylık prim ortalaması karşılaştırılır ve DÜŞÜK OLAN TUTAR gelir olarak alınır.",
-        "start": 441.23,
-        "end": 451.15
+        "start": 440.22,
+        "end": 450.14
       },
       {
         "index": 51,
         "text": "- TAVAN PRİM İSTİSNASI: Sigorta primleri tavandan yatırılan ve prim tutarına göre daha yüksek maaş alan müşterilerde, primler SON 6 AYDIR tavandan yatıyor ise maaş bordrosundaki tutar gelir olarak alınabilir.",
-        "start": 451.15,
-        "end": 465.17
+        "start": 450.14,
+        "end": 464.17
       },
       {
         "index": 52,
         "text": "* Diplomalı Meslek Sahipleri, Serbest Meslek Sahipleri ve Tüzel Kişi Firma Ortakları:",
-        "start": 465.17,
-        "end": 471.53
+        "start": 464.17,
+        "end": 470.52
       },
       {
         "index": 53,
         "text": "- Diplomalı meslek sahipleri: Doktor, diş hekimi, veteriner, avukat, serbest muhasebeci, mali müşavir, noter, mimar, mühendis.",
-        "start": 471.53,
-        "end": 482.29
+        "start": 470.52,
+        "end": 481.28
       },
       {
         "index": 54,
         "text": "- Şu 3 şartı sağlamaları kaydıyla aylık gelir tespiti Şube Müdürünün takdir ve sorumluluğunda yapılabilir:",
-        "start": 482.29,
-        "end": 489.77
+        "start": 481.28,
+        "end": 488.77
       },
       {
         "index": 55,
         "text": "1) Asgari 1 bilanço yılını doldurmuş olması,",
-        "start": 489.77,
-        "end": 494.06
+        "start": 488.77,
+        "end": 493.05
       },
       {
         "index": 56,
         "text": "2) Son 2 dönem zarar açıklamamış olması (dönem kavramı bilanço yılı içindeki 3'er aylık 4 dönemi ifade eder),",
-        "start": 494.06,
-        "end": 503.01
+        "start": 493.05,
+        "end": 502.0
       },
       {
         "index": 57,
         "text": "3) Son 2 yıl matrahsız olmaması.",
-        "start": 503.01,
-        "end": 506.64
+        "start": 502.0,
+        "end": 505.64
       },
       {
         "index": 58,
         "text": "* Bankacılık Sektöründe Çalışanlar İstisnası:",
-        "start": 506.64,
-        "end": 510.66
+        "start": 505.64,
+        "end": 509.65
       },
       {
         "index": 59,
         "text": "- B D D K listesindeki bankaların çalışanlarının geliri, maaş bordrosu ve kurum kimliği vb. belge ile kontrol edilir.",
-        "start": 510.66,
-        "end": 520.4
+        "start": 509.65,
+        "end": 519.39
       },
       {
         "index": 60,
         "text": "- Maaş bordrosuna ilave olarak İMZA SİRKÜSÜ veya S G K HİZMET DÖKÜMÜ TALEP EDİLMEZ.",
-        "start": 520.4,
-        "end": 528.62
+        "start": 519.39,
+        "end": 527.61
       },
       {
         "index": 61,
         "text": "- Asgari 12 ay sigortalı olma ve son işyerinde en az 3 aydır çalışma şartı ARANMAZ.",
-        "start": 528.62,
-        "end": 536.24
+        "start": 527.61,
+        "end": 535.23
       },
       {
         "index": 62,
         "text": "- Onaylı bordrodaki net maaş dikkate alınır; ancak, prim, ikramiye, temettü, harcırah gibi süreklilik arz etmeyen ek ödemeler varsa toplam gelirle işlem yapılmaz, yılda kaç defa yattığı belgelendirilerek ortalama net maaş hesaplanır.",
-        "start": 536.24,
-        "end": 551.69
+        "start": 535.23,
+        "end": 550.68
       },
       {
         "index": 63,
-        "text": "* Kira Geliri Tespiti (3 Şart):",
-        "start": 551.69,
-        "end": 555.1
+        "text": "* Kira Geliri Tespiti (3 Şart)",
+        "start": 550.68,
+        "end": 554.09
       },
       {
         "index": 64,
         "text": "1) Tamamının banka, posta idaresi vb. finans kurumları aracılığıyla alınması,",
-        "start": 555.1,
-        "end": 561.59
+        "start": 554.09,
+        "end": 560.58
       },
       {
         "index": 65,
         "text": "2) Hesap hareketlerinde \"kira tutarı vb. \" açıklamayla yatırılması veya belgeyle tespiti,",
-        "start": 561.59,
-        "end": 569.74
+        "start": 560.58,
+        "end": 568.73
       },
       {
         "index": 66,
         "text": "3) En az 6 AY düzenli olarak alınıyor olması (uygun değilse Bireysel Krediler Müdürlüğüne yetki akışı başlatılır).",
-        "start": 569.74,
-        "end": 578.27
+        "start": 568.73,
+        "end": 577.26
       },
       {
         "index": 67,
         "text": "* Sigortalılık Süresi ve Özel İstisnalar:",
-        "start": 578.27,
-        "end": 582.23
+        "start": 577.26,
+        "end": 581.22
       },
       {
         "index": 68,
         "text": "- Toplam sigortalılık süresi 12 ay (360 gün) olarak dikkate alınır ve ARALIKLI OLABİLİR. Son işyerindeki 3 aylık sürede her ay 30 gün sayılır.",
-        "start": 582.23,
-        "end": 595.31
+        "start": 581.22,
+        "end": 594.3
       },
       {
         "index": 69,
         "text": "- Başvuru tarihinde işten çıkış kaydı bulunanlara Şubece re'sen kredi kullandırılmaz (işe başlamışsa E-Devletten İşe Giriş Bildirgesi alınır).",
-        "start": 595.31,
-        "end": 604.98
+        "start": 594.3,
+        "end": 603.97
       },
       {
         "index": 70,
         "text": "- İnşaat taahhüt, temizlik, güvenlik gibi sektörlerde giriş-çıkış veya işveren no değişikliği varsa; son 3 ayda çalışılan yerlerin ana firmaya bağlı olduğu teyit edilirse veya taşeron firmada çalışılmasına rağmen İHALE MAKAMI AYNI İSE son işyerindeki 3 aylık şart sağlanmış sayılır.",
-        "start": 604.98,
-        "end": 623.52
+        "start": 603.97,
+        "end": 622.52
       },
       {
         "index": 71,
         "text": "- Doğum, askerlik vb. nedenlerle ücretsiz izne ayrılıp belirli süre sonra YİNE AYNI FİRMADA işe başlayanlarda, toplam sigortalılık 12 ay ise son işyerindeki 3 aylık şart sağlanmış olur.",
-        "start": 623.52,
-        "end": 637.27
+        "start": 622.52,
+        "end": 636.26
       },
       {
         "index": 72,
         "text": "- Son 3 ay (90 gün) içinde S G K dökümünde eksik gün varsa ve bunun rapordan kaynaklandığı resmi belgeyle belirlenirse (raporlu gün sayısı ile eksik gün sayısının AYNI AY VE AYNI GÜN SAYISINDA olması şartıyla) gelir Şube yetkisinde değerlendirilir; belgelenemezse Bireysel Krediler Müdürlüğüne yetki akışı başlatılır.",
-        "start": 637.27,
-        "end": 658.87
+        "start": 636.26,
+        "end": 657.86
       },
       {
         "index": 73,
         "text": "- Kefaleti alınacak tüm müşteriler için de aynı gelir mevzuatı geçerlidir.",
-        "start": 658.87,
-        "end": 665.49
+        "start": 657.86,
+        "end": 664.48
       },
       {
         "index": 74,
         "text": "- SKY limit tahsisinde gelir tespiti yapılır; SKY limit dahilindeki kredi başvurularında tekrar gelir belgesi alınmasına gerek yoktur.",
-        "start": 665.49,
-        "end": 675.06
+        "start": 664.48,
+        "end": 674.05
       },
       {
         "index": 75,
         "text": "- MAAŞ YAZISI İSTİSNASI: Maaş yazısı uygulamasına son verilmiştir; ancak, Millî İstihbarat Teşkilâtı (MİT) ve Merkez Bankası gibi maaş bordrosu temin edilemeyen kamu kurum/kuruluşları hariçtir.",
-        "start": 675.06,
-        "end": 689.26
+        "start": 674.05,
+        "end": 688.25
       },
       {
         "index": 76,
-        "text": "4. TÜKETİCİ KREDİSİ ÇEŞİTLERİ",
-        "start": 689.26,
-        "end": 692.79
+        "text": "TÜKETİCİ KREDİSİ ÇEŞİTLERİ",
+        "start": 688.25,
+        "end": 691.16
       },
       {
         "index": 77,
-        "text": "A şıkkı: TAKSİTLİ İHTİYAÇ KREDİLERİ (TİK) GRUBU",
-        "start": 692.79,
-        "end": 697.3
+        "text": "TAKSİTLİ İHTİYAÇ KREDİLERİ (TİK) GRUBU",
+        "start": 691.16,
+        "end": 694.96
       },
       {
         "index": 78,
         "text": "* Ortak Vergi, Ücret ve Kademeli Vade Kuralları:",
-        "start": 697.3,
-        "end": 701.64
+        "start": 694.96,
+        "end": 699.3
       },
       {
         "index": 79,
         "text": "- Tüm TİK türlerinde K K D F yüzde 15, B S M V yüzde 15'tir.",
-        "start": 701.64,
-        "end": 708.49
+        "start": 699.3,
+        "end": 706.15
       },
       {
         "index": 80,
         "text": "- Kredi tahsis ücreti azami BİNDE 5'tir.",
-        "start": 708.49,
-        "end": 712.44
+        "start": 706.15,
+        "end": 710.1
       },
       {
         "index": 81,
         "text": "- TİK grubundaki kredilerde müşterilere birden fazla kredi (ikinci, üçüncü vb. ) Şubelerce re'sen kullandırılabilir.",
-        "start": 712.44,
-        "end": 722.75
+        "start": 710.1,
+        "end": 720.41
       },
       {
         "index": 82,
-        "text": "- Kademeli Maksimum Vade (Arsa Alım ve Bireysel İşyeri Alım Kredisi hariç tüm ihtiyaç kredilerinde):",
-        "start": 722.75,
-        "end": 730.39
+        "text": "- Kademeli Maksimum Vade (Arsa Alım ve Bireysel İşyeri Alım Kredisi hariç tüm ihtiyaç kredilerinde)",
+        "start": 720.41,
+        "end": 728.05
       },
       {
         "index": 83,
         "text": "* 125.000 Türk Lirası ve altında: 36 ay",
-        "start": 730.39,
-        "end": 735.42
+        "start": 728.05,
+        "end": 733.08
       },
       {
         "index": 84,
         "text": "* 125.001 Türk Lirası - 250.000 Türk Lirası (dahil) arasında: 24 ay",
-        "start": 735.42,
-        "end": 743.01
+        "start": 733.08,
+        "end": 740.67
       },
       {
         "index": 85,
         "text": "* 250.000 Türk Lirası üzerinde: 12 ay",
-        "start": 743.01,
-        "end": 747.5
+        "start": 740.67,
+        "end": 745.17
       },
       {
         "index": 86,
-        "text": "* 6.1.1. Taksitli İhtiyaç Kredisi (TİK):",
-        "start": 747.5,
-        "end": 753.45
+        "text": "* Taksitli İhtiyaç Kredisi (TİK)",
+        "start": 745.17,
+        "end": 748.52
       },
       {
         "index": 87,
         "text": "- Eş geliri dikkate alınabilir (eşin tüm sözleşmelere kefalet imzası ve sisteme kefalet girişi zorunludur).",
-        "start": 753.45,
-        "end": 762.3
+        "start": 748.52,
+        "end": 757.38
       },
       {
         "index": 88,
         "text": "- Teminat: Şahsi taahhüt (kefilsiz), Kefalet (asgari 1 kefil), 1. derecede gayrimenkul ipoteği (asgari sözleşme tutarı kadar) veya Nakit/Türk Lirası Mevduat/DTH rehni (asgari sözleşme tutarı kadar).",
-        "start": 762.3,
-        "end": 777.21
+        "start": 757.38,
+        "end": 772.29
       },
       {
         "index": 89,
-        "text": "* 6.1.2. İpotek Karşılığı Taksitli İhtiyaç Kredisi (Malik Aynı / Malik Farklı):",
-        "start": 777.21,
-        "end": 785.75
+        "text": "* İpotek Karşılığı Taksitli İhtiyaç Kredisi (Malik Aynı / Malik Farklı)",
+        "start": 772.29,
+        "end": 778.16
       },
       {
         "index": 90,
         "text": "- Ticari faaliyetle iştigal eden gerçek ve tüzel kişiler kesinlikle yararlanamaz.",
-        "start": 785.75,
-        "end": 792.33
+        "start": 778.16,
+        "end": 784.74
       },
       {
         "index": 91,
         "text": "- Gayrimenkul belediye sınırları içinde, mesken niteliğinde, inşaat seviyesi yüzde 100, hisseli/takyidatlı olmayan ve AZAMİ 40 YAŞINDA olmalıdır.",
-        "start": 792.33,
-        "end": 803.38
+        "start": 784.74,
+        "end": 795.79
       },
       {
         "index": 92,
         "text": "- Gelir tespitinde belgelenmek ve kefaletleri alınmak şartıyla EŞ ve AYNI EVDE OTURAN EVLENMEMİŞ ÇOCUKLARIN geliri dikkate alınabilir.",
-        "start": 803.38,
-        "end": 813.51
+        "start": 795.79,
+        "end": 805.92
       },
       {
         "index": 93,
         "text": "- Teminat: Gayrimenkul üzerinde 1. derecede, kullandırılan kredinin yüzde 100 FAZLASI üzerinden AZAMİ HAD İPOTEĞİ tesis edilir.",
-        "start": 813.51,
-        "end": 823.36
+        "start": 805.92,
+        "end": 815.77
       },
       {
         "index": 94,
         "text": "- Malik aynı (borçluya ait) ise 5582 sayılı Mortgage Kanunu kapsamında değerlendirilir ve \"Sabit Faizli Konut Finansman Sözleşmesi\" alınır; 3. şahıs ipoteğinde (malik farklı) \"Tüketici Kredisi Borçlanma ve Rehin Sözleşmesi\" alınır. (Her iki türde de vergi muafiyeti yoktur: K K D F yüzde 15, B S M V yüzde 15).",
-        "start": 823.36,
-        "end": 848.84
+        "start": 815.77,
+        "end": 841.25
       },
       {
         "index": 95,
         "text": "- Konut Teminatlı Kredilerde (İpotek Karşılığı TİK ve Konut Alım Kredisi) Ekspertiz Değeri ve Enerji Sınıfına Göre Azami Kredi Oranları:",
-        "start": 848.84,
-        "end": 858.43
+        "start": 841.25,
+        "end": 850.84
       },
       {
         "index": 96,
         "text": "* 0 Türk Lirası - 5.000.000 Türk Lirası: A-B Sınıfı yüzde 90 | C Sınıfı yüzde 80 | Diğer yüzde 70",
-        "start": 858.43,
-        "end": 867.29
+        "start": 850.84,
+        "end": 859.7
       },
       {
         "index": 97,
         "text": "* 5.000.001 Türk Lirası - 7.000.000 Türk Lirası: A-B Sınıfı yüzde 80 | C Sınıfı yüzde 70 | Diğer yüzde 60",
-        "start": 867.29,
-        "end": 876.77
+        "start": 859.7,
+        "end": 869.18
       },
       {
         "index": 98,
         "text": "* 7.000.001 Türk Lirası - 10.000.000 Türk Lirası: A-B Sınıfı yüzde 70 | C Sınıfı yüzde 60 | Diğer yüzde 50",
-        "start": 876.77,
-        "end": 886.0
+        "start": 869.18,
+        "end": 878.41
       },
       {
         "index": 99,
         "text": "* 10.000.001 Türk Lirası - 20.000.000 Türk Lirası: A-B Sınıfı yüzde 50 | C Sınıfı yüzde 40 | Diğer yüzde 30",
-        "start": 886.0,
-        "end": 895.76
+        "start": 878.41,
+        "end": 888.17
       },
       {
         "index": 100,
         "text": "* 20.000.000 Türk Lirası üzeri: A-B Sınıfı yüzde 40 | C Sınıfı yüzde 30 | Diğer yüzde 20",
-        "start": 895.76,
-        "end": 903.48
+        "start": 888.17,
+        "end": 895.89
       },
       {
         "index": 101,
         "text": "* yüzde 75 AZALTMA KURALI: Müşterinin kendisinin, eşinin veya 18 yaş altındaki çocuklarının malik olduğu en az bir konutunun olması, birden fazla konutta hisseli tapu sahibi olması veya herhangi bir konut tapusunda yüzde 50'den fazla hissesi olması durumunda yukarıdaki azami kredi kullandırım oranı yüzde 75 AZALTILARAK uygulanır.",
-        "start": 903.48,
-        "end": 925.76
+        "start": 895.89,
+        "end": 918.17
       },
       {
         "index": 102,
-        "text": "* 6.1.3. Arsa İpoteği Karşılığı TİK ve Arsa Alım Kredisi:",
-        "start": 925.76,
-        "end": 932.98
+        "text": "* Arsa İpoteği Karşılığı TİK ve Arsa Alım Kredisi:",
+        "start": 918.17,
+        "end": 922.69
       },
       {
         "index": 103,
         "text": "- Azami limit arsanın ekspertiz değerinin yüzde 75'ini geçemez.",
-        "start": 932.98,
-        "end": 939.08
+        "start": 922.69,
+        "end": 928.78
       },
       {
         "index": 104,
         "text": "- Teminat: 1. derecede, kredinin yüzde 100 fazlası üzerinden azami had ipoteği.",
-        "start": 939.08,
-        "end": 945.63
+        "start": 928.78,
+        "end": 935.34
       },
       {
         "index": 105,
         "text": "- Eş ve aynı evde oturan evlenmemiş çocukların geliri (kefaletleriyle) dikkate alınabilir.",
-        "start": 945.63,
-        "end": 953.28
+        "start": 935.34,
+        "end": 942.98
       },
       {
         "index": 106,
         "text": "- VADE AYRIMI: Arsa alımı amaçlı \"Arsa Alım Kredisi\"nde azami vade 120 AYDIR; arsa alımı amaçlı olmayan \"Arsa İpoteği Karşılığı TİK\"te ise kademeli 36 / 24 / 12 aydır.",
-        "start": 953.28,
-        "end": 967.71
+        "start": 942.98,
+        "end": 957.42
       },
       {
         "index": 107,
-        "text": "* 6.1.4. Bireysel İşyeri Kredisi (İşyeri Alım ve İşyeri İpoteği Karşılığı TİK):",
-        "start": 967.71,
-        "end": 976.9
+        "text": "* Bireysel İşyeri Kredisi (İşyeri Alım ve İşyeri İpoteği Karşılığı TİK)",
+        "start": 957.42,
+        "end": 963.89
       },
       {
         "index": 108,
         "text": "- Azami limit ekspertiz değerinin yüzde 75'ini geçemez; gayrimenkul hazır (bitmiş) işyeri vasfında ve AZAMİ 40 YAŞINDA olmalıdır.",
-        "start": 976.9,
-        "end": 987.61
+        "start": 963.89,
+        "end": 974.6
       },
       {
         "index": 109,
         "text": "- Teminat: 1. derecede, kredinin yüzde 100 fazlası üzerinden azami had ipoteği tesis edilir; TEMİNATA AYRICA KEFİL ALINMAZ (geliri dahil edilen eş ve aynı evde oturan evlenmemiş çocuk hariç).",
-        "start": 987.61,
-        "end": 1001.83
+        "start": 974.6,
+        "end": 988.82
       },
       {
         "index": 110,
         "text": "- İşyeri Paket Sigortası, Dask ve N Yıl Hayat Sigortası yaptırılır; K K D F yüzde 15, B S M V yüzde 15'tir.",
-        "start": 1001.83,
-        "end": 1011.99
+        "start": 988.82,
+        "end": 998.97
       },
       {
         "index": 111,
         "text": "- VADE AYRIMI: İşyeri alımı amaçlı \"Bireysel İşyeri Alım Kredisi\"nde azami vade 120 AYDIR; mevcut işyeri ipotek alınarak kullandırılan \"Bireysel İşyeri İpoteği Karşılığı TİK\"te ise kademeli 36 / 24 / 12 aydır.",
-        "start": 1011.99,
-        "end": 1028.72
+        "start": 998.97,
+        "end": 1015.7
       },
       {
         "index": 112,
-        "text": "* 6.1.5. Rehin Karşılığı Kredi:",
-        "start": 1028.72,
-        "end": 1034.16
+        "text": "* Rehin Karşılığı Kredi:",
+        "start": 1015.7,
+        "end": 1018.44
       },
       {
         "index": 113,
         "text": "- Teminata kullandırılan kredinin FAİZLİ BAKİYESİ üzerinden Nakit / Türk Lirası Mevduat / DTH Rehni ve Mevduat Rehin Sözleşmesi alınır. Vade kademeli 36 / 24 / 12 aydır.",
-        "start": 1034.16,
-        "end": 1049.25
+        "start": 1018.44,
+        "end": 1033.54
       },
       {
         "index": 114,
-        "text": "* 6.1.6. Otomobil Rehni Karşılığı TİK:",
-        "start": 1049.25,
-        "end": 1055.15
+        "text": "* Otomobil Rehni Karşılığı TİK:",
+        "start": 1033.54,
+        "end": 1036.64
       },
       {
         "index": 115,
         "text": "- Teminata kullandırılan kredinin FAİZLİ BAKİYESİ üzerinden otomobil rehni alınır, AYRICA KEFİL ALINMAZ (eş geliri dahil edilmişse hariç).",
-        "start": 1055.15,
-        "end": 1065.63
+        "start": 1036.64,
+        "end": 1047.12
       },
       {
         "index": 116,
         "text": "- Otomobil AZAMİ 5 (BEŞ) YAŞINDA olmalı ve üzerinde takyidat bulunmamalıdır; maksimum vade 36 aydır.",
-        "start": 1065.63,
-        "end": 1074.76
+        "start": 1047.12,
+        "end": 1056.24
       },
       {
         "index": 117,
         "text": "- Azami Limit: Kasko değeri 400.000 Türk Lirası ve altında olan taşıtlarda değerin yüzde 70'i; 400.000 Türk Lirası üzerinde olan taşıtlarda ise 400.000 Türk Lirası'ye kadar olan kısım için yüzde 70, 400.000 Türk Lirası'nin üstündeki kısım için yüzde 50 olarak hesaplanır.",
-        "start": 1074.76,
-        "end": 1093.3
+        "start": 1056.24,
+        "end": 1074.78
       },
       {
         "index": 118,
-        "text": "* 6.1.7. SKY Kredi ve 6.1.8. Dijital Krediler (Anında Kredi, Hazır Kredi, SKY Kredi):",
-        "start": 1093.3,
-        "end": 1105.2
+        "text": "* SKY Kredi ve 6.1.8. Dijital Krediler (Anında Kredi, Hazır Kredi, SKY Kredi)",
+        "start": 1074.78,
+        "end": 1083.94
       },
       {
         "index": 119,
         "text": "- SKY Limit; \"İhtiyaç Kredisi\", \"Ek Hesap\", \"Kredi Kartı\", \"Konut Kredisi\" ve \"Vinov Limiti\" olarak kullanılabilen çatı limittir.",
-        "start": 1105.2,
-        "end": 1114.83
+        "start": 1083.94,
+        "end": 1093.57
       },
       {
         "index": 120,
         "text": "- SKY Limit ile kullandırım için otomatik istihbarat sonucunun KABUL olması ve K K B skor puanının 1500 PUAN VE ÜZERİNDE olması gerekir.",
-        "start": 1114.83,
-        "end": 1125.51
+        "start": 1093.57,
+        "end": 1104.25
       },
       {
         "index": 121,
         "text": "- Özel sektör çalışanlarının İnternet/Mobil Bankacılık üzerinden kredi kullanabilmeleri için maaş ödemelerinin EN AZ SON 4 AYDIR Bankamız aracılığıyla yapılması gerekir; KAMU ÇALIŞANI VE EMEKLİLERDE BU KOŞUL ARANMAZ.",
-        "start": 1125.51,
-        "end": 1140.35
+        "start": 1104.25,
+        "end": 1119.09
       },
       {
         "index": 122,
         "text": "- Anında Kredi, Hazır Kredi ve SKY Kredi kullandırımı için azami yaş 65'tir.",
-        "start": 1140.35,
-        "end": 1147.21
+        "start": 1119.09,
+        "end": 1125.95
       },
       {
         "index": 123,
-        "text": "B şıkkı: OTOMOBİL KREDİLERİ (0 KM VE 2. EL)",
-        "start": 1147.21,
-        "end": 1152.45
+        "text": "OTOMOBİL KREDİLERİ (0 KM VE 2. EL)",
+        "start": 1125.95,
+        "end": 1130.2
       },
       {
         "index": 124,
         "text": "* Ortak Esaslar:",
-        "start": 1152.45,
-        "end": 1154.73
+        "start": 1130.2,
+        "end": 1132.48
       },
       {
         "index": 125,
         "text": "- K K D F yüzde 15, B S M V yüzde 15, tahsis ücreti azami binde 5'tir.",
-        "start": 1154.73,
-        "end": 1162.76
+        "start": 1132.48,
+        "end": 1140.51
       },
       {
         "index": 126,
         "text": "- Aile Geliri: Eş gelirinin yanında aynı evde oturan EVLENMİŞ ve/veya EVLENMEMİŞ ÇOCUKLARI ile ANNE/BABANIN geliri de (kefalet imzaları alınarak) Şube Müdürünün takdir ve sorumluluğunda dikkate alınabilir.",
-        "start": 1162.76,
-        "end": 1176.77
+        "start": 1140.51,
+        "end": 1154.51
       },
       {
         "index": 127,
-        "text": "* Standart Araçlarda Kredi Üst Limiti ve Azami Vade (0 Km'de Nihai Fatura Değeri / 2. Elde Kasko Değeri):",
-        "start": 1176.77,
-        "end": 1185.46
+        "text": "* Standart Araçlarda Kredi Üst Limiti ve Azami Vade (0 Km'de Nihai Fatura Değeri / 2. Elde Kasko Değeri)",
+        "start": 1154.51,
+        "end": 1163.2
       },
       {
         "index": 128,
         "text": "- 400.000 Türk Lirası (dahil) ve altında: Bedelin yüzde 70'i, azami 48 ay vade (2. el araçlarda araç yaşı 6, 7 veya 8 ise maksimum vade 36 AY uygulanır! )",
-        "start": 1185.46,
-        "end": 1199.54
+        "start": 1163.2,
+        "end": 1177.29
       },
       {
         "index": 129,
         "text": "- 400.001 Türk Lirası - 800.000 Türk Lirası (dahil) arasında: Bedelin yüzde 50'si, azami 36 ay vade",
-        "start": 1199.54,
-        "end": 1208.86
+        "start": 1177.29,
+        "end": 1186.61
       },
       {
         "index": 130,
         "text": "- 800.001 Türk Lirası - 1.200.000 Türk Lirası (dahil) arasında: Bedelin yüzde 30'u, azami 24 ay vade",
-        "start": 1208.86,
-        "end": 1218.97
+        "start": 1186.61,
+        "end": 1196.71
       },
       {
         "index": 131,
         "text": "- 1.200.001 Türk Lirası - 2.000.000 Türk Lirası (dahil) arasında: Bedelin yüzde 20'si, azami 12 ay vade",
-        "start": 1218.97,
-        "end": 1228.67
+        "start": 1196.71,
+        "end": 1206.42
       },
       {
         "index": 132,
         "text": "- 2.000.000 Türk Lirası üzerinde: Kredi kullandırımı YAPILAMAZ.",
-        "start": 1228.67,
-        "end": 1233.79
+        "start": 1206.42,
+        "end": 1211.53
       },
       {
         "index": 133,
         "text": "* Yerli Üretim yüzde 100 Elektrik Motorlu Araçlarda (KVK Geçici 12. Madde) Limit ve Vade:",
-        "start": 1233.79,
-        "end": 1241.65
+        "start": 1211.53,
+        "end": 1219.39
       },
       {
         "index": 134,
         "text": "- 2.500.000 Türk Lirası (dahil) ve altında: Bedelin yüzde 70'i, azami 48 ay vade (2. elde araç yaşı 6, 7 veya 8 ise maksimum vade 36 AY uygulanır! )",
-        "start": 1241.65,
-        "end": 1255.77
+        "start": 1219.39,
+        "end": 1233.51
       },
       {
         "index": 135,
         "text": "- 2.500.001 Türk Lirası - 5.000.000 Türk Lirası (dahil) arasında: Bedelin yüzde 50'si, azami 36 ay vade",
-        "start": 1255.77,
-        "end": 1265.6
+        "start": 1233.51,
+        "end": 1243.35
       },
       {
         "index": 136,
         "text": "- 5.000.001 Türk Lirası - 6.500.000 Türk Lirası (dahil) arasında: Bedelin yüzde 30'u, azami 24 ay vade",
-        "start": 1265.6,
-        "end": 1275.63
+        "start": 1243.35,
+        "end": 1253.37
       },
       {
         "index": 137,
         "text": "- 6.500.001 Türk Lirası - 7.500.000 Türk Lirası (dahil) arasında: Bedelin yüzde 20'si, azami 12 ay vade",
-        "start": 1275.63,
-        "end": 1286.32
+        "start": 1253.37,
+        "end": 1264.07
       },
       {
         "index": 138,
         "text": "- 7.500.000 Türk Lirası üzerinde: Kredi kullandırımı YAPILAMAZ.",
-        "start": 1286.32,
-        "end": 1292.45
+        "start": 1264.07,
+        "end": 1270.19
       },
       {
         "index": 139,
         "text": "* 0 Km Otomobil Kredisi Özel Kuralları:",
-        "start": 1292.45,
-        "end": 1296.62
+        "start": 1270.19,
+        "end": 1274.37
       },
       {
         "index": 140,
         "text": "- Proforma faturadaki Motor No, Şasi No ve Araç Tipi ile sistemden \"Önrehin\" konulur; önrehinden kesin rehine dönüşmesi için EGM tarafından belirtilen süre 1 AYDIR.",
-        "start": 1296.62,
-        "end": 1308.18
+        "start": 1274.37,
+        "end": 1285.92
       },
       {
         "index": 141,
         "text": "- Ön rehinle kullandırım yapılacaksa bayiden alınan \"Erken Ödeme için Genel Garanti Taahhütnamesi\" ile araç rehninin 15 İŞ GÜNÜ içinde gerçekleşeceği güvence altına alınır.",
-        "start": 1308.18,
-        "end": 1320.26
+        "start": 1285.92,
+        "end": 1298.0
       },
       {
         "index": 142,
         "text": "* 2. El Otomobil Kredisi Özel Kuralları:",
-        "start": 1320.26,
-        "end": 1324.25
+        "start": 1298.0,
+        "end": 1301.99
       },
       {
         "index": 143,
         "text": "- Satın alınacak 2. el otomobil EN FAZLA 8 (SEKİZ) YAŞINDA olabilir.",
-        "start": 1324.25,
-        "end": 1330.64
+        "start": 1301.99,
+        "end": 1308.39
       },
       {
         "index": 144,
         "text": "- Noter satış sözleşmesinin düzenlendiği tarihten itibaren 30 GÜN İÇİNDE kredi kullandırılabilir.",
-        "start": 1330.64,
-        "end": 1338.74
+        "start": 1308.39,
+        "end": 1316.49
       },
       {
         "index": 145,
         "text": "- Normal süreçte plaka ve tescil belge numarası ile EGM'de \"Rehin\" şerhi işlenir.",
-        "start": 1338.74,
-        "end": 1345.79
+        "start": 1316.49,
+        "end": 1323.54
       },
       {
         "index": 146,
         "text": "- GASS ile 2. el araç kredisinde başvuru SATICI tarafından oluşturulur, Teminat Alt Türü \"Ön rehin\" seçilir; noter tescili GASS başvuru tarihini takip eden İLK İŞ GÜNÜ MESAİ BİTİMİNE KADAR gerçekleşmezse işlem iptal olur.",
-        "start": 1345.79,
-        "end": 1361.14
+        "start": 1323.54,
+        "end": 1338.89
       },
       {
         "index": 147,
         "text": "- Noter satışından sonra 1 ay geçerli \"Araç Tesciline İlişkin Geçici Belge\" düzenlenmişse, ilk birkaç hafta tescil belge seri no sorgulanamayacağından \"Plaka + Geçici Belgedeki Noter Satış Yevmiye Numarası\" ile kesin rehin işlemi yapılır.",
-        "start": 1361.14,
-        "end": 1376.78
+        "start": 1338.89,
+        "end": 1354.53
       },
       {
         "index": 148,
-        "text": "C şıkkı: KONUT KREDİLERİ, EMLAKÇI KANALI, KENTSEL DÖNÜŞÜM VE NATAMAM PROJELER",
-        "start": 1376.78,
-        "end": 1383.42
+        "text": "KONUT KREDİLERİ, EMLAKÇI KANALI, KENTSEL DÖNÜŞÜM VE NATAMAM PROJELER",
+        "start": 1354.53,
+        "end": 1360.25
       },
       {
         "index": 149,
         "text": "* İnşaat Seviyesi ve Konut Yaşı:",
-        "start": 1383.42,
-        "end": 1386.65
+        "start": 1360.25,
+        "end": 1363.48
       },
       {
         "index": 150,
         "text": "- Hazır konutlar esas olmakla birlikte yüzde 75 SEVİYEDE BİTMİŞ konutlara da konut kredisi kullandırılabilir.",
-        "start": 1386.65,
-        "end": 1395.24
+        "start": 1363.48,
+        "end": 1372.07
       },
       {
         "index": 151,
         "text": "- KOOPERATİF İSTİSNASI: Kooperatif hissesi/üyeliği bulunanların tapularını üzerlerine almaları, konutun mutlaka ASGARİ yüzde 90 İNŞAAT SEVİYESİNDE bulunması ve oturmaya hazır olması şartıyla kredi kullandırılabilir.",
-        "start": 1395.24,
-        "end": 1409.28
+        "start": 1372.07,
+        "end": 1386.11
       },
       {
         "index": 152,
         "text": "- Konut belediye sınırları içinde ve Banka mevzuatına göre EN FAZLA 40 YAŞINDA olmalıdır.",
-        "start": 1409.28,
-        "end": 1417.08
+        "start": 1386.11,
+        "end": 1393.92
       },
       {
         "index": 153,
         "text": "* Konut Kredisinde K K D F ve B S M V Kuralları:",
-        "start": 1417.08,
-        "end": 1422.13
+        "start": 1393.92,
+        "end": 1398.97
       },
       {
         "index": 154,
         "text": "- Kredinin kullanıldığı tarih itibarıyla üzerine kayıtlı konut BULUNMAYAN tüketicilerin konut edinimi amaçlı kredilerinde K K D F ve B S M V MUAFİYETİ (yüzde 0) uygulanır.",
-        "start": 1422.13,
-        "end": 1434.54
+        "start": 1398.97,
+        "end": 1411.37
       },
       {
         "index": 155,
         "text": "- Kredinin kullanıldığı tarih itibarıyla üzerine kayıtlı konut BULUNAN tüketicilerin kredilerinde ise K K D F muafiyeti devam ederken, yüzde 15 B S M V uygulanır.",
-        "start": 1434.54,
-        "end": 1446.71
+        "start": 1411.37,
+        "end": 1423.54
       },
       {
         "index": 156,
         "text": "- İNCE NOKTA: B S M V için konut sahipliğinde YALNIZCA KREDİ MÜŞTERİSİ kontrol edilir; müşterinin konutu varsa hisse oranı ve bulunduğu yer fark etmeksizin kredi B S M V'li olur.",
-        "start": 1446.71,
-        "end": 1460.04
+        "start": 1423.54,
+        "end": 1436.87
       },
       {
         "index": 157,
         "text": "* Sözleşme Öncesi Bilgi Formu ve Erken Ödeme Tazminatı:",
-        "start": 1460.04,
-        "end": 1465.09
+        "start": 1436.87,
+        "end": 1441.92
       },
       {
         "index": 158,
         "text": "- Sözleşme Öncesi Bilgi Formunun tüketiciye verilmesini takip eden 1 (BİR) İŞ GÜNÜ geçmeden imzalanan sözleşme GEÇERSİZDİR.",
-        "start": 1465.09,
-        "end": 1474.76
+        "start": 1441.92,
+        "end": 1451.6
       },
       {
         "index": 159,
         "text": "- Sabit faizli konut kredilerinde erken ödeme/kapama halinde; yapılan faiz indirim tutarını geçmemek kaydıyla kalan vadesi 36 ayı aşmayan kredilerde yüzde 1, kalan vadesi 36 ayı aşan kredilerde yüzde 2 Erken Ödeme Tazminatı alınır (Değişken faizli konut kredilerinde alınmaz).",
-        "start": 1474.76,
-        "end": 1494.63
+        "start": 1451.6,
+        "end": 1471.46
       },
       {
         "index": 160,
         "text": "* Gelir, Teminat ve Sigorta Kuralları:",
-        "start": 1494.63,
-        "end": 1498.24
+        "start": 1471.46,
+        "end": 1475.07
       },
       {
         "index": 161,
         "text": "- Geliri olmayan ev hanımlarına eşinin geliri dikkate alınarak (ve eşinin kefalet imzası alınarak) YALNIZCA KONUT KREDİSİ kullandırılabilir.",
-        "start": 1498.24,
-        "end": 1508.42
+        "start": 1475.07,
+        "end": 1485.25
       },
       {
         "index": 162,
         "text": "- Teminat: 1. derecede, kredinin yüzde 100 fazlası üzerinden azami had ipoteği tesis edilir (müşteri evli ise eşten Şube yetkilileri huzurunda muvafakatname alınır).",
-        "start": 1508.42,
-        "end": 1520.35
+        "start": 1485.25,
+        "end": 1497.19
       },
       {
         "index": 163,
         "text": "- \"Önerilen Teminat\" ile kullandırım yalnızca Konut Kredisi ve Emlakçı Kanalı Konut Kredisi'nde geçerlidir; ipotek tesis edilip gerçek teminata dönüşene kadar kredi tutarı AZAMİ 7 İŞ GÜNÜ boyunca müşteri hesabında kısmi blokeli tutulur.",
-        "start": 1520.35,
-        "end": 1535.74
+        "start": 1497.19,
+        "end": 1512.57
       },
       {
         "index": 164,
         "text": "- Konut kredisi 1. dereceden yakın akrabalar (usul-füru) arasındaki satışları KAPSAMAZ.",
-        "start": 1535.74,
-        "end": 1543.33
+        "start": 1512.57,
+        "end": 1520.16
       },
       {
         "index": 165,
         "text": "- e-ipotek uygulamasında taşınmaz rehin tesis ücreti alınmaz.",
-        "start": 1543.33,
-        "end": 1548.55
+        "start": 1520.16,
+        "end": 1525.39
       },
       {
         "index": 166,
         "text": "- Konut Paket Sigortası ve Dask zorunludur (kredi vadesi boyunca Dask düzenleme/yenileme sorumluluğu Bankamızdadır); ancak, Konut Kredilerinde KREDİ HAYAT SİGORTASI İSTEĞE BAĞLIDIR.",
-        "start": 1548.55,
-        "end": 1561.45
+        "start": 1525.39,
+        "end": 1538.29
       },
       {
         "index": 167,
-        "text": "* 6.4. Emlakçı Kanalı Konut Kredisi:",
-        "start": 1561.45,
-        "end": 1565.54
+        "text": "* Emlakçı Kanalı Konut Kredisi:",
+        "start": 1538.29,
+        "end": 1541.29
       },
       {
         "index": 168,
         "text": "- \"Emlakçı Sadakat Programı\" kapsamında \"Emlakçı Yönlendirme Formu\" ile müşteri yönlendiren emlak ofislerine fatura karşılığında teşvik primi/komisyon ödenir.",
-        "start": 1565.54,
-        "end": 1576.26
+        "start": 1541.29,
+        "end": 1552.02
       },
       {
         "index": 169,
         "text": "- Çalışılan emlak ofislerinde Meslek Odası Kayıt Belgesi ve Taşınmaz Ticareti Hakkında Yönetmelik kapsamında YETKİ BELGESİ alınması zorunludur; oda kaydını yenilemeyenlerle çalışılmaz.",
-        "start": 1576.26,
-        "end": 1589.24
+        "start": 1552.02,
+        "end": 1565.0
       },
       {
         "index": 170,
-        "text": "* 6.5. Kentsel Dönüşüm Kredileri (6306 Sayılı Kanun) ve 6.6. Natamam Projeler:",
-        "start": 1589.24,
-        "end": 1598.29
+        "text": "* Kentsel Dönüşüm Kredileri (6306 Sayılı Kanun) ve 6.6. Natamam Projeler:",
+        "start": 1565.0,
+        "end": 1572.85
       },
       {
         "index": 171,
         "text": "- Kentsel dönüşümde Bakanlık faiz destekli krediden; riskli yapı sahipleri, bu yapılarda EN AZ 1 YILDIR ikamet eden kiracı veya sınırlı ayni hak sahipleri ve riskli alandaki kamu lojmanlarında oturan hak sahipleri yararlanabilir.",
-        "start": 1598.29,
-        "end": 1613.46
+        "start": 1572.85,
+        "end": 1588.03
       },
       {
         "index": 172,
         "text": "- Natamam projelerde projenin Belediye onaylı Yapı Ruhsatının çıkmış olması ve Yüklenici/Satıcı Firma'nın garantörlüğü/kefaleti şarttır.",
-        "start": 1613.46,
-        "end": 1623.51
+        "start": 1588.03,
+        "end": 1598.08
       },
       {
         "index": 173,
-        "text": "5. BİREYSEL KREDİLERDE ÖDEME PLANI, ERKEN ÖDEME VE DEĞİŞKEN TAKSİT",
-        "start": 1623.51,
-        "end": 1629.65
+        "text": "BİREYSEL KREDİLERDE ÖDEME PLANI, ERKEN ÖDEME VE DEĞİŞKEN TAKSİT",
+        "start": 1598.08,
+        "end": 1603.69
       },
       {
         "index": 174,
         "text": "* Eşit Taksitli Ödeme Planı Formülü ve Hesaplama:",
-        "start": 1629.65,
-        "end": 1633.87
+        "start": 1603.69,
+        "end": 1607.91
       },
       {
         "index": 175,
         "text": "- Azalan Bakiyeler Yöntemi uygulanır.",
-        "start": 1633.87,
-        "end": 1637.29
+        "start": 1607.91,
+        "end": 1611.33
       },
       {
         "index": 176,
-        "text": "- Vergili Faiz Oranı ( Dolar r Dolar ): Örneğin aylık faiz Dolar \\yüzde 2,35 Dolar , K K D F Dolar \\yüzde 15 Dolar , B S M V Dolar \\yüzde 15 Dolar ise Dolar r = 2,35 \\times 1,30 = \\yüzde 3,055 = 0,03055 Dolar .",
-        "start": 1637.29,
-        "end": 1657.84
+        "text": "* Taksitlerin Vadesinden Önce Ödenmesi:",
+        "start": 1611.33,
+        "end": 1615.04
       },
       {
         "index": 177,
-        "text": "- Taksit Tutarı ( Dolar A Dolar ) Formülü:",
-        "start": 1657.84,
-        "end": 1661.55
+        "text": "- 1 taksitin vadesinden önce ödenmesi durumunda, O TAKSİT MİKTARI İÇİNDEKİ ANAPARA ÜZERİNDEN kaç gün erken ödeme yapılıyorsa vergili faiz oranından indirim yapılır:",
+        "start": 1615.04,
+        "end": 1626.42
       },
       {
         "index": 178,
-        "text": "Dolar Dolar A = B \\times \\frac{(1 + r)^n \\times r}{(1 + r)^n - 1} Dolar Dolar",
-        "start": 1661.55,
-        "end": 1668.28
+        "text": "Örneğin müşteri yukarıdaki örnek için ilk taksiti 10 gün önce ödemek isterse;",
+        "start": 1626.42,
+        "end": 1632.66
       },
       {
         "index": 179,
-        "text": "( Dolar B Dolar : Kredi Tutarı, Dolar r Dolar : Vergili Faiz Oranı, Dolar n Dolar : Vade)",
-        "start": 1668.28,
-        "end": 1675.89
+        "text": "İlk taksitin anapara tahsilatı x vergili faiz oranı x 10 gün / 3000 = indirim tutarı",
+        "start": 1632.66,
+        "end": 1639.65
       },
       {
         "index": 180,
-        "text": "- Ödenecek Taksit Tutarı = Dolar \\text{Anapara} + \\text{Faiz} + \\text{K K D F} + \\text{B S M V} Dolar .",
-        "start": 1675.89,
-        "end": 1684.24
+        "text": "* Değişken Taksitli Ödeme Planı:",
+        "start": 1639.65,
+        "end": 1642.82
       },
       {
         "index": 181,
-        "text": "* Taksitlerin Vadesinden Önce Ödenmesi:",
-        "start": 1684.24,
-        "end": 1687.94
+        "text": "- Müşteri tarafından belirlenecek değişken taksit tutarı, ORTALAMA TAKSİT TUTARININ YARISINDAN AZ OLAMAZ ve her halükarda ilgili taksite denk gelen faiz ödemelerini karşılaması gerekir.",
+        "start": 1642.82,
+        "end": 1655.35
       },
       {
         "index": 182,
-        "text": "- 1 taksitin vadesinden önce ödenmesi durumunda, O TAKSİT MİKTARI İÇİNDEKİ ANAPARA ÜZERİNDEN kaç gün erken ödeme yapılıyorsa vergili faiz oranından indirim yapılır:",
-        "start": 1687.94,
-        "end": 1699.32
+        "text": "* Kredilerin Erken Kapatılması:",
+        "start": 1655.35,
+        "end": 1658.39
       },
       {
         "index": 183,
-        "text": "Dolar Dolar \\text{İndirim Tutarı} = \\frac{\\text{Taksit İçindeki Anapara} \\times \\text{Vergili Faiz Oranı}}{30 \\times 100} \\times \\text{Erken Ödenen Gün Sayısı} Dolar Dolar",
-        "start": 1699.32,
-        "end": 1711.38
+        "text": "- Taksitin vade tarihinde kapatılırsa vadesi gelen taksit ile kalan anapara birlikte tahsil edilir.",
+        "start": 1658.39,
+        "end": 1666.42
       },
       {
         "index": 184,
-        "text": "* Değişken Taksitli Ödeme Planı:",
-        "start": 1711.38,
-        "end": 1714.54
+        "text": "- Vade tarihinden farklı bir günde kapatılırsa, son taksit tarihinden talebin geldiği güne kadar kalan anapara üzerinden işleyen faiz ve vergiler hesaplanarak tahsil edilir.",
+        "start": 1666.42,
+        "end": 1678.33
       },
       {
         "index": 185,
-        "text": "- Müşteri tarafından belirlenecek değişken taksit tutarı, ORTALAMA TAKSİT TUTARININ YARISINDAN AZ OLAMAZ ve her halükarda ilgili taksite denk gelen faiz ödemelerini karşılaması gerekir.",
-        "start": 1714.54,
-        "end": 1727.08
+        "text": "EK HESAP VE TAKSİTLİ EK HESAP İŞLEMLERİ",
+        "start": 1678.33,
+        "end": 1682.26
       },
       {
         "index": 186,
-        "text": "* Kredilerin Erken Kapatılması:",
-        "start": 1727.08,
-        "end": 1730.12
+        "text": "* Ek Hesap Faiz Hesaplaması ve Kuralları:",
+        "start": 1682.26,
+        "end": 1686.1
       },
       {
         "index": 187,
-        "text": "- Taksitin vade tarihinde kapatılırsa vadesi gelen taksit ile kalan anapara birlikte tahsil edilir.",
-        "start": 1730.12,
-        "end": 1738.15
+        "text": "Adat = Kullanılan Kredi Miktarı / Valöre Göre Kullanılan Kredi Gün Sayısı",
+        "start": 1686.1,
+        "end": 1691.81
       },
       {
         "index": 188,
-        "text": "- Vade tarihinden farklı bir günde kapatılırsa, son taksit tarihinden talebin geldiği güne kadar kalan anapara üzerinden işleyen Dolar \\text{Faiz} + \\text{K K D F} + \\text{B S M V} Dolar hesaplanarak tahsil edilir.",
-        "start": 1738.15,
-        "end": 1752.74
+        "text": "- Faiz = Adat / Yıllık Faiz Oranı *36000 (Oluşan faize yüzde 15 B S M V ve yüzde 15 K K D F eklenir).",
+        "start": 1691.81,
+        "end": 1702.83
       },
       {
         "index": 189,
-        "text": "6. EK HESAP VE TAKSİTLİ EK HESAP İŞLEMLERİ",
-        "start": 1752.74,
-        "end": 1757.11
+        "text": "- Ekstre gönderim tercihi basılı posta ise (faiz tutarı ne olursa olsun) Ek Hesap ekstre ücreti de ilave edilir; ekstre ana kartın adresine gider.",
+        "start": 1702.83,
+        "end": 1713.68
       },
       {
         "index": 190,
-        "text": "* Ek Hesap Faiz Hesaplaması ve Kuralları:",
-        "start": 1757.11,
-        "end": 1760.95
+        "text": "- Alternatif Faiz Ödeme Günleri (2025/416 Sayılı Tebliğ) Her ayın 1 - 5 - 15 - 25. günleri ve her ayın son iş günüdür (tatil gününe gelirse takip eden ilk iş günü gerçekleşir).",
+        "start": 1713.68,
+        "end": 1728.91
       },
       {
         "index": 191,
-        "text": "- Dolar \\text{Adat} = \\text{Kullanılan Kredi Miktarı} \\times \\text{Valöre Göre Kullanılan Kredi Gün Sayısı} Dolar",
-        "start": 1760.95,
-        "end": 1769.17
+        "text": "- Yeni tahsiste ödeme günü seçimi sadece VakıfBank Mobil üzerinden yapılabilir; Şube, İnternet ve A T M tahsislerinde otomatik olarak her ayın son iş günü belirlenir.",
+        "start": 1728.91,
+        "end": 1740.79
       },
       {
         "index": 192,
-        "text": "- Dolar \\text{Faiz} = \\frac{\\text{Adat} \\times \\text{Yıllık Faiz Oranı}}{36000} Dolar (Oluşan faize Dolar \\yüzde 15 Dolar B S M V ve Dolar \\yüzde 15 Dolar K K D F eklenir).",
-        "start": 1769.17,
-        "end": 1783.18
+        "text": "- Müşterilerin yıl içerisinde EN FAZLA 2 ADET ödeme günü değişikliği yapma hakkı vardır.",
+        "start": 1740.79,
+        "end": 1748.28
       },
       {
         "index": 193,
-        "text": "- Ekstre gönderim tercihi basılı posta ise (faiz tutarı ne olursa olsun) Ek Hesap ekstre ücreti de ilave edilir; ekstre ana kartın adresine gider.",
-        "start": 1783.18,
-        "end": 1794.04
+        "text": "- İSTİSNA: OYAK, VİNOV ve Okul Tahsilat Sistemi Ek Hesapları için faiz ödeme günü değişikliği yapılamaz; ödeme günü her ayın son iş günüdür.",
+        "start": 1748.28,
+        "end": 1758.9
       },
       {
         "index": 194,
-        "text": "- Alternatif Faiz Ödeme Günleri (2025/416 Sayılı Tebliğ): Her ayın 1 - 5 - 15 - 25. günleri ve her ayın son iş günüdür (tatil gününe gelirse takip eden ilk iş günü gerçekleşir).",
-        "start": 1794.04,
-        "end": 1809.08
+        "text": "- Gecikme Faizi: Asgari ödeme tutarı ödenmeyen Ek Hesaplara anapara borcu üzerinden gecikme faizi uygulanır; Ek Hesap gecikme faiz oranı akdi faiz oranının 30 BAZ PUAN FAZLASIDIR.",
+        "start": 1758.9,
+        "end": 1772.09
       },
       {
         "index": 195,
-        "text": "- Yeni tahsiste ödeme günü seçimi sadece VakıfBank Mobil üzerinden yapılabilir; Şube, İnternet ve A T M tahsislerinde otomatik olarak her ayın son iş günü belirlenir.",
-        "start": 1809.08,
-        "end": 1820.95
+        "text": "- Şube İade Yetkisi (2025-193 Sayılı Tebliğ) Bankamız sistemi ve personel hatası kaynaklı sebeplerle Ek Hesap faiz tahakkuk tutarı 5.000 Türk Lirası'ye kadar şubelerimiz tarafından iade edilebilir.",
+        "start": 1772.09,
+        "end": 1787.22
       },
       {
         "index": 196,
-        "text": "- Müşterilerin yıl içerisinde EN FAZLA 2 ADET ödeme günü değişikliği yapma hakkı vardır.",
-        "start": 1820.95,
-        "end": 1828.45
+        "text": "* Taksitli Ek Hesap İşlemleri:",
+        "start": 1787.22,
+        "end": 1790.43
       },
       {
         "index": 197,
-        "text": "- İSTİSNA: OYAK, VİNOV ve Okul Tahsilat Sistemi Ek Hesapları için faiz ödeme günü değişikliği yapılamaz; ödeme günü her ayın son iş günüdür.",
-        "start": 1828.45,
-        "end": 1839.07
+        "text": "- Şube, Çağrı Merkezi, A T M, İnternet, Mobil ve POS alışverişi sonrası SMS/Bildirim ile kullanılabilir.",
+        "start": 1790.43,
+        "end": 1799.55
       },
       {
         "index": 198,
-        "text": "- Gecikme Faizi: Asgari ödeme tutarı ödenmeyen Ek Hesaplara anapara borcu üzerinden gecikme faizi uygulanır; Ek Hesap gecikme faiz oranı akdi faiz oranının 30 BAZ PUAN FAZLASIDIR.",
-        "start": 1839.07,
-        "end": 1852.26
+        "text": "- Minimum vade 2 AY, maksimum vade 12 AYDIR.",
+        "start": 1799.55,
+        "end": 1804.55
       },
       {
         "index": 199,
-        "text": "- Şube İade Yetkisi (2025-193 Sayılı Tebliğ): Bankamız sistemi ve personel hatası kaynaklı sebeplerle Ek Hesap faiz tahakkuk tutarı 5.000 Türk Lirası'ye kadar şubelerimiz tarafından iade edilebilir.",
-        "start": 1852.26,
-        "end": 1867.31
+        "text": "- Minimum limit 200 Türk Lirası, maksimum limit müşterinin mevcut Ek Hesap limitinin yüzde 85'İ kadardır.",
+        "start": 1804.55,
+        "end": 1813.94
       },
       {
         "index": 200,
-        "text": "* Taksitli Ek Hesap İşlemleri:",
-        "start": 1867.31,
-        "end": 1870.52
+        "text": "- Taksitli Ek Hesap kullanım yaşı azami 80'dir.",
+        "start": 1813.94,
+        "end": 1818.32
       },
       {
         "index": 201,
-        "text": "- Şube, Çağrı Merkezi, A T M, İnternet, Mobil ve POS alışverişi sonrası SMS/Bildirim ile kullanılabilir.",
-        "start": 1870.52,
-        "end": 1879.64
+        "text": "OYAK ÜYELERİNE KULLANDIRILAN EK HESAP VE TAKSİTLİ İHTİYAÇ KREDİSİ",
+        "start": 1818.32,
+        "end": 1823.58
       },
       {
         "index": 202,
-        "text": "- Minimum vade 2 AY, maksimum vade 12 AYDIR.",
-        "start": 1879.64,
-        "end": 1884.64
+        "text": "* Genel İşleyiş ve Kurum Kodları:",
+        "start": 1823.58,
+        "end": 1826.74
       },
       {
         "index": 203,
-        "text": "- Minimum limit 200 Türk Lirası, maksimum limit müşterinin mevcut Ek Hesap limitinin yüzde 85'İ kadardır.",
-        "start": 1884.64,
-        "end": 1894.03
+        "text": "- OYAK garantörlüğünde kullandırılır; kredi limiti OYAK tarafından belirlenir ve limit artırım talepleri üye tarafından OYAK'a şahsi olarak iletilir.",
+        "start": 1826.74,
+        "end": 1836.79
       },
       {
         "index": 204,
-        "text": "- Taksitli Ek Hesap kullanım yaşı azami 80'dir.",
-        "start": 1894.03,
-        "end": 1898.41
+        "text": "- Tahsis sonrası seçilen Bankomat hesabına otomatik olarak OYAK Kurum Kodu (18001001) verilir.",
+        "start": 1836.79,
+        "end": 1846.27
       },
       {
         "index": 205,
-        "text": "7. OYAK ÜYELERİNE KULLANDIRILAN EK HESAP VE TAKSİTLİ İHTİYAÇ KREDİSİ",
-        "start": 1898.41,
-        "end": 1904.22
+        "text": "- Müşterinin OYAK Tahsilat ve Ödeme Kurum Kodu (18001002) olan Bankomat hesabı varsa sistem o hesabın seçilmesine İZİN VERMEZ.",
+        "start": 1846.27,
+        "end": 1857.7
       },
       {
         "index": 206,
-        "text": "* Genel İşleyiş ve Kurum Kodları:",
-        "start": 1904.22,
-        "end": 1907.38
+        "text": "- OYAK Ek Hesap ve Taksitli İhtiyaç Kredisi ürünlerinden aktif olarak YALNIZCA BİR TANESİ kullanılabilir.",
+        "start": 1857.7,
+        "end": 1866.01
       },
       {
         "index": 207,
-        "text": "- OYAK garantörlüğünde kullandırılır; kredi limiti OYAK tarafından belirlenir ve limit artırım talepleri üye tarafından OYAK'a şahsi olarak iletilir.",
-        "start": 1907.38,
-        "end": 1917.43
+        "text": "* Tahsilat ve Tazmin Süresi:",
+        "start": 1866.01,
+        "end": 1869.05
       },
       {
         "index": 208,
-        "text": "- Tahsis sonrası seçilen Bankomat hesabına otomatik olarak OYAK Kurum Kodu (18001001) verilir.",
-        "start": 1917.43,
-        "end": 1926.91
+        "text": "- 2 AY asgari ödeme tutarı / taksit tutarını yatırmayan üyeler bilgisayar ortamında OYAK'a bildirilir; müşteri bildirimden sonra 30 GÜN süre ile ödeme yapmazsa borç OYAK'tan tahsil edilir.",
+        "start": 1869.05,
+        "end": 1881.92
       },
       {
         "index": 209,
-        "text": "- Müşterinin OYAK Tahsilat ve Ödeme Kurum Kodu (18001002) olan Bankomat hesabı varsa sistem o hesabın seçilmesine İZİN VERMEZ.",
-        "start": 1926.91,
-        "end": 1938.33
+        "text": "CEBE PARA GÖNDER",
+        "start": 1881.92,
+        "end": 1884.4
       },
       {
         "index": 210,
-        "text": "- OYAK Ek Hesap ve Taksitli İhtiyaç Kredisi ürünlerinden aktif olarak YALNIZCA BİR TANESİ kullanılabilir.",
-        "start": 1938.33,
-        "end": 1946.65
+        "text": "* İşleyiş ve İptal/Masraf Kuralları:",
+        "start": 1884.4,
+        "end": 1888.08
       },
       {
         "index": 211,
-        "text": "* Tahsilat ve Tazmin Süresi:",
-        "start": 1946.65,
-        "end": 1949.68
+        "text": "- Alıcının Bankamız müşterisi olması gerekmez; İnternet ve Mobil Bankacılık üzerinden sadece Alıcının T. C. Kimlik Numarası ve Cep Telefonu Numarası girilerek para gönderilir ve tüm VakıfBank A T M'lerinden şifre ile çekilir.",
+        "start": 1888.08,
+        "end": 1903.68
       },
       {
         "index": 212,
-        "text": "- 2 AY asgari ödeme tutarı / taksit tutarını yatırmayan üyeler bilgisayar ortamında OYAK'a bildirilir; müşteri bildirimden sonra 30 GÜN süre ile ödeme yapmazsa borç OYAK'tan tahsil edilir.",
-        "start": 1949.68,
-        "end": 1962.56
+        "text": "- Paranın çekilmesi için alıcıya verilen süre 24 SAATTİR. Bu süre sonunda işlem otomatik iptal edilir, işlem tutarı gönderene iade edilir ancak, TAHSİL EDİLEN MASRAF TUTARI İADE EDİLMEZ.",
+        "start": 1903.68,
+        "end": 1919.29
       },
       {
         "index": 213,
-        "text": "8. CEBE PARA GÖNDER",
-        "start": 1962.56,
-        "end": 1965.67
+        "text": "- İNCE NOKTA: Alıcı parayı çekmeden GÖNDEREN KİŞİ işlemi kendisi iptal ederse MASRAF TUTARI İADE EDİLİR.",
+        "start": 1919.29,
+        "end": 1927.63
       },
       {
         "index": 214,
-        "text": "* İşleyiş ve İptal/Masraf Kuralları:",
-        "start": 1965.67,
-        "end": 1969.35
+        "text": "* Gönderen ve Alıcı Kişi Limitleri:",
+        "start": 1927.63,
+        "end": 1930.93
       },
       {
         "index": 215,
-        "text": "- Alıcının Bankamız müşterisi olması gerekmez; İnternet ve Mobil Bankacılık üzerinden sadece Alıcının T. C. Kimlik Numarası ve Cep Telefonu Numarası girilerek para gönderilir ve tüm VakıfBank A T M'lerinden şifre ile çekilir.",
-        "start": 1969.35,
-        "end": 1984.95
+        "text": "- Günlük: Asgari 50 Türk Lirası | Azami 5.000 Türk Lirası | Azami İşlem Adedi: 2",
+        "start": 1930.93,
+        "end": 1937.88
       },
       {
         "index": 216,
-        "text": "- Paranın çekilmesi için alıcıya verilen süre 24 SAATTİR. Bu süre sonunda işlem otomatik iptal edilir, işlem tutarı gönderene iade edilir ancak, TAHSİL EDİLEN MASRAF TUTARI İADE EDİLMEZ.",
-        "start": 1984.95,
-        "end": 2000.56
+        "text": "- Haftalık: Asgari 50 Türk Lirası | Azami 10.000 Türk Lirası | Azami İşlem Adedi: 4",
+        "start": 1937.88,
+        "end": 1945.08
       },
       {
         "index": 217,
-        "text": "- İNCE NOKTA: Alıcı parayı çekmeden GÖNDEREN KİŞİ işlemi kendisi iptal ederse MASRAF TUTARI İADE EDİLİR.",
-        "start": 2000.56,
-        "end": 2008.9
+        "text": "- Aylık: Asgari 50 Türk Lirası | Azami 15.000 Türk Lirası | Azami İşlem Adedi: 6",
+        "start": 1945.08,
+        "end": 1952.52
       },
       {
         "index": 218,
-        "text": "* Gönderen ve Alıcı Kişi Limitleri:",
-        "start": 2008.9,
-        "end": 2012.2
+        "text": "TASARRUF ÜRÜNLERİ, ÖDEME VE TAHSİLAT HİZMETLERİ",
+        "start": 1952.52,
+        "end": 1956.88
       },
       {
         "index": 219,
-        "text": "- Günlük: Asgari 50 Türk Lirası | Azami 5.000 Türk Lirası | Azami İşlem Adedi: 2",
-        "start": 2012.2,
-        "end": 2019.15
+        "text": "* Tasarruf Ürünleri:",
+        "start": 1956.88,
+        "end": 1959.26
       },
       {
         "index": 220,
-        "text": "- Haftalık: Asgari 50 Türk Lirası | Azami 10.000 Türk Lirası | Azami İşlem Adedi: 4",
-        "start": 2019.15,
-        "end": 2026.35
+        "text": "- Kiralık Kasa (Şubelerimizde küçük, orta ve büyük boy, yıllık ücret karşılığı) ve Altın Çağı Hesabı (vadesiz gram altın alım/satım ve Düzenli Altın Birikim Talimatı).",
+        "start": 1959.26,
+        "end": 1971.62
       },
       {
         "index": 221,
-        "text": "- Aylık: Asgari 50 Türk Lirası | Azami 15.000 Türk Lirası | Azami İşlem Adedi: 6",
-        "start": 2026.35,
-        "end": 2033.79
+        "text": "* Ödeme ve Tahsilat Hizmetleri:",
+        "start": 1971.62,
+        "end": 1974.75
       },
       {
         "index": 222,
-        "text": "9. TASARRUF ÜRÜNLERİ, ÖDEME VE TAHSİLAT HİZMETLERİ",
-        "start": 2033.79,
-        "end": 2038.76
+        "text": "1) Düzenli Ödeme: Fatura tutarını son ödeme gününde hesaptan kurum tahsilat hesabına otomatik virmanla aktarır (Ek Hesap varsa bakiye olmasa dahi ödenir).",
+        "start": 1974.75,
+        "end": 1985.67
       },
       {
         "index": 223,
-        "text": "* Tasarruf Ürünleri:",
-        "start": 2038.76,
-        "end": 2041.14
+        "text": "2) HGS (Hızlı Geçiş Sistemi) Bankamız ve PTT arasındaki protokole istinaden etiket ve kart ile kullanılır.",
+        "start": 1985.67,
+        "end": 1994.77
       },
       {
         "index": 224,
-        "text": "- Kiralık Kasa (Şubelerimizde küçük, orta ve büyük boy, yıllık ücret karşılığı) ve Altın Çağı Hesabı (vadesiz gram altın alım/satım ve Düzenli Altın Birikim Talimatı).",
-        "start": 2041.14,
-        "end": 2053.5
+        "text": "3) VakıfBank Kazandıran Tarife (Dönem Sınırları)",
+        "start": 1994.77,
+        "end": 1999.23
       },
       {
         "index": 225,
-        "text": "* Ödeme ve Tahsilat Hizmetleri:",
-        "start": 2053.5,
-        "end": 2056.63
+        "text": "- VakıfBank Kazandıran Standart Tarife: En fazla 16 DÖNEM",
+        "start": 1999.23,
+        "end": 2004.59
       },
       {
         "index": 226,
-        "text": "1) Düzenli Ödeme: Fatura tutarını son ödeme gününde hesaptan kurum tahsilat hesabına otomatik virmanla aktarır (Ek Hesap varsa bakiye olmasa dahi ödenir).",
-        "start": 2056.63,
-        "end": 2067.55
+        "text": "- VakıfBank Kazandıran Süper Tarife: En fazla 12 DÖNEM",
+        "start": 2004.59,
+        "end": 2009.82
       },
       {
         "index": 227,
-        "text": "2) HGS (Hızlı Geçiş Sistemi): Bankamız ve PTT arasındaki protokole istinaden etiket ve kart ile kullanılır.",
-        "start": 2067.55,
-        "end": 2076.62
+        "text": "- VakıfBank Kazandıran Mega Tarife: En fazla 12 DÖNEM satılabilir.",
+        "start": 2009.82,
+        "end": 2015.84
       },
       {
         "index": 228,
-        "text": "3) VakıfBank Kazandıran Tarife (Dönem Sınırları):",
-        "start": 2076.62,
-        "end": 2081.08
+        "text": "- Müşteriler aynı tarife türünden aktif durumda EN FAZLA 1 ADET tarife satın alabilir; paketler Şubeler aracılığıyla temin edilir ve işlemler A T M ve Şubelerden yapılır.",
+        "start": 2015.84,
+        "end": 2027.84
       },
       {
         "index": 229,
-        "text": "- VakıfBank Kazandıran Standart Tarife: En fazla 16 DÖNEM",
-        "start": 2081.08,
-        "end": 2086.44
+        "text": "4) GASS (Güvenli Araç Satış Sistemi)",
+        "start": 2027.84,
+        "end": 2031.74
       },
       {
         "index": 230,
-        "text": "- VakıfBank Kazandıran Süper Tarife: En fazla 12 DÖNEM",
-        "start": 2086.44,
-        "end": 2091.67
+        "text": "- 2. el araç alım-satımında alıcının yatırdığı bedeli GASS referans no ile blokede bekletip noter satış tescili gerçekleştiği anda satıcı hesabına aktaran sistemdir.",
+        "start": 2031.74,
+        "end": 2043.21
       },
       {
         "index": 231,
-        "text": "- VakıfBank Kazandıran Mega Tarife: En fazla 12 DÖNEM satılabilir.",
-        "start": 2091.67,
-        "end": 2097.69
+        "text": "- Alıcının da satıcının da Bankamız müşterisi olma zorunluluğu YOKTUR.",
+        "start": 2043.21,
+        "end": 2048.53
       },
       {
         "index": 232,
-        "text": "- Müşteriler aynı tarife türünden aktif durumda EN FAZLA 1 ADET tarife satın alabilir; paketler Şubeler aracılığıyla temin edilir ve işlemler A T M ve Şubelerden yapılır.",
-        "start": 2097.69,
-        "end": 2109.69
+        "text": "- Tescil tamamlanana kadar alıcı ve satıcı iptal yapabilir. Başvurunun oluştuğu günün ERTESİ İŞ GÜNÜ MESAİ SONUNA KADAR noterde tescil yapılmazsa başvuru otomatik iptal edilir.",
+        "start": 2048.53,
+        "end": 2062.0
       },
       {
         "index": 233,
-        "text": "4) GASS (Güvenli Araç Satış Sistemi):",
-        "start": 2109.69,
-        "end": 2113.58
+        "text": "5) TGH (Tapu Güvenilir Hesap)",
+        "start": 2062.0,
+        "end": 2065.64
       },
       {
         "index": 234,
-        "text": "- 2. el araç alım-satımında alıcının yatırdığı bedeli GASS referans no ile blokede bekletip noter satış tescili gerçekleştiği anda satıcı hesabına aktaran sistemdir.",
-        "start": 2113.58,
-        "end": 2125.06
+        "text": "- Gayrimenkul alım-satımında TKGM tarafından tapu devri yapılması sonrasında ödemenin güvenli el değiştirmesini sağlar (tapuguvenilirhesap. vakifbank. com. tr portalından takip edilir).",
+        "start": 2065.64,
+        "end": 2081.98
       },
       {
         "index": 235,
-        "text": "- Alıcının da satıcının da Bankamız müşterisi olma zorunluluğu YOKTUR.",
-        "start": 2125.06,
-        "end": 2130.38
+        "text": "SİGORTA ÜRÜNLERİ VE BİREYSEL EMEKLİLİK SİSTEMİ (BES)",
+        "start": 2081.98,
+        "end": 2086.68
       },
       {
         "index": 236,
-        "text": "- Tescil tamamlanana kadar alıcı ve satıcı iptal yapabilir. Başvurunun oluştuğu günün ERTESİ İŞ GÜNÜ MESAİ SONUNA KADAR noterde tescil yapılmazsa başvuru otomatik iptal edilir.",
-        "start": 2130.38,
-        "end": 2143.85
+        "text": "* Temel Kavramlar:",
+        "start": 2086.68,
+        "end": 2089.08
       },
       {
         "index": 237,
-        "text": "5) TGH (Tapu Güvenilir Hesap):",
-        "start": 2143.85,
-        "end": 2147.48
+        "text": "- Sigortacı: Prim karşılığında teminat sağlayan kurum.",
+        "start": 2089.08,
+        "end": 2093.81
       },
       {
         "index": 238,
-        "text": "- Gayrimenkul alım-satımında TKGM tarafından tapu devri yapılması sonrasında ödemenin güvenli el değiştirmesini sağlar (tapuguvenilirhesap. vakifbank. com. tr portalından takip edilir).",
-        "start": 2147.48,
-        "end": 2163.83
+        "text": "- Sigorta Ettiren: Poliçeyi yaptıran ve primi ödeyen kişi.",
+        "start": 2093.81,
+        "end": 2098.67
       },
       {
         "index": 239,
-        "text": "10. SİGORTA ÜRÜNLERİ VE BİREYSEL EMEKLİLİK SİSTEMİ (BES)",
-        "start": 2163.83,
-        "end": 2168.92
+        "text": "- Sigortalı / Lehtar: Sigortadan faydalanacak kişi.",
+        "start": 2098.67,
+        "end": 2103.32
       },
       {
         "index": 240,
-        "text": "* Temel Kavramlar:",
-        "start": 2168.92,
-        "end": 2171.32
+        "text": "- Dain-i Mürtehin (İpotekli/Rehinli Alacaklı) Sigortalının alacaklısı olan kişi/kurumun sigorta tazminatında öncelikli hak sahibi olarak poliçeye yazılması.",
+        "start": 2103.32,
+        "end": 2114.54
       },
       {
         "index": 241,
-        "text": "- Sigortacı: Prim karşılığında teminat sağlayan kurum.",
-        "start": 2171.32,
-        "end": 2176.05
+        "text": "- Kloz: Poliçedeki özel şartlar.",
+        "start": 2114.54,
+        "end": 2117.99
       },
       {
         "index": 242,
-        "text": "- Sigorta Ettiren: Poliçeyi yaptıran ve primi ödeyen kişi.",
-        "start": 2176.05,
-        "end": 2180.91
+        "text": "- Zeyil: Poliçede sonradan yapılan değişiklikleri/eklemeleri gösteren resmi belge.",
+        "start": 2117.99,
+        "end": 2124.5
       },
       {
         "index": 243,
-        "text": "- Sigortalı / Lehtar: Sigortadan faydalanacak kişi.",
-        "start": 2180.91,
-        "end": 2185.56
+        "text": "- Aşkın Sigorta: Sigorta bedelinin malın gerçek ve makul değerinin üzerinde olması (aşan kısım geçersizdir).",
+        "start": 2124.5,
+        "end": 2133.64
       },
       {
         "index": 244,
-        "text": "- Dain-i Mürtehin (İpotekli/Rehinli Alacaklı): Sigortalının alacaklısı olan kişi/kurumun sigorta tazminatında öncelikli hak sahibi olarak poliçeye yazılması.",
-        "start": 2185.56,
-        "end": 2196.76
+        "text": "- Eksik Sigorta: Sigorta bedelinin malın gerçek ve makul değerinin altında olması.",
+        "start": 2133.64,
+        "end": 2140.09
       },
       {
         "index": 245,
-        "text": "- Kloz: Poliçedeki özel şartlar.",
-        "start": 2196.76,
-        "end": 2200.21
+        "text": "* Yetkili Acentelik ve Sertifika Zorunlulukları:",
+        "start": 2140.09,
+        "end": 2144.14
       },
       {
         "index": 246,
-        "text": "- Zeyil: Poliçede sonradan yapılan değişiklikleri/eklemeleri gösteren resmi belge.",
-        "start": 2200.21,
-        "end": 2206.73
+        "text": "- VakıfBank; Türkiye Sigorta Anonim Şirketi. ve Türkiye Katılım Sigorta Anonim Şirketi. 'nin yetkili acentesidir.",
+        "start": 2144.14,
+        "end": 2154.75
       },
       {
         "index": 247,
-        "text": "- Aşkın Sigorta: Sigorta bedelinin malın gerçek ve makul değerinin üzerinde olması (aşan kısım geçersizdir).",
-        "start": 2206.73,
-        "end": 2215.86
+        "text": "- Sigorta satışı için SEGEM sertifikası, Bireysel Emeklilik Sistemi (BES) satışı için BEAS sertifikası zorunludur.",
+        "start": 2154.75,
+        "end": 2163.39
       },
       {
         "index": 248,
-        "text": "- Eksik Sigorta: Sigorta bedelinin malın gerçek ve makul değerinin altında olması.",
-        "start": 2215.86,
-        "end": 2222.31
+        "text": "* Sigorta Branşları:",
+        "start": 2163.39,
+        "end": 2165.87
       },
       {
         "index": 249,
-        "text": "* Yetkili Acentelik ve Sertifika Zorunlulukları:",
-        "start": 2222.31,
-        "end": 2226.37
+        "text": "1) Elementer Branş (10 Ürün)",
+        "start": 2165.87,
+        "end": 2169.44
       },
       {
         "index": 250,
-        "text": "- VakıfBank; Türkiye Sigorta Anonim Şirketi. ve Türkiye Katılım Sigorta Anonim Şirketi. 'nin yetkili acentesidir.",
-        "start": 2226.37,
-        "end": 2236.97
+        "text": "- Zorunlu Deprem Sigortası (Dask) Depremin ve deprem sonucu oluşan yangın, infilak, tsunami ve yer kaymasının maddi zararlarını karşılar. Kredi teminatındaki meskenlerde müşteri yaptırmamışsa kredi kuruluşunca yapılması ve her yıl yenilenmesi zorunludur.",
+        "start": 2169.44,
+        "end": 2188.07
       },
       {
         "index": 251,
-        "text": "- Sigorta satışı için SEGEM sertifikası, Bireysel Emeklilik Sistemi (BES) satışı için BEAS sertifikası zorunludur.",
-        "start": 2236.97,
-        "end": 2245.61
+        "text": "- Konut Sigortası ve İşyeri Sigortası.",
+        "start": 2188.07,
+        "end": 2191.84
       },
       {
         "index": 252,
-        "text": "* Sigorta Branşları:",
-        "start": 2245.61,
-        "end": 2248.09
+        "text": "- Zorunlu Trafik Sigortası: Sadece 3. şahıslara verilen zararları karşılar; Bankamız kredi riskine teminat teşkil etmediğinden kredilerle birlikte satışı zorunlu değildir.",
+        "start": 2191.84,
+        "end": 2204.23
       },
       {
         "index": 253,
-        "text": "1) Elementer Branş (10 Ürün):",
-        "start": 2248.09,
-        "end": 2251.67
+        "text": "- Kasko: İsteğe bağlıdır ancak, kredi riskine teminat teşkil ettiğinden araç kredilerinde yaptırılması istenir.",
+        "start": 2204.23,
+        "end": 2212.86
       },
       {
         "index": 254,
-        "text": "- Zorunlu Deprem Sigortası (Dask): Depremin ve deprem sonucu oluşan yangın, infilak, tsunami ve yer kaymasının maddi zararlarını karşılar. Kredi teminatındaki meskenlerde müşteri yaptırmamışsa kredi kuruluşunca yapılması ve her yıl yenilenmesi zorunludur.",
-        "start": 2251.67,
-        "end": 2270.15
+        "text": "- Ferdi Kaza Sigortaları, Sorumluluk Sigortaları, Nakliyat Sigortaları, Mühendislik Sigortaları ve Tarım Sigortaları.",
+        "start": 2212.86,
+        "end": 2221.39
       },
       {
         "index": 255,
-        "text": "- Konut Sigortası ve İşyeri Sigortası.",
-        "start": 2270.15,
-        "end": 2273.92
+        "text": "2) Hayat Branşı (3 Ürün)",
+        "start": 2221.39,
+        "end": 2224.7
       },
       {
         "index": 256,
-        "text": "- Zorunlu Trafik Sigortası: Sadece 3. şahıslara verilen zararları karşılar; Bankamız kredi riskine teminat teşkil etmediğinden kredilerle birlikte satışı zorunlu değildir.",
-        "start": 2273.92,
-        "end": 2286.31
+        "text": "- Kredi Hayat Sigortası (vefat ve maluliyet teminatlı), Yıllık Hayat Sigortası ve Sağlık Sigortaları (Seyahat, Tamamlayıcı ve Bireysel Sağlık Sigortası).",
+        "start": 2224.7,
+        "end": 2235.73
       },
       {
         "index": 257,
-        "text": "- Kasko: İsteğe bağlıdır ancak, kredi riskine teminat teşkil ettiğinden araç kredilerinde yaptırılması istenir.",
-        "start": 2286.31,
-        "end": 2294.93
+        "text": "* Bireysel Emeklilik Sistemi (BES)",
+        "start": 2235.73,
+        "end": 2239.2
       },
       {
         "index": 258,
-        "text": "- Ferdi Kaza Sigortaları, Sorumluluk Sigortaları, Nakliyat Sigortaları, Mühendislik Sigortaları ve Tarım Sigortaları.",
-        "start": 2294.93,
-        "end": 2303.47
+        "text": "- Yılda 12 DEFA fon değişimi yapılabilir.",
+        "start": 2239.2,
+        "end": 2243.21
       },
       {
         "index": 259,
-        "text": "2) Hayat Branşı (3 Ürün):",
-        "start": 2303.47,
-        "end": 2306.78
+        "text": "- Sistemde EN AZ 10 YIL kalınarak ve 56 YAŞ tamamlanarak emekliliğe hak kazanılır.",
+        "start": 2243.21,
+        "end": 2250.2
       },
       {
         "index": 260,
-        "text": "- Kredi Hayat Sigortası (vefat ve maluliyet teminatlı), Yıllık Hayat Sigortası ve Sağlık Sigortaları (Seyahat, Tamamlayıcı ve Bireysel Sağlık Sigortası).",
-        "start": 2306.78,
-        "end": 2317.81
-      },
-      {
-        "index": 261,
-        "text": "* Bireysel Emeklilik Sistemi (BES):",
-        "start": 2317.81,
-        "end": 2321.28
-      },
-      {
-        "index": 262,
-        "text": "- Yılda 12 DEFA fon değişimi yapılabilir.",
-        "start": 2321.28,
-        "end": 2325.29
-      },
-      {
-        "index": 263,
-        "text": "- Sistemde EN AZ 10 YIL kalınarak ve 56 YAŞ tamamlanarak emekliliğe hak kazanılır.",
-        "start": 2325.29,
-        "end": 2332.28
-      },
-      {
-        "index": 264,
         "text": "- Devlet Katkısı: Aylık ödenen katkı payının yüzde 20'Sİ kadardır; yıllık azami devlet katkısı YILLIK BRÜT ASGARİ ÜCRETİN yüzde 20'SİNİ geçemez.",
-        "start": 2332.28,
-        "end": 2343.19
+        "start": 2250.2,
+        "end": 2261.11
       }
     ]
   },
