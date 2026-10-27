@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (SEPYA TEMA & PDF YAZDIRMA)
+   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (GERÇEK PDF İNDİRME ENGINE)
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .toLocaleLowerCase("tr");
   }
 
-  // 1. TEMA YÖNETİMİ (AYDINLIK / SEPYA / KARANLIK)
+  // 1. TEMA YÖNETİMİ
   const themeIcons = {
     light: "☀️",
     sepya: "📜",
@@ -98,11 +98,66 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 2. PDF YAZDIRMA BUTONU
+  // 2. DOĞRUDAN .PDF İNDİRME MOTORU (html2pdf.js)
   if (printPdfBtn) {
     printPdfBtn.addEventListener("click", () => {
-      window.print();
+      generatePdf();
     });
+  }
+
+  function generatePdf() {
+    const topic = appData[currentTopicId];
+    if (!topic) return;
+
+    printPdfBtn.textContent = "⏳";
+
+    // Temiz PDF Sayfa Düzeni Oluştur
+    const pdfContainer = document.createElement("div");
+    pdfContainer.style.padding = "24px";
+    pdfContainer.style.fontFamily = "sans-serif";
+    pdfContainer.style.color = "#0f172a";
+    pdfContainer.style.backgroundColor = "#ffffff";
+
+    const titleEl = document.createElement("h1");
+    titleEl.style.fontSize = "22px";
+    titleEl.style.fontWeight = "bold";
+    titleEl.style.color = "#0284c7";
+    titleEl.style.marginBottom = "18px";
+    titleEl.style.borderBottom = "2px solid #0284c7";
+    titleEl.style.paddingBottom = "8px";
+    titleEl.textContent = `${topic.title} - Ders Notları`;
+    pdfContainer.appendChild(titleEl);
+
+    topic.paragraphs.forEach((p, idx) => {
+      const pEl = document.createElement("p");
+      pEl.style.fontSize = "13px";
+      pEl.style.lineHeight = "1.6";
+      pEl.style.marginBottom = "12px";
+      pEl.style.color = "#1e293b";
+      pEl.textContent = `${idx + 1}. ${p.text}`;
+      pdfContainer.appendChild(pEl);
+    });
+
+    const opt = {
+      margin: 12,
+      filename: `${topic.title.replace(/\s+/g, '_')}_Ders_Notlari.pdf`,
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2, useCORS: true },
+      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    if (typeof html2pdf !== "undefined") {
+      html2pdf().set(opt).from(pdfContainer).save().then(() => {
+        printPdfBtn.textContent = "📄";
+      }).catch((err) => {
+        console.error("PDF oluşturma hatası:", err);
+        printPdfBtn.textContent = "📄";
+        window.print();
+      });
+    } else {
+      window.print();
+      printPdfBtn.textContent = "📄";
+    }
   }
 
   // 3. AYARLAR MODAL PANELSİ
@@ -190,7 +245,6 @@ document.addEventListener("DOMContentLoaded", () => {
     updatePlayButtonState();
   }
 
-  // iOS KİLİT EKRANI CANLI PARAGRAF GÜNCELLEME
   function updateLockScreenMetadata(topicTitle, paragraphText) {
     if ("mediaSession" in navigator) {
       const displayText = paragraphText || topicTitle;
