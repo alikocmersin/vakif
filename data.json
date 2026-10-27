@@ -5316,5 +5316,901 @@
         "end": 2343.19
       }
     ]
+  },
+  "odemesistemleri": {
+    "id": "odemesistemleri",
+    "title": "Ödeme Sistemleri",
+    "icon": "📲",
+    "duration": 1474.04,
+    "paragraphs": [
+      {
+        "index": 0,
+        "text": "1. KREDİ KARTLARI ÜRÜN ÖZELLİKLERİ",
+        "start": 0.0,
+        "end": 3.77
+      },
+      {
+        "index": 1,
+        "text": "* 1.1. Worldpuan:",
+        "start": 3.77,
+        "end": 6.82
+      },
+      {
+        "index": 2,
+        "text": "- VakıfBank veya World üye işyerlerinden anlaşılan oranda kazanılır ve World işyerlerinde para yerine kullanılır.",
+        "start": 6.82,
+        "end": 15.32
+      },
+      {
+        "index": 3,
+        "text": "* 1.2. Temassız Özelliği ve 1.16. Mobil Temassız Ödeme:",
+        "start": 15.32,
+        "end": 22.7
+      },
+      {
+        "index": 4,
+        "text": "* 1.3. Nakite Taksit ve 1.4. Peşine Taksit:",
+        "start": 22.7,
+        "end": 28.01
+      },
+      {
+        "index": 5,
+        "text": "- Peşine Taksit: Dönem içi hareketlerde yer alan peşin Türk Lirası alışverişleri, İŞLEM SADECE DÖNEM İÇİNDEYKEN Bankamız tüm kanallarından B D D K kurallarına göre uygun vade ile taksitlendirilebilir.",
+        "start": 28.01,
+        "end": 41.97
+      },
+      {
+        "index": 6,
+        "text": "* 1.5. Sözünle Kazan:",
+        "start": 41.97,
+        "end": 45.3
+      },
+      {
+        "index": 7,
+        "text": "- Bireysel ve Ticari Kredi Kartları için 6 veya 12 AY boyunca her ay ekstresinde harcama sözü verilen tutara göre İLK EKSTRESİNE belirlenen tutar indirim olarak yansır (tüm kanallardan söz verilebilir).",
+        "start": 45.3,
+        "end": 59.37
+      },
+      {
+        "index": 8,
+        "text": "* 1.6. Otomatik Fatura Ödeme (Bireysel vs. Ticari Farkı):",
+        "start": 59.37,
+        "end": 65.41
+      },
+      {
+        "index": 9,
+        "text": "- Bireysel Kredi Kartları: Otomatik fatura ödeme talimatlarından MASRAF ALINMAZ; ancak, Bankamız kanallarından yapılan ANLIK fatura ödemelerinden ÜCRET ALINIR.",
+        "start": 65.41,
+        "end": 76.5
+      },
+      {
+        "index": 10,
+        "text": "- Ticari Kredi Kartları: Bankamız kanallarından ödenecek ANLIK fatura veya OTOMATİK fatura talimatlarının her ikisinden de FATURA FAİZİ ALINIR.",
+        "start": 76.5,
+        "end": 86.76
+      },
+      {
+        "index": 11,
+        "text": "* 1.13. Kredi Kartına Hesap Bağlama:",
+        "start": 86.76,
+        "end": 92.25
+      },
+      {
+        "index": 12,
+        "text": "- Bireysel asıl kredi kartları ve Tarım Kartlara vadesiz Türk Lirası ve YP hesapları bağlanarak A T M üzerinden işlem yapılabilir.",
+        "start": 92.25,
+        "end": 102.49
+      },
+      {
+        "index": 13,
+        "text": "- İNCE NOKTA 1: POS cihazlarında kredi kartı ile hesaptan işlem YAPILAMAMAKTADIR.",
+        "start": 102.49,
+        "end": 109.81
+      },
+      {
+        "index": 14,
+        "text": "- İNCE NOKTA 2: Vadesiz Türk Lirası hesaplarının EN FAZLA 4'Ü kredi kartına bağlanabilir; Yabancı Para (YP) hesaplarında ise bir sınır bulunmamaktadır.",
+        "start": 109.81,
+        "end": 121.5
+      },
+      {
+        "index": 15,
+        "text": "* 1.14. Sanal Limit ve Sanal Kredi Kartı:",
+        "start": 121.5,
+        "end": 127.46
+      },
+      {
+        "index": 16,
+        "text": "- Bireysel kredi kartı müşterilerinin sanal limiti kullanılabilir limitine eşittir; müşteri ayrı bir sanal limit belirleyemez (bireysel müşteri farklı oran için Sanal Kart oluşturmalıdır).",
+        "start": 127.46,
+        "end": 139.88
+      },
+      {
+        "index": 17,
+        "text": "- Genel limitten farklı sanal limit belirleme (sanal limit değişikliği) SADECE TİCARİ KARTLAR İÇİN Şubelerimizce gerçekleştirilir.",
+        "start": 139.88,
+        "end": 149.65
+      },
+      {
+        "index": 18,
+        "text": "- Sanal Kart: VakıfBank Worldcard'a bağlı ek karttır, kart ücreti yoktur, bilgilerine SADECE VakıfBank Mobil ve İnternet Bankacılığından ulaşılır, işlemleri asıl kart ekstresinden takip edilir.",
+        "start": 149.65,
+        "end": 163.07
+      },
+      {
+        "index": 19,
+        "text": "- KRİTİK İSTİSNA: Ticari kartlara bağlı sanal kart OLUŞTURULAMAMAKTADIR.",
+        "start": 163.07,
+        "end": 168.93
+      },
+      {
+        "index": 20,
+        "text": "* 1.15. Mobil Bankacılık Cepte Kazan ve 1.17. Karekod (QR) Ödeme:",
+        "start": 168.93,
+        "end": 178.75
+      },
+      {
+        "index": 21,
+        "text": "- Karekod (QR) Ödeme: Kredi Kartları, Bankomat Kartlar ve Ön Ödemeli Kartlar ile VakıfBank Mobil üzerinden POS ekranındaki karekod okutularak kartsız gerçekleştirilir.",
+        "start": 178.75,
+        "end": 190.23
+      },
+      {
+        "index": 22,
+        "text": "2. KREDİ KARTI ÇEŞİTLERİ VE LİMİT / AYRICALIK KRİTERLERİ",
+        "start": 190.23,
+        "end": 195.22
+      },
+      {
+        "index": 23,
+        "text": "* 2.1. Klasik ve Gold Kredi Kartları:",
+        "start": 195.22,
+        "end": 199.29
+      },
+      {
+        "index": 24,
+        "text": "- 1 - 9.999 Türk Lirası arası limitli kartlar KLASİK;",
+        "start": 199.29,
+        "end": 205.51
+      },
+      {
+        "index": 25,
+        "text": "* 2.2. Öğretmenim, ASES ve Kamusen Kredi Kartları:",
+        "start": 205.51,
+        "end": 210.66
+      },
+      {
+        "index": 26,
+        "text": "- Her üç karttan da YILLIK KREDİ KARTI AİDATI ALINMAZ.",
+        "start": 210.66,
+        "end": 215.46
+      },
+      {
+        "index": 27,
+        "text": "- Öğretmenim Kart: Alışverişlerin belli tutarıyla MEB \"Eğitime yüzde 100 Destek Kampanyası\"na destek verilir.",
+        "start": 215.46,
+        "end": 225.21
+      },
+      {
+        "index": 28,
+        "text": "- Kamusen Kart: Alışverişlerin belli tutarı Kamusen'e kaynak olarak aktarılır.",
+        "start": 225.21,
+        "end": 231.03
+      },
+      {
+        "index": 29,
+        "text": "- ASES Kredi Kartı: Sahibi olunabilmesi için POLSAN ve İLKSAN Sandıklarına üye olunması gerekir; anlaşmalı Polis Tesisleri, Öğretmenevleri ve Misafirhanelerde yüzde 5 İNDİRİM sunar.",
+        "start": 231.03,
+        "end": 244.58
+      },
+      {
+        "index": 30,
+        "text": "* 2.3. VakıfBank Platinum Kredi Kartı:",
+        "start": 244.58,
+        "end": 248.86
+      },
+      {
+        "index": 31,
+        "text": "- Kart limitinin 50.000 Türk Lirası VE ÜZERİ limit ile onaylanması gerekir.",
+        "start": 248.86,
+        "end": 255.42
+      },
+      {
+        "index": 32,
+        "text": "- MilPlus Seyahat Programı ile Visa ve Mastercard Platinum'da Worldpuanlar 1,5 KAT, Troy Platinum'da 2 KAT daha değerlidir.",
+        "start": 255.42,
+        "end": 264.9
+      },
+      {
+        "index": 33,
+        "text": "- Avans puan, ücretsiz tren garı lounge, yurt dışı indirim, asistans ve ücretsiz seyahat sigortası (50.000 Türk Lirası harcama koşulu vardır) sunar.",
+        "start": 264.9,
+        "end": 276.2
+      },
+      {
+        "index": 34,
+        "text": "* 2.8. Platinum Plus ve Platinum Plus Metal Kredi Kartı:",
+        "start": 276.2,
+        "end": 281.9
+      },
+      {
+        "index": 35,
+        "text": "- Platinum Plus için aşağıdaki 4 kriterden HERHANGİ BİRİNİN olması yeterlidir:",
+        "start": 281.9,
+        "end": 288.09
+      },
+      {
+        "index": 36,
+        "text": "1) Segmenti VIP olmalı,",
+        "start": 288.09,
+        "end": 291.43
+      },
+      {
+        "index": 37,
+        "text": "2) Başvuru sırasında segmenti VIP olmayan ancak, 1.500.000 Türk Lirası ve üzeri Varlık Toplamı veya Kredi Riski Bakiyesi olmalı,",
+        "start": 291.43,
+        "end": 302.29
+      },
+      {
+        "index": 38,
+        "text": "3) Onaylanan Kredi Kartı limiti 350.000 Türk Lirası ve üzeri olmalı,",
+        "start": 302.29,
+        "end": 308.65
+      },
+      {
+        "index": 39,
+        "text": "4) 6.000.000 Türk Lirası ve üzeri SKY Limit tanımlanmış olmalı.",
+        "start": 308.65,
+        "end": 314.21
+      },
+      {
+        "index": 40,
+        "text": "- Platinum Plus Metal Kredi Kartı: Kriterler (limit hariç) aynıdır; sadece Metal kart limitinin EN AZ 750.000 Türk Lirası olması gerekmektedir.",
+        "start": 314.21,
+        "end": 325.82
+      },
+      {
+        "index": 41,
+        "text": "* 2.10. Private Card / Private Metal Card ve 2.11. Reserve Card:",
+        "start": 325.82,
+        "end": 334.9
+      },
+      {
+        "index": 42,
+        "text": "- Private Card sadece ÖZEL BANKACILIK müşterileri içindir; Reserve Card üst segment müşteriler için tasarlanan metal karttır.",
+        "start": 334.9,
+        "end": 344.36
+      },
+      {
+        "index": 43,
+        "text": "- Ortak Ayrıcalıkları: MilPlus ile Worldpuanlar 2,5 KAT değerlidir, avans puan, ücretsiz tren garı lounge, ücretsiz havalimanı lounge (YILDA 12 KEZ), ücretsiz seyahat sigortası, diğer banka POS'larında yüzde 0,15 puan kazanımı, kiralık kasada yüzde 50 İNDİRİM, KART ÜCRETİ ALINMAMASI.",
+        "start": 344.36,
+        "end": 365.5
+      },
+      {
+        "index": 44,
+        "text": "- Lounge Key Özelliği: Private Metal Card ve Reserve Card'da tüm dünyada 10 KEZ ücretsiz Lounge kullanım imkanı vardır.",
+        "start": 365.5,
+        "end": 375.1
+      },
+      {
+        "index": 45,
+        "text": "* 2.13. Taraftar Kredi Kartları:",
+        "start": 375.1,
+        "end": 380.28
+      },
+      {
+        "index": 46,
+        "text": "- Anlaşmalı kulüpler: Beşiktaş, Fenerbahçe, Galatasaray, Trabzonspor ve Ace Kart.",
+        "start": 380.28,
+        "end": 387.09
+      },
+      {
+        "index": 47,
+        "text": "* 2.14. Like Card ve 2.15. Kampüs Kart:",
+        "start": 387.09,
+        "end": 395.18
+      },
+      {
+        "index": 48,
+        "text": "- Like Card: 18 yaşından büyük, 28 yaşından küçük üniversite öğrencilerine özeldir. Ekstresini SADECE E-EKSTRE olarak isteyen müşterilerden KART ÜCRETİ ALINMAZ.",
+        "start": 395.18,
+        "end": 410.17
+      },
+      {
+        "index": 49,
+        "text": "- Kampüs Kart (Like Card özellikli 5 Üniversite): Sağlık Bilimleri Üniversitesi, Ankara Üniversitesi, Yalova Üniversitesi, Karadeniz Teknik Üniversitesi ve Trabzon Üniversitesi.",
+        "start": 410.17,
+        "end": 422.62
+      },
+      {
+        "index": 50,
+        "text": "* 2.16. Express, 2.17. Click, 2.18. Recycle ve 2.19. Emekli Kart:",
+        "start": 422.62,
+        "end": 436.86
+      },
+      {
+        "index": 51,
+        "text": "- Express Kart ve Emekli Kart: Yıllık kart aidatı alınmaz.",
+        "start": 436.86,
+        "end": 442.02
+      },
+      {
+        "index": 52,
+        "text": "- Click Kart: Başvuru onaylandığında dijital kart hemen açılır; fiziki kartın üzerinde SADECE AD VE SOYAD yer alır (kart bilgileri dijital kanallardadır). Nakit Avans ve Taksitli Nakit Avans ise FİZİKİ KART TESLİM ALINDIKTAN SONRA çekilebilir.",
+        "start": 442.02,
+        "end": 460.25
+      },
+      {
+        "index": 53,
+        "text": "- Recycle Card: yüzde 100 geri dönüşümlü materyalden üretilir, dijital slip ile kağıt kullanımını azaltır, elektrikli araç şarj istasyonlarında özel avantajlar sunar.",
+        "start": 460.25,
+        "end": 472.66
+      },
+      {
+        "index": 54,
+        "text": "* Ticari ve Tarım Kart Çeşitleri:",
+        "start": 472.66,
+        "end": 475.91
+      },
+      {
+        "index": 55,
+        "text": "1) VakıfBank BusinessCard: KOBİ, Ticari ve Kurumsal segment müşterilerinin şirket harcamaları içindir. Asgari ödeme oranı yüzde 40, Hesap Kesim - Son Ödeme Gün Sayısı 5 GÜNDÜR.",
+        "start": 475.91,
+        "end": 491.74
+      },
+      {
+        "index": 56,
+        "text": "- Metal BusinessCard: Ek kart limitinin 2 MİLYON Türk Lirası VE ÜZERİNDE olması şartıyla verilir, yıllık kart ücreti alınmaz, MilPlus'ta Worldpuanlar 2 kat değerlidir.",
+        "start": 491.74,
+        "end": 503.81
+      },
+      {
+        "index": 57,
+        "text": "2) Pro Card: PERAKENDE segmentteki müşterilerin şirket harcamaları içindir; BusinessCard ile ortak özelliklere sahiptir ancak, Pro Card'lardan YILLIK ÜYELİK ÜCRETİ ALINMAZ.",
+        "start": 503.81,
+        "end": 516.61
+      },
+      {
+        "index": 58,
+        "text": "- Metal Pro Card: Ek kart limitinin 750.000 Türk Lirası VE ÜZERİNDE olması şartıyla verilir, yıllık kart ücreti alınmaz, MilPlus'ta Worldpuanlar 2 kat değerlidir.",
+        "start": 516.61,
+        "end": 528.93
+      },
+      {
+        "index": 59,
+        "text": "3) Tarım Kart: Üreticilere yöneliktir; hasat uyumlu yılda bir ödeme imkanı, 6 AYA KADAR ödemesiz dönem avantajı ve yüzde 70 ASGARİ ÖDEME ORANI özelliğine sahiptir.",
+        "start": 528.93,
+        "end": 541.31
+      },
+      {
+        "index": 60,
+        "text": "3. ÖN ÖDEMELİ KARTLAR VE BANKOMAT KARTLAR",
+        "start": 541.31,
+        "end": 545.62
+      },
+      {
+        "index": 61,
+        "text": "* Ön Ödemeli Kartlar Genel Yapısı:",
+        "start": 545.62,
+        "end": 548.88
+      },
+      {
+        "index": 62,
+        "text": "- Ürün bazında bir GÖLGE HESABA bağlı olarak kart numarası bazında takip edilen, kurum VIT Web Portal üzerinden parola ve SMS kodu ile isimsiz anında tanımlanabilen, kredilendirme özelliği olmaksızın yüklenen bakiye kadar kullanılan kartlardır.",
+        "start": 548.88,
+        "end": 565.07
+      },
+      {
+        "index": 63,
+        "text": "* Ön Ödemeli Sosyal Destek Kartlar:",
+        "start": 565.07,
+        "end": 568.52
+      },
+      {
+        "index": 64,
+        "text": "- Valilik, kaymakamlık, belediye ve sosyal yardım kuruluşları (Örn: AFAD Kart, Kocaeli 41 Kart, Elazığ SYDV Sosyal Destek Kart) için sunulur; 2026 Mayıs ayı itibarıyla aktif çalışılan kurum sayısı 158'dir.",
+        "start": 568.52,
+        "end": 585.07
+      },
+      {
+        "index": 65,
+        "text": "- Müşteri olmayanlar için otomatik \"aday müşteri no\" oluşturulur.",
+        "start": 585.07,
+        "end": 590.06
+      },
+      {
+        "index": 66,
+        "text": "* Adalet Bakanlığı Cezaevi Ön Ödemeli Kartlar (Kritik Sınav Detayları):",
+        "start": 590.06,
+        "end": 595.76
+      },
+      {
+        "index": 67,
+        "text": "- Banka-UYAP entegrasyonu ile cezaevleri tarafından anında tanımlanır; bakiye yüklemeleri kurum içindeki POS'lardan yapılır ve sadece cezaevi içi POS'larda (kantin, terzi vb. ) kullanılır.",
+        "start": 595.76,
+        "end": 608.48
+      },
+      {
+        "index": 68,
+        "text": "- SANAL KULLANIM İSTİSNASI: Sadece cezaevlerindeki Kiosklardan yapılan görüntülü ve sesli görüşmelerde TÜRK TELEKOM SANAL POS'undan işlem yapılabilmek üzere sanal kullanıma açıktır.",
+        "start": 608.48,
+        "end": 621.13
+      },
+      {
+        "index": 69,
+        "text": "- A T M KULLANIMI: Tutuklu ve mahkumlar izin veya tahliye sebebiyle cezaevi dışındayken SADECE VAKIFBANK A T M'LERİNDEN ve TAM A T M'LERDEN para çekebilir.",
+        "start": 621.13,
+        "end": 633.07
+      },
+      {
+        "index": 70,
+        "text": "- YENİLEME VE ŞİFRE KURALI: Kartın A T M'de alıkonması, kaybolması, arızalanması durumunda yenileme veya unutulan şifrenin yeniden verilmesi BANKAMIZCA YAPILMAZ; sadece CEZAEVİ tarafından yapılır.",
+        "start": 633.07,
+        "end": 647.19
+      },
+      {
+        "index": 71,
+        "text": "- Şubeden ödeme gerekirse (2024-168 Tebliğ) talep kaydı açılır ve iş birimi yanıtına göre \"Prepaid Para Çek\" ekranından Kart Hamiline, Vasisine veya Velisine ödeme yapılır.",
+        "start": 647.19,
+        "end": 660.71
+      },
+      {
+        "index": 72,
+        "text": "* Bankomat Kartlar Genel Özellikleri ve Limitleri:",
+        "start": 660.71,
+        "end": 664.87
+      },
+      {
+        "index": 73,
+        "text": "- POS ve internet alışverişi bağlı ana hesap olan VADESİZ Türk Lirası hesabın kullanılabilir bakiyesi üzerinden yapılır.",
+        "start": 664.87,
+        "end": 673.28
+      },
+      {
+        "index": 74,
+        "text": "- Bankomat Para: Alt limitleri 10 Türk Lirası ile 100 Türk Lirası arasında 10'un katları şeklinde müşteri tarafından belirlenir ve bu limite ulaşınca hesaba nakit aktarılır (her ay düzenlenen kampanyalardan birine katılmak kartı sisteme dahil eder).",
+        "start": 673.28,
+        "end": 689.65
+      },
+      {
+        "index": 75,
+        "text": "- A T M Günlük Para Çekme Limiti: Günlük 10.000 Türk Lirası olup, masraf karşılığında limit üstü 10.000 Türk Lirası daha çekilebilir.",
+        "start": 689.65,
+        "end": 699.57
+      },
+      {
+        "index": 76,
+        "text": "- YURT DIŞI KULLANIM ŞARTI: Yurt dışı işlemler sadece vadesiz Türk Lirası hesabı üzerinden yapılır; bağlı Türk Lirası hesabında yeterli bakiye olması ve kartın TÜRKİYE'DEKİ VAKIFBANK A T M'SİNDEN EN AZ BİR KERE KULLANILMIŞ OLMASI gerekmektedir.",
+        "start": 699.57,
+        "end": 716.16
+      },
+      {
+        "index": 77,
+        "text": "* Bankomat Kart Türleri İnce Noktaları:",
+        "start": 716.16,
+        "end": 719.67
+      },
+      {
+        "index": 78,
+        "text": "- Like Bankomat ve Genç Bankomat Kart: 24 YAŞ ALTI gençler ve çocuklara sunulur.",
+        "start": 719.67,
+        "end": 726.55
+      },
+      {
+        "index": 79,
+        "text": "- Sanal Bankomat Kart: Vadesiz Türk Lirası hesabına bağlıdır, fiziki kart yoktur, sadece internet alışverişlerinde kullanılır.",
+        "start": 726.55,
+        "end": 735.8
+      },
+      {
+        "index": 80,
+        "text": "- Anında Bankomat Kart: Şubelerden müşteri numarasına bağlanıp hemen teslim edilen isimsiz karttır; normal Bankomat karttan TEK FARKI EK KART OLARAK VERİLEMEMESİDİR.",
+        "start": 735.8,
+        "end": 747.68
+      },
+      {
+        "index": 81,
+        "text": "- Diğer Türler: Temassız Bankomat, Platinum/Platinum Plus/Private Bankomat (daha yüksek Bankomat Para oranı), Taraftar Bankomat ve Emekli Bankomat Kart.",
+        "start": 747.68,
+        "end": 758.99
+      },
+      {
+        "index": 82,
+        "text": "4. KREDİ KARTI BAŞVURU, LİMİT VE OPERASYONEL İŞLEMLER",
+        "start": 758.99,
+        "end": 764.38
+      },
+      {
+        "index": 83,
+        "text": "* 3.1. Kredi Kartı Başvuru Süreci:",
+        "start": 764.38,
+        "end": 768.26
+      },
+      {
+        "index": 84,
+        "text": "- Sadece geçerli bir kimlik belgesi (nüfus cüzdanı, ehliyet veya pasaport) aslı görülerek fotokopisi alınır; ikametgah, fatura, gelir belgesi alınması kaldırılmıştır.",
+        "start": 768.26,
+        "end": 780.23
+      },
+      {
+        "index": 85,
+        "text": "- İSTİSNA: Yabancı uyruklu müşterilerde ikamet izin belgesi veya çalışma izin belgesi istenebilmektedir.",
+        "start": 780.23,
+        "end": 788.99
+      },
+      {
+        "index": 86,
+        "text": "* 3.2. Kredi Kartı Limit Süreci, Yasal Sınırlar ve Yetkiler:",
+        "start": 788.99,
+        "end": 794.75
+      },
+      {
+        "index": 87,
+        "text": "- Limit değişikliklerinde müşteri talebi (DYS'ye dilekçe/form veya SMS onay kodu) zorunludur.",
+        "start": 794.75,
+        "end": 803.16
+      },
+      {
+        "index": 88,
+        "text": "- Sistem kontrollerinde son 20 GÜN (parametrik değer) içinde belirli ret sebepleriyle reddedilmiş başvuru olup olmadığına bakılır.",
+        "start": 803.16,
+        "end": 812.33
+      },
+      {
+        "index": 89,
+        "text": "- LKS (Limit Kontrol Sistemi) Yasal Sınırı (8 Ekim 2013 B D D K Kararı): İlk defa kredi kartı sahibi olacak kişinin tüm bankalardan toplam limiti; İLK YIL gelirinin 2 KATINI, İKİNCİ VE SONRAKİ YILLAR 4 KATINI aşamaz.",
+        "start": 812.33,
+        "end": 829.42
+      },
+      {
+        "index": 90,
+        "text": "- BANKAMIZ MENSUPLARI SINIRI: Bankamız mensuplarına, eş ve velayeti altındaki çocuklarına (Bankacılık Kanunu Md. 50) LKS toplamı gözetilerek gelirlerinin 3 KATI limit tahsisi yapılabilir.",
+        "start": 829.42,
+        "end": 842.53
+      },
+      {
+        "index": 91,
+        "text": "- Eksik Ödeme Sayacı / Ardışık Eksik Ödeme Sayacı: Bir takvim yılı içinde 3 kez (ardışıkta üst üste 3 kez) asgari ödeme tutarının ödenmemesi durumudur. Sayacı 3 ve üzerinde olan müşterinin LİMİT ARTIŞI YAPILAMAZ ve KARTLAR NAKİT ÇEKİME KAPATILIR (üst üste 3 kez ödenmeyenler mal ve hizmet alımına da kapatılır). Sayacın sıfırlanması için SON KESİLEN EKSTRE BORCUNUN (Türk Lirası ve Amerikan Doları) TAMAMININ yatırılması gerekir.",
+        "start": 842.53,
+        "end": 873.65
+      },
+      {
+        "index": 92,
+        "text": "- Nakit / Kıymetli Maden Rehni İstisnası (25 Eyluül 2020 B D D K Düzenlemesi): Karşılığı nakit, nakit benzeri kıymet/hesap ve kıymetli maden olması durumunda, karşılık tutarı geçmemek ve rehin sözleşmesi yapılmak şartıyla GELİR BEYANI/TEYİDİ VE LKS SINIRLAMALARINA TABİ OLMAKSIZIN limit tespit edilebilir.",
+        "start": 873.65,
+        "end": 894.48
+      },
+      {
+        "index": 93,
+        "text": "- Kredi Kartı Tahsis Yetki Tablosu (Nakit Blokesiz / Nakit Blokeli):",
+        "start": 894.48,
+        "end": 899.91
+      },
+      {
+        "index": 94,
+        "text": "* Birim Müdürü: 0 - 3.500.000 Türk Lirası (Blokesiz) | 18.500.000 Türk Lirası (Blokeli)",
+        "start": 899.91,
+        "end": 908.52
+      },
+      {
+        "index": 95,
+        "text": "* Başkan: 3.500.001 Türk Lirası - 7.500.000 Türk Lirası (Blokesiz) | 18.500.001 Türk Lirası - 37.500.000 Türk Lirası (Blokeli)",
+        "start": 908.52,
+        "end": 921.7
+      },
+      {
+        "index": 96,
+        "text": "* Genel Müdür Yrd. : 7.500.001 Türk Lirası - 15.000.000 Türk Lirası (Blokesiz) | 37.500.001 Türk Lirası - 75.000.000 Türk Lirası (Blokeli)",
+        "start": 921.7,
+        "end": 935.8
+      },
+      {
+        "index": 97,
+        "text": "* Genel Müdür: 15.000.001 Türk Lirası Üstü (Blokesiz) | 75.000.001 Türk Lirası Üstü (Blokeli)",
+        "start": 935.8,
+        "end": 943.99
+      },
+      {
+        "index": 98,
+        "text": "* 3.3. Yeniden Değerlendirme Şartları:",
+        "start": 943.99,
+        "end": 948.1
+      },
+      {
+        "index": 99,
+        "text": "- Müşterinin açık takibi olmamalı, başvuru/limit talebi SON 1 AY içerisinde yapılmış olmalı ve gerekçe açıkça belirtilmelidir.",
+        "start": 948.1,
+        "end": 957.02
+      },
+      {
+        "index": 100,
+        "text": "* 4. Operasyonel İşlemler, İtiraz Süreleri ve Kurallar:",
+        "start": 957.02,
+        "end": 962.25
+      },
+      {
+        "index": 101,
+        "text": "- 5464 Sayılı Kanun Zorunlu Süreleri: Kredi kartı iptalleri talep tarihinden itibaren 7 GÜN içinde gerçekleştirilmeli; müşteri itirazları 20 GÜN içinde yanıtlanmalıdır.",
+        "start": 962.25,
+        "end": 975.77
+      },
+      {
+        "index": 102,
+        "text": "- 4.1. Kart Ücreti İtirazları: VIT \"Kart Aidat İtirazı Yap\" menüsünden değerlendirilir, müşteriye bilgi verilir ve AYRICA KAYIT ALINMAZ.",
+        "start": 975.77,
+        "end": 987.26
+      },
+      {
+        "index": 103,
+        "text": "- 4.2. Nakit Çekim ve Harcama İtirazları:",
+        "start": 987.26,
+        "end": 991.81
+      },
+      {
+        "index": 104,
+        "text": "* Kart Hamili İtiraz Süresi: İşlemlere itiraz etme süresi EN FAZLA 120 GÜNDÜR (bilgilendirmeyi Kartlı Sistemler Takas İşlemleri Müdürlüğü yapar).",
+        "start": 991.81,
+        "end": 1002.7
+      },
+      {
+        "index": 105,
+        "text": "* Üye İşyeri ve A T M İtirazları: VIT üzerinden şubelere iletilen kaydın cevaplanma süresi ORTALAMA 5 İŞ GÜNÜDÜR; süresinde dönüş yapılmazsa üye işyeri aleyhine sonuçlanır ve firma hesabından tahsil edilir.",
+        "start": 1002.7,
+        "end": 1017.67
+      },
+      {
+        "index": 106,
+        "text": "- 4.3. Artı Bakiye Transferleri: VIT \"Kredi Kartı Artı Bakiye Transferi\" ekranından kart statüsü ve para birimi (Türk Lirası/Amerikan Doları) ayrımı olmaksızın çekilir. Sistem reddederse VIT Müşteri Talep Yönetimi'nden Kartlı Sistemler Müşteri Hizmetleri Müdürlüğüne kayıt açılır; çözüm süresi AZAMİ 3 İŞ GÜNÜDÜR.",
+        "start": 1017.67,
+        "end": 1041.64
+      },
+      {
+        "index": 107,
+        "text": "- 4.4. Kart İptali: Şubeler aynı gün VIT \"Kart İptal Talebi Al\" ekranından işleme alır; ancak, TARIM KARTLARIN İPTALİ İÇİN Müşteri Talep Yönetiminden kayıt açılmalıdır.",
+        "start": 1041.64,
+        "end": 1054.73
+      },
+      {
+        "index": 108,
+        "text": "- 4.6. Asgari Ödeme Oranları:",
+        "start": 1054.73,
+        "end": 1058.81
+      },
+      {
+        "index": 109,
+        "text": "* Bireysel Kredi Kartı: Limit 50.000 Türk Lirası altında ise yüzde 20 | 50.000 Türk Lirası üzeri ise yüzde 40",
+        "start": 1058.81,
+        "end": 1067.96
+      },
+      {
+        "index": 110,
+        "text": "* Ticari Kredi Kartı: Limit 5 Milyon Türk Lirası'ye kadar ise yüzde 40 | 5 Milyon Türk Lirası ve üzeri ise yüzde 50",
+        "start": 1067.96,
+        "end": 1077.35
+      },
+      {
+        "index": 111,
+        "text": "* Tarım Kartlar: yüzde 70",
+        "start": 1077.35,
+        "end": 1080.77
+      },
+      {
+        "index": 112,
+        "text": "* Mal/hizmet alımları ve nakit çekimlerde taksitlendirme süreleri; Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı, Hazine ve Maliye Bakanlığı ile Ticaret Bakanlığının görüşü alınarak B D D K (Kurul) tarafından belirlenir.",
+        "start": 1080.77,
+        "end": 1095.69
+      },
+      {
+        "index": 113,
+        "text": "- 4.7. Kayıp/Çalıntı Sorumluluğu: Bildirimden önceki 24 SAAT İÇİNDE gerçekleşen hukuka aykırı kullanımdan doğan zararlardan kart hamili 150 Türk Lirası İLE SINIRLI olmak üzere sorumludur; 24 saatten önce gerçekleşen işlemlerden kendisi sorumludur.",
+        "start": 1095.69,
+        "end": 1113.59
+      },
+      {
+        "index": 114,
+        "text": "- 4.8. Yabancı Para (Amerikan Doları) Harcama ve Ödeme: Son ödeme tarihinde ödenmeyen/eksik ödenen Amerikan Doları borcu, SON ÖDEME TARİHİNDEN 1 İŞ GÜNÜ ÖNCEKİ T C M B DÖVİZ SATIŞ KURUNA yüzde 1 EKLENEREK Türk Lirası'ye çevrilir ve hesap kesim tarihi valörüyle Türk Lirası hesabına borç kaydedilir (son ödeme tarihi geçtikten sonra ödeme Amerikan Doları değil Türk Lirası cinsinden yapılmalıdır).",
+        "start": 1113.59,
+        "end": 1141.83
+      },
+      {
+        "index": 115,
+        "text": "- 4.9. Para Yatırma: Kredi kartı limiti para yatırıldığı ANDA açılır; ek karta yapılan ödeme GÜN SONU itibarıyla asıl kart hesabına geçer.",
+        "start": 1141.83,
+        "end": 1152.32
+      },
+      {
+        "index": 116,
+        "text": "- 4.11. Kart Dağıtım Kurye Ayrımı: Müşterilerin ev/iş adreslerine gönderilen kartlar KURYENET / AGT / PTT ile; şubelerimize gönderilmek üzere basılan kartlar ise DHL KARGO tarafından gönderilir.",
+        "start": 1152.32,
+        "end": 1168.68
+      },
+      {
+        "index": 117,
+        "text": "5. ÜYE İŞYERİ YAPISI, TAKAS, WORLD MARKA PAYLAŞIMI VE POS TÜRLERİ",
+        "start": 1168.68,
+        "end": 1174.68
+      },
+      {
+        "index": 118,
+        "text": "* 6. Üye İşyeri Takas Mekanizması:",
+        "start": 1174.68,
+        "end": 1178.44
+      },
+      {
+        "index": 119,
+        "text": "- Takas Komisyonu BKM tarafından aylık olarak belirlenir.",
+        "start": 1178.44,
+        "end": 1183.28
+      },
+      {
+        "index": 120,
+        "text": "- KURAL: Takas komisyonunu ÜYE İŞYERİ SAHİBİ BANKA (Acquirer), KART SAHİBİ BANKAYA (Issuer) öder.",
+        "start": 1183.28,
+        "end": 1191.93
+      },
+      {
+        "index": 121,
+        "text": "- Yurt içi takasta BKM ve T C M B yer alırken; yurt dışı takasta BKM ile birlikte Visa / MasterCard devreye girer.",
+        "start": 1191.93,
+        "end": 1201.59
+      },
+      {
+        "index": 122,
+        "text": "* 7. Üye İşyeri Çalışma Şartlarımız:",
+        "start": 1201.59,
+        "end": 1205.36
+      },
+      {
+        "index": 123,
+        "text": "- Tek Ödeme İşlemler: Komisyonlu (ertesi gün komisyon kesilerek), Valörlü (valör süresi beklenip komisyonsuz) veya Valör + Komisyonlu.",
+        "start": 1205.36,
+        "end": 1216.14
+      },
+      {
+        "index": 124,
+        "text": "- Taksitli İşlemler:",
+        "start": 1216.14,
+        "end": 1218.65
+      },
+      {
+        "index": 125,
+        "text": "* İskontolu İşlemler: Ertesi gün komisyonlu olarak işyeri hesabına yatırılır.",
+        "start": 1218.65,
+        "end": 1224.83
+      },
+      {
+        "index": 126,
+        "text": "* Valörlü İşlemler: İşyeri hesabına İLK TAKSİT 40 GÜN, takip eden taksitler de 40'AR GÜNLÜK PERİYOTLAR halinde yatırılır; ayrıca TİK (taksitli işlem komisyonu) tahsil edilmez.",
+        "start": 1224.83,
+        "end": 1237.55
+      },
+      {
+        "index": 127,
+        "text": "- İNCE NOKTA: Bankamız Ticari Kredi Kartları artı taksit kampanyalarından FAYDALANDIRILMAMAKTADIR. Ticari kartlarda sektörel taksit kısıtı uygulanmaz, genel taksit sınırına tabidir.",
+        "start": 1237.55,
+        "end": 1253.22
+      },
+      {
+        "index": 128,
+        "text": "* 8. World Marka Paylaşımı ve 9. Üye İşyeri Yapısı:",
+        "start": 1253.22,
+        "end": 1258.52
+      },
+      {
+        "index": 129,
+        "text": "- Bankamız ile YKB arasındaki World anlaşması gereği BKM takas komisyon oranının altında bir takas komisyonu uygulanır.",
+        "start": 1258.52,
+        "end": 1267.67
+      },
+      {
+        "index": 130,
+        "text": "- PARAGRAF SONU TUZAĞI: Sadece YKB World Kartlar, VakıfBank World POS'larında World özellikli kabul edilir; AL BARAKA ve ANADOLUBANK World kartları VakıfBank World POS'larında World özellikli olarak KABUL EDİLEMEMEKTEDİR.",
+        "start": 1267.67,
+        "end": 1282.43
+      },
+      {
+        "index": 131,
+        "text": "- Bir üye işyeri aynı anda hem VakıfBank Üye İşyeri hem de VakıfBank World Üye İşyeri OLAMAZ.",
+        "start": 1282.43,
+        "end": 1290.12
+      },
+      {
+        "index": 132,
+        "text": "- 6 AY KURALI: YKB'nin World POS'unu kullandığı halde Bankamızdan World POS talep eden işyerlerine, YKB World üye işyeri iptali yapıldıktan 6 AY SONRA Bankamız World POS'u tahsis edilebilir.",
+        "start": 1290.12,
+        "end": 1303.88
+      },
+      {
+        "index": 133,
+        "text": "- İSTİSNALAR: Birden fazla şubesi olan firmaların YKB World POS'u bulunmayan noktalarına World POS verilebilir; YKB World POS'u olan işyerine World özelliği bulunmayan VakıfBank Üye İşyeri POS'u verilebilir; taksit yapan KAMU kapsamındaki üye işyerlerinde Worldpuan uygulaması zorunlu değildir.",
+        "start": 1303.88,
+        "end": 1323.32
+      },
+      {
+        "index": 134,
+        "text": "* 10. Kartlı Ödeme Sistemleri Kuruluşları:",
+        "start": 1323.32,
+        "end": 1327.14
+      },
+      {
+        "index": 135,
+        "text": "- Bankamız POS'larında Kabul Edilen 5 Kuruluş: Visa, Mastercard, American Express, Troy, China Union Pay.",
+        "start": 1327.14,
+        "end": 1335.69
+      },
+      {
+        "index": 136,
+        "text": "- Kabul Edilmeyenler: JCB ve Diners Club kartları Bankamız POS cihazlarından KABUL EDİLMEMEKTEDİR.",
+        "start": 1335.69,
+        "end": 1344.13
+      },
+      {
+        "index": 137,
+        "text": "* 11. Üye İşyerlerinden Gelir Elde Etme:",
+        "start": 1344.13,
+        "end": 1348.29
+      },
+      {
+        "index": 138,
+        "text": "- Tek ödeme işlemlerde uygulanan komisyon/bloke gün getirisi ile BKM Takas komisyonu arasındaki fark; taksitli işlemlerde ise ortalama vade üzerinden FTF oranı baz alınarak hesaplanan maliyet ile çalışma koşulları arasındaki fark gelir yaratır.",
+        "start": 1348.29,
+        "end": 1364.97
+      },
+      {
+        "index": 139,
+        "text": "* 12. Üye İşyeri POS Türleri ve Ürünleri:",
+        "start": 1364.97,
+        "end": 1369.2
+      },
+      {
+        "index": 140,
+        "text": "- Mobil/GSM/GPRS POS: Satışlarını müşteri adresinde yapan firmalarda (toptancılar vb. ) kullanılır.",
+        "start": 1369.2,
+        "end": 1377.99
+      },
+      {
+        "index": 141,
+        "text": "- Sanal POS (VPOS): Web sitesi üzerinden online satışlar içindir, fiziki cihaz yoktur; risk ihtimaline karşı işyerinin BLOKELİ çalışması tercih edilir.",
+        "start": 1377.99,
+        "end": 1388.94
+      },
+      {
+        "index": 142,
+        "text": "- IP/ADSL POS: Yoğun işlem yapan işyerlerinde internet bağlantısı ile hızlı ve düşük maliyetli çalışır.",
+        "start": 1388.94,
+        "end": 1397.43
+      },
+      {
+        "index": 143,
+        "text": "- Mail-Order POS: Kart fiziki olarak bulunmadan POS tuş takımı ile kart bilgilerinin girilmesidir (telefon/faks siparişleri); riskli olduğundan VALÖRLÜ çalışma koşulu tavsiye edilir.",
+        "start": 1397.43,
+        "end": 1409.9
+      },
+      {
+        "index": 144,
+        "text": "- Linkle Tahsilat POS (VPOS): Entegrasyona gerek kalmadan oluşturulan ödeme linkinin SMS, E-posta, WhatsApp vb. ile alıcıya gönderilmesidir; sadece 3D SECURE güvenliği altında çalışır, NON-SECURE (3D şifresiz) işlem tipi DESTEKLENMEMEKTEDİR.",
+        "start": 1409.9,
+        "end": 1427.92
+      },
+      {
+        "index": 145,
+        "text": "- Döviz POS: Yurt dışı kartlara döviz cinsinden satış sağlar; kullanılan 5 kur: Türk Lirası, Amerikan Doları, Avro, JPY ve İngiliz Sterlini.",
+        "start": 1427.92,
+        "end": 1439.31
+      },
+      {
+        "index": 146,
+        "text": "- Doktor POS: 1 Haziran 2008'den itibaren serbest çalışan Doktor, Diş Hekimi ve Veterinerlerin bulundurması zorunlu olan, slipte vergi no, sıra no, stopaj, K D V, muayene ücreti ve SERBEST MESLEK MAKBUZU YERİNE GEÇTİĞİ bilgileri yer alan POS ürünüdür (ÖKC geçişi sonrası işlevini kaybetme noktasındadır).",
+        "start": 1439.31,
+        "end": 1460.73
+      },
+      {
+        "index": 147,
+        "text": "- Multi-Acquirer / Multi-Merchant POS: Tek POS üzerinde farklı işyerleri üzerinden işlem yapabilme imkanı sağlar (Örn: Kapıda ödemede kargo ücreti ve ürün bedelinin ayrı hesaplara çekilmesi).",
+        "start": 1460.73,
+        "end": 1474.04
+      }
+    ]
   }
 }
