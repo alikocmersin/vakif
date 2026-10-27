@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (iOS KİLİT EKRANI DİNAMİK METİN)
+   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (SEPYA TEMA & PDF YAZDIRMA)
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -17,11 +17,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const searchResultCount = document.getElementById("searchResultCount");
   const otherTopicSuggestions = document.getElementById("otherTopicSuggestions");
   const focusActiveBtn = document.getElementById("focusActiveBtn");
+  const printPdfBtn = document.getElementById("printPdfBtn");
   const themeToggleBtn = document.getElementById("themeToggleBtn");
   const settingsBtn = document.getElementById("settingsBtn");
   const settingsModal = document.getElementById("settingsModal");
   const closeModalBtn = document.getElementById("closeModalBtn");
   const speedSelect = document.getElementById("speedSelect");
+  const themeSelect = document.getElementById("themeSelect");
   const fontSizeSelect = document.getElementById("fontSizeSelect");
   const autoScrollCheck = document.getElementById("autoScrollCheck");
   const progressSlider = document.getElementById("progressSlider");
@@ -55,19 +57,36 @@ document.addEventListener("DOMContentLoaded", () => {
       .toLocaleLowerCase("tr");
   }
 
-  // 1. TEMA VE METİN BOYUTU YÖNETİMİ
-  const savedTheme = localStorage.getItem("theme") || "light";
-  document.documentElement.setAttribute("data-theme", savedTheme);
-  themeToggleBtn.textContent = savedTheme === "dark" ? "☀️" : "🌙";
+  // 1. TEMA YÖNETİMİ (AYDINLIK / SEPYA / KARANLIK)
+  const themeIcons = {
+    light: "☀️",
+    sepya: "📜",
+    dark: "🌙"
+  };
+
+  let savedTheme = localStorage.getItem("theme") || "light";
+  setTheme(savedTheme);
+
+  function setTheme(theme) {
+    savedTheme = theme;
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+    themeToggleBtn.textContent = themeIcons[theme] || "☀️";
+    if (themeSelect) themeSelect.value = theme;
+  }
 
   themeToggleBtn.addEventListener("click", () => {
-    const currentTheme = document.documentElement.getAttribute("data-theme");
-    const newTheme = currentTheme === "dark" ? "light" : "dark";
-    document.documentElement.setAttribute("data-theme", newTheme);
-    localStorage.setItem("theme", newTheme);
-    themeToggleBtn.textContent = newTheme === "dark" ? "☀️" : "🌙";
+    const themeCycle = ["light", "sepya", "dark"];
+    const currentIndex = themeCycle.indexOf(savedTheme);
+    const nextTheme = themeCycle[(currentIndex + 1) % themeCycle.length];
+    setTheme(nextTheme);
   });
 
+  if (themeSelect) {
+    themeSelect.addEventListener("change", (e) => setTheme(e.target.value));
+  }
+
+  // METİN BOYUTU YÖNETİMİ
   const savedFontSize = localStorage.getItem("fontSize") || "16.5px";
   document.documentElement.style.setProperty("--para-font-size", savedFontSize);
   if (fontSizeSelect) {
@@ -79,7 +98,14 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 2. AYARLAR MODAL PANELSİ
+  // 2. PDF YAZDIRMA BUTONU
+  if (printPdfBtn) {
+    printPdfBtn.addEventListener("click", () => {
+      window.print();
+    });
+  }
+
+  // 3. AYARLAR MODAL PANELSİ
   settingsBtn.addEventListener("click", () => settingsModal.classList.add("active"));
   closeModalBtn.addEventListener("click", () => settingsModal.classList.remove("active"));
   settingsModal.addEventListener("click", (e) => {
@@ -94,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // 3. VERİ YÜKLEME (data.json)
+  // 4. VERİ YÜKLEME (data.json)
   fetch("data.json")
     .then((res) => res.json())
     .then((data) => {
@@ -109,7 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>`;
     });
 
-  // 4. KONU NAVİGASYON
+  // 5. KONU NAVİGASYON
   function initNavigation() {
     topicsNav.innerHTML = "";
 
@@ -134,7 +160,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 5. KONU YÜKLEME
+  // 6. KONU YÜKLEME
   function loadTopic(topicId) {
     const wasPlaying = !audioPlayer.paused;
 
@@ -164,10 +190,9 @@ document.addEventListener("DOMContentLoaded", () => {
     updatePlayButtonState();
   }
 
-  // iOS KİLİT EKRANI CANLI PARAGRAF GÜNCELLEME (Media Session API)
+  // iOS KİLİT EKRANI CANLI PARAGRAF GÜNCELLEME
   function updateLockScreenMetadata(topicTitle, paragraphText) {
     if ("mediaSession" in navigator) {
-      // Kilit ekranında tam okunan metin kutusunu başlık olarak göster
       const displayText = paragraphText || topicTitle;
 
       navigator.mediaSession.metadata = new MediaMetadata({
@@ -257,7 +282,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // 6. SESE GÖRE PARAGRAF VURGULAMA & KİLİT EKRANINA CANLI YAZMA
+  // 7. SESE GÖRE PARAGRAF VURGULAMA
   audioPlayer.addEventListener("timeupdate", () => {
     const currentTime = audioPlayer.currentTime;
     const duration = audioPlayer.duration || 1;
@@ -305,7 +330,6 @@ document.addEventListener("DOMContentLoaded", () => {
       if (cardIndex === index) {
         card.classList.add("active-reading");
 
-        // iPhone Kilit Ekranına O An Okunan Cümleyi Canlı Aktar
         const paragraphText = card.dataset.rawText || card.textContent;
         if (currentTopic) {
           updateLockScreenMetadata(currentTopic.title, paragraphText);
@@ -347,7 +371,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // 7. KULLANICI KAYDIRMA SENKRONİZASYONU
+  // 8. KULLANICI KAYDIRMA SENKRONİZASYONU
   window.addEventListener("scroll", () => {
     if (isAutoScrolling) return;
 
@@ -389,7 +413,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // 8. TÜRKÇE KARAKTER UYUMLU GELİŞMİŞ ARAMA
+  // 9. GELİŞMİŞ ARAMA
   searchInput.addEventListener("input", (e) => {
     performSearch(e.target.value);
   });
@@ -487,7 +511,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   }
 
-  // 9. OYNAT / BEKLE KONTROLÜ
+  // 10. OYNAT / BEKLE KONTROLÜ
   playToggleBtn.addEventListener("click", () => {
     if (audioPlayer.paused) {
       audioPlayer.play().catch((e) => console.log("Oynatma hatası:", e));

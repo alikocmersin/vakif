@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA WEB UYGULAMASI (KUSURSUZ MERKEZİ MODAL)
+   METİN SESLENDİRME & KARAOKE OKUMA WEB UYGULAMASI (SEPYA TEMA & PDF/YAZDIR)
    ========================================================================== */
 
 :root {
@@ -21,6 +21,26 @@
   --para-font-size: 16.5px;
 }
 
+/* 📜 SEPYA (GÖZ YAKMAYAN KİTAP SARISI) TEMA */
+[data-theme="sepya"] {
+  --bg-color: #fbf0d9;
+  --card-bg: #f4e4bc;
+  --text-main: #433422;
+  --text-muted: #7c684e;
+  --primary-color: #a06028;
+  --primary-light: #ebd6a7;
+  --active-highlight: #e8cc82;
+  --active-text: #2c1d0b;
+  --active-border: #c89d38;
+  --border-color: #e2d1a8;
+  --header-bg: rgba(251, 240, 217, 0.9);
+  --control-bg: #f4e4bc;
+  --shadow-color: rgba(67, 52, 34, 0.12);
+  --mark-bg: #e2bf65;
+  --mark-color: #2c1d0b;
+}
+
+/* 🌙 KARANLIK TEMA */
 [data-theme="dark"] {
   --bg-color: #0f172a;
   --card-bg: #1e293b;
@@ -395,9 +415,7 @@ mark {
   cursor: pointer;
 }
 
-/* ==========================================================================
-   AYARLAR MODAL (HEM MASAÜSTÜ BİLGİSAYAR HEM MOBİLDE %100 TAM MERKEZİ)
-   ========================================================================== */
+/* AYARLAR MODAL */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -409,7 +427,7 @@ mark {
   -webkit-backdrop-filter: blur(8px);
   z-index: 9999;
   display: grid;
-  place-items: center; /* Matematiksel Tam Merkez Hizalama */
+  place-items: center;
   padding: 20px;
   opacity: 0;
   pointer-events: none;
@@ -484,4 +502,46 @@ mark {
   font-size: 14px;
   outline: none;
   font-family: inherit;
+}
+
+/* ==========================================================================
+   📄 YAZDIRMA VE PDF ÇIKTISI TASARIMI (@media print)
+   ========================================================================== */
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    padding: 0 !important;
+    font-size: 12pt !important;
+    line-height: 1.5 !important;
+  }
+
+  .header-bar,
+  .search-info-bar,
+  .topics-nav,
+  .focus-active-btn,
+  .audio-bar,
+  .modal-overlay,
+  .clear-search-btn {
+    display: none !important;
+  }
+
+  .content-area {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .paragraph-card {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 6px 0 !important;
+    margin-bottom: 12px !important;
+    color: #000000 !important;
+    page-break-inside: avoid;
+  }
+
+  .paragraph-card.active-reading::before {
+    content: "" !important;
+  }
 }

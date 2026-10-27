@@ -25,8 +25,10 @@
 
     <!-- Sağ Aksiyon İkonları -->
     <div class="header-actions">
-      <!-- Aydınlık / Karanlık Mod İkonu -->
-      <button id="themeToggleBtn" class="icon-btn" title="Aydınlık / Karanlık Tema">🌙</button>
+      <!-- PDF / Yazdır İkonu -->
+      <button id="printPdfBtn" class="icon-btn" title="Ders Notunu PDF Yap / Yazdır">📄</button>
+      <!-- Tema Değiştirme İkonu (Aydınlık / Sepya / Karanlık) -->
+      <button id="themeToggleBtn" class="icon-btn" title="Tema Değiştir (Aydınlık / Sepya / Karanlık)">🌙</button>
       <!-- Ayarlar İkonu -->
       <button id="settingsBtn" class="icon-btn" title="Ayarlar">⚙️</button>
     </div>
@@ -64,7 +66,7 @@
 
     <!-- Ana Kontroller -->
     <div class="controls-main">
-      <div class="current-topic-label" id="currentTopicTitle">Mevduat İşlemleri</div>
+      <div class="current-topic-label" id="currentTopicTitle">Genel Bilgiler</div>
 
       <!-- Ana Başlat / Bekle Tuşu -->
       <button id="playToggleBtn" class="play-toggle-btn">
@@ -83,6 +85,16 @@
       <div class="modal-header">
         <h3 class="modal-title">Okuma & Ses Ayarları</h3>
         <button class="modal-close-btn" id="closeModalBtn">&times;</button>
+      </div>
+
+      <!-- Tema Seçeneği (Aydınlık / Sepya / Karanlık) -->
+      <div class="setting-option">
+        <span class="setting-label">Görünüm Teması</span>
+        <select id="themeSelect" class="speed-select">
+          <option value="light">☀️ Aydınlık</option>
+          <option value="sepya">📜 Sepya (Göz Yakmayan Kitap)</option>
+          <option value="dark">🌙 Karanlık (Gece)</option>
+        </select>
       </div>
 
       <!-- Metin Boyutu Seçimi -->
