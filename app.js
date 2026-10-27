@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (ÖZEL KONU SIRALAMASI)
+   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (TÜRKÇE ARAMA & KONU SENKRONU)
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -40,6 +40,20 @@ document.addEventListener("DOMContentLoaded", () => {
   let isAutoScrolling = false;
   let scrollTimeout = null;
   let isMuted = false;
+
+  // TÜRKÇE HARF BÜYÜTME/KÜÇÜLTME (CASING) DÜZELTME YARDIMCISI
+  function turkishNormalize(str) {
+    if (!str) return "";
+    return str
+      .replace(/İ/g, "i")
+      .replace(/I/g, "ı")
+      .replace(/Ğ/g, "ğ")
+      .replace(/Ü/g, "ü")
+      .replace(/Ş/g, "ş")
+      .replace(/Ö/g, "ö")
+      .replace(/Ç/g, "ç")
+      .toLocaleLowerCase("tr");
+  }
 
   // 1. TEMA VE METİN BOYUTU YÖNETİMİ
   const savedTheme = localStorage.getItem("theme") || "light";
@@ -95,13 +109,11 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>`;
     });
 
-  // 4. KONU NAVİGASYON (ÖZEL İSTENEN SIRALAMA İLE)
+  // 4. KONU NAVİGASYON
   function initNavigation() {
     topicsNav.innerHTML = "";
 
-    // topicOrder dizisindeki sıraya göre çizdir
     const availableKeys = topicOrder.filter(key => appData[key]);
-    // Eğer data.json'da topicOrder dışında anahtar varsa onları da sona ekle
     Object.keys(appData).forEach(key => {
       if (!availableKeys.includes(key)) availableKeys.push(key);
     });
@@ -122,8 +134,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 5. KONU YÜKLEME & MEDIA SESSION API
+  // 5. KONU YÜKLEME & OYNATMA DURUMU SENKRONİZASYONU
   function loadTopic(topicId) {
+    // Geçiş yapılmadan önce ses çalıyor muydu kontrol et
+    const wasPlaying = !audioPlayer.paused;
+
     currentTopicId = topicId;
     activeParagraphIndex = -1;
 
@@ -140,8 +155,14 @@ document.addEventListener("DOMContentLoaded", () => {
     audioPlayer.load();
 
     renderParagraphs(topic.paragraphs);
-    updatePlayButtonState();
     setupMediaSession(topic);
+
+    // Eğer geçiş yapılmadan önce ses çalıyorsa, yeni konunun sesini de otomatik oynat
+    if (wasPlaying) {
+      audioPlayer.play().catch((e) => console.log("Otomatik konu geçişi oynatma uyarısı:", e));
+    }
+
+    updatePlayButtonState();
   }
 
   function setupMediaSession(topic) {
@@ -188,7 +209,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (currentIndex !== -1) {
       let targetIndex = (currentIndex + offset + keys.length) % keys.length;
       loadTopic(keys[targetIndex]);
-      audioPlayer.play();
     }
   }
 
@@ -355,7 +375,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // 8. GELİŞMİŞ ARAMA
+  // 8. TÜRKÇE KARAKTER UYUMLU GELİŞMİŞ ARAMA
   searchInput.addEventListener("input", (e) => {
     performSearch(e.target.value);
   });
@@ -365,9 +385,10 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   function performSearch(query) {
-    query = query.trim().toLowerCase();
+    const rawQuery = query.trim();
+    const normQuery = turkishNormalize(rawQuery);
 
-    if (!query) {
+    if (!normQuery) {
       clearSearch(false);
       return;
     }
@@ -381,9 +402,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     cards.forEach((card) => {
       const rawText = card.dataset.rawText || card.textContent;
-      const textLower = rawText.toLowerCase();
+      const normText = turkishNormalize(rawText);
 
-      if (textLower.includes(query)) {
+      if (normText.includes(normQuery)) {
         card.classList.remove("hidden");
         currentTopicMatchCount++;
 
@@ -391,7 +412,7 @@ document.addEventListener("DOMContentLoaded", () => {
           firstMatchedCard = card;
         }
 
-        const regex = new RegExp(`(${escapeRegExp(query)})`, "gi");
+        const regex = new RegExp(`(${escapeRegExp(rawQuery)})`, "gi");
         card.innerHTML = rawText.replace(regex, "<mark>$1</mark>");
       } else {
         card.classList.add("hidden");
@@ -407,25 +428,26 @@ document.addEventListener("DOMContentLoaded", () => {
       setTimeout(() => { isAutoScrolling = false; }, 500);
     }
 
-    checkOtherTopicsSearch(query);
+    checkOtherTopicsSearch(normQuery);
   }
 
-  function checkOtherTopicsSearch(query) {
+  function checkOtherTopicsSearch(normQuery) {
     otherTopicSuggestions.innerHTML = "";
     Object.keys(appData).forEach((topicId) => {
       if (topicId === currentTopicId) return;
 
       const topic = appData[topicId];
-      const matchCount = topic.paragraphs.filter((p) => p.text.toLowerCase().includes(query)).length;
+      const matchCount = topic.paragraphs.filter((p) => turkishNormalize(p.text).includes(normQuery)).length;
 
       if (matchCount > 0) {
         const chip = document.createElement("button");
         chip.className = "suggestion-chip";
         chip.textContent = `${topic.title}: ${matchCount} sonuç -> Git`;
         chip.addEventListener("click", () => {
+          const queryVal = searchInput.value;
           loadTopic(topicId);
-          searchInput.value = query;
-          performSearch(query);
+          searchInput.value = queryVal;
+          performSearch(queryVal);
         });
         otherTopicSuggestions.appendChild(chip);
       }
