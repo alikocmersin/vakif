@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Metin Seslendirme ve Karaoke Okuma</title>
+
+  <!-- iOS Web App Meta Tags -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#f8fafc">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SADE VE KALABALIKSIZ ÜST BÖLÜM -->
+  <header class="header-bar">
+    <!-- Sol Arama Çubuğu -->
+    <div class="search-container">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" class="search-input" placeholder="Konularda Ara..." autocomplete="off">
+    </div>
+
+    <!-- Sağ Aksiyon İkonları -->
+    <div class="header-actions">
+      <!-- Aydınlık / Karanlık Mod İkonu -->
+      <button id="themeToggleBtn" class="icon-btn" title="Aydınlık / Karanlık Tema">🌙</button>
+      <!-- Ayarlar İkonu -->
+      <button id="settingsBtn" class="icon-btn" title="Ayarlar">⚙️</button>
+    </div>
+  </header>
+
+  <!-- KONU KATALOG BUTONLARI -->
+  <nav class="topics-nav" id="topicsNav">
+    <!-- JavaScript ile Dinamik Doldurulur -->
+  </nav>
+
+  <!-- METİN GÖSTERİM & KARAOKE OKUMA ALANI -->
+  <main class="content-area" id="contentArea">
+    <!-- Dinamik Metin Kartları (Paragraflar) Burada Görünür -->
+  </main>
+
+  <!-- SABİT ALT SES KONTROL BARI -->
+  <div class="audio-bar">
+    <!-- İlerleme Çubuğu & Süre -->
+    <div class="progress-container">
+      <span id="currentTimeLabel">00:00</span>
+      <input type="range" id="progressSlider" class="progress-slider" min="0" max="100" value="0">
+      <span id="totalTimeLabel">00:00</span>
+    </div>
+
+    <!-- Ana Kontroller -->
+    <div class="controls-main">
+      <div class="current-topic-label" id="currentTopicTitle">Mevduat İşlemleri</div>
+
+      <!-- Ana Başlat / Duraklat Tuşu (Sessize Al / Başlat) -->
+      <button id="playToggleBtn" class="play-toggle-btn">
+        <span id="playIcon">⏸️</span>
+        <span id="playText">Sessize Al</span>
+      </button>
+
+      <!-- Mute Tuşu -->
+      <button id="muteBtn" class="mute-btn" title="Sesi Aç/Kapat">🔊</button>
+    </div>
+  </div>
+
+  <!-- AYARLAR MODAL PANELSİ -->
+  <div class="modal-overlay" id="settingsModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">Okuma Ayarları</h3>
+        <button class="modal-close-btn" id="closeModalBtn">&times;</button>
+      </div>
+
+      <div class="setting-option">
+        <span class="setting-label">Okuma Hızı</span>
+        <select id="speedSelect" class="speed-select">
+          <option value="0.8">0.8x (Daha Yavaş)</option>
+          <option value="0.9">0.9x (Sakin)</option>
+          <option value="1.0" selected>1.0x (Normal)</option>
+          <option value="1.1">1.1x (Hızlı)</option>
+          <option value="1.25">1.25x (Çok Hızlı)</option>
+        </select>
+      </div>
+
+      <div class="setting-option">
+        <span class="setting-label">Otomatik Kaydırma</span>
+        <input type="checkbox" id="autoScrollCheck" checked style="width: 20px; height: 20px;">
+      </div>
+    </div>
+  </div>
+
+  <!-- Gizli Ses Öğesi -->
+  <audio id="audioPlayer" preload="auto"></audio>
+
+  <script src="app.js"></script>
+</body>
+</html>
