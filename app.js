@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (TÜRKÇE ARAMA & KONU SENKRONU)
+   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (iOS KİLİT EKRANI DİNAMİK METİN)
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -134,9 +134,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 5. KONU YÜKLEME & OYNATMA DURUMU SENKRONİZASYONU
+  // 5. KONU YÜKLEME
   function loadTopic(topicId) {
-    // Geçiş yapılmadan önce ses çalıyor muydu kontrol et
     const wasPlaying = !audioPlayer.paused;
 
     currentTopicId = topicId;
@@ -155,9 +154,9 @@ document.addEventListener("DOMContentLoaded", () => {
     audioPlayer.load();
 
     renderParagraphs(topic.paragraphs);
-    setupMediaSession(topic);
+    setupMediaSessionHandlers();
+    updateLockScreenMetadata(topic.title, "Hazırlanıyor...");
 
-    // Eğer geçiş yapılmadan önce ses çalıyorsa, yeni konunun sesini de otomatik oynat
     if (wasPlaying) {
       audioPlayer.play().catch((e) => console.log("Otomatik konu geçişi oynatma uyarısı:", e));
     }
@@ -165,17 +164,25 @@ document.addEventListener("DOMContentLoaded", () => {
     updatePlayButtonState();
   }
 
-  function setupMediaSession(topic) {
+  // iOS KİLİT EKRANI CANLI PARAGRAF GÜNCELLEME (Media Session API)
+  function updateLockScreenMetadata(topicTitle, paragraphText) {
     if ("mediaSession" in navigator) {
+      // Kilit ekranında tam okunan metin kutusunu başlık olarak göster
+      const displayText = paragraphText || topicTitle;
+
       navigator.mediaSession.metadata = new MediaMetadata({
-        title: topic.title,
-        artist: "Vakıfbank Sesli Eğitim",
-        album: "Metin Seslendirme ve Karaoke",
+        title: displayText,
+        artist: topicTitle,
+        album: "Sesli Notlar",
         artwork: [
           { src: "https://img.icons8.com/color/512/bank-building.png", sizes: "512x512", type: "image/png" }
         ]
       });
+    }
+  }
 
+  function setupMediaSessionHandlers() {
+    if ("mediaSession" in navigator) {
       try {
         navigator.mediaSession.setActionHandler("play", () => {
           audioPlayer.play();
@@ -250,7 +257,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // 6. SESE GÖRE PARAGRAF VURGULAMA
+  // 6. SESE GÖRE PARAGRAF VURGULAMA & KİLİT EKRANINA CANLI YAZMA
   audioPlayer.addEventListener("timeupdate", () => {
     const currentTime = audioPlayer.currentTime;
     const duration = audioPlayer.duration || 1;
@@ -291,11 +298,18 @@ document.addEventListener("DOMContentLoaded", () => {
   function highlightParagraph(index, forceScroll = false) {
     activeParagraphIndex = index;
     const cards = document.querySelectorAll(".paragraph-card");
+    const currentTopic = appData[currentTopicId];
 
     cards.forEach((card) => {
       const cardIndex = parseInt(card.dataset.index, 10);
       if (cardIndex === index) {
         card.classList.add("active-reading");
+
+        // iPhone Kilit Ekranına O An Okunan Cümleyi Canlı Aktar
+        const paragraphText = card.dataset.rawText || card.textContent;
+        if (currentTopic) {
+          updateLockScreenMetadata(currentTopic.title, paragraphText);
+        }
 
         if ((autoScrollCheck.checked && !isUserScrolling) || forceScroll) {
           isAutoScrolling = true;
