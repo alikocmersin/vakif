@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let scrollTimeout = null;
   let isMuted = false;
 
-  // 1. TEMA VE METİN BOYUTU YÖNETİMİ (SF PRO TIPOGRAFI)
+  // 1. TEMA VE METİN BOYUTU YÖNETİMİ
   const savedTheme = localStorage.getItem("theme") || "light";
   document.documentElement.setAttribute("data-theme", savedTheme);
   themeToggleBtn.textContent = savedTheme === "dark" ? "☀️" : "🌙";
@@ -51,7 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
     themeToggleBtn.textContent = newTheme === "dark" ? "☀️" : "🌙";
   });
 
-  // Metin Boyutu Ayarı
   const savedFontSize = localStorage.getItem("fontSize") || "16.5px";
   document.documentElement.style.setProperty("--para-font-size", savedFontSize);
   if (fontSizeSelect) {
@@ -134,7 +133,6 @@ document.addEventListener("DOMContentLoaded", () => {
     setupMediaSession(topic);
   }
 
-  // iOS KİLİT EKRANI VE BİLDİRİM BARI MEDYA KONTROLLERİ (Media Session API)
   function setupMediaSession(topic) {
     if ("mediaSession" in navigator) {
       navigator.mediaSession.metadata = new MediaMetadata({
@@ -183,7 +181,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Paragrafları Ekrama Çizme
   function renderParagraphs(paragraphs) {
     contentArea.innerHTML = "";
     paragraphs.forEach((p) => {
@@ -195,7 +192,6 @@ document.addEventListener("DOMContentLoaded", () => {
       card.dataset.rawText = p.text;
       card.textContent = p.text;
 
-      // Paragraf Tıklama
       card.addEventListener("click", () => {
         if (searchInput.value.trim() !== "") {
           clearSearch(false);
@@ -212,7 +208,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Güvenli Ses Sarma
   function safeSeekAudio(seconds) {
     if (isNaN(seconds) || seconds < 0) return;
     try {
@@ -224,7 +219,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // 6. SESE GÖRE PARAGRAF VURGULAMA & KARAOKE
+  // 6. SESE GÖRE PARAGRAF VURGULAMA
   audioPlayer.addEventListener("timeupdate", () => {
     const currentTime = audioPlayer.currentTime;
     const duration = audioPlayer.duration || 1;
@@ -233,7 +228,6 @@ document.addEventListener("DOMContentLoaded", () => {
     currentTimeLabel.textContent = formatTime(currentTime);
     totalTimeLabel.textContent = formatTime(duration);
 
-    // Kilit Ekranı İlerleme Çubuğunu Güncelle
     if ("mediaSession" in navigator && "setPositionState" in navigator.mediaSession) {
       try {
         navigator.mediaSession.setPositionState({
@@ -350,7 +344,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // 8. GELİŞMİŞ ARAMA MANTIĞI ("Konularda Ara")
+  // 8. GELİŞMİŞ ARAMA
   searchInput.addEventListener("input", (e) => {
     performSearch(e.target.value);
   });
@@ -446,7 +440,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   }
 
-  // 9. OYNAT / SESSİZE AL & KISAYOLLAR
+  // 9. OYNAT / BEKLE (BAŞLAT / BEKLE) KONTROLÜ
   playToggleBtn.addEventListener("click", () => {
     if (audioPlayer.paused) {
       audioPlayer.play().catch((e) => console.log("Oynatma hatası:", e));
@@ -462,7 +456,7 @@ document.addEventListener("DOMContentLoaded", () => {
       playText.textContent = "Başlat";
     } else {
       playIcon.textContent = "⏸️";
-      playText.textContent = "Sessize Al";
+      playText.textContent = "Bekle";
     }
   }
 
