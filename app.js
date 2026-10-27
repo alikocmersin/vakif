@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (EDİTÖRYAL YAYIN BİÇİMİ PDF)
+   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (SADE VE NET PDF ENGINE)
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 2. ÖDÜLLÜ EDİTÖRYAL YAYINCILIK DÜZEYİNDE ŞIK PDF ÇIKTISI ENGINE (html2pdf.js)
+  // 2. SADE, BÜYÜK FONT LU VE SAĞ ALTTA SAYFA NUMARALI PDF İNDİRME ENGINE
   if (printPdfBtn) {
     printPdfBtn.addEventListener("click", () => {
       generatePdf();
@@ -119,54 +119,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
     printPdfBtn.textContent = "⏳";
 
-    const todayStr = new Date().toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' });
-
-    // Ödüllü Editoryal Yayıncılık Şablonu (Apple & Akademik Yayıncılık Disiplini)
-    // - Numaralandırma Yok, Orijinal İçerik %100 Birebir Korunur.
-    // - Kutu, Gölge, Abartılı Şeritler Yok. Mükemmel Tipografi, Satır Aralığı ve Marjin Dengesi.
+    // Sade ve Temiz Sayfa Düzeni (Üst Bilgi / Alt Bilgi / Tarih Yok)
     const pdfContainer = document.createElement("div");
     pdfContainer.style.width = "780px";
-    pdfContainer.style.padding = "40px 48px";
+    pdfContainer.style.padding = "28px 40px";
     pdfContainer.style.fontFamily = "Georgia, 'Times New Roman', 'SF Pro Text', serif";
     pdfContainer.style.color = "#0f172a";
     pdfContainer.style.backgroundColor = "#ffffff";
 
-    // Üst Kapak Başlığı
+    // Sadece Konu Başlığı
     const headerHtml = `
-      <div style="margin-bottom: 32px;">
-        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #cbd5e1; padding-bottom: 12px; margin-bottom: 20px;">
-          <span style="font-size: 10px; font-weight: 700; letter-spacing: 2px; color: #0284c7; text-transform: uppercase;">SESLİ NOTLAR DİJİTAL AKADEMİK YAYINLARI</span>
-          <span style="font-size: 11px; color: #64748b; font-style: italic;">${todayStr}</span>
-        </div>
-        <h1 style="font-size: 28px; font-weight: 800; font-family: 'SF Pro Display', -apple-system, sans-serif; color: #0f172a; margin: 0 0 10px 0; letter-spacing: -0.02em; line-height: 1.25;">${topic.title}</h1>
-        <div style="width: 48px; height: 3px; background-color: #0284c7; border-radius: 2px;"></div>
+      <div style="margin-bottom: 28px;">
+        <h1 style="font-size: 30px; font-weight: 800; font-family: 'SF Pro Display', -apple-system, sans-serif; color: #0f172a; margin: 0 0 12px 0; letter-spacing: -0.02em;">${topic.title}</h1>
+        <div style="width: 56px; height: 3px; background-color: #0284c7; border-radius: 2px;"></div>
       </div>
     `;
 
-    // Editoryal Paragraflar (Sıfır Kutu, Sıfır Numaralandırma, Mükemmel Tipografi)
-    let paragraphsHtml = '<div style="display: flex; flex-direction: column; gap: 16px;">';
-    topic.paragraphs.forEach((p, idx) => {
-      const isLead = idx === 0;
+    // Paragraflar (1 Tık Büyütüldü: 15.5px Font, Numaralandırma Ve Kutu Yok)
+    let paragraphsHtml = '<div style="display: flex; flex-direction: column; gap: 18px;">';
+    topic.paragraphs.forEach((p) => {
       paragraphsHtml += `
-        <p style="font-size: ${isLead ? '15px' : '13.5px'}; line-height: 1.8; color: ${isLead ? '#0f172a' : '#1e293b'}; text-align: justify; margin: 0; page-break-inside: avoid; text-indent: ${isLead ? '0' : '1.5em'};">
+        <p style="font-size: 15.5px; line-height: 1.85; color: #1e293b; text-align: justify; margin: 0; page-break-inside: avoid;">
           ${p.text}
         </p>
       `;
     });
     paragraphsHtml += '</div>';
 
-    // Alt Bilgi
-    const footerHtml = `
-      <div style="margin-top: 40px; border-top: 1px solid #e2e8f0; padding-top: 16px; display: flex; justify-content: space-between; font-size: 10px; font-family: sans-serif; color: #94a3b8;">
-        <span>Sesli Notlar Eğitim Serisi</span>
-        <span>https://alikocmersin.github.io/vakif/</span>
-      </div>
-    `;
-
-    pdfContainer.innerHTML = headerHtml + paragraphsHtml + footerHtml;
+    pdfContainer.innerHTML = headerHtml + paragraphsHtml;
 
     const opt = {
-      margin: 12,
+      margin: [15, 15, 20, 15],
       filename: `${topic.title.replace(/\s+/g, '_')}_Ders_Notlari.pdf`,
       image: { type: 'jpeg', quality: 0.98 },
       html2canvas: { scale: 2, useCORS: true },
@@ -174,7 +157,17 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     if (typeof html2pdf !== "undefined") {
-      html2pdf().set(opt).from(pdfContainer).save().then(() => {
+      html2pdf().set(opt).from(pdfContainer).toPdf().get('jspdf').then((pdf) => {
+        const totalPages = pdf.internal.getNumberOfPages();
+        for (let i = 1; i <= totalPages; i++) {
+          pdf.setPage(i);
+          pdf.setFontSize(10);
+          pdf.setFont("helvetica", "normal");
+          pdf.setTextColor(100, 116, 139);
+          // Sağ alt köşede sadece sayfa numarası
+          pdf.text(`${i}`, pdf.internal.pageSize.getWidth() - 18, pdf.internal.pageSize.getHeight() - 10);
+        }
+      }).save().then(() => {
         printPdfBtn.textContent = "📄";
       }).catch((err) => {
         console.error("PDF oluşturma hatası:", err);
