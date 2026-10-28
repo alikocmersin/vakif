@@ -7224,5 +7224,367 @@
         "end": 971.66
       }
     ]
+  },
+  "hukuk": {
+    "id": "hukuk",
+    "title": "Temel Hukuk",
+    "icon": "⚖️",
+    "duration": 825.51,
+    "paragraphs": [
+      {
+        "index": 0,
+        "text": "Temel Hukuk",
+        "start": 0.0,
+        "end": 2.03
+      },
+      {
+        "index": 1,
+        "text": "Hukuk kurallarını diğer toplumsal kurallardan ayıran temel özellik, yaptırımının maddi olması ve devlet tekelinde bulunmasıdır. Hukuk, olanı değil olması gerekeni belirtir.",
+        "start": 2.03,
+        "end": 15.52
+      },
+      {
+        "index": 2,
+        "text": "Kişiler Hukuku Ehliyet ve Kısıtlılık",
+        "start": 15.52,
+        "end": 19.01
+      },
+      {
+        "index": 3,
+        "text": "Hak ehliyeti, çocuğun sağ ve tam doğması şartıyla ana rahmine düştüğü an başlar. Ölümüne kesin gözle bakılacak durumda kaybolan kişi için ölüm karinesi mülki amir emriyle uygulanır. Ölüm tehlikesi içinde kaybolan veya uzun süre haber alınamayan kişi için gaiplik kararı mahkemece verilir.",
+        "start": 19.01,
+        "end": 41.89
+      },
+      {
+        "index": 4,
+        "text": "Fiil ehliyeti şartları ergin olmak, ayırt etme gücüne sahip olmak ve kısıtlı olmamaktır. Erginlik 18 yaşını doldurmakla kazanılır. Ancak, evlilik kişiyi ergin kılar; yaş sınırı 17, olağanüstü durumlarda 16'dır. Kazanılan bu erginlik evlilik sona erse bile kaybedilmez. Mahkeme kararıyla erken erginlik 15 yaşını doldurmakla ve veli rızasıyla alınır. Bu erginlikler yaş büyütme sayılmaz.",
+        "start": 41.89,
+        "end": 76.85
+      },
+      {
+        "index": 5,
+        "text": "Kısıtlanma sebeplerinde kritik nokta, 1 yıl veya daha fazla hapis cezası alan kişinin kendi isteği aranmaksızın mahkemece kısıtlanmasıdır.",
+        "start": 76.85,
+        "end": 86.98
+      },
+      {
+        "index": 6,
+        "text": "Tam ehliyetsizlerin fiilleri kesinlikle sonuç doğurmaz, yasal temsilci onayıyla dahi işlem yapamazlar ve iyi niyetli üçüncü kişiler korunmaz.",
+        "start": 86.98,
+        "end": 97.44
+      },
+      {
+        "index": 7,
+        "text": "Sınırlı ehliyetsizler kendi başlarına borç altına giremez. Ancak, veli veya vasi izni olsa dahi kesinlikle bağış yapamaz, vakıf kuramaz ve kefil olamazlar.",
+        "start": 97.44,
+        "end": 110.52
+      },
+      {
+        "index": 8,
+        "text": "Miras Hukuku",
+        "start": 110.52,
+        "end": 112.72
+      },
+      {
+        "index": 9,
+        "text": "Yasal mirasçılarda sağ kalan eşin pay oranları kritik bir konudur. Eş, altsoyla mirasçıysa mirası 1/4'tür. Anne baba ile mirasçıysa 1/2'dir. Büyükanne büyükbabalarla mirasçıysa 3/4'tür. Kimse yoksa tamamını alır.",
+        "start": 112.72,
+        "end": 133.31
+      },
+      {
+        "index": 10,
+        "text": "Vasiyetname yapabilmek için ayırt etme gücü ve 15 yaşını doldurmak şarttır. Miras sözleşmesi yapabilmek için ise ergin olmak zorunludur.",
+        "start": 133.31,
+        "end": 144.71
+      },
+      {
+        "index": 11,
+        "text": "Mirasın reddi süresi 3 aydır. Miras bırakanın ölümü anında ödemeden aczi açıkça belliyse miras reddedilmiş sayılır. Müşterinin ölümü halinde banka 15 gün içinde vergi dairesine bildirim yapmalıdır.",
+        "start": 144.71,
+        "end": 162.94
+      },
+      {
+        "index": 12,
+        "text": "Eşya Hukuku",
+        "start": 162.94,
+        "end": 165.06
+      },
+      {
+        "index": 13,
+        "text": "Bütünleyici parça asıl mala zarar vermeden ayrılamaz. Eklenti ise ayrılabilir. Aksi belirtilmedikçe rehin veya ipotek, taşınmazın eklentilerini de kapsar.",
+        "start": 165.06,
+        "end": 178.67
+      },
+      {
+        "index": 14,
+        "text": "Paylı mülkiyette paydaş kendi payını satabilir veya haczettirebilir. Elbirliği mülkiyetinde ise paylar belli değildir, her türlü tasarruf işlemi için oybirliği şarttır. Bankadaki müşterek hesaplarda haciz gelirse, paylar eşit sayılarak işlem yapılır.",
+        "start": 178.67,
+        "end": 197.81
+      },
+      {
+        "index": 15,
+        "text": "Borçlar Hukuku",
+        "start": 197.81,
+        "end": 200.03
+      },
+      {
+        "index": 16,
+        "text": "Sözleşmelerde yanılma, aldatma, korkutma veya aşırı yararlanma durumunda hak düşürücü süre 1 yıldır.",
+        "start": 200.03,
+        "end": 208.79
+      },
+      {
+        "index": 17,
+        "text": "İfa yeri belirlenmemişse para borçları alacaklının yerleşim yerinde, parça borçları malın bulunduğu yerde, diğer borçlar borçlunun yerleşim yerinde ödenir.",
+        "start": 208.79,
+        "end": 219.8
+      },
+      {
+        "index": 18,
+        "text": "Temerrüt faizine tekrar temerrüt faizi kesinlikle yürütülemez.",
+        "start": 219.8,
+        "end": 225.76
+      },
+      {
+        "index": 19,
+        "text": "Borcu sona erdiren hallerden takas, karşılıklı iki muaccel borcun az olan tutarında ödeşmesidir ve tek taraflı beyanla olur. Yenileme eski borcu silip yeni borç kurmaktır, sadece kambiyo taahhüdünde bulunmak yenileme sayılmaz.",
+        "start": 225.76,
+        "end": 243.26
+      },
+      {
+        "index": 20,
+        "text": "Genel zamanaşımı 10 yıldır. Kira ve faiz alacakları 5 yıl, haksız fiil ve sebepsiz zenginleşme alacakları ise öğrenmeden itibaren 2 yıl, her halükarda 10 yıllık zamanaşımına tabidir. Zamanaşımını hakim kendiliğinden dikkate alamaz, borçlunun bunu ileri sürmesi şarttır.",
+        "start": 243.26,
+        "end": 264.79
+      },
+      {
+        "index": 21,
+        "text": "Özel Borç İlişkileri ve Teminat Mektupları",
+        "start": 264.79,
+        "end": 268.82
+      },
+      {
+        "index": 22,
+        "text": "Temsil yetkisi tek taraflı irade beyanıdır, temsil olunan bu yetkiyi her zaman geri alabilir, bu haktan feragat edilemez. Vekalet sözleşmesinde vekil açık özel yetki almadıkça dava açamaz, kambiyo taahhüdünde bulunamaz, kefil olamaz ve ipotek kuramaz.",
+        "start": 268.82,
+        "end": 288.94
+      },
+      {
+        "index": 23,
+        "text": "Havale işlemi henüz ödenmemişken havale verenin iflas etmesi havaleyi hükümsüz kılar. Alacağın devrinin geçerlilik şartı yazılı olmasıdır, borçlunun rızası aranmaz.",
+        "start": 288.94,
+        "end": 302.46
+      },
+      {
+        "index": 24,
+        "text": "Teminat mektupları kıymetli evrak değildir ve ciro edilemezler. Muhatabın değişmesi için banka onayı şarttır. Lehtarın konkordato ilan etmesi veya iflası teminat mektubunun tazminini engellemez. Zamanaşımı vadesiz mektuplarda riskin doğmasından itibaren 10 yıldır. Vadeli mektuplarda vade içinde tazmin şartı yoksa, vade içinde gerçekleşen riskler için de bankanın sorumluluğu 10 yıl sürer.",
+        "start": 302.46,
+        "end": 335.44
+      },
+      {
+        "index": 25,
+        "text": "Tüketici Hukuku",
+        "start": 335.44,
+        "end": 337.6
+      },
+      {
+        "index": 26,
+        "text": "Tüketici işlemlerinde temerrüt hali dahil bileşik faiz uygulanması kesinlikle yasaktır.",
+        "start": 337.6,
+        "end": 344.78
+      },
+      {
+        "index": 27,
+        "text": "Tüketici lehine verilen her türlü şahsi teminat, adı müteselsil kefalet veya garanti olsa bile kanunen adi kefalet sayılır. Bu kuralın amacı tüketici ve kefilini korumaktır.",
+        "start": 344.78,
+        "end": 358.16
+      },
+      {
+        "index": 28,
+        "text": "Tüketici kredisi ve mesafeli sözleşmelerde tüketici 14 gün içinde gerekçesiz ve cezai şartsız cayma hakkına sahiptir.",
+        "start": 358.16,
+        "end": 368.15
+      },
+      {
+        "index": 29,
+        "text": "Belirsiz süreli kredilerde faiz artırımı 30 gün önceden bildirilmelidir, tüketici 60 gün içinde borcu kapatırsa faiz artışından etkilenmez.",
+        "start": 368.15,
+        "end": 379.37
+      },
+      {
+        "index": 30,
+        "text": "Bağlı kredilerde mal teslim edilmezse bankanın müteselsil sorumluluğu teslim tarihinden itibaren 1 yıl ve kullanılan krediyle sınırlıdır.",
+        "start": 379.37,
+        "end": 390.15
+      },
+      {
+        "index": 31,
+        "text": "Konut finansmanında erken ödeme tazminatı, kalan vadesi 36 ayı aşmayanlarda yüzde bir, aşanlarda yüzde iki oranını geçemez. Değişken faizli kredilerde erken ödeme tazminatı alınamaz.",
+        "start": 390.15,
+        "end": 405.85
+      },
+      {
+        "index": 32,
+        "text": "Tüketici hakem heyetleri için 2026 yılı parasal sınırı 186.000 Türk Lirası'dir. Bu tutarın altındaki uyuşmazlıklarda mahkemeye gidilemez.",
+        "start": 405.85,
+        "end": 419.33
+      },
+      {
+        "index": 33,
+        "text": "Ticaret ve Şirketler Hukuku",
+        "start": 419.33,
+        "end": 422.4
+      },
+      {
+        "index": 34,
+        "text": "Taraflardan yalnızca biri için ticari olan sözleşme, diğeri için de ticari sayılır. Tacir, ticari işletmesini 15 gün içinde tescil ve ilan ettirmelidir. Faturaya itiraz süresi 8 gündür.",
+        "start": 422.4,
+        "end": 439.13
+      },
+      {
+        "index": 35,
+        "text": "Hakim teşebbüs, diğer şirkette doğrudan veya dolaylı oy hakkı çoğunluğuna sahip olan şirkettir.",
+        "start": 439.13,
+        "end": 446.8
+      },
+      {
+        "index": 36,
+        "text": "Kollektif şirket sadece gerçek kişilerle kurulur. Komandit şirkette sınırsız sorumlu olan komandite gerçek kişi olmalıdır, komanditer ortak ise tüzel kişi olabilir ancak, şirketi yönetemez ve temsil edemez.",
+        "start": 446.8,
+        "end": 462.14
+      },
+      {
+        "index": 37,
+        "text": "Anonim şirkette nakden taahhüt edilen payların en az yüzde yirmibeşi tescilden önce bankada bloke edilir, kalanı 24 ay içinde ödenir. Limited şirket en fazla 50 kişiyle kurulur, nakden sermayenin tescilden önce yüzde yirmibeş ödenme şartı limited şirketler için uygulanmaz.",
+        "start": 462.14,
+        "end": 483.0
+      },
+      {
+        "index": 38,
+        "text": "Kıymetli Evrak Hukuku",
+        "start": 483.0,
+        "end": 485.63
+      },
+      {
+        "index": 39,
+        "text": "Kambiyo senetlerinde hak senede çivilenmiştir. İmzaların istiklali ilkesi gereği, bir imzanın sahte veya geçersiz olması diğer geçerli imzaların sorumluluğunu ortadan kaldırmaz.",
+        "start": 485.63,
+        "end": 499.48
+      },
+      {
+        "index": 40,
+        "text": "Çekte kabul yasağı vardır. Bu nedenle, muhatap bankaya yapılan ciro sadece makbuz hükmündedir, banka kambiyo hukukuna göre hamil sıfatı kazanamaz.",
+        "start": 499.48,
+        "end": 511.53
+      },
+      {
+        "index": 41,
+        "text": "Poliçe 3 taraflı bir havale, bono 2 taraflı bir borç ikrarıdır. Hatır bonosu bankalara karşı bedelsizlik iddiasıyla geçersiz kılınamaz.",
+        "start": 511.53,
+        "end": 522.68
+      },
+      {
+        "index": 42,
+        "text": "Çek bir ödeme aracıdır, vade içermez. Ancak, kanunla 2028 sonuna kadar üzerinde yazılı tarihten önce ibrazı yasaklanmıştır. Karekod bulunması zorunludur. Hamiline çek yaprakları ayrı basılır.",
+        "start": 522.68,
+        "end": 540.73
+      },
+      {
+        "index": 43,
+        "text": "Çek İbraz Süreleri: Düzenlendiği yerde ödenecekse 10 gün, başka yerde ödenecekse 1 ay, ayrı kıtalarda ödenecekse 3 ay. Keşide yeri ile ödeme yeri aynı büyükşehir belediyesi içindeyse ibraz süresi yine 10 gündür. Avrupa ile Akdeniz'e kıyısı olan ülkeler aynı kıtada kabul edilir.",
+        "start": 540.73,
+        "end": 563.96
+      },
+      {
+        "index": 44,
+        "text": "Düzenleyen, bankaya verdiği ödeme talimatından ancak, ibraz süresi geçtikten sonra cayabilir.",
+        "start": 563.96,
+        "end": 571.99
+      },
+      {
+        "index": 45,
+        "text": "Çekte faiz, kabul şerhi ve sorumluluktan kurtulma kaydı yazılmamış sayılır, çeki geçersiz kılmaz. Ancak, ödemenin şarta bağlanması veya birden fazla tarih atılması çeki tamamen geçersiz kılar.",
+        "start": 571.99,
+        "end": 587.28
+      },
+      {
+        "index": 46,
+        "text": "Hamilin başvurma hakkı ibraz süresinin bitiminden itibaren 3 yıldır.",
+        "start": 587.28,
+        "end": 593.72
+      },
+      {
+        "index": 47,
+        "text": "Banka Sorumluluk Tutarı 30 Ocak 2026 itibarıyla 16.350 Türk Lirası'dir. Çek bedeli bu tutarın üzerindeyse kısmi karşılık bu rakama tamamlanarak ödenir. Karşılıksız kalan tutar için çekin arkasına işlem yapılır ve çek aslı hamile iade edilir. Sorumluluk tutarı zamanaşımı süresi 10 yıldır.",
+        "start": 593.72,
+        "end": 619.91
+      },
+      {
+        "index": 48,
+        "text": "Banka Alacaklarının Teminatları",
+        "start": 619.91,
+        "end": 623.25
+      },
+      {
+        "index": 49,
+        "text": "Kefalet sözleşmesinin geçerlilik şartları el yazısı kuralına tabidir. Kefilin sorumlu olduğu azami miktar, kefalet tarihi ve müteselsil kefil ifadesi kefilin kendi el yazısıyla yazılmalıdır. Gerçek kişi kefaletlerinde sözleşme öncesi veya anında eşin rızası mutlaka alınmalıdır. Temsilciler veya yasal danışmanlar kendi başına kefil olamaz. Kefalet 10 yılın geçmesiyle kendiliğinden sona erer, uzatmak için 1 yıl kala yazılı beyan şarttır.",
+        "start": 623.25,
+        "end": 659.96
+      },
+      {
+        "index": 50,
+        "text": "Borçlu iflas ederse asıl borç muaccel olur, ancak, bu muaccellik kefile karşı işlemez, vadesi gelmeyen borç kefilden istenemez.",
+        "start": 659.96,
+        "end": 670.77
+      },
+      {
+        "index": 51,
+        "text": "Ticari işlemlerde taşınır rehni, teslimsiz ve sicillidir. Rehin sözleşmesi Taşınır Rehin Siciline tescil edilmeden üçüncü kişilere karşı hüküm ifade etmez.",
+        "start": 670.77,
+        "end": 684.47
+      },
+      {
+        "index": 52,
+        "text": "Gayrimenkul rehninde ileride doğacak borçlar için azami had ipoteği kurulur ve masraflar tapudaki limiti aşamaz. Miktarı belli borçlar için kesin ipotek kurulur. İpotek derecesi boşaldığında alt derecenin kendiliğinden yukarı çıkması için serbest dereceden istifade etme hakkı bulunmalıdır. Aile konutu şerhi varsa eşin açık rızası olmadan ipotek kurulamaz, iyi niyet korunmaz. Yabancı para ipoteğinde aynı derecede birden fazla para türü kullanılamaz. Yeni malik ipotek borcunu kabul eder ve banka bir yıl içinde itiraz etmezse eski malik borçtan kurtulur.",
+        "start": 684.47,
+        "end": 727.98
+      },
+      {
+        "index": 53,
+        "text": "İcra ve İflas Hukuku",
+        "start": 727.98,
+        "end": 730.8
+      },
+      {
+        "index": 54,
+        "text": "İlamsız icra sadece para ve teminat alacakları içindir. İlamlı icrada takibin durması için mutlaka icra mahkemesinden icranın geri bırakılması kararı getirilmelidir.",
+        "start": 730.8,
+        "end": 745.06
+      },
+      {
+        "index": 55,
+        "text": "Maaş ve ücretlerin haczi dörtte birden az olamaz. Bankadaki para haczinde, icra dairesi birinci haciz ihbarnamesi gönderir. Banka 7 gün içinde itiraz etmezse, para bankanın zimmetinde sayılır. İkinci ihbarnameden sonra gelen üçüncü ihbarnameye karşı banka 15 gün içinde ödeme yapmalı veya 20 gün içinde menfi tespit davası açtığını belgelemezse zorla tahsilat yapılır. Menfi tespit davası kaybedilirse tazminat ödenir. Haciz ihbarnamesi merkez şubeye tebliğ edilirse, merkez tüm şubeleri kapsayacak şekilde beyan yapmalıdır.",
+        "start": 745.06,
+        "end": 788.43
+      },
+      {
+        "index": 56,
+        "text": "İflas açılınca müflisin haczi mümkün tüm malları iflas masasına girer. Rehinli alacaklının rüçhan hakkı korunur ve satıştan ilk ona ödenir.",
+        "start": 788.43,
+        "end": 799.36
+      },
+      {
+        "index": 57,
+        "text": "İvedi haller hariç olmak üzere müflisin davacı ve davalı olduğu hukuk davaları ikinci alacaklılar toplantısından 10 gün sonrasına kadar durur ve zamanaşımı bu durma sırasında işlemez.",
+        "start": 799.36,
+        "end": 812.02
+      },
+      {
+        "index": 58,
+        "text": "Müflisin rehinle temin edilmemiş tüm borçları muaccel olur. Masaya giren alacaklara faiz işlemeye devam eder, rehinli olmayanlarda ticari olmayan faiz oranı uygulanır.",
+        "start": 812.02,
+        "end": 825.51
+      }
+    ]
   }
 }
