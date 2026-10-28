@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (SADE VE NET PDF ENGINE)
+   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (SF PRO & MEDIA SESSION API)
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const currentTopicTitle = document.getElementById("currentTopicTitle");
 
   // Özel İstenen Sıralama
-  const topicOrder = ["genelbilgiler", "mevduat", "yatirim", "bireysel", "odemesistemleri"];
+  const topicOrder = ["genelbilgiler", "mevduat", "yatirim", "bireysel", "odemesistemleri", "bankamuhasebesi"];
 
   // Uygulama Durumu
   let appData = {};
@@ -119,7 +119,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     printPdfBtn.textContent = "⏳";
 
-    // Sade ve Temiz Sayfa Düzeni (Üst Bilgi / Alt Bilgi / Tarih Yok)
     const pdfContainer = document.createElement("div");
     pdfContainer.style.width = "780px";
     pdfContainer.style.padding = "28px 40px";
@@ -127,7 +126,6 @@ document.addEventListener("DOMContentLoaded", () => {
     pdfContainer.style.color = "#0f172a";
     pdfContainer.style.backgroundColor = "#ffffff";
 
-    // Sadece Konu Başlığı
     const headerHtml = `
       <div style="margin-bottom: 28px;">
         <h1 style="font-size: 30px; font-weight: 800; font-family: 'SF Pro Display', -apple-system, sans-serif; color: #0f172a; margin: 0 0 12px 0; letter-spacing: -0.02em;">${topic.title}</h1>
@@ -135,7 +133,6 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     `;
 
-    // Paragraflar (1 Tık Büyütüldü: 15.5px Font, Numaralandırma Ve Kutu Yok)
     let paragraphsHtml = '<div style="display: flex; flex-direction: column; gap: 18px;">';
     topic.paragraphs.forEach((p) => {
       paragraphsHtml += `
@@ -164,7 +161,6 @@ document.addEventListener("DOMContentLoaded", () => {
           pdf.setFontSize(10);
           pdf.setFont("helvetica", "normal");
           pdf.setTextColor(100, 116, 139);
-          // Sağ alt köşede sadece sayfa numarası
           pdf.text(`${i}`, pdf.internal.pageSize.getWidth() - 18, pdf.internal.pageSize.getHeight() - 10);
         }
       }).save().then(() => {
