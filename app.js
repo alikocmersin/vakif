@@ -1,10 +1,13 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (İÇ SCROLL SENKRONİZASYON)
+   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (AŞAĞI AÇILIR KONU MENÜSÜ)
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
   // DOM Öğeleri
-  const topicsNav = document.getElementById("topicsNav");
+  const topicDropdownBtn = document.getElementById("topicDropdownBtn");
+  const topicDropdownMenu = document.getElementById("topicDropdownMenu");
+  const selectedTopicIcon = document.getElementById("selectedTopicIcon");
+  const selectedTopicTitle = document.getElementById("selectedTopicTitle");
   const contentArea = document.getElementById("contentArea");
   const audioPlayer = document.getElementById("audioPlayer");
   const playToggleBtn = document.getElementById("playToggleBtn");
@@ -31,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const currentTopicTitle = document.getElementById("currentTopicTitle");
 
   // Özel İstenen Sıralama
-  const topicOrder = ["genelbilgiler", "mevduat", "yatirim", "bireysel", "odemesistemleri", "bankamuhasebesi"];
+  const topicOrder = ["genelbilgiler", "mevduat", "yatirim", "bireysel", "odemesistemleri", "bankamuhasebesi", "disticaret"];
 
   // Uygulama Durumu
   let appData = {};
@@ -84,14 +87,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  if (themeToggleBtn) {
-    themeToggleBtn.addEventListener("click", () => {
-      let idx = themeCycle.indexOf(currentTheme);
-      if (idx === -1) idx = 0;
-      const nextTheme = themeCycle[(idx + 1) % themeCycle.length];
-      setTheme(nextTheme);
-    });
-  }
+  themeToggleBtn.addEventListener("click", () => {
+    let idx = themeCycle.indexOf(currentTheme);
+    if (idx === -1) idx = 0;
+    const nextTheme = themeCycle[(idx + 1) % themeCycle.length];
+    setTheme(nextTheme);
+  });
 
   if (themeSelect) {
     themeSelect.addEventListener("change", (e) => {
@@ -201,7 +202,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((res) => res.json())
     .then((data) => {
       appData = data;
-      initNavigation();
+      initDropdownNavigation();
       loadTopic(currentTopicId);
     })
     .catch((err) => {
@@ -211,9 +212,24 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>`;
     });
 
-  // 5. KONU NAVİGASYON
-  function initNavigation() {
-    topicsNav.innerHTML = "";
+  // 5. ŞIK AŞAĞI AÇILIR KONU MENÜSÜ YÖNETİMİ
+  const dropdownContainer = document.querySelector(".topic-dropdown-container");
+
+  if (topicDropdownBtn) {
+    topicDropdownBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      dropdownContainer.classList.toggle("open");
+    });
+  }
+
+  document.addEventListener("click", (e) => {
+    if (dropdownContainer && !dropdownContainer.contains(e.target)) {
+      dropdownContainer.classList.remove("open");
+    }
+  });
+
+  function initDropdownNavigation() {
+    topicDropdownMenu.innerHTML = "";
 
     const availableKeys = topicOrder.filter(key => appData[key]);
     Object.keys(appData).forEach(key => {
@@ -223,16 +239,19 @@ document.addEventListener("DOMContentLoaded", () => {
     availableKeys.forEach((topicId) => {
       const topic = appData[topicId];
       const btn = document.createElement("button");
-      btn.className = `topic-btn ${topicId === currentTopicId ? "active" : ""}`;
+      btn.className = `topic-dropdown-item ${topicId === currentTopicId ? "active" : ""}`;
       btn.dataset.id = topicId;
       btn.innerHTML = `<span>${topic.icon}</span> <span>${topic.title}</span>`;
+
       btn.addEventListener("click", () => {
         if (currentTopicId !== topicId) {
           clearSearch();
           loadTopic(topicId);
         }
+        dropdownContainer.classList.remove("open");
       });
-      topicsNav.appendChild(btn);
+
+      topicDropdownMenu.appendChild(btn);
     });
   }
 
@@ -243,12 +262,17 @@ document.addEventListener("DOMContentLoaded", () => {
     currentTopicId = topicId;
     activeParagraphIndex = -1;
 
-    document.querySelectorAll(".topic-btn").forEach((btn) => {
-      btn.classList.toggle("active", btn.dataset.id === topicId);
-    });
-
+    // Dropdown Buton Metnini ve İkonunu Güncelle
     const topic = appData[topicId];
     if (!topic) return;
+
+    if (selectedTopicIcon) selectedTopicIcon.textContent = topic.icon;
+    if (selectedTopicTitle) selectedTopicTitle.textContent = topic.title;
+
+    // Dropdown Öğelerinin Aktiflik Durumunu Güncelle
+    document.querySelectorAll(".topic-dropdown-item").forEach((btn) => {
+      btn.classList.toggle("active", btn.dataset.id === topicId);
+    });
 
     currentTopicTitle.textContent = topic.title;
 
@@ -410,11 +434,9 @@ document.addEventListener("DOMContentLoaded", () => {
           updateLockScreenMetadata(currentTopic.title, paragraphText);
         }
 
-        // İç kutu (.content-area) içinde otomatik merkeze kaydır
         if ((autoScrollCheck.checked && !isUserScrolling) || forceScroll) {
           isAutoScrolling = true;
 
-          // İç konteyner ortalaması
           const containerTop = contentArea.getBoundingClientRect().top;
           const cardTop = card.getBoundingClientRect().top;
           const containerHeight = contentArea.clientHeight;
@@ -465,7 +487,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // 8. İÇ KUTUCUK KAYDIRMA SENKRONİZASYONU (CONTENT AREA SCROLL)
+  // 8. İÇ KUTUCUK KAYDIRMA SENKRONİZASYONU
   contentArea.addEventListener("scroll", () => {
     if (isAutoScrolling) return;
 

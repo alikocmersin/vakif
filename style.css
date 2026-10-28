@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA WEB UYGULAMASI (GÖRSEL ÇERÇEVELİ ORTA KUTU)
+   METİN SESLENDİRME & KARAOKE OKUMA WEB UYGULAMASI (AŞAĞI AÇILIR MENÜ)
    ========================================================================== */
 
 :root {
@@ -23,18 +23,18 @@
 
 /* 📜 SEPYA TEMA */
 [data-theme="sepya"] {
-  --bg-color: #f5e8ca !important;
-  --card-bg: #ebd6a7 !important;
+  --bg-color: #fbf0d9 !important;
+  --card-bg: #f4e4bc !important;
   --text-main: #433422 !important;
   --text-muted: #7c684e !important;
   --primary-color: #a06028 !important;
-  --primary-light: #f5e8ca !important;
+  --primary-light: #ebd6a7 !important;
   --active-highlight: #e8cc82 !important;
   --active-text: #2c1d0b !important;
   --active-border: #c89d38 !important;
   --border-color: #d8c395 !important;
-  --header-bg: rgba(245, 232, 202, 0.95) !important;
-  --control-bg: #ebd6a7 !important;
+  --header-bg: rgba(251, 240, 217, 0.95) !important;
+  --control-bg: #f4e4bc !important;
   --shadow-color: rgba(67, 52, 34, 0.15) !important;
   --mark-bg: #e2bf65 !important;
   --mark-color: #2c1d0b !important;
@@ -66,13 +66,13 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-/* KESİNTİSİZ SABİT EKRAN (100% FLEX CONTAINMENT) */
+/* TAM EKRAN SABİT DÜZEN */
 html, body {
   width: 100%;
   height: 100%;
   height: 100vh;
   height: 100dvh;
-  overflow: hidden !important; /* Dış ekran asla kaymaz */
+  overflow: hidden !important;
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
 }
@@ -98,28 +98,29 @@ body {
 }
 
 .header-bar {
-  padding: 10px 16px;
+  padding: 10px 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 8px;
   max-width: 650px;
   margin: 0 auto;
 }
 
 .search-container {
   flex: 1;
+  min-width: 110px;
   position: relative;
 }
 
 .search-input {
   width: 100%;
-  padding: 8px 36px 8px 36px;
+  padding: 8px 28px 8px 30px;
   border-radius: 20px;
   border: 1px solid var(--border-color);
   background-color: var(--card-bg);
   color: var(--text-main);
-  font-size: 14px;
+  font-size: 13.5px;
   font-family: inherit;
   outline: none;
   transition: all 0.2s ease;
@@ -137,25 +138,119 @@ body {
 
 .search-icon {
   position: absolute;
-  left: 12px;
+  left: 10px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 15px;
+  font-size: 14px;
   opacity: 0.5;
   pointer-events: none;
 }
 
 .clear-search-btn {
   position: absolute;
-  right: 10px;
+  right: 8px;
   top: 50%;
   transform: translateY(-50%);
   background: none;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--text-muted);
   cursor: pointer;
   padding: 4px;
+}
+
+/* ==========================================================================
+   📌 ŞIK AŞAĞI AÇILIR KONU MENÜSÜ (DROPDOWN)
+   ========================================================================== */
+.topic-dropdown-container {
+  position: relative;
+  flex: 0 1 auto;
+}
+
+.topic-dropdown-btn {
+  background-color: var(--card-bg);
+  border: 1.5px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 20px;
+  padding: 7px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(2, 132, 199, 0.15);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  max-width: 170px;
+}
+
+.topic-dropdown-btn:active {
+  transform: scale(0.96);
+}
+
+.dropdown-chevron {
+  font-size: 10px;
+  transition: transform 0.2s ease;
+  opacity: 0.8;
+}
+
+.topic-dropdown-container.open .dropdown-chevron {
+  transform: rotate(180deg);
+}
+
+.topic-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-10px);
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 18px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+  padding: 6px;
+  min-width: 210px;
+  z-index: 500;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.topic-dropdown-container.open .topic-dropdown-menu {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.topic-dropdown-item {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: none;
+  border: none;
+  color: var(--text-main);
+  font-size: 13.5px;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.topic-dropdown-item:hover, .topic-dropdown-item:active {
+  background-color: var(--primary-light);
+  color: var(--primary-color);
+}
+
+.topic-dropdown-item.active {
+  background-color: var(--primary-color);
+  color: #ffffff;
 }
 
 .header-actions {
@@ -168,13 +263,13 @@ body {
   background: var(--card-bg);
   border: 1px solid var(--border-color);
   color: var(--text-main);
-  width: 38px;
-  height: 38px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 17px;
   cursor: pointer;
   box-shadow: 0 2px 6px var(--shadow-color);
   transition: transform 0.15s ease, background-color 0.2s ease;
@@ -194,8 +289,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  max-width: 650px;
-  margin: 0 auto;
 }
 
 .other-topic-suggestions {
@@ -215,53 +308,10 @@ body {
   border: none;
 }
 
-/* KONU KATALOG BUTONLARI (KATEGORİLER 12.5px) */
-.topics-nav {
-  display: flex;
-  gap: 6px;
-  padding: 8px 16px;
-  overflow-x: auto;
-  scrollbar-width: none;
-  -webkit-overflow-scrolling: touch;
-  max-width: 650px;
-  margin: 0 auto;
-}
-
-.topics-nav::-webkit-scrollbar {
-  display: none;
-}
-
-.topic-btn {
-  flex: 0 0 auto;
-  padding: 7px 12px;
-  border-radius: 20px;
-  border: 1px solid var(--border-color);
-  background-color: var(--card-bg);
-  color: var(--text-main);
-  font-size: 12.5px;
-  font-weight: 600;
-  font-family: inherit;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  cursor: pointer;
-  box-shadow: 0 2px 4px var(--shadow-color);
-  transition: all 0.2s ease;
-}
-
-.topic-btn.active {
-  background-color: var(--primary-color) !important;
-  color: #ffffff !important;
-  border-color: var(--primary-color) !important;
-  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
-}
-
-/* ==========================================================================
-   📌 BELİRGİN ÇERÇEVELİ ORTA KUTUCUK (SADECE BURASI KAYAR)
-   ========================================================================== */
+/* ORTA KUTUCUK (SABİT ALANDA İÇERİDEN KAYDIRILABİLİR İÇERİK BÖLGESİ) */
 .main-wrapper {
-  flex: 1 1 0%; /* Üst ve alt arasında kesin kalan alan */
-  min-height: 0; /* Strict Flex scroll containment */
+  flex: 1 1 0%;
+  min-height: 0;
   width: 100%;
   max-width: 650px;
   margin: 0 auto;
@@ -274,10 +324,10 @@ body {
 .content-area {
   flex: 1 1 0%;
   min-height: 0;
-  overflow-y: scroll !important; /* Yalnızca bu kutu kaydırılır */
+  overflow-y: scroll !important;
   -webkit-overflow-scrolling: touch;
   background-color: var(--card-bg);
-  border: 2px solid var(--border-color); /* Görsel Belirgin Çerçeve */
+  border: 2px solid var(--border-color);
   border-radius: 20px;
   padding: 16px;
   box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.05), 0 4px 16px var(--shadow-color);
@@ -349,9 +399,7 @@ mark {
   transform: scale(0.94);
 }
 
-/* ==========================================================================
-   ALT BÖLÜM (SABİT OYNATICI BAR)
-   ========================================================================== */
+/* ALT BÖLÜM (SABİT OYNATICI BAR) */
 .audio-bar {
   flex: 0 0 auto;
   z-index: 200;
@@ -561,7 +609,7 @@ mark {
 
   .header-wrapper,
   .search-info-bar,
-  .topics-nav,
+  .topic-dropdown-container,
   .focus-active-btn,
   .audio-bar,
   .modal-overlay,
