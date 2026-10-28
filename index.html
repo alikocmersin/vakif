@@ -17,38 +17,40 @@
 </head>
 <body>
 
-  <!-- SADE VE KALABALIKSIZ ÜST BÖLÜM -->
-  <header class="header-bar">
-    <!-- Sol Arama Çubuğu -->
-    <div class="search-container">
-      <span class="search-icon">🔍</span>
-      <input type="text" id="searchInput" class="search-input" placeholder="Konularda Ara..." autocomplete="off">
-      <button id="clearSearchBtn" class="clear-search-btn" title="Aramayı Temizle" style="display:none;">&times;</button>
+  <!-- SABİT ÜST BÖLÜM (HEADER & KONULAR) -->
+  <div class="header-wrapper">
+    <header class="header-bar">
+      <!-- Sol Arama Çubuğu -->
+      <div class="search-container">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" class="search-input" placeholder="Konularda Ara..." autocomplete="off">
+        <button id="clearSearchBtn" class="clear-search-btn" title="Aramayı Temizle" style="display:none;">&times;</button>
+      </div>
+
+      <!-- Sağ Aksiyon İkonları -->
+      <div class="header-actions">
+        <!-- PDF İndir İkonu -->
+        <button id="printPdfBtn" class="icon-btn" title="Ders Notunu PDF Olarak İndir">📄</button>
+        <!-- Tema Değiştirme İkonu (Aydınlık / Sepya / Karanlık) -->
+        <button id="themeToggleBtn" class="icon-btn" title="Tema Değiştir (Aydınlık / Sepya / Karanlık)">🌙</button>
+        <!-- Ayarlar İkonu -->
+        <button id="settingsBtn" class="icon-btn" title="Ayarlar">⚙️</button>
+      </div>
+    </header>
+
+    <!-- ARAMA BİLGİ VE DİĞER KONU ÖNERİ BARI -->
+    <div id="searchInfoBar" class="search-info-bar" style="display: none;">
+      <span id="searchResultCount">0 sonuç bulundu</span>
+      <div id="otherTopicSuggestions" class="other-topic-suggestions"></div>
     </div>
 
-    <!-- Sağ Aksiyon İkonları -->
-    <div class="header-actions">
-      <!-- PDF İndir / Yazdır İkonu -->
-      <button id="printPdfBtn" class="icon-btn" title="Ders Notunu PDF Olarak İndir">📄</button>
-      <!-- Tema Değiştirme İkonu (Aydınlık / Sepya / Karanlık) -->
-      <button id="themeToggleBtn" class="icon-btn" title="Tema Değiştir (Aydınlık / Sepya / Karanlık)">🌙</button>
-      <!-- Ayarlar İkonu -->
-      <button id="settingsBtn" class="icon-btn" title="Ayarlar">⚙️</button>
-    </div>
-  </header>
-
-  <!-- ARAMA BİLGİ VE DİĞER KONU ÖNERİ BARI -->
-  <div id="searchInfoBar" class="search-info-bar" style="display: none;">
-    <span id="searchResultCount">0 sonuç bulundu</span>
-    <div id="otherTopicSuggestions" class="other-topic-suggestions"></div>
+    <!-- KONU KATALOG BUTONLARI (Kategori İsimleri 1 Tık Küçültüldü) -->
+    <nav class="topics-nav" id="topicsNav">
+      <!-- JavaScript ile Dinamik Doldurulur -->
+    </nav>
   </div>
 
-  <!-- KONU KATALOG BUTONLARI -->
-  <nav class="topics-nav" id="topicsNav">
-    <!-- JavaScript ile Dinamik Doldurulur -->
-  </nav>
-
-  <!-- METİN GÖSTERİM & KARAOKE OKUMA ALANI -->
+  <!-- ORTA KUTUCUK (SABİT DİKELERDE İÇERİDEN KAYDIRILABİLİR YAZILAR) -->
   <main class="content-area" id="contentArea">
     <!-- Dinamik Metin Kartları (Paragraflar) Burada Görünür -->
   </main>

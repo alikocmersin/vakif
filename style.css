@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA WEB UYGULAMASI (3 AŞAMALI TEMA DÖNGÜSÜ)
+   METİN SESLENDİRME & KARAOKE OKUMA WEB UYGULAMASI (SABİT DÜZEN & İÇ SCROLL)
    ========================================================================== */
 
 :root {
@@ -13,7 +13,7 @@
   --active-text: #854d0e;
   --active-border: #eab308;
   --border-color: #e2e8f0;
-  --header-bg: rgba(255, 255, 255, 0.85);
+  --header-bg: rgba(255, 255, 255, 0.95);
   --control-bg: #ffffff;
   --shadow-color: rgba(0, 0, 0, 0.08);
   --mark-bg: #fef08a;
@@ -21,7 +21,7 @@
   --para-font-size: 16.5px;
 }
 
-/* 📜 SEPYA (GÖZ YAKMAYAN KİTAP SARISI) TEMA */
+/* 📜 SEPYA TEMA */
 [data-theme="sepya"] {
   --bg-color: #fbf0d9 !important;
   --card-bg: #f4e4bc !important;
@@ -52,7 +52,7 @@
   --active-text: #fef08a !important;
   --active-border: #facc15 !important;
   --border-color: #334155 !important;
-  --header-bg: rgba(15, 23, 42, 0.85) !important;
+  --header-bg: rgba(15, 23, 42, 0.95) !important;
   --control-bg: #1e293b !important;
   --shadow-color: rgba(0, 0, 0, 0.3) !important;
   --mark-bg: #854d0e !important;
@@ -66,31 +66,39 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+/* TAM EKRAN SABİT DÜZEN (NO WHOLE PAGE SCROLL) */
+html, body {
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  overflow: hidden; /* Sayfa dışı kaydırma engellendi */
+}
+
 body {
   font-family: "SF Pro Text", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background-color: var(--bg-color);
   color: var(--text-main);
   line-height: 1.6;
   font-size: 16px;
-  overflow-x: hidden;
+  display: flex;
+  flex-direction: column; /* Dikey Düzen */
   transition: background-color 0.3s ease, color 0.3s ease;
-  padding-bottom: calc(140px + env(safe-area-inset-bottom));
 }
 
-/* ÜST HEADER */
-.header-bar {
-  position: sticky;
-  top: 0;
+/* ÜST BÖLÜM (SABİT) */
+.header-wrapper {
+  flex: 0 0 auto;
   z-index: 100;
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
   background-color: var(--header-bg);
   border-bottom: 1px solid var(--border-color);
-  padding: 12px 16px;
+}
+
+.header-bar {
+  padding: 10px 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 10px;
 }
 
 .search-container {
@@ -100,12 +108,12 @@ body {
 
 .search-input {
   width: 100%;
-  padding: 10px 38px 10px 38px;
+  padding: 8px 36px 8px 36px;
   border-radius: 20px;
   border: 1px solid var(--border-color);
   background-color: var(--card-bg);
   color: var(--text-main);
-  font-size: 15px;
+  font-size: 14px;
   font-family: inherit;
   outline: none;
   transition: all 0.2s ease;
@@ -126,7 +134,7 @@ body {
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 16px;
+  font-size: 15px;
   opacity: 0.5;
   pointer-events: none;
 }
@@ -147,20 +155,20 @@ body {
 .header-actions {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 
 .icon-btn {
   background: var(--card-bg);
   border: 1px solid var(--border-color);
   color: var(--text-main);
-  width: 42px;
-  height: 42px;
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
+  font-size: 18px;
   cursor: pointer;
   box-shadow: 0 2px 6px var(--shadow-color);
   transition: transform 0.15s ease, background-color 0.2s ease;
@@ -174,14 +182,12 @@ body {
 .search-info-bar {
   background-color: var(--card-bg);
   border-bottom: 1px solid var(--border-color);
-  padding: 10px 16px;
-  font-size: 13px;
+  padding: 8px 16px;
+  font-size: 12px;
   color: var(--text-muted);
   display: flex;
   flex-direction: column;
   gap: 6px;
-  max-width: 600px;
-  margin: 0 auto;
 }
 
 .other-topic-suggestions {
@@ -195,17 +201,17 @@ body {
   color: var(--primary-color);
   padding: 4px 10px;
   border-radius: 12px;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
   cursor: pointer;
   border: none;
 }
 
-/* KONU KATALOG BUTONLARI */
+/* KONU KATALOG BUTONLARI (KATEGORİ İSİMLERİ 1 TIK KÜÇÜLTÜLDÜ: 12.5px) */
 .topics-nav {
   display: flex;
-  gap: 8px;
-  padding: 12px 16px;
+  gap: 6px;
+  padding: 8px 16px;
   overflow-x: auto;
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
@@ -217,17 +223,17 @@ body {
 
 .topic-btn {
   flex: 0 0 auto;
-  padding: 10px 16px;
-  border-radius: 24px;
+  padding: 8px 13px; /* 1 Tık küçültüldü */
+  border-radius: 20px;
   border: 1px solid var(--border-color);
   background-color: var(--card-bg);
   color: var(--text-main);
-  font-size: 14px;
+  font-size: 12.5px; /* 1 Tık küçültüldü (14px -> 12.5px) */
   font-weight: 600;
   font-family: inherit;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
   cursor: pointer;
   box-shadow: 0 2px 4px var(--shadow-color);
   transition: all 0.2s ease;
@@ -240,10 +246,16 @@ body {
   box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
 }
 
-/* METİN KARTLARI (PARAGRAFLAR) */
+/* ==========================================================================
+   ORTA KUTUCUK (SABİT ALANDA İÇERİDEN KAYDIRILABİLİR İÇERİK BÖLGESİ)
+   ========================================================================== */
 .content-area {
+  flex: 1; /* Üst ve alt arasında kalan tüm dikey alanı doldurur */
+  overflow-y: auto; /* Yalnızca bu ortadaki kutucuk kaydırılır */
+  -webkit-overflow-scrolling: touch;
   padding: 16px;
-  max-width: 600px;
+  max-width: 650px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -258,7 +270,7 @@ body {
   cursor: pointer;
   transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
   position: relative;
-  scroll-margin-top: 140px;
+  scroll-margin-top: 20px;
 }
 
 .paragraph-card:active {
@@ -294,8 +306,8 @@ mark {
 
 /* SABİT ODAKLANMA BUTONU */
 .focus-active-btn {
-  position: fixed;
-  bottom: 140px;
+  position: absolute;
+  bottom: 130px;
   right: 16px;
   z-index: 150;
   background-color: var(--primary-color);
@@ -303,7 +315,7 @@ mark {
   border: none;
   border-radius: 20px;
   padding: 10px 16px;
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 700;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
   cursor: pointer;
@@ -314,12 +326,11 @@ mark {
   transform: scale(0.94);
 }
 
-/* ALT OYNATICI BARI */
+/* ==========================================================================
+   ALT OYNATICI BARI (EKRANIN EN ALTINDA SÜREKLİ SABİT)
+   ========================================================================== */
 .audio-bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  flex: 0 0 auto;
   z-index: 200;
   background-color: var(--control-bg);
   border-top: 1px solid var(--border-color);
@@ -329,9 +340,8 @@ mark {
   box-shadow: 0 -4px 20px var(--shadow-color);
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  max-width: 600px;
-  margin: 0 auto;
+  gap: 8px;
+  width: 100%;
 }
 
 .progress-container {
@@ -341,6 +351,9 @@ mark {
   font-size: 12px;
   color: var(--text-muted);
   font-weight: 500;
+  max-width: 650px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .progress-slider {
@@ -369,10 +382,13 @@ mark {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 650px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .current-topic-label {
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 600;
   color: var(--text-main);
   white-space: nowrap;
@@ -386,12 +402,12 @@ mark {
   color: #ffffff;
   border: none;
   border-radius: 30px;
-  padding: 12px 24px;
-  font-size: 15px;
+  padding: 10px 22px;
+  font-size: 14px;
   font-weight: 700;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   cursor: pointer;
   box-shadow: 0 4px 14px rgba(2, 132, 199, 0.4);
   transition: transform 0.15s ease, background-color 0.2s ease;
@@ -405,19 +421,17 @@ mark {
   background: var(--card-bg);
   border: 1px solid var(--border-color);
   color: var(--text-main);
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 17px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
 }
 
-/* ==========================================================================
-   AYARLAR MODAL
-   ========================================================================== */
+/* AYARLAR MODAL */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -516,7 +530,7 @@ mark {
     line-height: 1.5 !important;
   }
 
-  .header-bar,
+  .header-wrapper,
   .search-info-bar,
   .topics-nav,
   .focus-active-btn,
@@ -529,6 +543,7 @@ mark {
   .content-area {
     max-width: 100% !important;
     padding: 0 !important;
+    overflow: visible !important;
   }
 
   .paragraph-card {

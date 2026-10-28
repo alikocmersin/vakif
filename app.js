@@ -1,5 +1,5 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (SF PRO & MEDIA SESSION API)
+   METİN SESLENDİRME & KARAOKE OKUMA UYGULAMASI (İÇ SCROLL SENKRONİZASYON)
    ========================================================================== */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -57,6 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // 1. TEMA YÖNETİMİ
+  const themeCycle = ["light", "sepya", "dark"];
   const themeIcons = {
     light: "☀️",
     sepya: "📜",
@@ -64,13 +65,13 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   let currentTheme = localStorage.getItem("theme") || "light";
-  if (!themeIcons[currentTheme]) {
+  if (!themeCycle.includes(currentTheme)) {
     currentTheme = "light";
   }
   setTheme(currentTheme);
 
   function setTheme(theme) {
-    if (!themeIcons[theme]) theme = "light";
+    if (!themeCycle.includes(theme)) theme = "light";
     currentTheme = theme;
     document.documentElement.setAttribute("data-theme", theme);
     localStorage.setItem("theme", theme);
@@ -83,15 +84,19 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  themeToggleBtn.addEventListener("click", () => {
-    const themeCycle = ["light", "sepya", "dark"];
-    const currentIndex = themeCycle.indexOf(currentTheme);
-    const nextTheme = themeCycle[(currentIndex + 1) % themeCycle.length];
-    setTheme(nextTheme);
-  });
+  if (themeToggleBtn) {
+    themeToggleBtn.addEventListener("click", () => {
+      let idx = themeCycle.indexOf(currentTheme);
+      if (idx === -1) idx = 0;
+      const nextTheme = themeCycle[(idx + 1) % themeCycle.length];
+      setTheme(nextTheme);
+    });
+  }
 
   if (themeSelect) {
-    themeSelect.addEventListener("change", (e) => setTheme(e.target.value));
+    themeSelect.addEventListener("change", (e) => {
+      setTheme(e.target.value);
+    });
   }
 
   // METİN BOYUTU YÖNETİMİ
@@ -106,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // 2. SADE, BÜYÜK FONT LU VE SAĞ ALTTA SAYFA NUMARALI PDF İNDİRME ENGINE
+  // 2. DOĞRUDAN .PDF İNDİRME ENGINE (html2pdf.js)
   if (printPdfBtn) {
     printPdfBtn.addEventListener("click", () => {
       generatePdf();
@@ -352,7 +357,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // 7. SESE GÖRE PARAGRAF VURGULAMA
+  // 7. SESE GÖRE PARAGRAF VURGULAMA (İÇ KUTU SCROLLING)
   audioPlayer.addEventListener("timeupdate", () => {
     const currentTime = audioPlayer.currentTime;
     const duration = audioPlayer.duration || 1;
@@ -405,9 +410,23 @@ document.addEventListener("DOMContentLoaded", () => {
           updateLockScreenMetadata(currentTopic.title, paragraphText);
         }
 
+        // İç kutu (.content-area) içinde otomatik merkeze kaydır
         if ((autoScrollCheck.checked && !isUserScrolling) || forceScroll) {
           isAutoScrolling = true;
-          card.scrollIntoView({ behavior: "smooth", block: "center" });
+
+          // İç konteyner ortalaması
+          const containerTop = contentArea.getBoundingClientRect().top;
+          const cardTop = card.getBoundingClientRect().top;
+          const containerHeight = contentArea.clientHeight;
+          const cardHeight = card.clientHeight;
+
+          const targetScroll = contentArea.scrollTop + (cardTop - containerTop) - (containerHeight / 2) + (cardHeight / 2);
+
+          contentArea.scrollTo({
+            top: targetScroll,
+            behavior: "smooth"
+          });
+
           setTimeout(() => {
             isAutoScrolling = false;
           }, 500);
@@ -425,8 +444,13 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    const rect = activeCard.getBoundingClientRect();
-    const isVisible = rect.top >= 0 && rect.bottom <= window.innerHeight;
+    const containerRect = contentArea.getBoundingClientRect();
+    const cardRect = activeCard.getBoundingClientRect();
+
+    const isVisible = (
+      cardRect.top >= containerRect.top &&
+      cardRect.bottom <= containerRect.bottom
+    );
 
     if (!isVisible && !audioPlayer.paused) {
       focusActiveBtn.style.display = "block";
@@ -441,8 +465,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // 8. KULLANICI KAYDIRMA SENKRONİZASYONU
-  window.addEventListener("scroll", () => {
+  // 8. İÇ KUTUCUK KAYDIRMA SENKRONİZASYONU (CONTENT AREA SCROLL)
+  contentArea.addEventListener("scroll", () => {
     if (isAutoScrolling) return;
 
     isUserScrolling = true;
@@ -462,11 +486,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let closestCard = null;
     let minDistance = Infinity;
-    const viewportCenter = window.innerHeight / 2;
+    const containerRect = contentArea.getBoundingClientRect();
+    const viewportCenter = containerRect.top + (containerRect.height / 2);
 
     cards.forEach((card) => {
       const rect = card.getBoundingClientRect();
-      const cardCenter = rect.top + rect.height / 2;
+      const cardCenter = rect.top + (rect.height / 2);
       const distance = Math.abs(viewportCenter - cardCenter);
 
       if (distance < minDistance) {
@@ -532,7 +557,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (firstMatchedCard) {
       isAutoScrolling = true;
-      firstMatchedCard.scrollIntoView({ behavior: "smooth", block: "center" });
+      const containerTop = contentArea.getBoundingClientRect().top;
+      const cardTop = firstMatchedCard.getBoundingClientRect().top;
+      const containerHeight = contentArea.clientHeight;
+      const targetScroll = contentArea.scrollTop + (cardTop - containerTop) - (containerHeight / 2);
+      contentArea.scrollTo({ top: targetScroll, behavior: "smooth" });
       setTimeout(() => { isAutoScrolling = false; }, 500);
     }
 
