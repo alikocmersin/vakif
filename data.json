@@ -6229,1309 +6229,613 @@
     "id": "bankamuhasebesi",
     "title": "Banka Muhasebesi",
     "icon": "🏛️",
-    "duration": 2194.22,
+    "duration": 2343.1,
     "paragraphs": [
       {
         "index": 0,
-        "text": "BANKA MUHASEBESİNİN AMAÇLARI VE TEMEL İLKELERİ",
+        "text": "KONU 1 - BANKA MUHASEBESİNİN AMAÇLARI VE TEMEL İLKELERİ",
         "start": 0.0,
-        "end": 4.31
+        "end": 4.77
       },
       {
         "index": 1,
-        "text": "Banka Muhasebesinin 4 Temel Amacı:",
-        "start": 4.31,
-        "end": 8.02
+        "text": "Banka muhasebesinin 4 temel amacı bulunmaktadır. Birincisi gerçekleştirilen tüm işlemlerin kayıt dışında kalmamasıdır. İkincisi hesap ve kayıt düzeninde şeffaflık ve tekdüzeliğin sağlanmasıdır. Üçüncüsü faaliyetlerin gerçek mahiyetlerine uygun olarak sağlıklı ve güvenilir biçimde muhasebeleştirilmesidir. Dördüncüsü ise mali durum, mali performans ve yönetimin etkinliği hakkındaki bilgileri içeren mali tabloların zamanında ve doğru hazırlanması, raporlanması ve yayımlanmasıdır.",
+        "start": 4.77,
+        "end": 42.24
       },
       {
         "index": 2,
-        "text": "Gerçekleştirilen tüm işlemlerin kayıt dışında kalmaması,",
-        "start": 8.02,
-        "end": 12.74
+        "text": "Muhasebenin temel ilkelerindeki kritik sınav detayları şunlardır. İşletmenin Sürekliliği İlkesi, faaliyetlerin bir zaman sınırlamasına tabi olmaksızın sürdürüleceği varsayımıdır. Muhasebe politikasında değişiklik yapılırsa olası etkileri ile birlikte mali tablo açıklama ve dipnotlarında belirtilir.",
+        "start": 42.24,
+        "end": 65.51
       },
       {
         "index": 3,
-        "text": "Hesap ve kayıt düzeninde şeffaflık ve tekdüzeliğin sağlanması,",
-        "start": 12.74,
-        "end": 17.74
+        "text": "Dönemsellik İlkesi ve Tahakkuk Esası, sınırsız kabul edilen faaliyet ömrünün belirli dönemlere bölünmesi ve her dönemin faaliyet sonuçlarının diğer dönemlerden bağımsız saptanmasıdır. Gelir ve giderler tahakkuk esasına göre muhasebeleştirilir, yani nakit giriş veya çıkışına bakılmaksızın gerçekleştiği dönemde kaydedilir. Buradaki ince nokta şudur. Mali tablolar tahakkuk esasına göre hazırlanır, ancak, Nakit Akım Tablosu nakit veya nakit benzeri değerlerin tahsil edilmesi veya ödenmesi yani nakit esası baz alınarak hazırlanır.",
+        "start": 65.51,
+        "end": 103.56
       },
       {
         "index": 4,
-        "text": "Faaliyetlerin gerçek mahiyetlerine uygun olarak sağlıklı ve güvenilir biçimde muhasebeleştirilmesi,",
-        "start": 17.74,
-        "end": 24.85
+        "text": "Tutarlılık İlkesi, seçilen muhasebe politikalarının birbirini izleyen dönemlerde değiştirilmeden uygulanmasıdır. Kişilik İlkesi, Bankanın ortaklarından, yöneticilerinden, personelinden ve diğer ilgililerden ayrı bir kişiliğe sahip olması ve muhasebe işlemlerinin sadece bu kişilik adına yürütülmesidir.",
+        "start": 103.56,
+        "end": 125.47
       },
       {
         "index": 5,
-        "text": "Mali durum, mali performans ve yönetimin etkinliği hakkındaki bilgileri içeren mali tabloların zamanında ve doğru hazırlanması, raporlanması ve yayımlanması.",
-        "start": 24.85,
-        "end": 36.44
+        "text": "Parayla Ölçülme İlkesine göre, yabancı para işlemleri dışında ulusal para birimine göre kayıt yapılır. Yabancı para işlemleri ilgili para birimi üzerinden kayıtlara geçirilmekle birlikte, raporlama dönemleri itibarıyla ulusal para birimi üzerinden karşılığı dikkate alınarak değerlemeye yani evalüasyona tabi tutulur.",
+        "start": 125.47,
+        "end": 146.25
       },
       {
         "index": 6,
-        "text": "Muhasebenin Temel İlkeleri (Kritik Sınav Detayları",
-        "start": 36.44,
-        "end": 40.85
+        "text": "Maliyet Esası İlkesi, para mevcudu, alacaklar ve maliyetinin belirlenmesi mümkün veya uygun olmayan diğer kalemler hariç olmak üzere, edinilen varlık ve hizmetlerin elde edilmesinde yapılan giderlerin toplamını ifade eden maliyet bedeli üzerinden kayda alınmasıdır.",
+        "start": 146.25,
+        "end": 163.73
       },
       {
         "index": 7,
-        "text": "İşletmenin Sürekliliği İlkesi: Faaliyetlerin zaman sınırlamasına tabi olmaksızın sürdürüleceği varsayımıdır. Muhasebe politikasında değişiklik yapılırsa olası etkileri ile birlikte mali tablo açıklama ve dipnotlarında belirtilir.",
-        "start": 40.85,
-        "end": 58.25
+        "text": "Tarafsızlık ve Güvenilir Belge İlkesi, muhasebe kayıtlarının gerçek durumu yansıtan ve usulüne uygun olarak düzenlenmiş objektif belgelere dayandırılması ve yöntem seçilirken önyargısız ve yansız hareket edilmesidir.",
+        "start": 163.73,
+        "end": 178.59
       },
       {
         "index": 8,
-        "text": "Dönemsellik İlkesi ve Tahakkuk Esası: Sınırsız kabul edilen faaliyet ömrünün belirli dönemlere bölünmesi ve her dönemin sonuçlarının bağımsız saptanmasıdır.",
-        "start": 58.25,
-        "end": 69.34
+        "text": "İhtiyatlılık İlkesi, muhasebe olaylarında temkinli davranılması ve bankanın karşılaşabileceği risklerin göz önüne alınmasıdır. Bu ilke gereğince muhtemel gider ve zararlar için karşılık ayrılır, muhtemel gelir ve karlar için ise gerçekleşme dönemlerine kadar herhangi bir muhasebe işlemi yapılmaz.",
+        "start": 178.59,
+        "end": 200.38
       },
       {
         "index": 9,
-        "text": "İNCE NOKTA: Mali tablolar TAHAKKUK ESASINA göre hazırlanır; ancak, NAKİT AKIM TABLOSU nakit veya nakit benzeri değerlerin tahsil edilmesi veya ödenmesi (NAKİT ESASI) esas alınarak hazırlanır.",
-        "start": 69.34,
-        "end": 83.07
+        "text": "Özün Önceliği İlkesi, işlemlerin muhasebeleştirilmesinde yalnızca hukuki biçimin değil, öncelikle ekonomik değer anlamında gerçek içeriğin yani mali yapının esas alınmasıdır. Paragraf sonundaki kritik istisna şudur. İşlemin gerçek durumu yansıtacak şekilde kayıtlara geçirilmesinin vergi mevzuatıyla farklılık yaratması durumunda, muhasebeleştirme işlemin gerçek niteliğine göre yapılır ve farklılık vergi hesaplaması amacıyla düzenlenen mali tablolarda giderilir.",
+        "start": 200.38,
+        "end": 231.68
       },
       {
         "index": 10,
-        "text": "Tutarlılık İlkesi: Seçilen muhasebe politikalarının birbirini izleyen dönemlerde değiştirilmeden uygulanmasıdır.",
-        "start": 83.07,
-        "end": 92.09
+        "text": "KONU 2 - MALİ TABLOLAR VE HESAPLARIN İŞLEYİŞİ",
+        "start": 231.68,
+        "end": 235.98
       },
       {
         "index": 11,
-        "text": "Kişilik İlkesi: Bankanın ortaklarından, yöneticilerinden, personelinden ve diğer ilgililerden ayrı bir kişiliğe sahip olmasıdır.",
-        "start": 92.09,
-        "end": 101.61
+        "text": "Bankamızda 7 adet mali tablo bulunmaktadır.",
+        "start": 235.98,
+        "end": 240.28
       },
       {
         "index": 12,
-        "text": "Parayla Ölçülme İlkesi: Yabancı para işlemleri dışında ulusal para birimine göre kayıt yapılır. YP işlemler ilgili para birimi üzerinden kaydedilir, ancak, raporlama dönemlerinde ulusal para birimi üzerinden karşılığı dikkate alınarak değerlemeye (evalüasyona) tabi tutulur.",
-        "start": 101.61,
-        "end": 120.91
+        "text": "Birinci tablo Bilançodur. Bilançonun aktif bölümü paraya dönüşüm çabukluğuna, pasif bölümü ise ödeme çabukluğuna göre düzenlenir. Aktif toplamı pasif toplamına eşittir. Aktif kalemler arasında varlıkların değerinde meydana gelen azalışları gösteren Birikmiş Amortismanlar ve Karşılıklar gibi aktif düzenleyici hesaplar indirim kalemi olarak yer alır.",
+        "start": 240.28,
+        "end": 265.83
       },
       {
         "index": 13,
-        "text": "Maliyet Esası İlkesi: NAKİT VE ALACAKLAR DIŞINDA bir varlığın, elde edilmesi aşamasında oluşan maliyet değeri üzerinden kaydedilmesidir.",
-        "start": 120.91,
-        "end": 130.72
+        "text": "İkinci tablo Bilanço Dışı Hesaplar yani Finansal Durum Tablosu Dışı Hesaplardır. Varlık ve borçları birinci derecede ilgilendirmeyen, fakat, ileride aktif ve pasifi etkileyecek, banka açısından borç veya alacak doğuracak hak ve yükümlülükleri izler.",
+        "start": 265.83,
+        "end": 284.08
       },
       {
         "index": 14,
-        "text": "Tarafsızlık ve Güvenilir Belge İlkesi: Kayıtların gerçek durumu yansıtan usulüne uygun belgelere dayandırılması ve yöntem seçiminde yansız davranılmasıdır.",
-        "start": 130.72,
-        "end": 142.01
+        "text": "Üçüncü tablo Gelir Tablosu yani Kar Zarar Cetvelidir. Belirli bir dönemde elde edilen tüm gelirler ile aynı dönemde katlanılan bütün maliyet ve giderleri ve bunların sonucunda oluşan dönem net karını veya zararını gösterir. Tüm gelir ve giderler tahakkuk tarihleri itibarıyla kayda alınır.",
+        "start": 284.08,
+        "end": 305.34
       },
       {
         "index": 15,
-        "text": "İhtiyatlılık İlkesi: Muhtemel gider ve zararlar için karşılık ayrılması, muhtemel gelir ve karlar için ise gerçekleşme dönemlerine kadar kayıt yapılmamasıdır.",
-        "start": 142.01,
-        "end": 153.12
+        "text": "Dördüncü tablo Nakit Akım Tablosudur. Belirli bir hesap döneminde nakit ve nakit benzeri varlıklarda meydana gelen değişiklikleri, tahsilat ve ödemelerin kaynaklarını ve kullanım yerlerini gösterir. Düzenlenmesinde nakit esası benimsenir.",
+        "start": 305.34,
+        "end": 323.05
       },
       {
         "index": 16,
-        "text": "Özün Önceliği İlkesi: İşlemlerin muhasebeleştirilmesinde yalnızca hukuki biçimin değil, öncelikle EKONOMİK DEĞER ANLAMINDA GERÇEK İÇERİĞİN (mali yapının) esas alınmasıdır.",
-        "start": 153.12,
-        "end": 165.6
+        "text": "Beşinci tablo Özkaynak Değişim Tablosudur. İlgili dönemde özkaynak kalemlerinde meydana gelen artış veya azalışları bir bütün olarak gösteren tablodur. Ana ve katkı sermaye kalemlerinin her birinin dönem başı bakiyesini, dönem içi artış veya azalışlarını ve dönem sonu kalanını ayrı ayrı gösterir.",
+        "start": 323.05,
+        "end": 345.53
       },
       {
         "index": 17,
-        "text": "PARAGRAF SONU TUZAĞI: İşlemin gerçek durumu yansıtacak şekilde kaydedilmesinin vergi mevzuatıyla farklılık yaratması durumunda, muhasebeleştirme işlemin GERÇEK NİTELİĞİNE GÖRE yapılır ve farklılık vergi hesaplaması amacıyla düzenlenen mali tablolarda giderilir.",
-        "start": 165.6,
-        "end": 182.18
+        "text": "Altıncı tablo Kar Dağıtım Tablosudur. Bir faaliyet döneminde elde edilen brüt karın vergi ve benzeri yükümlülükler düşüldükten sonra ne şekilde dağıtılacağını gösteren tablodur.",
+        "start": 345.53,
+        "end": 358.77
       },
       {
         "index": 18,
-        "text": "MALİ TABLOLAR VE HESAPLARIN İŞLEYİŞİ",
-        "start": 182.18,
-        "end": 185.92
+        "text": "Yedinci tablo Özkaynaklarda Muhasebeleştirilen Gelir Gider Kalemlerine İlişkin Tablodur. İlgili Türkiye Muhasebe Standartları uyarınca yapılan değerleme işlemleri sonucunda ortaya çıkan, gelir gider tablosuna yansıtılmayan ve özkaynak hesaplarına kaydedilen değerleme farklarını gösteren tablodur.",
+        "start": 358.77,
+        "end": 380.2
       },
       {
         "index": 19,
-        "text": "Mali Tablolar (7 Adet",
-        "start": 185.92,
-        "end": 189.05
+        "text": "Hesapların sınıflandırılması ve işleyiş kuralları şöyledir. Hesap çizelgesinin sol tarafına Borç, sağ tarafına Alacak, borç ve alacak taraflarının toplamları arasındaki farka ise Hesap Kalanı yani Bakiyesi denir.",
+        "start": 380.2,
+        "end": 395.68
       },
       {
         "index": 20,
-        "text": "Bilanço: Aktif bölümü PARAYA DÖNÜŞÜM ÇABUKLUĞUNA, pasif bölümü ise ÖDEME ÇABUKLUĞUNA göre düzenlenir.",
-        "start": 189.05,
-        "end": 196.96
+        "text": "Aktif Hesapların ilk işleyişi borç taraftan olur ve borç bakiyesi verirler. Varlık ve gideri çoğaltan, gelir veya sermayeyi azaltan işlemler aktif hesaplara borç yazılır. Pasif Hesapların ilk işleyişi ise alacak taraftan olur ve alacak bakiyesi verirler. Öz ve yabancı kaynaklar ile gelirleri artıran işlemler pasif hesaplara alacak yazılır.",
+        "start": 395.68,
+        "end": 421.59
       },
       {
         "index": 21,
-        "text": "Bilanço Dışı Hesaplar (Finansal Durum Tablosu Dışı Hesaplar Aktif ve pasifi birinci derecede ilgilendirmeyen, ileride borç veya alacak doğuracak hak ve yükümlülükleri izler.",
-        "start": 196.96,
-        "end": 208.54
+        "text": "Finansal Durum Tablosu Dışı yani Nazım Hesapların borç bakiyeleri daima aynı işlemlere ait karşı hesaplarının alacak bakiyeleri ile eşit olmalıdır. Nazım hesaplar temelde 4 bölümde incelenir. Birincisi teminat mektubu verilmesi ve akreditif açılması gibi Garanti ve Kefaletlerdir. İkincisi repo işlemleri ve çekler için ödeme taahhütlerimiz gibi Taahhütlerdir. Üçüncüsü swap, opsiyon ve futures gibi Türev Finansal Araçlardır. Dördüncüsü ise tahsile alınan çekler ve gayrimenkulün teminat alınması gibi Emanet ve Rehinli Kıymetlerdir.",
+        "start": 421.59,
+        "end": 465.33
       },
       {
         "index": 22,
-        "text": "Gelir Tablosu (Kar Zarar Cetveli Tüm gelir ve giderler tahakkuk tarihleri itibarıyla kayda alınır.",
-        "start": 208.54,
-        "end": 216.75
+        "text": "Pozisyonlarına göre hesaplar Ana Hesaplar, Yardımcı Hesaplar ve Alt Hesaplar olarak ayrılır. Yardımcı hesapların bakiyeleri toplamı ana hesaba, alt hesapların bakiyeleri toplamı ise yardımcı hesaba eşittir.",
+        "start": 465.33,
+        "end": 481.35
       },
       {
         "index": 23,
-        "text": "Nakit Akım Tablosu: Nakit ve nakit benzeri varlıklardaki değişiklikleri gösterir; düzenlenmesinde NAKİT ESASI benimsenir.",
-        "start": 216.75,
-        "end": 225.83
+        "text": "Asli Hesaplar kasa, kredi, mevduat gibi bilanço veya gelir tablosunu ilgilendiren esas faaliyet hesaplarıdır. Aktifte yer alan Borçlu Geçici Hesaplar ve pasifte yer alan Alacaklı Geçici Hesaplar, işlem sırasında herhangi bir nedenle ait olduğu asıl hesaba alınamayan iç işlemlerle ilgili geçici kayıtlardır. Sonuç Hesapları ise gelir ve giderleri kapsar, dönem sonunda kapatılarak kar veya zarar tespitine yardımcı olur ve bakiyeleri kalmadığı için bilançoda yer almaz. Kayıt yöntemleri ise tek yanlı olan basit kayıt yöntemi ve karşılıklı borç ve alacak çalışan çift yanlı kayıt yöntemidir.",
+        "start": 481.35,
+        "end": 525.17
       },
       {
         "index": 24,
-        "text": "Özkaynak Değişim Tablosu: Ana ve katkı sermaye kalemlerinin dönem başı bakiyesini, dönem içi artış/azalışlarını ve dönem sonu kalanını ayrı ayrı gösterir.",
-        "start": 225.83,
-        "end": 237.02
+        "text": "KONU 3 - TEK DÜZEN HESAP PLANI VE ÖRNEK MUHASEBE KAYITLARI",
+        "start": 525.17,
+        "end": 530.29
       },
       {
         "index": 25,
-        "text": "Kar Dağıtım Tablosu: Elde edilen brüt karın vergi vb. yükümlülükler düşüldükten sonra ne şekilde dağıtılacağını gösterir.",
-        "start": 237.02,
-        "end": 245.97
+        "text": "Tek Düzen Hesap Planı, B D D K tarafından hazırlanan Tebliğ çerçevesinde 0'dan 9'a kadar 10 ana gruptan oluşur.",
+        "start": 530.29,
+        "end": 539.17
       },
       {
         "index": 26,
-        "text": "Özkaynaklarda Muhasebeleştirilen Gelir Gider Kalemlerine İlişkin Tablo: TMS uyarınca yapılan değerleme sonucunda ortaya çıkan, gelir gider tablosuna yansıtılmayan ve özkaynak hesaplarına kaydedilen değerleme farklarını gösterir.",
-        "start": 245.97,
-        "end": 260.97
+        "text": "0 Grubu Dönen Değerler olup bilanço aktifinde yer alır.",
+        "start": 539.17,
+        "end": 543.87
       },
       {
         "index": 27,
-        "text": "Hesapların Sınıflandırılması ve İşleyiş Kuralları:",
-        "start": 260.97,
-        "end": 265.21
+        "text": "1 Grubu Krediler olup bilanço aktifinde yer alır.",
+        "start": 543.87,
+        "end": 548.1
       },
       {
         "index": 28,
-        "text": "Hesap çizelgesinin sol tarafına \"Borç\", sağ tarafına \"Alacak\", ikisi arasındaki farka \"Hesap Kalanı (Bakiyesi)\" denir.",
-        "start": 265.21,
-        "end": 274.25
+        "text": "2 Grubu Yatırım Amaçlı Değerler ve Diğer Aktifler olup bilanço aktifinde yer alır.",
+        "start": 548.1,
+        "end": 554.4
       },
       {
         "index": 29,
-        "text": "Aktif Hesaplar: İlk işleyişi BORÇ taraftan olur, borç bakiyesi verir (Varlık ve gideri çoğaltan, gelir veya sermayeyi azaltan işlemler).",
-        "start": 274.25,
-        "end": 284.46
+        "text": "3 Grubu Mevduat ve Diğer Yabancı Kaynaklar olup bilanço pasifinde yer alır.",
+        "start": 554.4,
+        "end": 560.39
       },
       {
         "index": 30,
-        "text": "Pasif Hesaplar: İlk işleyişi ALACAK taraftan olur, alacak bakiyesi verir (Öz ve yabancı kaynaklar ile gelirleri artıran işlemler).",
-        "start": 284.46,
-        "end": 294.02
+        "text": "4 Grubu Özkaynaklar olup bilanço pasifinde yer alır.",
+        "start": 560.39,
+        "end": 565.06
       },
       {
         "index": 31,
-        "text": "Finansal Durum Tablosu Dışı (Nazım) Hesaplar: Borç bakiyeleri daima aynı işlemlere ait karşı hesaplarının alacak bakiyeleri ile EŞİT olmalıdır. Temelde 4 bölümde incelenir:",
-        "start": 294.02,
-        "end": 307.93
+        "text": "5 Grubu Faiz Gelirleri olup gelir tablosunda yer alır.",
+        "start": 565.06,
+        "end": 569.71
       },
       {
         "index": 32,
-        "text": "Garanti ve kefaletler (Örn: Teminat mektubu verilmesi, akreditif açılması)",
-        "start": 307.93,
-        "end": 314.22
+        "text": "6 Grubu Faiz Giderleri olup gelir tablosunda yer alır.",
+        "start": 569.71,
+        "end": 574.37
       },
       {
         "index": 33,
-        "text": "Taahhütler (Örn: Repo işlemleri, çekler için ödeme taahhütlerimiz)",
-        "start": 314.22,
-        "end": 320.15
+        "text": "7 Grubu Faiz Dışı Gelirler olup gelir tablosunda yer alır.",
+        "start": 574.37,
+        "end": 579.26
       },
       {
         "index": 34,
-        "text": "Türev finansal araçlar (Örn: Swap, opsiyon, futures)",
-        "start": 320.15,
-        "end": 325.4
+        "text": "8 Grubu Faiz Dışı Giderler olup gelir tablosunda yer alır.",
+        "start": 579.26,
+        "end": 584.25
       },
       {
         "index": 35,
-        "text": "Emanet ve rehinli kıymetler (Örn: Tahsile alınan çekler, gayrimenkulün teminat alınması)",
-        "start": 325.4,
-        "end": 332.68
+        "text": "9 Grubu Finansal Durum Tablosu Dışı Hesaplar yani bilanço dışı nazım hesaplardır.",
+        "start": 584.25,
+        "end": 591.66
       },
       {
         "index": 36,
-        "text": "Pozisyonlarına Göre Hesaplar: Ana Hesaplar -> Yardımcı Hesaplar (bakiyeleri toplamı ana hesaba eşittir) -> Alt Hesaplar (bakiyeleri toplamı yardımcı hesaba eşittir).",
-        "start": 332.68,
-        "end": 344.75
+        "text": "Hesap numaralama sistemi belirli hesaplar hariç 6 haneden, istisnai hesaplar ise 7 haneden oluşur. 1. hane grup numarasını tanımlar. 2. ve 3. hane defteri kebir yani ana hesap numarasını tanımlar. 4. ve 5. hane yardımcı hesap numarasını tanımlar. 6. hane ise alt hesap numarasını tanımlar.",
+        "start": 591.66,
+        "end": 618.46
       },
       {
         "index": 37,
-        "text": "Asli, Geçici ve Sonuç Hesapları:",
-        "start": 344.75,
-        "end": 348.23
+        "text": "Burada çok önemli bir ince nokta vardır. Defteri kebir hesaplarında son rakamı çift olanlar Türk Parası hesaplarıdır; örneğin 010, 116, 290, 300, 310, 360, 390, 910 ve 912 gibi. Son rakamı tek olanlar ise Yabancı Para hesaplarıdır; örneğin 011, 117, 291, 301, 311, 361, 391, 911 ve 913 gibi.",
+        "start": 618.46,
+        "end": 652.89
       },
       {
         "index": 38,
-        "text": "Asli Hesaplar: Kasa, kredi, mevduat gibi bilanço veya gelir tablosunu ilgilendiren esas faaliyet hesaplarıdır.",
-        "start": 348.23,
-        "end": 357.69
+        "text": "0 Grubu yani Dönen Değerler grubundaki önemli hesaplara ve kayıtlara bakalım. Başlıca kodlarımız 010 Kasa, 011 Efektif Deposu, 012 Yoldaki Paralar, 020 T C M B Hesabı, 022 Yurtiçi Bankalar ve 030 Gerçeğe Uygun Değer Farkı Kar veya Zarara Yansıtılan Menkul Değerler TP hesabıdır.",
+        "start": 652.89,
+        "end": 676.19
       },
       {
         "index": 39,
-        "text": "Borçlu Geçici Hesaplar (Aktifte) ve Alacaklı Geçici Hesaplar (Pasifte İşlem sırasında herhangi bir nedenle ait olduğu asıl hesaba alınamayan iç işlemlerle ilgili geçici kayıtlardır.",
-        "start": 357.69,
-        "end": 370.43
+        "text": "010 Kasa hesabında yalnızca Türk Parası değerler izlenir, aktif niteliklidir, kasaya girişler borç, kasadan çıkışlar alacak kaydedilir. Kasa mutabakatında günlük kasa işlemleri vezneciler tarafından Kasa İşlem Bordrosuna kaydedilir. Dünkü kasa mevcudu toplamı ile tahsilat kısmı toplamından tediyeler toplamı indirilmek suretiyle bugünkü kasa mevcudu bulunur. Vergi Usul Kanunu uyarınca kasadaki paraların cins, küpür ve miktarı Günlük Kasa Defterine kayıt edilerek yetkililerce imzalanır.",
+        "start": 676.19,
+        "end": 712.56
       },
       {
         "index": 40,
-        "text": "Sonuç Hesapları: Gelir ve giderleri kapsar; dönem sonunda kapatılarak kar/zarar tespitine yardımcı olur, bakiyeleri kalmadığı için BİLANCODA YER ALMAZ.",
-        "start": 370.43,
-        "end": 381.95
+        "text": "Kasa noksanı yani açığı çıktığında ve nedeni bulunamadığında, noksan tutar bir tediye fişi ile 280 Borçlu Geçici Hesaplar altındaki 28002 Kasa Noksanı hesabına borç, 010 Kasa hesabına alacak kaydedilir ve sorumlularından Türk Lirası olarak tahsil edilir.",
+        "start": 712.56,
+        "end": 729.96
       },
       {
         "index": 41,
-        "text": "Kayıt Yöntemleri: Basit Kayıt Yöntemi (tek yanlı) ve Çift Yanlı Kayıt Yöntemi (karşılıklı borç/alacak).",
-        "start": 381.95,
-        "end": 391.09
+        "text": "Kasa fazlası çıktığında ise bir tahsil fişi ile 010 Kasa hesabına borç, 392 Alacaklı Geçici Hesaplar altındaki 39201 Kasa Fazlalıkları hesabına alacak kaydedilir. Bekleme süresi sonunda nedeni bulunamadığı için tasfiye edilemeyen kasa fazlaları, vergisi Bankamızca karşılanmak üzere gelirlere aktarılır. Bu kayıtta 39201 Kasa Fazlalıkları ve 83000 B S M V hesaplarına borç; 79099 Diğer Faiz Dışı Gelirler ve 380005 Ödenecek B S M V hesaplarına alacak kaydedilir.",
+        "start": 729.96,
+        "end": 768.83
       },
       {
         "index": 42,
-        "text": "TEK DÜZEN HESAP PLANI (TDHP) VE ÖRNEK MUHASEBE KAYITLARI",
-        "start": 391.09,
-        "end": 396.64
+        "text": "011 Efektif Deposu hesabında alım satım konusu yapılan yabancı paralar sabit fiyat üzerinden kaydedilir ve dönem sonlarında evalüasyon işleminden geçirilerek bakiyesi Türk Parasına dönüştürülür.",
+        "start": 768.83,
+        "end": 782.47
       },
       {
         "index": 43,
-        "text": "Tek Düzen Hesap Planının Yapısı ve Hane Sistemi:",
-        "start": 396.64,
-        "end": 400.97
+        "text": "Karşılığında Türk Lirası ödenerek efektif alışında Döviz Alım Bordrosu düzenlenir ve iki kayıt yapılır. İlk kayıtta sabit kurdan 011 Efektif Deposu borçlandırılır, 293 Efektif Vaziyeti alacaklandırılır. İkinci kayıtta ödenen Türk Lirası tutarı üzerinden 292 Efektif Alım Satım hesabı borçlandırılır, 010 Kasa hesabı alacaklandırılır. Buradaki kritik istisnayı sakın unutma. Efektif Türk Lirası ödenerek değil de karşılığında Döviz Tevdiat Hesabı açılmak veya önceden yapılan ödemelerin geri tahsili gibi nedenlerle alınmış ise, sabit kurdan 011 Efektif Deposu borçlandırılır ve ilgili YP Hesap alacaklandırılır. Bu durumda kesinlikle 293 Efektif Vaziyeti hesabı çalıştırılmaz.",
+        "start": 782.47,
+        "end": 835.3
       },
       {
         "index": 44,
-        "text": "B D D K tarafından hazırlanan Tebliğ çerçevesinde 0'dan 9'a kadar 10 ana gruptan oluşur:",
-        "start": 400.97,
-        "end": 408.46
+        "text": "Karşılığında Türk Lirası tahsil edilerek yapılan efektif satışında ise Döviz Satım Bordrosu düzenlenir. İlk kayıtta sabit kurdan 293 Efektif Vaziyeti borçlandırılır, 011 Efektif Deposu alacaklandırılır. İkinci kayıtta alınan Türk Lirası tutarı ile 010 Kasa hesabı borçlandırılır; karşılığında 292 Efektif Alım Satımı, 76111 Efektif ve Döviz Alım Satım Komisyonları, 380005 B S M V ve 380006 Kambiyo Muameleleri Vergisi hesapları alacaklandırılır. Yine kritik istisna olarak, satış dışında Döviz Tevdiat Hesaplarından yapılan efektif ödemeleri ve çıkışları için kesinlikle 293 Efektif Vaziyeti hesabı çalıştırılmaz.",
+        "start": 835.3,
+        "end": 885.04
       },
       {
         "index": 45,
-        "text": "0: DÖNEN DEĞERLER (Bilanço - Aktif)",
-        "start": 408.46,
-        "end": 412.5
+        "text": "1 Grubu yani Krediler grubunun muhasebe kayıt aşamalarına geçelim. Önemli kodlarımız 116 Kısa Vadeli Açık Diğer Krediler TP, 117 Kısa Vadeli Açık Diğer Krediler YP, 118 Kısa Vadeli Teminatlı Diğer Krediler TP ve 119 Kısa Vadeli Teminatlı Diğer Krediler YP hesaplarıdır.",
+        "start": 885.04,
+        "end": 907.31
       },
       {
         "index": 46,
-        "text": "1: KREDİLER (Bilanço - Aktif)",
-        "start": 412.5,
-        "end": 415.98
+        "text": "Kredi sözleşmesi imzalandığında 996 Diğer Finansal Durum Tablosu Dışı Hesaplardan Alacaklar borçlandırılır, 998 Diğer Finansal Durum Tablosu Dışı Hesaplardan Borçlar alacaklandırılır.",
+        "start": 907.31,
+        "end": 922.05
       },
       {
         "index": 47,
-        "text": "2: YATIRIM AMAÇLI DEĞERLER VE DİĞER AKTİFLER (Bilanço - Aktif)",
-        "start": 415.98,
-        "end": 421.38
+        "text": "Kredi teminatı alındığında 982 Emanet ve Rehinli Kıymetler borçlandırılır, 984 Emanet ve Rehinli Kıymet Verenler veya Bırakanlar alacaklandırılır.",
+        "start": 922.05,
+        "end": 934.57
       },
       {
         "index": 48,
-        "text": "3: MEVDUAT VE DİĞER YABANCI KAYNAKLAR (Bilanço - Pasif)",
-        "start": 421.38,
-        "end": 426.47
+        "text": "Kredi kullandırıldığında İlgili Kredi Hesabı borçlandırılır, 010 Kasa veya İlgili Mevduat Hesabı alacaklandırılır.",
+        "start": 934.57,
+        "end": 943.51
       },
       {
         "index": 49,
-        "text": "4: ÖZKAYNAKLAR (Bilanço - Pasif)",
-        "start": 426.47,
-        "end": 430.32
+        "text": "Bankacılık Kanunu 55. madde kapsamındaki sınırlama dışı kredilerin kaydında 992 Sınırlamalara Tabi Olmayan Kredilerden Alacaklar borçlandırılır, 994 Sınırlamalara Tabi Olmayan Kredilerden Borçlar alacaklandırılır.",
+        "start": 943.51,
+        "end": 960.06
       },
       {
         "index": 50,
-        "text": "5: FAİZ GELİRLERİ (Gelir Tablosu +)",
-        "start": 430.32,
-        "end": 434.25
+        "text": "Tahakkuk veya ödeme tarihi gelmeyen kredilerin dönem sonlarında dönemsellik ilkesi uyarınca reeskont yöntemi ile döneme isabet eden faizi İç Verim Usulüne göre hesaplanır. Bu kayıtta 220.01 Faiz Reeskontları hesabı borçlandırılır, İlgili Faiz veya Komisyon Geliri Hesabı alacaklandırılır. Buradaki iptal kuralı çok önemlidir. Ara dönem reeskont kaydı ertesi iş günü ters kayıtla iptal edilir; ancak, yıl sonu reeskontları ertesi iş günü değil, ödeme veya tahakkuk tarihi itibarıyla iptal edilir.",
+        "start": 960.06,
+        "end": 996.97
       },
       {
         "index": 51,
-        "text": "6: FAİZ GİDERLERİ (Gelir Tablosu -)",
-        "start": 434.25,
-        "end": 438.16
+        "text": "Kredi faiz tahakkukunda 220.00 Faiz Tahakkukları ve 278 Muhtelif Alacaklar borçlandırılır; karşılığında İlgili Faiz Geliri, İlgili Komisyon Geliri, 380005 B S M V ve 39022 K K D F hesapları alacaklandırılır. Tahsilat yapıldığında ise 010 Kasa borçlandırılır, 220.00 Faiz Tahakkukları ve 278 Muhtelif Alacaklar alacaklandırılır.",
+        "start": 996.97,
+        "end": 1027.14
       },
       {
         "index": 52,
-        "text": "7: FAİZ DIŞI GELİRLER (Gelir Tablosu +)",
-        "start": 438.16,
-        "end": 442.37
+        "text": "2 Grubu yani Yatırım Amaçlı Değerler ve Diğer Aktifler grubuna bakalım. 240 İştirakler ve 270 Ayniyat Mevcudu bu gruptadır.",
+        "start": 1027.14,
+        "end": 1038.73
       },
       {
         "index": 53,
-        "text": "8: FAİZ DIŞI GİDERLER (Gelir Tablosu -)",
-        "start": 442.37,
-        "end": 446.65
+        "text": "250 Menkuller TP hesabında kullanma süresi 1 yıldan fazla olan kasa, büro makinesi, mobilya, mefruşat, taşıt gibi demirbaşlar alış fiyatı ile nakliye ve hammaliye dahil maliyet bedeli üzerinden kaydedilir. Amortisman süresi sonunda demirbaşlar halen kullanılır durumda ise 250 Menkuller hesabında takip edilmeye devam olunur. Faaliyet kiralaması yöntemiyle kiralamaya konu edilen menkuller 25021 Faaliyet Kiralaması Konusu Menkuller yardımcı hesabında izlenir. Ay sonu ve yıl sonlarında yapılan amortisman kaydında 850 Amortisman Giderleri borçlandırılır, 256 Birikmiş Amortismanlar alacaklandırılır. Kullanım ömrünü tamamlamış menkullerin satılması veya kamu kuruluşlarına bağışlanması yoluyla terkin işlemi için terkin edilecek menkuller cetveli ile Genel Müdürlükten terkin yetkisi alınır.",
+        "start": 1038.73,
+        "end": 1097.12
       },
       {
         "index": 54,
-        "text": "9: FİNANSAL DURUM TABLOSU DIŞI HESAPLAR (Bilanço Dışı / Nazım)",
-        "start": 446.65,
-        "end": 452.1
+        "text": "252 Gayrimenkuller TP hesabında finansal kiralama yoluyla edinilen gayrimenkuller ile faaliyetleri sürdürmek amacıyla satın alınan bina, arsa, arazi ve inşa halindeki binalar izlenir.",
+        "start": 1097.12,
+        "end": 1110.73
       },
       {
         "index": 55,
-        "text": "Hesap Numaralama Sistemi: Belirli hesaplar hariç 6 HANEDEN, istisnai hesaplar ise 7 HANEDEN oluşur (1 2 3 4 5 6 -> A B C D E F",
-        "start": 452.1,
-        "end": 463.64
+        "text": "254 Kiralamalara İlişkin Geliştirme Maliyetleri hesabında faaliyet kiralaması yoluyla kiralanan gayrimenkulleri geliştirmek amacıyla yapılan ve geçmişte özel maliyet bedellerinde izlenen harcamalar takip edilir.",
+        "start": 1110.73,
+        "end": 1125.91
       },
       {
         "index": 56,
-        "text": "A (1. Hane Grup numarasını tanımlar.",
-        "start": 463.64,
-        "end": 467.58
+        "text": "258 Maddi Olmayan Duran Varlıklar altında iki önemli yardımcı hesap vardır.",
+        "start": 1125.91,
+        "end": 1133.87
       },
       {
         "index": 57,
-        "text": "BC (2. ve 3. Hane Defteri Kebir (Ana) hesap numarasını tanımlar.",
-        "start": 467.58,
-        "end": 474.0
+        "text": "Birincisi 25800 Şerefiye hesabıdır. Bankanın kiraladığı bir yerin konumuna karşılık yapılan ödeme, devir ve satın aldığı bir şirkete ödediği bedelin şirketin özvarlığından fazla olan kısmı veya bilimsel bir programın kullanım hakkı bedeli bu hesapta izlenir. Sürenin belli olmadığı durumlarda şerefiye amortisman oranı yüzde 20 olarak uygulanır; kaydında 85004 Şerefiye Amortismanı borçlandırılır, 25604 Şerefiye Birikmiş Amortismanı alacaklandırılır.",
+        "start": 1133.87,
+        "end": 1167.05
       },
       {
         "index": 58,
-        "text": "DE (4. ve 5. Hane Yardımcı hesap numarasını tanımlar.",
-        "start": 474.0,
-        "end": 479.56
+        "text": "İkincisi 25801 İlk Tesis ve Taazzuv Giderleri hesabıdır. Şube açılışının yapıldığı yıldan başlayarak kira süresi içinde dönemsel olarak gider yazılır. Kira süresinin belli olmaması halinde 5 yıl süreyle yıl sonlarında amortisman ayrılır; kaydında 85003 İlk Tesis ve Taazzuv Giderleri Amortismanı borçlandırılır, 25603 Birikmiş Amortismanlar alacaklandırılır.",
+        "start": 1167.05,
+        "end": 1196.72
       },
       {
         "index": 59,
-        "text": "F (6. Hane Alt hesap numarasını tanımlar.",
-        "start": 479.56,
-        "end": 484.01
+        "text": "278 Muhtelif Alacaklar TP hesabında, kredi işlemleri dışında, kredi alacağının temlik edilmesi işlemleri dahil olmak üzere Banka nezdinde cari hesabı bulunmayan kişi ve kuruluşların kısa zamanda tasfiye edilmesi gereken borçları ile türev finansal araçlar için verilen teminatlar ve primler izlenir. Buradaki paragraf sonu tuzağı şudur. Herhangi bir kredi alacağının temlik edilmesi neticesinde oluşan alacaklar haricinde, tasfiyeleri uzun zamana bağlı yani 2 yılın üzerinde kalan bir vadeyi ya da tahsil süresini ifade eden alacaklar 278 Muhtelif Alacaklar hesabında izlenemezler.",
+        "start": 1196.72,
+        "end": 1236.72
       },
       {
         "index": 60,
-        "text": "İNCE NOKTA (TP / YP Kod Ayrımı Defteri kebir hesaplarında son rakamı ÇİFT olanlar Türk Parası (Örn: 010, 116, 290, 300, 310, 360, 390, 910, 912), TEK olanlar Yabancı Para (Örn: 011, 117, 291, 301, 311, 361, 391, 911, 913) hesaplarıdır.",
-        "start": 484.01,
-        "end": 513.59
+        "text": "280 Borçlu Geçici Hesaplar aktifte zorunlu bir nedenle asıl hesaba alınamayan geçici iç işlemlerdir.",
+        "start": 1236.72,
+        "end": 1245.92
       },
       {
         "index": 61,
-        "text": "Dönen Değerler (0 Grubu) Önemli Hesaplar ve Kayıtlar:",
-        "start": 513.59,
-        "end": 518.46
+        "text": "290 Şubeler Cari Hesabı TP ve 291 Şubeler Cari Hesabı YP ise şubelerin Genel Müdürlük ile veya birbirleri arasında yapacakları Türk Parası, Yabancı Para ve gram altın işlemlerinin kaydına özgü çift nitelikli hesaplardır. Diğer şube veya Genel Müdürlük adına tahsilat yapıldığında 290 Şubeler Cari alacaklandırılır, ödeme yapıldığında ise 290 Şubeler Cari borçlandırılır.",
+        "start": 1245.92,
+        "end": 1275.49
       },
       {
         "index": 62,
-        "text": "Önemli Kodlar: 010 Kasa, 011 Efektif Deposu, 012 Yoldaki Paralar, 020 T C M B Hesabı, 022 Yurtiçi Bankalar, 030 Gerçeğe Uygun Değer Farkı Kar/Zarara Yansıtılan Menkul Değerler - TP.",
-        "start": 518.46,
-        "end": 535.03
+        "text": "3 Grubu yani Mevduat ve Diğer Yabancı Kaynaklar grubuna geçelim.",
+        "start": 1275.49,
+        "end": 1280.88
       },
       {
         "index": 63,
-        "text": "010 Kasa: Yalnızca Türk Parası değerler izlenir (Aktif nitelikli; girişler borç, çıkışlar alacak).",
-        "start": 535.03,
-        "end": 544.33
+        "text": "Vadesiz mevduat kodlarımız 300 Tasarruf Mevduatı TP, 301 Döviz Tevdiat Hesabı YP, 304 Resmi, Ticari ve Diğer Kuruluşlar Mevduatı TP ve 308 Bankalar Mevduatı TP'dir.",
+        "start": 1280.88,
+        "end": 1295.83
       },
       {
         "index": 64,
-        "text": "Kasa Mutabakatı: Günlük işlemler veznecilerce \"Kasa İşlem Bordrosu\"na kaydedilir (Dünkü kasa mevcudu + tahsilat toplamı - tediyeler toplamı = bugünkü kasa mevcudu). VUK uyarınca kasadaki paraların cins, küpür ve miktarı \"Günlük Kasa Defteri\"ne kaydedilerek yetkililerce imzalanır.",
-        "start": 544.33,
-        "end": 567.15
+        "text": "Vadeli mevduat kodlarımız ise 310 Tasarruf Mevduatı TP, 311 Döviz Tevdiat Hesabı YP, 314 Resmi, Ticari ve Diğer Kuruluşlar Mevduatı TP ve 318 Bankalar Mevduatı TP'dir.",
+        "start": 1295.83,
+        "end": 1312.06
       },
       {
         "index": 65,
-        "text": "Kasa Noksanı Kaydı: Tediye fişi ile -> [BORÇ: 280 Borçlu Geçici Hesaplar (28002 Kasa Noksanı) / ALACAK: 010 Kasa]. Sorumlularından Türk Lirası olarak tahsil edilir.",
-        "start": 567.15,
-        "end": 581.91
+        "text": "Diğer pasiflerde 348 Yurtdışından Kullanılan Krediler, 380 Ödenecek Vergi, Resim, Harç ve Primler, 390 ve 391 Muhtelif Borçlar, 392 Alacaklı Geçici Hesaplar ve 395 Ödeme Emirleri altında 395.01 Ödenecek Havaleler yer alır.",
+        "start": 1312.06,
+        "end": 1333.59
       },
       {
         "index": 66,
-        "text": "Kasa Fazlası Kaydı: Tahsil fişi ile -> [BORÇ: 010 Kasa / ALACAK: 392 Alacaklı Geçici Hesaplar (39201 Kasa Fazlalıkları)].",
-        "start": 581.91,
-        "end": 593.87
+        "text": "Mevduat faiz tahakkukunda ilgili faiz gideri hesabı olan 610 veya 611 borçlandırılır, 3 grubundaki mevduat hesabı alacaklandırılır. Gelir vergisi stopaj kesintisinde ise 3 grubundaki mevduat hesabı borçlandırılır, 380.002 Menkul Sermaye İradı Gelir Vergisi hesabı alacaklandırılır.",
+        "start": 1333.59,
+        "end": 1356.67
       },
       {
         "index": 67,
-        "text": "Bekleme Süresi Sonunda Bulunamayan Kasa Fazlasının Gelire Aktarımı (Vergisi Bankamızca karşılanır",
-        "start": 593.87,
-        "end": 601.8
+        "text": "Döviz Tevdiat Hesabı işlemlerinde efektif karşılığı DTH açılışında veya efektif ile DTH ödemesinde vaziyet hesabı çalışmaz. Ancak, Döviz Tevdiat Hesabından Türk Lirası olarak ödeme yapıldığında sabit kurdan 301 veya 311 DTH borçlandırılıp 295 Döviz Vaziyeti alacaklandırılır ve aynı anda cari döviz alış kurundan 294 Döviz Alım Satım Hesabı borçlandırılıp 010 Kasa alacaklandırılır.",
+        "start": 1356.67,
+        "end": 1387.11
       },
       {
         "index": 68,
-        "text": "[BORÇ: 39201 Kasa Fazlalıkları + 83000 B S M V / ALACAK: 79099 Diğer Faiz Dışı Gelirler + 380005 Ödenecek B S M V].",
-        "start": 601.8,
-        "end": 615.92
+        "text": "360 ve 361 Faiz ve Gider Reeskontları hesaplarında yıl sonu ve ara dönem ayrımı çok kritiktir. 36000 ve 36100 Yıl Sonu Reeskontu, yılın son günü vadesi gelmemiş vadeli mevduatlar için hesaplanır, ertesi gün iptal edilmez, mevduatın vadesi sonunda veya hesap kapandığında tasfiye edilir. 36005 ve 36105 Ara Dönem Reeskontları ise aylık dönemlerde hesaplanır ve ertesi ayın ilk iş gününde ters mahsupla iptal edilir. Çok kritik kural olarak, reeskont edilen mevduat faizlerinden hem yıl sonunda hem ara dönemde gelir vergisi kesintisi yapılmaz.",
+        "start": 1387.11,
+        "end": 1430.61
       },
       {
         "index": 69,
-        "text": "011 Efektif Deposu: Yabancı paralar SABİT FİYAT üzerinden kaydedilir, dönem sonlarında evalüasyon işleminden geçirilerek bakiyesi TP'ye dönüştürülür.",
-        "start": 615.92,
-        "end": 627.3
+        "text": "390 ve 391 Muhtelif Borçlar hesabı, cari hesabı bulunmayanların Bankadan alacakları ile nakdi ve gayrinakdi kredilerin nakdi teminatı olarak alınan paraların izlendiği pasif hesaptır. Paragraf sonu tuzağı olarak unutmayalım, veraset yoluyla devredilecek mevduat ile hacizli mevduat 390 ve 391 Muhtelif Borçlar hesabında kesinlikle izlenemez.",
+        "start": 1430.61,
+        "end": 1457.83
       },
       {
         "index": 70,
-        "text": "Türk Lirası Ödenerek Efektif Alışı (Döviz Alım Bordrosu düzenlenir",
-        "start": 627.3,
-        "end": 632.79
+        "text": "4 Grubu yani Özkaynaklar grubunda 410 Sermaye TP, 412 Sermaye Taahhütleri TP, 413 Sermaye Taahhütleri YP, 414 Sermaye Yedekleri TP, 415 Sermaye Yedekleri YP, 420 Kar Yedekleri TP, 421 Kar Yedekleri YP, 440 Kar ve Zarar TP, 442 Geçmiş Yıllar Kar ve Zararı TP ile 448 Enflasyona Göre Düzeltme Farkları TP yer alır.",
+        "start": 1457.83,
+        "end": 1489.21
       },
       {
         "index": 71,
-        "text": "Kayıt (Sabit Kurdan [BORÇ: 011 Efektif Deposu / ALACAK: 293 Efektif Vaziyeti]",
-        "start": 632.79,
-        "end": 640.63
+        "text": "5 Grubu Faiz Gelirlerinde 510 ve 511 Kısa Vadeli İhracat Kredilerinden Alınan Faizler, 514 ve 515 Kısa Vadeli Diğer Kredilerden Alınan Faizler, 530 ile 535 arası Orta ve Uzun Vadeli Kredilerden Alınan Faizler ve 580 Menkul Değerlerden Alınan Faizler bulunur.",
+        "start": 1489.21,
+        "end": 1512.0
       },
       {
         "index": 72,
-        "text": "Kayıt (Türk Lirası Karşılığı [BORÇ: 292 Efektif Alım Satım / ALACAK: 010 Kasa]",
-        "start": 640.63,
-        "end": 648.4
+        "text": "6 Grubu Faiz Giderlerinde 608 Yurt Dışı Yerleşik Kişiler TP Mevduata Verilen Faizler, 610 Yurt İçi Yerleşik Kişiler TP Mevduata Verilen Faizler, 611 YP Mevduata Verilen Faizler, 614 ve 615 Kıymetli Maden Depo Hesaplarına Verilen Faizler, 622 ve 623 Yurtiçinden Kullanılan Kredilere Verilen Faizler ile 644 ve 645 Kiralama İşlemlerine İlişkin Faiz Giderleri yer alır.",
+        "start": 1512.0,
+        "end": 1544.56
       },
       {
         "index": 73,
-        "text": "KRİTİK İSTİSNA: Efektif Türk Lirası ödenerek değil de karşılığında DTH açılmak veya önceden yapılan ödemenin geri tahsili için alınmışsa [BORÇ: 011 Efektif Deposu / ALACAK: İlgili YP Hesap] yapılır; bu durumda KESİNLİKLE 293 EFEKTİF VAZİYETİ HESABI ÇALIŞTIRILMAZ!",
-        "start": 648.4,
-        "end": 667.62
+        "text": "7 Grubu Faiz Dışı Gelirlerde 710 ile 735 arası Kredilerden Alınan Ücret ve Komisyonlar, 744 ve 745 Yeniden Yapılandırılan Kredilerden, 746 ve 747 Donuk Alacaklardan, 748 ve 749 Nakdi Olmayan Kredilerden Alınan Ücret ve Komisyonlar, 760 ve 761 Bankacılık Hizmet Gelirleri ile 790 Diğer Faiz Dışı Gelirler bulunur.",
+        "start": 1544.56,
+        "end": 1574.27
       },
       {
         "index": 74,
-        "text": "Türk Lirası Tahsil Edilerek Efektif Satışı (Döviz Satım Bordrosu düzenlenir",
-        "start": 667.62,
-        "end": 674.01
+        "text": "8 Grubu Faiz Dışı Giderlerde ise 810 ve 811 Personel Giderleri, 820 ve 821 Karşılık ve Değer Düşme Giderleri, 830 ve 831 Vergi, Resim, Harçlar ve Fonlar, 840 ve 841 Verilen Komisyon ve Ücretler, 850 ve 851 Amortisman Gideri ile 880 Diğer İşletme Giderleri yer alır.",
+        "start": 1574.27,
+        "end": 1602.03
       },
       {
         "index": 75,
-        "text": "Kayıt (Sabit Kurdan [BORÇ: 293 Efektif Vaziyeti / ALACAK: 011 Efektif Deposu]",
-        "start": 674.01,
-        "end": 682.98
+        "text": "9 Grubu yani Finansal Durum Tablosu Dışı Hesaplarda teminat mektubu kayıtlarına dikkat edelim. Türk Parası teminat mektubu verildiğinde 910 Türk Parası Teminat Mektuplarından Alacaklar borçlandırılır, 912 Türk Parası Teminat Mektuplarından Borçlar alacaklandırılır. Yabancı Para teminat mektubu verildiğinde ise 911 Yabancı Para Teminat Mektuplarından Alacaklar borçlandırılır, 913 Yabancı Para Teminat Mektuplarından Borçlar alacaklandırılır.",
+        "start": 1602.03,
+        "end": 1635.04
       },
       {
         "index": 76,
-        "text": "Kayıt (Türk Lirası Tutar, Komisyon ve Vergiler [BORÇ: 010 Kasa / ALACAK: 292 Efektif Alım-Satımı + 76111 Efektif ve Döviz Alım Satım Komisyonları + 380005 B S M V + 380006 Kambiyo Muameleleri Vergisi]",
-        "start": 682.98,
-        "end": 701.17
+        "text": "Burada iki ince nokta vardır. Birincisi, YP teminat mektuplarının Damga Vergisi, T C M B Döviz Satış kuru üzerinden Türk Lirası'ye çevrilmek suretiyle bulunacak matrah üzerinden hesaplanır. İkincisi, şubelerimize teminat mektubu için emir verildiğinde firma riski emri veren şubede izlenir. Emri veren şube 910 veya 911 Teminat Mektuplarından Alacaklar hesabını borçlandırır, 91280 veya 913.80 Şubelerimize Emirlerimiz hesabını alacaklandırır. Emri alan şube ise 91015 veya 911.15 Şubelerimiz Emirleri hesabını borçlandırır, 912 veya 913 Teminat Mektuplarından Borçlar hesabını alacaklandırır. 91015 Şubelerimiz Emirleri ile 91280 Şubelerimize Emirlerimiz hesabı kesinlikle karşılıklı kayda alınmaz. Sınırlama dışı gayrinakdi kredi kaydında ise 992 Sınırlamalara Tabi Olmayan Kredilerden Alacaklar ve yabancı parada 992005 Kur Farkları borçlandırılır, 994.10 Gayrinakdi Krediler alacaklandırılır.",
+        "start": 1635.04,
+        "end": 1715.22
       },
       {
         "index": 77,
-        "text": "KRİTİK İSTİSNA: Satış dışında DTH'lerden yapılan efektif ödemeleri/çıkışları için KESİNLİKLE 293 EFEKTİF VAZİYETİ HESABI ÇALIŞTIRILMAZ!",
-        "start": 701.17,
-        "end": 712.36
+        "text": "Yabancı para işlemlerinin muhasebeleştirilmesi ve evalüasyon kuralları şöyledir. Yabancı para gelir veya gider hesapları işlem tarihinde esas alınan kur üzerinden Türk Lirası'ye çevrilerek kaydedilir. Bilanço hesapları ise işlem tarihinde Türk Lirası'ye dönüştürülmeyerek ilgili para birimi üzerinden sabit fiyatla izlenir ve dönem sonlarında evalüasyon yani değerleme işlemine tabi tutulur. İstisna olarak, dönem sonu evalüasyon kur farkları, Türkiye Muhasebe Standartlarında belirtilen yurtdışında kurulu iştirak yatırımları gibi kalemler hariç olmak üzere dönem gelir ve gider hesaplarına alınarak kambiyo kar veya zararı oluşturulur. Aktif ve pasifi karşılıklı değiştiren yabancı para işlemlerde döviz vaziyet ve alım satım hesaplarının çalıştırılmasına gerek yoktur. Evalüasyon işleminde 293 Efektif Vaziyeti hesabı 292 Efektif Alım Satım Hesabına, 295 Döviz Vaziyeti hesabı ise 294 Döviz Alım Satım Hesabına eşitlenir.",
+        "start": 1715.22,
+        "end": 1784.38
       },
       {
         "index": 78,
-        "text": "Krediler (1 Grubu) Muhasebe Kayıt Aşamaları:",
-        "start": 712.36,
-        "end": 716.51
+        "text": "KONU 4 - MALİ MEVZUAT, VERGİLER VE TUTULMASI ZORUNLU DEFTERLER",
+        "start": 1784.38,
+        "end": 1789.74
       },
       {
         "index": 79,
-        "text": "Önemli Kodlar: 116 Kısa Vadeli Açık Diğer Krediler (TP), 117 Kısa Vadeli Açık Diğer Krediler (YP), 118 Kısa Vadeli Teminatlı Diğer Krediler (TP), 119 Kısa Vadeli Teminatlı Diğer Krediler (YP).",
-        "start": 716.51,
-        "end": 733.3
+        "text": "Temel vergi kavramlarıyla başlayalım. Mükellef, vergi kanunlarına göre kendisine vergi borcu düşen gerçek veya tüzel kişidir. Vergi sorumlusu, verginin ödenmesi bakımından alacaklı vergi dairesine karşı muhatap olan kişidir. Vergi konusu olan unsurların vergi dışı bırakılmasına istisna, vergi borcunun vergi mükellefi yönünden kaldırılmasına ise muafiyet denir. Vergide zamanaşımı süresi 5 yıldır; vergi alacağının doğduğu takvim yılını izleyen yılın başından başlayarak 5 yıl içinde tebliğ edilmeyen veya ödenmeyen vergiler zamanaşımına uğrar.",
+        "start": 1789.74,
+        "end": 1831.07
       },
       {
         "index": 80,
-        "text": "Kredi Sözleşmesinin İmzalanması: [BORÇ: 996 Diğer Finansal Durum Tablosu Dışı Hesaplardan Alacaklar / ALACAK: 998 Diğer Finansal Durum Tablosu Dışı Hesaplardan Borçlar].",
-        "start": 733.3,
-        "end": 747.7
+        "text": "Bankamızın mükellefi ve sorumlusu olduğu vergiler klasik bir sınav sorusudur.",
+        "start": 1831.07,
+        "end": 1836.85
       },
       {
         "index": 81,
-        "text": "Kredi Teminatının Alınması: [BORÇ: 982 Emanet ve Rehinli Kıymetler / ALACAK: 984 Emanet ve Rehinli Kıymet Verenler/Bırakanlar].",
-        "start": 747.7,
-        "end": 759.85
+        "text": "Bankamızın mükellefi olduğu 8 vergi şunlardır: Kurumlar Vergisi, Banka ve Sigorta Muameleleri Vergisi yani B S M V, Emlak Vergisi, Banka tarafından imzalanan kağıtlarda Damga Vergisi, İlan ve Reklam Vergisi, Kambiyo Gider Vergisi, Motorlu Taşıtlar Vergisi ve Çevre Temizlik Vergisi.",
+        "start": 1836.85,
+        "end": 1857.05
       },
       {
         "index": 82,
-        "text": "Kredinin Kullandırılması: [BORÇ: İlgili Kredi Hesabı / ALACAK: 010 Kasa veya İlgili Mevduat Hesabı].",
-        "start": 759.85,
-        "end": 768.35
+        "text": "Bankamızın sorumlusu olduğu 5 vergi ve yükümlülük ise şunlardır: Personel ücretlerinden, mevduat ve repo faizlerinden, serbest meslek ödemelerinden, kira ödemelerinden ve dar mükelleflere yapılan ödemelerden kesilen Gelir Vergisi, Veraset ve İntikal Vergisi, istihkaklardan kesinti suretiyle ödenen ve müşterilerce imzalanan sözleşme ve taahhütnameler için alınan Damga Vergisi, bazı hizmet alımları ve dar mükellef ödemelerinde yapılan Tam ve Kısmi K D V tevkifatı ve çek yaprağı başına alınan Değerli Kağıt Bedeli.",
+        "start": 1857.05,
+        "end": 1892.37
       },
       {
         "index": 83,
-        "text": "Sınırlama Dışı Kredilerin (Bankacılık Kanunu Md. 55) Kaydı: [BORÇ: 992 Sınırlamalara Tabi Olmayan Kredilerden Alacaklar / ALACAK: 994 Sınırlamalara Tabi Olmayan Kredilerden Borçlar].",
-        "start": 768.35,
-        "end": 784.14
+        "text": "Vergi türlerine ilişkin kritik detaylara ve oranlara bakalım. Gelir Vergisi ticari kazanç, zirai kazanç, ücret, serbest meslek kazancı, gayrimenkul sermaye iradı, menkul sermaye iradı ve diğer kazanç ve iratlar olmak üzere 7 gelir unsurundan oluşur. İnce nokta olarak, gayrimenkul sermaye iratlarında yani ödenen kiralarda tahsilat esası vardır ve kira ödemesi yapıldığı anda gelir vergisi kesintisi yapılır.",
+        "start": 1892.37,
+        "end": 1922.33
       },
       {
         "index": 84,
-        "text": "Kredi Dönem Sonu Faiz Reeskontu (İç Verim Usulüne göre [BORÇ: 220.01 Faiz Reeskontları / ALACAK: İlgili Faiz/Komisyon Geliri Hesabı].",
-        "start": 784.14,
-        "end": 795.85
+        "text": "Kurumlar Vergisinde sermaye şirketleri, kooperatifler, İktisadi Kamu Müesseseleri, dernek ve vakıflara ait iktisadi işletmeler ve iş ortaklıkları mükelleftir. Dar mükellef kurumlara yapılan ücret, serbest meslek, gayrimenkul ve menkul sermaye iradı ödemelerinin brüt miktarı kesintiye tabidir. Damga Vergisinde damga pulu uygulamasına son verilmiştir; basılı damga, makbuz karşılığı veya Muhtasar Beyanname ile istihkaktan kesinti şeklinde ödenir.",
+        "start": 1922.33,
+        "end": 1955.43
       },
       {
         "index": 85,
-        "text": "İPTAL KURALI: Ara dönem reeskont kaydı ERTESİ İŞGÜNÜ ters kayıtla iptal edilir; ancak, YIL SONU REESKONTLARI ertesi işgünü değil, ÖDEME / TAHAKKUK TARİHİ İTİBARIYLA iptal edilir!",
-        "start": 795.85,
-        "end": 808.69
+        "text": "B S M V açısından, bankaların Finansal Kiralama Kanununa göre yaptıkları işlemler hariç olmak üzere kendi lehlerine nakden veya hesaben aldıkları her türlü paralar B S M V'ye tabidir. B S M V oranları şöyledir: Tüketici kredilerinde lehe alınan paralar üzerinden yüzde 15, Merkez Bankası likidite senetlerinin vadesi beklenmeksizin satışı ile repo ve ters repo işlemlerinde lehe kalan paralar üzerinden yüzde 1, kambiyo muamelelerinde satış tutarı üzerinden binde 2 ve diğer banka ve sigorta muamelelerinde lehe alınan paralar üzerinden yüzde 5 uygulanır. Ancak, sanayi sicil belgesine haiz işletmelere ve ihracatçı birliğine üye ihracatçılara yapılan kambiyo satışları gibi özellikli işlemlerde kambiyo B S M V oranı 0 olarak uygulanır.",
+        "start": 1955.43,
+        "end": 2007.61
       },
       {
         "index": 86,
-        "text": "Kredi Faiz Tahakkuku: [BORÇ: 220.00 Faiz Tahakkukları + 278 Muhtelif Alacaklar / ALACAK: İlgili Faiz Geliri + İlgili Komisyon Geliri + 380005 B S M V + 39022 K K D F].",
-        "start": 808.69,
-        "end": 825.7
+        "text": "Veraset ve İntikal Vergisinde vergi ilişiksiz yazısı alınmadan mirasçılara ödeme yapılmaz. Yazı getirilmeden ödeme yapmak zorunda kalınırsa vergi karşılığı kesinti yapılır ve en geç 1 hafta içinde ilgili vergi dairesine yazı ile yatırılır. Emlak Vergisinde kullanım amacı mükellefiyeti etkilemez, beyannameler 4 yılda bir yenilenir ve her yıl Mayıs ve Kasım aylarının sonuna kadar 2 eşit taksitle ödenir. Motorlu Taşıtlar Vergisi her yıl Ocak başında tahakkuk eder, Ocak ve Temmuz aylarında 2 eşit taksitle ödenir. İlan ve Reklam Vergisi iş mükellefçe yapılırsa iş yapılmadan önce, işi meslek edinenlerce yapılırsa izleyen ayın 20'si akşamına kadar ilgili belediyeye beyan edilip ödenir.",
+        "start": 2007.61,
+        "end": 2056.82
       },
       {
         "index": 87,
-        "text": "Tahakkuk Eden Faiz ve Yükümlülüklerin Tahsili: [BORÇ: 010 Kasa / ALACAK: 220.00 Faiz Tahakkukları + 278 Muhtelif Alacaklar].",
-        "start": 825.7,
-        "end": 838.16
+        "text": "Katma Değer Vergisinde Banka esas itibarıyla K D V mükellefi değildir, ancak, alımlarında tam ve kısmi K D V tevkifatı sorumluluğu vardır. Yurtdışından yani dar mükelleflerden temin edilen hizmetler, bazı kiralama işlemleri, Gelir Vergisi Kanunu 18. madde kapsamındaki teslim ve hizmetler, bazı reklam verme işlemleri ve şirketleşenler hariç amatör spor kulüplerinin yayın, reklam ve isim hakkı gelirlerine konu işlemlerinde tam K D V tevkifatı yapılır. Şirketleşen spor kulüplerinde ise kısmi tevkifat geçerlidir.",
+        "start": 2056.82,
+        "end": 2094.95
       },
       {
         "index": 88,
-        "text": "Yatırım Amaçlı Değerler ve Diğer Aktifler (2 Grubu",
-        "start": 838.16,
-        "end": 842.73
+        "text": "Çevre Temizlik Vergisinde binaları kullananlar mükelleftir; Bankamız kullandığı binalar yanında boş duran binaları için de mükelleftir. İşyerleri için Mayıs ve Kasım aylarında, konutlar için su tüketim bedeline yansıtılarak ödenir. Sonraki yıllarda vergi miktarı her yıl açıklanan yeniden değerleme oranının yarısı kadar artırılır.",
+        "start": 2094.95,
+        "end": 2119.99
       },
       {
         "index": 89,
-        "text": "240 İştirakler, 270 Ayniyat Mevcudu.",
-        "start": 842.73,
-        "end": 847.69
+        "text": "Kaynak Kullanımını Destekleme Fonu yani K K D F, Merkez Bankası nezdinde kurulmuş olup daha sonra Maliye Bakanlığınca takip edilmeye başlanmıştır. Türk Lirası kredilerde tahakkuk eden faiz üzerinden, YP kredi ve işlemlerde ise kredi veya işlem tutarının işlem tarihindeki T C M B döviz alış kuru esas alınarak bulunacak Türk Lirası karşılığı üzerinden hesaplanır.",
+        "start": 2119.99,
+        "end": 2145.69
       },
       {
         "index": 90,
-        "text": "250 Menkuller - TP: Kullanma süresi 1 yıldan fazla olan demirbaşlar (kasa, büro makinesi, mobilya, taşıt vb. ) MALİYET BEDELİ (alış fiyatı + nakliye, hammaliye) ile kaydedilir.",
-        "start": 847.69,
-        "end": 862.83
+        "text": "Tutulması zorunlu defterler, tasdik ve muhafaza süreleri şöyledir. Bilanço esasına göre tutulması zorunlu 5 defter şunlardır: Yevmiye Defteri, Defteri Kebir yani Büyük Defter, Envanter ve Bilanço Defteri, B S M V Defteri ve Damga Vergisi Defteri. Yevmiye ve Defteri Kebir şubelerce ayrıca tutulmaz, e-defter kapsamında Merkezce tasdik yaptırılır. Envanter ve Bilanço Defteri de şubelerce ayrıca tutulmaz. Çok önemli bir detay olarak, B S M V bilgileri Yevmiye Defteri içinde gösterildiğinden B S M V Defteri ayrıca tasdik edilmemektedir. Genel Müdürlükçe ayrıca tutulması zorunlu 3 defter ise Pay Defteri, Yönetim Kurulu Karar Defteri ve Genel Kurul Toplantı ve Müzakere Defteridir. Defterlerin Türkçe tutulması zorunludur, yanlış yazılar okunacak şekilde çizilip üst veya yan tarafına doğrusu yazılır, boş satır ve sayfa bırakılmaz.",
+        "start": 2145.69,
+        "end": 2208.65
       },
       {
         "index": 91,
-        "text": "İNCE NOKTA 1: Amortisman süresi sonunda demirbaşlar halen kullanılır durumda ise 250 Menkuller Hesabında takip edilmeye devam olunur.",
-        "start": 862.83,
-        "end": 873.19
+        "text": "Defterler kullanmaya başlamadan önce iş yerinin bulunduğu yerdeki notere tasdik ettirilir. Kapanış onayına tabi olan defterler Yevmiye Defteri ve Yönetim Kurulu Karar Defteridir. Bu iki defter izleyen hesap döneminin 3. ayının sonuna kadar yani Mart sonuna kadar notere ibraz edilip son kaydın altına Görülmüştür sözü yazılarak tasdik yenileme yapılır. Defteri Kebir ve Envanter Defteri ise kapanış onayına tabi değildir. Defter tasdikinin yaptırılmaması defterin hiç tutulmaması hükmündedir, Vergi Usul Kanunu 352. maddeye göre 1. derece usulsüzlük cezasını gerektirir ve Türk Ticaret Kanununa göre tasdiki yaptırılmayan defterler Banka lehine delil olamaz.",
+        "start": 2208.65,
+        "end": 2257.77
       },
       {
         "index": 92,
-        "text": "İNCE NOKTA 2: Faaliyet kiralaması yöntemiyle kiralamaya konu edilen menkuller \"25021 Faaliyet Kiralaması Konusu Menkuller - TP\" yardımcı hesabında izlenir.",
-        "start": 873.19,
-        "end": 885.51
+        "text": "Defter ve belgelerin muhafaza süresi Vergi Usul Kanunu uyarınca ilgili bulundukları yılı izleyen takvim yılının başından başlayarak 5 yıl, Türk Ticaret Kanunu uyarınca ise 10 yıldır. Beyannamelerin süresinde verilmemesi halinde 1. derece usulsüzlük cezası, elektronik ortamda verilmesi zorunlu beyannamelerde gecikme olması halinde ise özel usulsüzlük cezası kesilir.",
+        "start": 2257.77,
+        "end": 2283.79
       },
       {
         "index": 93,
-        "text": "Amortisman Kaydı (Ay sonu ve yıl sonlarında [BORÇ: 850 Amortisman Giderleri / ALACAK: 256 Birikmiş Amortismanlar].",
-        "start": 885.51,
-        "end": 896.58
+        "text": "Vergi beyan ve ödeme günleri şöyledir.",
+        "start": 2283.79,
+        "end": 2287.5
       },
       {
         "index": 94,
-        "text": "Terkin İşlemi: Kullanım ömrünü tamamlamış menkullerin satılması veya kamu kuruluşlarına bağışlanması için terkin cetveli ile GENEL MÜDÜRLÜKTEN terkin yetkisi alınır.",
-        "start": 896.58,
-        "end": 908.1
+        "text": "Çeklere ait Değerli Kağıt Bedeli müteakip ayın 7'sinde beyan edilir ve ödenir.",
+        "start": 2287.5,
+        "end": 2294.38
       },
       {
         "index": 95,
-        "text": "252 Gayrimenkuller - TP: Faaliyetleri sürdürmek veya özel kanun yetkisiyle ticaret/inşaat amacıyla alınan bina, arsa, arazi ve inşa halindeki binalar.",
-        "start": 908.1,
-        "end": 921.2
+        "text": "B S M V müteakip ayın 15'inde beyan edilir ve ödenir.",
+        "start": 2294.38,
+        "end": 2299.82
       },
       {
         "index": 96,
-        "text": "254 Kiralamalara İlişkin Geliştirme Maliyetleri: Faaliyet kiralaması yoluyla kiralanan gayrimenkulleri geliştirmek amacıyla yapılan (eskiden özel maliyet bedellerinde izlenen) harcamalar.",
-        "start": 921.2,
-        "end": 935.58
+        "text": "9015 kodlu K D V Beyannamesi müteakip ayın 25'inde beyan edilir ve ödenir.",
+        "start": 2299.82,
+        "end": 2308.11
       },
       {
         "index": 97,
-        "text": "258 Maddi Olmayan Duran Varlıklar:",
-        "start": 935.58,
-        "end": 939.95
+        "text": "Damga Vergisi ve Muhtasar Beyanname müteakip ayın 26'sında beyan edilir ve ödenir.",
+        "start": 2308.11,
+        "end": 2315.87
       },
       {
         "index": 98,
-        "text": "258 00 Şerefiye: Kiralanan yerin konumuna karşılık yapılan ödeme, satın alınan şirketin özvarlığından fazla ödenen bedel veya bilimsel program kullanım hakkı bedelidir. Sürenin belli olmadığı durumlarda AMORTİSMAN ORANI yüzde 20 olarak uygulanır ([BORÇ: 85004 / ALACAK: 25604]).",
-        "start": 939.95,
-        "end": 964.35
+        "text": "Emlak Vergisi ve işyerleri Çevre Temizlik Vergisi Mart, Nisan, Mayıs aylarında beyan edilir, 1. taksiti Mayıs, 2. taksiti Kasım ayında ödenir.",
+        "start": 2315.87,
+        "end": 2326.83
       },
       {
         "index": 99,
-        "text": "258 01 İlk Tesis ve Taazzuv Giderleri: Şube açılışından başlayarak kira süresi içinde dönemsel gider yazılır; kira süresinin belli olmaması halinde 5 YIL SÜREYLE yıl sonlarında amortisman ayrılır ([BORÇ: 85003 / ALACAK: 25603]).",
-        "start": 964.35,
-        "end": 983.91
+        "text": "Motorlu Taşıtlar Vergisi 1. taksiti Ocak, 2. taksiti Temmuz ayında ödenir.",
+        "start": 2326.83,
+        "end": 2333.89
       },
       {
         "index": 100,
-        "text": "278 Muhtelif Alacaklar - TP: Kredi işlemleri dışında (kredi alacağının temlik edilmesi dahil) Bankada cari hesabı bulunmayanların kısa zamanda tasfiye edilecek borçları ile türev finansal araçlar için verilen teminat ve primler izlenir.",
-        "start": 983.91,
-        "end": 1000.63
-      },
-      {
-        "index": 101,
-        "text": "PARAGRAF SONU TUZAĞI: Kredi alacağının temliki neticesinde oluşan alacaklar haricinde, tasfiyeleri uzun zamana bağlı yani 2 YILIN ÜZERİNDE KALAN bir vadeyi/tahsil süresini ifade eden alacaklar bu hesapta İZLENEMEZ!",
-        "start": 1000.63,
-        "end": 1015.35
-      },
-      {
-        "index": 102,
-        "text": "280 Borçlu Geçici Hesaplar - TP: Aktifte zorunlu nedenle asıl hesaba alınamayan geçici iç işlemler.",
-        "start": 1015.35,
-        "end": 1024.43
-      },
-      {
-        "index": 103,
-        "text": "290 Şubeler Cari Hesabı - TP ve 291 Şubeler Cari Hesabı - YP: Şubelerin Genel Müdürlük veya birbirleri arasındaki TP, YP ve altın (gram) işlemlerinin kaydına özgü ÇİFT NİTELİKLİ hesaplardır. Diğer şube/GM adına tahsilat yapıldığında 290 alacaklandırılır; ödeme yapıldığında 290 borçlandırılır.",
-        "start": 1024.43,
-        "end": 1050.03
-      },
-      {
-        "index": 104,
-        "text": "Mevduat ve Diğer Yabancı Kaynaklar (3 Grubu",
-        "start": 1050.03,
-        "end": 1054.42
-      },
-      {
-        "index": 105,
-        "text": "Önemli Kodlar:",
-        "start": 1054.42,
-        "end": 1056.64
-      },
-      {
-        "index": 106,
-        "text": "Vadesiz: 300 Tasarruf Mevduatı, 301 DTH (YP), 304 Resmi, Ticari ve Diğer Kur. Mevduatı, 308 Bankalar Mevduatı.",
-        "start": 1056.64,
-        "end": 1069.47
-      },
-      {
-        "index": 107,
-        "text": "Vadeli: 310 Tasarruf Mevduatı, 311 DTH (YP), 314 Resmi, Ticari ve Diğer Kur. Mevduatı, 318 Bankalar Mevduatı.",
-        "start": 1069.47,
-        "end": 1083.4
-      },
-      {
-        "index": 108,
-        "text": "Diğer Pasifler: 348 Yurtdışından Kullanılan Krediler, 380 Ödenecek Vergi, Resim, Harç ve Primler, 390/391 Muhtelif Borçlar, 392 Alacaklı Geçici Hesaplar, 395 Ödeme Emirleri (395.01 Ödenecek Havaleler).",
-        "start": 1083.4,
-        "end": 1104.31
-      },
-      {
-        "index": 109,
-        "text": "Mevduat Faiz Tahakkuku ve Stopaj Kaydı:",
-        "start": 1104.31,
-        "end": 1108.28
-      },
-      {
-        "index": 110,
-        "text": "Faiz Tahakkuku: [BORÇ: İlgili Faiz Gideri Hesabı (610 TP / 611 YP) / ALACAK: 3-Mevduat Hesabı].",
-        "start": 1108.28,
-        "end": 1118.58
-      },
-      {
-        "index": 111,
-        "text": "Gelir Vergisi Kesintisi: [BORÇ: 3-Mevduat Hesabı / ALACAK: 380.002 Menkul Sermaye İradı Gelir Vergisi].",
-        "start": 1118.58,
-        "end": 1128.28
-      },
-      {
-        "index": 112,
-        "text": "DTH (301 / 311) İşlemleri:",
-        "start": 1128.28,
-        "end": 1132.84
-      },
-      {
-        "index": 113,
-        "text": "Efektif karşılığı DTH açılışında (011 Borç / 301-311 Alacak) veya efektif ile DTH ödemesinde (301-311 Borç / 011 Alacak) vaziyet hesabı çalışmaz.",
-        "start": 1132.84,
-        "end": 1148.11
-      },
-      {
-        "index": 114,
-        "text": "DTH'den TÜRK LİRASI olarak ödeme yapıldığında: Sabit kurdan [BORÇ: 301/311 DTH / ALACAK: 295 Döviz Vaziyeti] ve cari döviz alış kurundan [BORÇ: 294 Döviz Alım Satım Hesabı / ALACAK: 010 Kasa] kaydı yapılır.",
-        "start": 1148.11,
-        "end": 1166.96
-      },
-      {
-        "index": 115,
-        "text": "360 Faiz ve Gider Reeskontları (TP) ve 361 Faiz ve Gider Reeskontları (YP",
-        "start": 1166.96,
-        "end": 1175.17
-      },
-      {
-        "index": 116,
-        "text": "360 000 / 361 000 Yıl Sonu Reeskontu: Yılın son günü vadesi gelmemiş vadeli mevduatlar için hesaplanır ([BORÇ: 610 veya 611 / ALACAK: 360000 veya 361000]). Ertesi gün İPTAL EDİLMEZ; mevduatın vadesi sonunda veya hesap kapandığında tasfiye edilir.",
-        "start": 1175.17,
-        "end": 1199.65
-      },
-      {
-        "index": 117,
-        "text": "360 005 / 361 005 Ara Dönem Reeskontları: Aylık dönemlerde hesaplanır ve ERTESİ AYIN İLK İŞ GÜNÜNDE ters mahsupla iptal edilir.",
-        "start": 1199.65,
-        "end": 1211.48
-      },
-      {
-        "index": 118,
-        "text": "ÇOK KRİTİK KURAL: Reeskont edilen mevduat faizlerinden (hem yıl sonu hem ara dönem) GELİR VERGİSİ KESİNTİSİ YAPILMAZ!",
-        "start": 1211.48,
-        "end": 1220.63
-      },
-      {
-        "index": 119,
-        "text": "390 Muhtelif Borçlar (TP) ve 391 Muhtelif Borçlar (YP Cari hesabı bulunmayan müşteri/3. şahısların Bankadan alacakları ile nakdi ve gayrinakdi kredilerin NAKDİ TEMİNATI olarak alınan paraların izlendiği pasif hesaptır.",
-        "start": 1220.63,
-        "end": 1238.2
-      },
-      {
-        "index": 120,
-        "text": "PARAGRAF SONU TUZAĞI: Veraset yoluyla devredilecek mevduat ile hacizli mevduat 390 / 391 Muhtelif Borçlar hesabında İZLENEMEZ!",
-        "start": 1238.2,
-        "end": 1249.5
-      },
-      {
-        "index": 121,
-        "text": "Özkaynaklar (4 Grubu) ve 3.2.6. Gelir / Gider Hesapları (5, 6, 7, 8 Grupları",
-        "start": 1249.5,
-        "end": 1259.59
-      },
-      {
-        "index": 122,
-        "text": "Özkaynak Kodları: 410 Sermaye, 412/413 Sermaye Taahhütleri, 414/415 Sermaye Yedekleri, 420/421 Kar Yedekleri (Kanuni ve Olağanüstü Yedekler), 440 Kar ve Zarar (440.01 Kar +, 440.02 Zarar -), 442 Geçmiş Yıllar Kar ve Zararı, 448 Enflasyona Göre Düzeltme Farkları.",
-        "start": 1259.59,
-        "end": 1288.14
-      },
-      {
-        "index": 123,
-        "text": "Faiz Gelirleri (5 510-511 Kısa Vadeli İhracat Kredilerinden Alınan Faizler, 514-515 Kısa Vadeli Diğer Kredilerden Alınan Faizler, 530-531 / 534-535 Orta ve Uzun Vadeli Kredilerden Alınan Faizler, 580 Menkul Değerlerden Alınan Faizler.",
-        "start": 1288.14,
-        "end": 1311.79
-      },
-      {
-        "index": 124,
-        "text": "Faiz Giderleri (6 608 TP Mevduata Verilen Faizler (Yurt Dışı Yerleşik Kişiler - Y. D. Y. K. ), 610 TP Mevduata Verilen Faizler (Yurt İçi Yerleşik Kişiler - Y. İ. Y. K. ), 611 YP Mevduata Verilen Faizler, 614-615 Kıymetli Maden Depo Hesaplarına Verilen Faizler, 622-623 Yurtiçinden Kullanılan Kredilere Verilen Faizler, 644-645 Kiralama İşlemlerine İlişkin Faiz Giderleri.",
-        "start": 1311.79,
-        "end": 1346.98
-      },
-      {
-        "index": 125,
-        "text": "Faiz Dışı Gelirler (7 710-735 Kredilerden Alınan Ücret ve Komisyonlar, 744-745 Yeniden Yapılandırılan Kredilerden, 746-747 Donuk Alacaklardan, 748-749 Nakdi Olmayan Kredilerden Alınan Ücret ve Komisyonlar, 760/761 Bankacılık Hizmet Gelirleri, 790 Diğer Faiz Dışı Gelirler.",
-        "start": 1346.98,
-        "end": 1375.5
-      },
-      {
-        "index": 126,
-        "text": "Faiz Dışı Giderler (8 810-811 Personel Giderleri, 820-821 Karşılık ve Değer Düşme Giderleri, 830-831 Vergi, Resim, Harçlar ve Fonlar, 840-841 Verilen Komisyon ve Ücretler, 850-851 Amortisman Gideri, 880 Diğer İşletme Giderleri.",
-        "start": 1375.5,
-        "end": 1400.53
-      },
-      {
-        "index": 127,
-        "text": "Finansal Durum Tablosu Dışı Hesaplar (9 Grubu) - Teminat Mektupları:",
-        "start": 1400.53,
-        "end": 1406.17
-      },
-      {
-        "index": 128,
-        "text": "TP Teminat Mektubu Verildiğinde: [BORÇ: 910 TP Teminat Mektuplarından Alacaklar / ALACAK: 912 TP Teminat Mektuplarından Borçlar].",
-        "start": 1406.17,
-        "end": 1417.71
-      },
-      {
-        "index": 129,
-        "text": "YP Teminat Mektubu Verildiğinde: [BORÇ: 911 YP Teminat Mektuplarından Alacaklar / ALACAK: 913 YP Teminat Mektuplarından Borçlar].",
-        "start": 1417.71,
-        "end": 1429.56
-      },
-      {
-        "index": 130,
-        "text": "İNCE NOKTA 1 (Damga Vergisi Kuru YP teminat mektuplarının Damga Vergisi, T C M B DÖVİZ SATIŞ KURU üzerinden Türk Lirası'ye çevrilmek suretiyle bulunacak matrah üzerinden hesaplanır.",
-        "start": 1429.56,
-        "end": 1442.3
-      },
-      {
-        "index": 131,
-        "text": "İNCE NOKTA 2 (Şubeler Arası Emirler Şubelerimize emir verildiğinde firma riski EMRİ VEREN ŞUBEDE izlenir.",
-        "start": 1442.3,
-        "end": 1450.98
-      },
-      {
-        "index": 132,
-        "text": "Emri Veren Şube Kaydı: [BORÇ: 910 (veya 911) Teminat Mektuplarından Alacaklar / ALACAK: 91280 (veya 913.80) Şubelerimize Emirlerimiz].",
-        "start": 1450.98,
-        "end": 1466.3
-      },
-      {
-        "index": 133,
-        "text": "Emri Alan Şube Kaydı: [BORÇ: 91015 (veya 911.15) Şubelerimiz Emirleri / ALACAK: 912 (veya 913) Teminat Mektuplarından Borçlar].",
-        "start": 1466.3,
-        "end": 1480.84
-      },
-      {
-        "index": 134,
-        "text": "91015 Şubelerimiz Emirleri ile 91280 Şubelerimize Emirlerimiz hesabı KESİNLİKLE KARŞILIKLI KAYDA ALINMAZ!",
-        "start": 1480.84,
-        "end": 1491.6
-      },
-      {
-        "index": 135,
-        "text": "Sınırlama Dışı Gayrinakdi Kredi Kaydı: [BORÇ: 992 Sınırlamalara Tabi Olmayan Kredilerden Alacaklar (YP'de 992 005 Kur Farkları) / ALACAK: 994.10 Gayrinakdi Krediler].",
-        "start": 1491.6,
-        "end": 1507.72
-      },
-      {
-        "index": 136,
-        "text": "Yabancı Para İşlemlerinin Muhasebeleştirilmesi ve Evalüasyon:",
-        "start": 1507.72,
-        "end": 1512.92
-      },
-      {
-        "index": 137,
-        "text": "YP gelir veya gider hesapları işlem tarihinde esas alınan kur (Örn: Banka döviz alış kuru) üzerinden Türk Lirası'ye çevrilerek kaydedilir.",
-        "start": 1512.92,
-        "end": 1523.72
-      },
-      {
-        "index": 138,
-        "text": "Bilanço hesapları ise işlem tarihinde Türk Lirası'ye dönüştürülmeyerek ilgili para birimi üzerinden sabit fiyatla (kurla) izlenir ve dönem sonlarında \"Evalüasyon\" (değerleme) işlemine tabi tutulur.",
-        "start": 1523.72,
-        "end": 1537.23
-      },
-      {
-        "index": 139,
-        "text": "İSTİSNA: Dönem sonu evalüasyon kur farkları, Türkiye Muhasebe Standartlarında belirtilenler (Örn: YURTDIŞINDA KURULU İŞTİRAK YATIRIMLARI) hariç olmak üzere dönem gelir/gider hesaplarına alınarak kambiyo kar/zararı oluşturulur.",
-        "start": 1537.23,
-        "end": 1552.55
-      },
-      {
-        "index": 140,
-        "text": "Aktif ve pasifi karşılıklı değiştiren YP işlemlerde döviz vaziyet ve alım satım hesaplarının çalıştırılmasına gerek yoktur.",
-        "start": 1552.55,
-        "end": 1561.76
-      },
-      {
-        "index": 141,
-        "text": "Evalüasyon Eşitlik Kuralı:",
-        "start": 1561.76,
-        "end": 1564.8
-      },
-      {
-        "index": 142,
-        "text": "Dolar Dolar \\text{293 Efektif Vaziyeti} = \\text{292 Efektif Alım Satım Hesabı} Dolar Dolar",
-        "start": 1564.8,
-        "end": 1573.85
-      },
-      {
-        "index": 143,
-        "text": "Dolar Dolar \\text{295 Döviz Vaziyeti} = \\text{294 Döviz Alım Satım Hesabı} Dolar Dolar",
-        "start": 1573.85,
-        "end": 1582.92
-      },
-      {
-        "index": 144,
-        "text": "MALİ MEVZUAT, VERGİLER VE TUTULMASI ZORUNLU DEFTERLER",
-        "start": 1582.92,
-        "end": 1587.74
-      },
-      {
-        "index": 145,
-        "text": "Temel Vergi Kavramları ve Zamanaşımı:",
-        "start": 1587.74,
-        "end": 1591.26
-      },
-      {
-        "index": 146,
-        "text": "Mükellef: Vergi kanunlarına göre kendisine vergi borcu düşen gerçek veya tüzel kişidir.",
-        "start": 1591.26,
-        "end": 1599.04
-      },
-      {
-        "index": 147,
-        "text": "Vergi Sorumlusu: Verginin ödenmesi bakımından alacaklı vergi dairesine karşı muhatap olan kişidir.",
-        "start": 1599.04,
-        "end": 1607.36
-      },
-      {
-        "index": 148,
-        "text": "İstisna vs. Muafiyet: Vergi konusu olan unsurların vergi dışı bırakılması İSTİSNA; vergi borcunun vergi mükellefi yönünden kaldırılması MUAFİYET olarak nitelendirilir.",
-        "start": 1607.36,
-        "end": 1619.37
-      },
-      {
-        "index": 149,
-        "text": "Vergide Zamanaşımı: Vergi alacağının doğduğu takvim yılını izleyen yılın başından başlayarak 5 (BEŞ) YIL içinde tebliğ edilmeyen veya ödenmeyen vergiler zamanaşımına uğrar.",
-        "start": 1619.37,
-        "end": 1631.61
-      },
-      {
-        "index": 150,
-        "text": "Bankamızın Mükellefi ve Sorumlusu Olduğu Vergiler (Klasik Sınav Sorusu!",
-        "start": 1631.61,
-        "end": 1637.78
-      },
-      {
-        "index": 151,
-        "text": "Bankamızın MÜKELLEFİ Olduğu 8 Vergi:",
-        "start": 1637.78,
-        "end": 1641.59
-      },
-      {
-        "index": 152,
-        "text": "Kurumlar Vergisi",
-        "start": 1641.59,
-        "end": 1643.95
-      },
-      {
-        "index": 153,
-        "text": "Banka ve Sigorta Muameleleri Vergisi (B S M V)",
-        "start": 1643.95,
-        "end": 1648.97
-      },
-      {
-        "index": 154,
-        "text": "Emlak Vergisi",
-        "start": 1648.97,
-        "end": 1651.23
-      },
-      {
-        "index": 155,
-        "text": "Damga Vergisi (Banka tarafından imzalanan kağıtlarda)",
-        "start": 1651.23,
-        "end": 1656.18
-      },
-      {
-        "index": 156,
-        "text": "İlan ve Reklam Vergisi",
-        "start": 1656.18,
-        "end": 1659.0
-      },
-      {
-        "index": 157,
-        "text": "Kambiyo Gider Vergisi",
-        "start": 1659.0,
-        "end": 1661.71
-      },
-      {
-        "index": 158,
-        "text": "Motorlu Taşıtlar Vergisi (M T V)",
-        "start": 1661.71,
-        "end": 1665.62
-      },
-      {
-        "index": 159,
-        "text": "Çevre Temizlik Vergisi (ÇTV)",
-        "start": 1665.62,
-        "end": 1669.29
-      },
-      {
-        "index": 160,
-        "text": "Bankamızın SORUMLUSU Olduğu 5 Vergi / Yükümlülük:",
-        "start": 1669.29,
-        "end": 1673.62
-      },
-      {
-        "index": 161,
-        "text": "Gelir Vergisi (Personel ücretlerinden, mevduat/repo faizlerinden, serbest meslek ödemelerinden, kira ödemelerinden ve dar mükelleflere yapılan ödemelerden kesilen)",
-        "start": 1673.62,
-        "end": 1685.48
-      },
-      {
-        "index": 162,
-        "text": "Veraset ve İntikal Vergisi",
-        "start": 1685.48,
-        "end": 1688.64
-      },
-      {
-        "index": 163,
-        "text": "Damga Vergisi (İstihkaklardan kesinti suretiyle ödenen ve müşterilerce imzalanan sözleşme/taahhütnameler için alınan)",
-        "start": 1688.64,
-        "end": 1697.81
-      },
-      {
-        "index": 164,
-        "text": "Katma Değer Vergisi (Bazı hizmet alımları ve dar mükellef ödemelerinde Tam ve Kısmi K D V tevkifatı)",
-        "start": 1697.81,
-        "end": 1705.72
-      },
-      {
-        "index": 165,
-        "text": "Değerli Kağıt Bedeli (Çek yaprağı başına alınan bedeller)",
-        "start": 1705.72,
-        "end": 1710.33
-      },
-      {
-        "index": 166,
-        "text": "Vergi Türlerine İlişkin Kritik Detaylar ve Oranlar:",
-        "start": 1710.33,
-        "end": 1714.83
-      },
-      {
-        "index": 167,
-        "text": "Gelir Vergisi: 7 gelir unsurundan (Ticari, Zirai, Ücret, Serbest Meslek, GMSİ, MSİ, Diğer kazanç ve iratlar) oluşur.",
-        "start": 1714.83,
-        "end": 1725.96
-      },
-      {
-        "index": 168,
-        "text": "İNCE NOKTA: Gayrimenkul sermaye iratlarında (ödenen kiralarda) TAHSİLAT ESASI vardır; kira ödemesi yapıldığı anda gelir vergisi kesintisi yapılır.",
-        "start": 1725.96,
-        "end": 1736.61
-      },
-      {
-        "index": 169,
-        "text": "Kurumlar Vergisi: Sermaye şirketleri, kooperatifler, İktisadi Kamu Müesseseleri, dernek/vakıflara ait iktisadi işletmeler ve iş ortaklıkları mükelleftir. Dar mükellef kurumlara yapılan ücret, serbest meslek, GMSİ ve MSİ ödemelerinin brüt miktarı kesintiye tabidir.",
-        "start": 1736.61,
-        "end": 1757.8
-      },
-      {
-        "index": 170,
-        "text": "Damga Vergisi (488 Sayılı Kanun (1) sayılı tablodaki kağıtlar. Mükellefi kağıtları imza edenlerdir (birlikte imzalananlarda mükellefiyet ortaktır). Damga pulu uygulamasına son verilmiştir; basılı damga, makbuz karşılığı (16 seri no'lu Tebliğ) veya istihkaktan kesinti (Muhtasar Beyanname ile) şeklinde ödenir.",
-        "start": 1757.8,
-        "end": 1783.73
-      },
-      {
-        "index": 171,
-        "text": "B S M V (6802 Sayılı Gider Vergileri Kanunu Md. 33 Bankaların FİNANSAL KİRALAMA KANUNU'NA GÖRE YAPTIKLARI İŞLEMLER HARİÇ olmak üzere kendi lehlerine nakden veya hesaben aldıkları her türlü paralar B S M V'ye tabidir.",
-        "start": 1783.73,
-        "end": 1800.92
-      },
-      {
-        "index": 172,
-        "text": "B S M V Oranları:",
-        "start": 1800.92,
-        "end": 1803.88
-      },
-      {
-        "index": 173,
-        "text": "Merkez Bankası likidite senetlerinin vadesi beklenmeksizin satışı, repo/ters repo ile iktisap ve elden çıkarılması karşılığında lehe kalan paralar üzerinden: yüzde 1",
-        "start": 1803.88,
-        "end": 1816.04
-      },
-      {
-        "index": 174,
-        "text": "Kambiyo muamelelerinde satış tutarı üzerinden: BİNDE 2 (Sanayi sicil belgesine haiz işletmelere, ihracatçı birliğine üye ihracatçılara yapılan kambiyo satışları vb. özellikli işlemlerde SIFIR (yüzde 0) oranlı uygulanır)",
-        "start": 1816.04,
-        "end": 1831.27
-      },
-      {
-        "index": 175,
-        "text": "Veraset ve İntikal Vergisi: Vergi ilişiksiz yazısı alınmadan mirasçılara ödeme yapılmaz. Yazı getirilmeden ödeme yapmak zorunda kalınırsa vergi karşılığı kesinti yapılır ve EN GEÇ 1 HAFTA İÇİNDE ilgili vergi dairesine yazı ile yatırılır.",
-        "start": 1831.27,
-        "end": 1848.79
-      },
-      {
-        "index": 176,
-        "text": "Emlak Vergisi (1319 Sayılı Kanun Kullanım amacı (şube lokali, lojman vb. ) mükellefiyeti etkilemez. Emlak Vergisi Beyannameleri 4 YILDA BİR yenilenir; her yıl MAYIS ve KASIM aylarının sonuna kadar 2 eşit taksitle ödenir.",
-        "start": 1848.79,
-        "end": 1868.07
-      },
-      {
-        "index": 177,
-        "text": "Motorlu Taşıtlar Vergisi (M T V Her yıl Ocak başında tahakkuk eder; OCAK ve TEMMUZ aylarında 2 eşit taksitle ödenir.",
-        "start": 1868.07,
-        "end": 1877.89
-      },
-      {
-        "index": 178,
-        "text": "İlan ve Reklam Vergisi: İş mükellefçe yapılırsa iş yapılmadan önce; işi meslek edinenlerce yapılırsa izleyen ayın 20'Sİ AKŞAMINA KADAR ilgili belediyeye beyan edilip ödenir.",
-        "start": 1877.89,
-        "end": 1890.16
-      },
-      {
-        "index": 179,
-        "text": "Katma Değer Vergisi (K D V Banka esas itibarıyla K D V mükellefi değildir; ancak, K D V Genel Uygulama Tebliği uyarınca alımlarında TAM ve KISMİ K D V TEVKİFATI sorumluluğu vardır.",
-        "start": 1890.16,
-        "end": 1904.2
-      },
-      {
-        "index": 180,
-        "text": "Tam K D V Tevkifatı Yapılan İşlemler: 1) Yurtdışından (Dar Mükelleflerden) temin edilen hizmetler, 2) Bazı kiralama işlemleri, 3) GVK 18. Madde kapsamındaki teslim ve hizmetler, 4) Bazı reklam verme işlemleri, 5) Şirketleşenler hariç AMATÖR SPOR KULÜPLERİNİN yayın, reklam ve isim hakkı gelirlerine konu işlemleri (Şirketleşen spor kulüplerinde kısmi tevkifat geçerlidir).",
-        "start": 1904.2,
-        "end": 1931.86
-      },
-      {
-        "index": 181,
-        "text": "Kaynak Kullanımını Destekleme Fonu (K K D F T C M B Kanunu yetkisiyle T C M B nezdinde kurulmuş, daha sonra MALİYE BAKANLIĞI'NCA takip edilmeye başlanmıştır. Türk Lirası kredilerde tahakkuk eden faiz üzerinden; diğer (YP) kredi ve işlemlerde ise kredi/işlem tutarının işlem tarihindeki T C M B DÖVİZ ALIŞ KURU esas alınarak bulunacak Türk Lirası karşılığı üzerinden hesaplanır.",
-        "start": 1931.86,
-        "end": 1959.64
-      },
-      {
-        "index": 182,
-        "text": "Tutulması Zorunlu Defterler, Tasdik ve Muhafaza Süreleri:",
-        "start": 1959.64,
-        "end": 1964.45
-      },
-      {
-        "index": 183,
-        "text": "Bilanço Esasına Göre Tutulması Zorunlu 5 Defter:",
-        "start": 1964.45,
-        "end": 1968.79
-      },
-      {
-        "index": 184,
-        "text": "Yevmiye Defteri (Şubelerce ayrıca tutulmaz; E-defter kapsamında Merkezce tasdik yaptırılır)",
-        "start": 1968.79,
-        "end": 1976.43
-      },
-      {
-        "index": 185,
-        "text": "Defteri Kebir / Büyük Defter (Şubelerce ayrıca tutulmaz; E-defter kapsamında Merkezce tasdik yaptırılır)",
-        "start": 1976.43,
-        "end": 1984.55
-      },
-      {
-        "index": 186,
-        "text": "Envanter ve Bilanço Defteri (Şubelerce ayrıca tutulmaz ve şubelerce ayrıca tasdike gerek yoktur)",
-        "start": 1984.55,
-        "end": 1993.01
-      },
-      {
-        "index": 187,
-        "text": "Banka ve Sigorta Muameleleri Vergisi (B S M V) Defteri (B S M V bilgileri Yevmiye Defteri içinde gösterildiğinden AYRICA TASDİK EDİLMEMEKTEDİR! )",
-        "start": 1993.01,
-        "end": 2004.46
-      },
-      {
-        "index": 188,
-        "text": "Damga Vergisi Defteri",
-        "start": 2004.46,
-        "end": 2007.18
-      },
-      {
-        "index": 189,
-        "text": "Genel Müdürlükçe Ayrıca Tutulması Zorunlu 3 Defter:",
-        "start": 2007.18,
-        "end": 2011.74
-      },
-      {
-        "index": 190,
-        "text": "Pay Defteri",
-        "start": 2011.74,
-        "end": 2013.76
-      },
-      {
-        "index": 191,
-        "text": "Yönetim Kurulu Karar Defteri",
-        "start": 2013.76,
-        "end": 2016.76
-      },
-      {
-        "index": 192,
-        "text": "Genel Kurul Toplantı ve Müzakere Defteri",
-        "start": 2016.76,
-        "end": 2020.61
-      },
-      {
-        "index": 193,
-        "text": "Kayıt Kuralları: Türkçe tutulması zorunludur, mürekkepli kalem veya makine ile yazılır, yanlış yazılar okunacak şekilde çizilip üst veya yan tarafına doğrusu yazılır, boş satır ve sayfa bırakılmaz.",
-        "start": 2020.61,
-        "end": 2034.1
-      },
-      {
-        "index": 194,
-        "text": "Tasdik Zamanı ve Kapanış Onayı (Tasdiki Yenileme",
-        "start": 2034.1,
-        "end": 2038.37
-      },
-      {
-        "index": 195,
-        "text": "Defterler kullanmaya başlamadan önce iş yerinin bulunduğu yerdeki Notere tasdik ettirilir.",
-        "start": 2038.37,
-        "end": 2045.6
-      },
-      {
-        "index": 196,
-        "text": "KAPANIŞ ONAYINA TABİ DEFTERLER: \"Yevmiye Defteri\" ve \"Yönetim Kurulu Karar Defteri\" izleyen hesap döneminin 3. AYININ SONUNA KADAR (Mart sonu) notere ibraz edilip son kaydın altına \"GÖRÜLMÜŞTÜR\" sözü yazılarak tasdik yenileme yapılır.",
-        "start": 2045.6,
-        "end": 2061.4
-      },
-      {
-        "index": 197,
-        "text": "KAPANIŞ ONAYINA TABİ OLMAYAN DEFTERLER: \"Defteri Kebir\" ve \"Envanter Defteri\"nde onay yenileme son kaydın yer aldığı sayfadan sonraki sayfaya yapılır.",
-        "start": 2061.4,
-        "end": 2072.22
-      },
-      {
-        "index": 198,
-        "text": "Defter Tasdikinin Yaptırılmamasının 2 Sonucu:",
-        "start": 2072.22,
-        "end": 2076.31
-      },
-      {
-        "index": 199,
-        "text": "Defterin hiç tutulmaması hükmündedir ve VUK 352. Maddeye göre 1. DERECE USULSÜZLÜK CEZASINI gerektirir.",
-        "start": 2076.31,
-        "end": 2085.25
-      },
-      {
-        "index": 200,
-        "text": "TTK'ya göre tasdiki yaptırılmayan defterler BANKA LEHİNE DELİL OLAMAZ.",
-        "start": 2085.25,
-        "end": 2091.44
-      },
-      {
-        "index": 201,
-        "text": "Defter ve Belgelerin Muhafaza Süreleri (Çok Kritik!",
-        "start": 2091.44,
-        "end": 2095.95
-      },
-      {
-        "index": 202,
-        "text": "Vergi Usul Kanunu (VUK) uyarınca: İlgili bulundukları yılı izleyen takvim yılının başından başlayarak 5 (BEŞ) YIL.",
-        "start": 2095.95,
-        "end": 2105.26
-      },
-      {
-        "index": 203,
-        "text": "Türk Ticaret Kanunu (TTK) uyarınca: 10 (ON) YIL.",
-        "start": 2105.26,
-        "end": 2110.62
-      },
-      {
-        "index": 204,
-        "text": "Beyannamelerin Süresinde Verilmemesi Cezası:",
-        "start": 2110.62,
-        "end": 2114.8
-      },
-      {
-        "index": 205,
-        "text": "VUK 352. Maddeye göre 1. DERECE USULSÜZLÜK CEZASI;",
-        "start": 2114.8,
-        "end": 2121.03
-      },
-      {
-        "index": 206,
-        "text": "Elektronik ortamda verilmesi zorunlu beyannamelerde gecikme olması halinde ise VUK mükerrer 355. Madde uyarınca ÖZEL USULSÜZLÜK CEZASI kesilir.",
-        "start": 2121.03,
-        "end": 2132.95
-      },
-      {
-        "index": 207,
-        "text": "Vergi Beyan ve Ödeme Günleri Tablosu (Ezberlenmesi Şart!",
-        "start": 2132.95,
-        "end": 2138.11
-      },
-      {
-        "index": 208,
-        "text": "Çeklere Ait Değerli Kağıt Bedeli : Beyan ve Ödeme -> Müteakip Ayın 7'si",
-        "start": 2138.11,
-        "end": 2143.8
-      },
-      {
-        "index": 209,
-        "text": "B S M V : Beyan ve Ödeme -> Müteakip Ayın 15'i",
-        "start": 2143.8,
-        "end": 2148.85
-      },
-      {
-        "index": 210,
-        "text": "K D V Beyannamesi (9015) : Beyan ve Ödeme -> Müteakip Ayın 25'i",
-        "start": 2148.85,
-        "end": 2155.69
-      },
-      {
-        "index": 211,
-        "text": "Damga Vergisi : Beyan ve Ödeme -> Müteakip Ayın 26'sı",
-        "start": 2155.69,
-        "end": 2160.96
-      },
-      {
-        "index": 212,
-        "text": "Muhtasar Beyanname : Beyan ve Ödeme -> Müteakip Ayın 26'sı",
-        "start": 2160.96,
-        "end": 2166.5
-      },
-      {
-        "index": 213,
-        "text": "Emlak Vergisi : Beyan -> Mart-Nisan-Mayıs | Ödeme -> 1. Taksit Mayıs, 2. Taksit Kasım",
-        "start": 2166.5,
-        "end": 2173.43
-      },
-      {
-        "index": 214,
-        "text": "Çevre Temizlik Vergisi (İşyerleri Beyan -> Mart-Nisan-Mayıs | Ödeme -> 1. Taksit Mayıs, 2. Taksit Kasım",
-        "start": 2173.43,
-        "end": 2181.37
-      },
-      {
-        "index": 215,
-        "text": "Taşıt Vergisi (M T V) : Ödeme -> 1. Taksit Ocak, 2. Taksit Temmuz",
-        "start": 2181.37,
-        "end": 2187.97
-      },
-      {
-        "index": 216,
-        "text": "Veraset ve İntikal Vergisi (İstihkaklardan Beyan ve Ödeme -> Bir Hafta İçinde",
-        "start": 2187.97,
-        "end": 2194.22
+        "text": "İstihkaklardan kesilen Veraset ve İntikal Vergisi ise kesintiyi izleyen 1 hafta içinde beyan edilir ve ödenir.",
+        "start": 2333.89,
+        "end": 2343.1
       }
     ]
   }
