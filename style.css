@@ -1,9 +1,9 @@
 /* ==========================================================================
-   METİN SESLENDİRME & KARAOKE OKUMA WEB UYGULAMASI (SABİT DÜZEN & İÇ SCROLL)
+   METİN SESLENDİRME & KARAOKE OKUMA WEB UYGULAMASI (GÖRSEL ÇERÇEVELİ ORTA KUTU)
    ========================================================================== */
 
 :root {
-  --bg-color: #f8fafc;
+  --bg-color: #f1f5f9;
   --card-bg: #ffffff;
   --text-main: #0f172a;
   --text-muted: #64748b;
@@ -12,7 +12,7 @@
   --active-highlight: #fef08a;
   --active-text: #854d0e;
   --active-border: #eab308;
-  --border-color: #e2e8f0;
+  --border-color: #cbd5e1;
   --header-bg: rgba(255, 255, 255, 0.95);
   --control-bg: #ffffff;
   --shadow-color: rgba(0, 0, 0, 0.08);
@@ -23,18 +23,18 @@
 
 /* 📜 SEPYA TEMA */
 [data-theme="sepya"] {
-  --bg-color: #fbf0d9 !important;
-  --card-bg: #f4e4bc !important;
+  --bg-color: #f5e8ca !important;
+  --card-bg: #ebd6a7 !important;
   --text-main: #433422 !important;
   --text-muted: #7c684e !important;
   --primary-color: #a06028 !important;
-  --primary-light: #ebd6a7 !important;
+  --primary-light: #f5e8ca !important;
   --active-highlight: #e8cc82 !important;
   --active-text: #2c1d0b !important;
   --active-border: #c89d38 !important;
-  --border-color: #e2d1a8 !important;
-  --header-bg: rgba(251, 240, 217, 0.95) !important;
-  --control-bg: #f4e4bc !important;
+  --border-color: #d8c395 !important;
+  --header-bg: rgba(245, 232, 202, 0.95) !important;
+  --control-bg: #ebd6a7 !important;
   --shadow-color: rgba(67, 52, 34, 0.15) !important;
   --mark-bg: #e2bf65 !important;
   --mark-color: #2c1d0b !important;
@@ -42,7 +42,7 @@
 
 /* 🌙 KARANLIK TEMA */
 [data-theme="dark"] {
-  --bg-color: #0f172a !important;
+  --bg-color: #0b1329 !important;
   --card-bg: #1e293b !important;
   --text-main: #f8fafc !important;
   --text-muted: #94a3b8 !important;
@@ -52,9 +52,9 @@
   --active-text: #fef08a !important;
   --active-border: #facc15 !important;
   --border-color: #334155 !important;
-  --header-bg: rgba(15, 23, 42, 0.95) !important;
+  --header-bg: rgba(11, 19, 41, 0.95) !important;
   --control-bg: #1e293b !important;
-  --shadow-color: rgba(0, 0, 0, 0.3) !important;
+  --shadow-color: rgba(0, 0, 0, 0.4) !important;
   --mark-bg: #854d0e !important;
   --mark-color: #ffffff !important;
 }
@@ -66,12 +66,15 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-/* TAM EKRAN SABİT DÜZEN (NO WHOLE PAGE SCROLL) */
+/* KESİNTİSİZ SABİT EKRAN (100% FLEX CONTAINMENT) */
 html, body {
   width: 100%;
   height: 100%;
   height: 100vh;
-  overflow: hidden; /* Sayfa dışı kaydırma engellendi */
+  height: 100dvh;
+  overflow: hidden !important; /* Dış ekran asla kaymaz */
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
 }
 
 body {
@@ -81,16 +84,17 @@ body {
   line-height: 1.6;
   font-size: 16px;
   display: flex;
-  flex-direction: column; /* Dikey Düzen */
+  flex-direction: column;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* ÜST BÖLÜM (SABİT) */
+/* ÜST BÖLÜM (SABİT HEADER) */
 .header-wrapper {
   flex: 0 0 auto;
   z-index: 100;
   background-color: var(--header-bg);
   border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px var(--shadow-color);
 }
 
 .header-bar {
@@ -99,6 +103,8 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 .search-container {
@@ -188,6 +194,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 .other-topic-suggestions {
@@ -207,7 +215,7 @@ body {
   border: none;
 }
 
-/* KONU KATALOG BUTONLARI (KATEGORİ İSİMLERİ 1 TIK KÜÇÜLTÜLDÜ: 12.5px) */
+/* KONU KATALOG BUTONLARI (KATEGORİLER 12.5px) */
 .topics-nav {
   display: flex;
   gap: 6px;
@@ -215,6 +223,8 @@ body {
   overflow-x: auto;
   scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 .topics-nav::-webkit-scrollbar {
@@ -223,12 +233,12 @@ body {
 
 .topic-btn {
   flex: 0 0 auto;
-  padding: 8px 13px; /* 1 Tık küçültüldü */
+  padding: 7px 12px;
   border-radius: 20px;
   border: 1px solid var(--border-color);
   background-color: var(--card-bg);
   color: var(--text-main);
-  font-size: 12.5px; /* 1 Tık küçültüldü (14px -> 12.5px) */
+  font-size: 12.5px;
   font-weight: 600;
   font-family: inherit;
   display: flex;
@@ -247,30 +257,43 @@ body {
 }
 
 /* ==========================================================================
-   ORTA KUTUCUK (SABİT ALANDA İÇERİDEN KAYDIRILABİLİR İÇERİK BÖLGESİ)
+   📌 BELİRGİN ÇERÇEVELİ ORTA KUTUCUK (SADECE BURASI KAYAR)
    ========================================================================== */
-.content-area {
-  flex: 1; /* Üst ve alt arasında kalan tüm dikey alanı doldurur */
-  overflow-y: auto; /* Yalnızca bu ortadaki kutucuk kaydırılır */
-  -webkit-overflow-scrolling: touch;
-  padding: 16px;
-  max-width: 650px;
+.main-wrapper {
+  flex: 1 1 0%; /* Üst ve alt arasında kesin kalan alan */
+  min-height: 0; /* Strict Flex scroll containment */
   width: 100%;
+  max-width: 650px;
   margin: 0 auto;
+  padding: 10px 12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-area {
+  flex: 1 1 0%;
+  min-height: 0;
+  overflow-y: scroll !important; /* Yalnızca bu kutu kaydırılır */
+  -webkit-overflow-scrolling: touch;
+  background-color: var(--card-bg);
+  border: 2px solid var(--border-color); /* Görsel Belirgin Çerçeve */
+  border-radius: 20px;
+  padding: 16px;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.05), 0 4px 16px var(--shadow-color);
 }
 
 .paragraph-card {
-  background-color: var(--card-bg);
+  background-color: var(--bg-color);
   border: 1px solid var(--border-color);
-  border-radius: 16px;
-  padding: 16px 18px;
-  margin-bottom: 12px;
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
   font-size: var(--para-font-size);
   line-height: 1.65;
   cursor: pointer;
   transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
   position: relative;
-  scroll-margin-top: 20px;
 }
 
 .paragraph-card:active {
@@ -304,18 +327,18 @@ mark {
   display: none !important;
 }
 
-/* SABİT ODAKLANMA BUTONU */
+/* ODAKLANMA BUTONU */
 .focus-active-btn {
   position: absolute;
-  bottom: 130px;
-  right: 16px;
+  bottom: 24px;
+  right: 24px;
   z-index: 150;
   background-color: var(--primary-color);
   color: #ffffff;
   border: none;
   border-radius: 20px;
-  padding: 10px 16px;
-  font-size: 12.5px;
+  padding: 9px 15px;
+  font-size: 12px;
   font-weight: 700;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
   cursor: pointer;
@@ -327,7 +350,7 @@ mark {
 }
 
 /* ==========================================================================
-   ALT OYNATICI BARI (EKRANIN EN ALTINDA SÜREKLİ SABİT)
+   ALT BÖLÜM (SABİT OYNATICI BAR)
    ========================================================================== */
 .audio-bar {
   flex: 0 0 auto;
@@ -336,7 +359,7 @@ mark {
   border-top: 1px solid var(--border-color);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  padding: 12px 16px calc(12px + env(safe-area-inset-bottom)) 16px;
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom)) 16px;
   box-shadow: 0 -4px 20px var(--shadow-color);
   display: flex;
   flex-direction: column;
@@ -522,6 +545,12 @@ mark {
 
 /* YAZDIRMA VE PDF ÇIKTISI */
 @media print {
+  html, body {
+    height: auto !important;
+    overflow: visible !important;
+    position: static !important;
+  }
+
   body {
     background-color: #ffffff !important;
     color: #000000 !important;
@@ -540,10 +569,12 @@ mark {
     display: none !important;
   }
 
-  .content-area {
+  .main-wrapper, .content-area {
     max-width: 100% !important;
     padding: 0 !important;
     overflow: visible !important;
+    border: none !important;
+    box-shadow: none !important;
   }
 
   .paragraph-card {

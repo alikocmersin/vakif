@@ -11,7 +11,7 @@
   <meta name="theme-color" content="#f8fafc">
 
   <!-- Cache-Busting Version String -->
-  <link rel="stylesheet" href="style.css?v=1.2">
+  <link rel="stylesheet" href="style.css?v=1.3">
 
   <!-- html2pdf.js (Doğrudan PDF İndirme Kütüphanesi) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
@@ -45,23 +45,25 @@
       <div id="otherTopicSuggestions" class="other-topic-suggestions"></div>
     </div>
 
-    <!-- KONU KATALOG BUTONLARI (Kategori İsimleri 1 Tık Küçültüldü) -->
+    <!-- KONU KATALOG BUTONLARI (Kategori İsimleri 1 Tık Küçültüldü: 12.5px) -->
     <nav class="topics-nav" id="topicsNav">
       <!-- JavaScript ile Dinamik Doldurulur -->
     </nav>
   </div>
 
-  <!-- ORTA KUTUCUK (SABİT DİKELERDE İÇERİDEN KAYDIRILABİLİR YAZILAR) -->
-  <main class="content-area" id="contentArea">
-    <!-- Dinamik Metin Kartları (Paragraflar) Burada Görünür -->
+  <!-- 📌 ORTADA BELİRGİN ÇERÇEVELİ KUTUCUK (Sadece Buradaki Paragraflar Kayar) -->
+  <main class="main-wrapper">
+    <div class="content-area" id="contentArea">
+      <!-- Dinamik Metin Kartları (Paragraflar) Burada Görünür -->
+    </div>
+
+    <!-- OKUNAN SATIRA HIZLI ODAKLANMA BUTONU -->
+    <button id="focusActiveBtn" class="focus-active-btn" style="display: none;">
+      🎯 Okunan Satıra Odaklan
+    </button>
   </main>
 
-  <!-- OKUNAN SATIRA HIZLI ODAKLANMA BUTONU -->
-  <button id="focusActiveBtn" class="focus-active-btn" style="display: none;">
-    🎯 Okunan Satıra Odaklan
-  </button>
-
-  <!-- SABİT ALT SES KONTROL BARI -->
+  <!-- SABİT ALT SES KONTROL BARI (Ekranın En Altında Sürekli Sabit) -->
   <div class="audio-bar">
     <!-- İlerleme Çubuğu & Süre -->
     <div class="progress-container">
@@ -137,6 +139,6 @@
   <!-- Gizli Ses Öğesi -->
   <audio id="audioPlayer" preload="auto"></audio>
 
-  <script src="app.js?v=1.2"></script>
+  <script src="app.js?v=1.3"></script>
 </body>
 </html>
