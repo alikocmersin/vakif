@@ -7586,5 +7586,127 @@
         "end": 825.51
       }
     ]
+  },
+  "ticarikrediler": {
+    "id": "ticarikrediler",
+    "title": "Ticari Krediler",
+    "icon": "🏢",
+    "duration": 254.31,
+    "paragraphs": [
+      {
+        "index": 0,
+        "text": "Ticari Krediler",
+        "start": 0.0,
+        "end": 2.44
+      },
+      {
+        "index": 1,
+        "text": "MADDE 1: Kredinin Tanımı ve Unsurları",
+        "start": 2.44,
+        "end": 6.35
+      },
+      {
+        "index": 2,
+        "text": "Bankacılıkta kredi, basitçe ihtiyaç sahiplerine geri alınmak şartıyla verilen nakit borç (Nakdi Kredi) veya müşterinin bir borcuna bankanın kefil olması (Gayrinakdi Kredi) işlemidir. Kredinin üç temel unsuru vardır: Vade, Güven ve Risk.",
+        "start": 6.35,
+        "end": 24.62
+      },
+      {
+        "index": 3,
+        "text": "Akılda Kalıcı Yöntem (Zıtlık İlişkisi): Kredinin temelinde Güven yatar ancak, sonucunda daima bir Risk vardır. İkisi arasındaki bu zıt dengeyi ise Vade belirler. Vade ne kadar uzarsa, risk de o oranda artar.",
+        "start": 24.62,
+        "end": 42.55
+      },
+      {
+        "index": 4,
+        "text": "MADDE 2: Yönetim Kurulunun Kredi Açma ve Yetki Devri Sınırları",
+        "start": 42.55,
+        "end": 48.08
+      },
+      {
+        "index": 5,
+        "text": "Bankacılık Kanununa göre bankalarda kredi açmaya yetkili asıl organ Yönetim Kuruludur. Ancak, bu yetkisinin bir kısmını alt birimlere devredebilir.",
+        "start": 48.08,
+        "end": 60.0
+      },
+      {
+        "index": 6,
+        "text": "Sınav Tüyosu (10 ve 1 Kuralı): Yönetim Kurulu, yetkisini devrediyorsa kime ne kadar devredeceğini ezberlemek çok basittir. Kredi Komitesi kalabalık bir gruptur, o yüzden büyük payı yani özkaynakların yüzde onunu (yüzde 10) alırlar. Genel Müdür ise tek bir şahıstır, o yüzden küçük payı yani özkaynakların yüzde birini (yüzde 1) alır.",
+        "start": 60.0,
+        "end": 85.0
+      },
+      {
+        "index": 7,
+        "text": "MADDE 3: Kredi Sınırları ve Büyük Kredi Tanımı",
+        "start": 85.0,
+        "end": 89.39
+      },
+      {
+        "index": 8,
+        "text": "Bir gerçek veya tüzel kişiye veya bir risk grubuna kullandırılabilecek kredilerin toplamı banka ana sermaye ve özkaynağının yüzde 25’ini aşamaz. Büyük kredilerin toplamı ise banka özkaynağının 8 katını geçemez.",
+        "start": 89.39,
+        "end": 106.67
+      },
+      {
+        "index": 9,
+        "text": "Mantıksal Kodlama: Banka kasasındaki parayı tek bir kişiye bağlayıp riske giremez. Bir kişiye en fazla çeyrek pastayı yani yüzde 25 ini verebilirsin. Büyük kredi demek ise pastanın yüzde 10 undan fazlasını alanlar demektir. Tüm bu büyüklerin toplamı bankanın en fazla 8 katı büyüklüğe ulaşabilir.",
+        "start": 106.67,
+        "end": 131.71
+      },
+      {
+        "index": 10,
+        "text": "MADDE 4: Hesap Durumu Belgesi İstisnaları",
+        "start": 131.71,
+        "end": 135.96
+      },
+      {
+        "index": 11,
+        "text": "Bankalarca 5 Milyon Türk Lirası üzerinde verilecek nakdi ve gayri nakdi krediler için müşterilerden hesap durumu belgesi yani finansal tablo alınması zorunludur.",
+        "start": 135.96,
+        "end": 147.76
+      },
+      {
+        "index": 12,
+        "text": "Akılda Kalıcı Örnek (Fırıncı Ahmet Bey): Ahmet Bey bankaya geldi ve 4 milyon Türk Lirası ticari kredi istedi. Mevzuat der ki, ondan zorunlu bilanço istemene gerek yok. Ama işleri büyütüp 5 milyon Türk Lirası sınırını 1 lira bile geçse, ona Ahmet Bey, yasa gereği bize resmi hesap durum belgenizi getirmek zorundasınız demek zorundayız. Sınavda sınırımız net: 5 Milyon Türk Lirası!",
+        "start": 147.76,
+        "end": 176.74
+      },
+      {
+        "index": 13,
+        "text": "MADDE 5: Risk Grubu Kavramı",
+        "start": 176.74,
+        "end": 180.26
+      },
+      {
+        "index": 14,
+        "text": "Aralarında birinin ödeme güçlüğüne düşmesinin diğerlerini de etkileyecek boyutta kefalet ilişkisi bulunan veya birbirlerinin yönetim kurulunda yer alan şirketler tek bir Risk Grubu kabul edilir.",
+        "start": 180.26,
+        "end": 192.35
+      },
+      {
+        "index": 15,
+        "text": "Akılda Kalıcı Yöntem (Zincirleme Kaza): Bunu trafikteki zincirleme kaza gibi düşünebiliriz. Eğer A şirketi iflas ettiğinde B şirketini de peşinden sürüklüyorsa (örneğin kefil olduğu için), banka bu iki şirketi ayrı ayrı değerlendirmez, ikisini tek bir Risk Grubu zincirine bağlar.",
+        "start": 192.35,
+        "end": 212.3
+      },
+      {
+        "index": 16,
+        "text": "MADDE 6: Banka Mensuplarına Kredi Kullandırılması (50. Madde)",
+        "start": 212.3,
+        "end": 218.23
+      },
+      {
+        "index": 17,
+        "text": "Bankalar kural olarak kendi yönetim kurulu üyelerine ve genel müdürlerine kredi kullandıramazlar. Ancak, banka mensuplarına ve eşlerine, aylık net ücretlerinin toplam 5 katına kadar nakdi kredi ve 3 katına kadar kredi kartı verilebilir.",
+        "start": 218.23,
+        "end": 235.85
+      },
+      {
+        "index": 18,
+        "text": "Sınav Tüyosu (5 ve 3 Kuralı): Banka kendi personeline maaşının 5 katı kadar nakit verebilir. Ancak, kredi kartı harcaması daha riskli olduğu için onu maaşın 3 katıyla sınırlar. İki rakamı da maaş katı olarak aklınızda tutun.",
+        "start": 235.85,
+        "end": 254.31
+      }
+    ]
   }
 }
