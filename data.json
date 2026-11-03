@@ -7591,7 +7591,7 @@
     "id": "ticarikrediler",
     "title": "Ticari Krediler",
     "icon": "🏢",
-    "duration": 290.37,
+    "duration": 342.98,
     "paragraphs": [
       {
         "index": 0,
@@ -7655,111 +7655,129 @@
       },
       {
         "index": 10,
-        "text": "BÖLÜM 4: Belalı Müşteriler (Kredi Açılamayacaklar)",
+        "text": "BÖLÜM 4: Risk Grubu ve Çeyrek Pasta Sınırı (Yüzde 25)",
         "start": 102.94,
-        "end": 107.74
+        "end": 108.57
       },
       {
         "index": 11,
-        "text": "İflas edenler, konkordato isteyenler, tefecilik yapanlar, vergi kaçakçıları ve ticaretten men edilenlere asla kredi açılamaz. Bunlar bankanın kırmızı çizgisidir.",
-        "start": 107.74,
-        "end": 121.07
+        "text": "Biri batarsa diğeri de batacak olan şirketler, kefiller, eşler ve çocuklar tek bir Risk Grubu sayılır.",
+        "start": 108.57,
+        "end": 116.04
       },
       {
         "index": 12,
-        "text": "BÖLÜM 5: Risk Grubu ve Çeyrek Pasta Sınırı (Yüzde 25)",
-        "start": 121.07,
-        "end": 126.63
+        "text": "Altın Kural: Banka, elindeki ana sermaye ve özkaynağın en fazla Yüzde 25 ini yani sadece çeyreğini tek bir kişiye veya bir risk grubuna verebilir. Tüm yumurtalar tek sepete konmaz!",
+        "start": 116.04,
+        "end": 130.64
       },
       {
         "index": 13,
-        "text": "Birbiriyle bağlantılı, biri batarsa diğeri de batacak olan şirketler, kefiller, eşler ve çocuklar tek bir Risk Grubu sayılır.",
-        "start": 126.63,
-        "end": 135.5
+        "text": "BÖLÜM 5: Bankanın Kendi Risk Grubu ve Büyük Krediler",
+        "start": 130.64,
+        "end": 135.57
       },
       {
         "index": 14,
-        "text": "Altın Kural: Banka, elindeki ana sermaye ve özkaynağın en fazla Yüzde 25 ini yani sadece çeyreğini tek bir kişiye veya bir risk grubuna verebilir. Tüm yumurtalar tek sepete konmaz!",
-        "start": 135.5,
-        "end": 150.09
+        "text": "Bankanın kendi risk grubuna (hissedarlarına vs. ) verebileceği kredi özkaynağının en fazla Yüzde 20 si olabilir.",
+        "start": 135.57,
+        "end": 144.98
       },
       {
         "index": 15,
-        "text": "BÖLÜM 6: Bankanın Kendi Risk Grubu (Yüzde 20)",
-        "start": 150.09,
-        "end": 154.9
+        "text": "Büyük Kredi Sınırı: Bir müşteriye banka özkaynağının Yüzde 10 u veya daha fazlası verilmişse buna Büyük Kredi denir. Tüm büyük kredilerin toplamı, banka özkaynağının en fazla 8 katı olabilir.",
+        "start": 144.98,
+        "end": 161.1
       },
       {
         "index": 16,
-        "text": "Banka, kendi hissedarlarına ve yöneticilerinin şirketlerine torpil yapamaz. Bankanın Kendi Risk Grubuna verebileceği kredi, özkaynağının en fazla Yüzde 20 si olabilir. B D D K gerekli görürse bunu yüzde 25 e çıkarabilir.",
-        "start": 154.9,
-        "end": 174.24
+        "text": "BÖLÜM 6: Bilanço (Hesap Durumu Belgesi) Şartı",
+        "start": 161.1,
+        "end": 165.75
       },
       {
         "index": 17,
-        "text": "BÖLÜM 7: Büyük Krediler ve 8 Kat Kuralı",
-        "start": 174.24,
-        "end": 178.69
+        "text": "Bankalar, müşterilerine verecekleri toplam kredi 5 Milyon Türk Lirasını geçiyorsa resmi bilanço almak zorundadır.",
+        "start": 165.75,
+        "end": 175.1
       },
       {
         "index": 18,
-        "text": "Bir müşteriye banka özkaynağının Yüzde 10 u veya daha fazlası kadar kredi verilmişse, buna Büyük Kredi denir.",
-        "start": 178.69,
-        "end": 187.64
+        "text": "200 Milyon Lira Kırmızı Alarmı: Sınavların zor sorusu şudur: Tüm bankacılık sektöründeki toplam borcu 200 Milyon liranın üzerinde olan dev firmalardan, kredi tahsis aşamasında ekstra olarak konsolide bağımsız denetim raporu alınması zorunludur.",
+        "start": 175.1,
+        "end": 191.75
       },
       {
         "index": 19,
-        "text": "Sınav Tüyosu (8 Kat Sınırı): Banka bu büyük kredileri herkese dağıtamaz. Tüm büyük kredilerin toplamı, banka özkaynağının en fazla 8 katı olabilir. Dokuzuncu kat kesinlikle yasaktır.",
-        "start": 187.64,
-        "end": 203.94
+        "text": "BÖLÜM 7: Teminatlar ve Ticari İşletme Rehni",
+        "start": 191.75,
+        "end": 196.2
       },
       {
         "index": 20,
-        "text": "BÖLÜM 8: Sınırlamalardan Muaf Olan VIP İşlemler",
-        "start": 203.94,
-        "end": 208.92
+        "text": "Bir ticari işletmenin tamamı üzerinde rehin kurulursa, şirketin makinesi, eşyası her şeyi rehin edilmiş sayılır. Buna Ticari İşletme Rehni denir.",
+        "start": 196.2,
+        "end": 208.05
       },
       {
         "index": 21,
-        "text": "Bazı risksiz işlemler kredi sınırlarına dahil edilmez ve limitleri doldurmaz.",
-        "start": 208.92,
-        "end": 215.52
+        "text": "Sınav Tüyosu (Süresiz Teminat): Eğer soru size Teminat olarak alınacak Ticari İşletme Rehninin veya Genel Kredi Sözleşmesinin vadesi nedir diye sorarsa cevap her zaman Süresiz olarak düzenlenir dir. Kredinin vadesi bitse bile sözleşme süresizdir.",
+        "start": 208.05,
+        "end": 226.11
       },
       {
         "index": 22,
-        "text": "Sınav Şifresi (VIP İşlemler): Nakit ve altın karşılığı verilen krediler risksizdir. Hazine, Merkez Bankası, Özelleştirme İdaresi ve Türkiye Varlık Fonu ile yapılan işlemler devlet güvencesindedir. Bu işlemlerin kredisi limitsiz sayılır.",
-        "start": 215.52,
-        "end": 235.3
+        "text": "BÖLÜM 8: ELÜS (Elektronik Ürün Senedi) ve TMO",
+        "start": 226.11,
+        "end": 231.12
       },
       {
         "index": 23,
-        "text": "BÖLÜM 9: Hesap Durumu Belgesi (Bilanço İsteme Sınırı)",
-        "start": 235.3,
-        "end": 240.29
+        "text": "Çiftçilerin Toprak Mahsulleri Ofisine (TMO) veya lisanslı depolara teslim ettiği tarım ürünleri karşılığında dijital olarak ELÜS yani Elektronik Ürün Senedi düzenlenir.",
+        "start": 231.12,
+        "end": 242.72
       },
       {
         "index": 24,
-        "text": "Bankalar, müşterilerine verecekleri kredi toplamı 5 Milyon Türk Lirasını geçiyorsa, resmi hesap durumu belgesi yani bilanço almak zorundadır.",
-        "start": 240.29,
-        "end": 250.85
+        "text": "Akılda Kalıcı Kural: ELÜS bir kıymetli evraktır, Merkezi Kayıt Kuruluşunda (MKK) tutulur ve bankalar bu senetlerin üzerine rehin koyarak çiftçiye veya tüccara ticari kredi kullandırabilir.",
+        "start": 242.72,
+        "end": 256.11
       },
       {
         "index": 25,
-        "text": "Bilanço Şifresi: Müşteriniz 4 Milyon 999 Bin lira isterse insiyatif bankadadır. Ama tam 5 Milyon sınırını aştığı an, yasa gereği resmi kurum onaylı bilanço istemek zorundasınız.",
-        "start": 250.85,
-        "end": 267.94
+        "text": "BÖLÜM 9: Kredilerin Sınıflandırılması (5 Sepet Kuralı)",
+        "start": 256.11,
+        "end": 261.3
       },
       {
         "index": 26,
-        "text": "BÖLÜM 10: 200 Milyon Lira Kırmızı Alarmı",
-        "start": 267.94,
-        "end": 272.19
+        "text": "Bankalar verdikleri kredileri geri ödenme riskine göre 5 gruba ayırırlar.",
+        "start": 261.3,
+        "end": 267.34
       },
       {
         "index": 27,
-        "text": "Sınavların zor sorusu şudur: Tüm bankacılık sektöründeki toplam borcu 200 Milyon liranın üzerinde olan dev firmalardan, kredi tahsis aşamasında ekstra olarak konsolide bağımsız denetim raporu alınması şarttır. 200 Milyon, kırmızı alarm sınırıdır.",
-        "start": 272.19,
-        "end": 290.37
+        "text": "Sepetlerin Şifresi: Birinci Grup, sorunsuz ödeyen Standart Nitelikli kredilerdir. İkinci Grup, bir iki taksiti aksatmış Yakın İzlemedeki kredilerdir. Üçüncü Grup, işlerin kötüye gittiği Tahsil İmkanı Sınırlı kredilerdir. Dördüncü Grup, batmaya çok yakın Tahsili Şüpheli kredilerdir. Beşinci Grup ise artık battığı kesinleşen Zarar Niteliğindeki kredilerdir.",
+        "start": 267.34,
+        "end": 298.36
+      },
+      {
+        "index": 28,
+        "text": "BÖLÜM 10: Karşılık Ayırma Sistemi (Zarar Beklentisi)",
+        "start": 298.36,
+        "end": 303.08
+      },
+      {
+        "index": 29,
+        "text": "Banka kredi verirken ileride ne kadar zarar edeceğini önceden hesaplamak (Karşılık Ayırmak) zorundadır. Bu hesaplamada 3 temel oran kullanılır.",
+        "start": 303.08,
+        "end": 315.2
+      },
+      {
+        "index": 30,
+        "text": "Sınav Tüyosu (Kritik 3 Parametre): Temerrüt Olasılığı (TO) yani müşterinin ödememe ihtimali. Temerrüt Tutarı (TT) yani müşteri battığında içeride kalan paramız. Temerrüt Halinde Kayıp (THK) yani müşteri battığında paranın ne kadarını kesin olarak kaybedeceğimizin oranı. Sınavda karşılık parametreleri sorulursa bu üçünü (TO, TT, THK) işaretleyin.",
+        "start": 315.2,
+        "end": 342.98
       }
     ]
   }
