@@ -6843,385 +6843,271 @@
     "id": "disticaret",
     "title": "Dış Ticaret İşlemleri",
     "icon": "🌍",
-    "duration": 971.66,
+    "duration": 531.24,
     "paragraphs": [
       {
         "index": 0,
-        "text": "DIŞ TİCARET İŞLEMLERİ",
+        "text": "Dış Ticaret ve Nakit Yönetimi",
         "start": 0.0,
-        "end": 2.85
+        "end": 3.33
       },
       {
         "index": 1,
-        "text": "ULUSLARARASI TİCARET TEMEL KAVRAMLARI VE Ay Si Si BROŞÜRLERİ",
-        "start": 2.85,
-        "end": 7.95
+        "text": "BÖLÜM 1: Uluslararası Ticaretin Kural Koyucusu (Ay Si Si)",
+        "start": 3.33,
+        "end": 8.68
       },
       {
         "index": 2,
-        "text": "Uluslararası ticaret, uluslararası sınırlar ve bölgeler arasında yapılan mal ve hizmet ticaretidir. Milletlerarası Ticaret Odası yani Ay Si Si, farklı ülkelere mensup firmaların dış ticaret işlemlerini standartlaştırmak için birörnek kurallar yayınlamaktadır.",
-        "start": 7.95,
-        "end": 27.14
+        "text": "Ülkeler arası ticaretin sorunsuz yapılmasını sağlayan, uyuşmazlıkları çözen ana kurum Milletlerarası Ticaret Odasıdır. (Ay Si Si). Tüm dünyada standart olan dış ticaret kurallarını Ay Si Si broşürleri ile belirler.",
+        "start": 8.68,
+        "end": 26.75
       },
       {
         "index": 3,
-        "text": "Dikkat burası çok kritik! Sınavda Ay Si Si broşür numaraları ve karşılıkları adeta banko sorudur. Kesinlikle ezberlemelisin:",
-        "start": 27.14,
-        "end": 38.55
+        "text": "Sınavın Banko Şifresi (Broşür Kodları): Sınavda dış ticaret işlemlerinin hangi numaralı broşürle yönetildiği sorulur. Akreditifli işlemler (en yaygın ve en güvenlisi) sorulursa Broşür 600, Garanti Mektupları sorulursa Broşür 758, Tahsil işlemleri sorulursa Broşür 522 dir. (Şifre: 600 Akreditif, 758 Garanti, 522 Tahsil).",
+        "start": 26.75,
+        "end": 55.7
       },
       {
         "index": 4,
-        "text": "Tahsil İşlemleri ile ilgili uluslararası kurallar 522 sayılı broşürde yani URC 522'de düzenlenmiştir.",
-        "start": 38.55,
-        "end": 48.54
+        "text": "BÖLÜM 2: Dış Ticarette Hesap Türleri (Nos-Vos Kuralı)",
+        "start": 55.7,
+        "end": 60.98
       },
       {
         "index": 5,
-        "text": "Akreditifli ödemeler ile ilgili kurallar 600 sayılı broşürde yani UCP 600'de düzenlenmiştir.",
-        "start": 48.54,
-        "end": 56.89
+        "text": "Yurtdışı para transferlerinde bankalar birbirleri nezdinde döviz hesapları açarlar. Bu hesapların yönüne göre isimleri değişir.",
+        "start": 60.98,
+        "end": 71.14
       },
       {
         "index": 6,
-        "text": "Talep garantileri birörnek kuralları ise 758 sayılı broşürde yani URDG 758'de düzenlenmiştir.",
-        "start": 56.89,
-        "end": 66.69
+        "text": "Akılda Kalıcı Şifre (Nostro ve Vostro): Nostro Hesap, Bizim bankamızın yurtdışındaki muhabir bankada açtığı hesaptır. Vostro Hesap ise, Yurtdışındaki yabancı bankanın bizim bankamızda açtığı hesaptır. (Kodlama: Bizimki = Nostro, Yabancılarınki = Vostro).",
+        "start": 71.14,
+        "end": 91.31
       },
       {
         "index": 7,
-        "text": "Dış ticarette kullanılan temel bankacılık kavramları şunlardır. Bankamızın yurt dışındaki muhabir bankalar nezdinde açtırdığı döviz hesaplarına Nostro hesap denir, yani bizim sizdeki hesabımızdır. Yurt dışındaki muhabir bankaların Bankamız nezdinde açtırdığı hesaplara ise Vostro veya Loro hesap denir, yani sizin bizdeki hesabınızdır. Akreditifli işlemlerde amir bankanın talimatıyla ödemeyi gerçekleştiren üçüncü bir banka varsa bu bankaya Rambursman bankası denir. Tahsil işlemlerinde vesaikin hangi şartlarla teslim edileceğini gösteren talimat mektubuna ise Römiz mektubu adı verilir.",
-        "start": 66.69,
-        "end": 111.66
+        "text": "BÖLÜM 3: Efektif ve Döviz Farkı (Önemli Tuzak)",
+        "start": 91.31,
+        "end": 95.97
       },
       {
         "index": 8,
-        "text": "ULUSLARARASI TİCARİ TESLİM ŞEKİLLERİ (INCOTERMS)",
-        "start": 111.66,
-        "end": 116.16
+        "text": "Günlük hayatta aynı anlamda kullansak da, bankacılıkta döviz ve efektif tamamen farklı şeylerdir.",
+        "start": 95.97,
+        "end": 104.16
       },
       {
         "index": 9,
-        "text": "Incoterms kuralları, tüm taşıma türlerini kapsayan kurallar ve sadece deniz ile içsu taşımalarına özgü kurallar olmak üzere iki ana gruba ayrılır.",
-        "start": 116.16,
-        "end": 126.25
+        "text": "Sınav Tuzağı Uyarısı: Efektif, sadece ve sadece elde tutulabilen kâğıt (banknot) şeklindeki yabancı paralardır. Sınavda Yabancı madeni paralar efektif midir? diye bir tuzak gelir. Kesinlikle hayır, madeni paralar efektif sayılmaz ve alış-satışı yapılamaz. Döviz ise; banknot dışındaki, ödeme yapmayı sağlayan swift belgesi, çek veya banka hesabı gibi tüm sanal vasıtalardır.",
+        "start": 104.16,
+        "end": 136.15
       },
       {
         "index": 10,
-        "text": "Tüm taşıma türlerini kapsayan 7 kural şunlardır.",
-        "start": 126.25,
-        "end": 130.59
+        "text": "BÖLÜM 4: S V İ F T Sistemi Nedir?",
+        "start": 136.15,
+        "end": 140.47
       },
       {
         "index": 11,
-        "text": "EXW yani Exworks işyerinde teslimdir ve satıcının sorumluluğunun en az, alıcının sorumluluğunun en fazla olduğu teslim şeklidir.",
-        "start": 130.59,
-        "end": 140.69
+        "text": "Dünya çapında bankalararası para ve mesaj transferi sağlayan, uluslararası bir elektronik bankacılık sistemidir. Bu sayede bir banka diğer bir ülkedeki bankaya saniyeler içinde güvenceli ödeme emri yollar.",
+        "start": 140.47,
+        "end": 156.33
       },
       {
         "index": 12,
-        "text": "FCA taşıyıcıya masrafsız teslimdir.",
-        "start": 140.69,
-        "end": 144.59
+        "text": "Kodlama: Bankamızın Swift kodu TVBATR2AXXX dir. Baştaki TVBA yı (Türkiye, Vakıflar Bankası, Anonim Şirketi) olarak aklınızda tutabilirsiniz.",
+        "start": 156.33,
+        "end": 169.17
       },
       {
         "index": 13,
-        "text": "CPT taşıma ödenmiş olarak teslimdir.",
-        "start": 144.59,
-        "end": 148.49
+        "text": "BÖLÜM 5: INCOTERMS (Uluslararası Teslim Şekilleri ve Riskler)",
+        "start": 169.17,
+        "end": 174.6
       },
       {
         "index": 14,
-        "text": "CIP taşıma ve sigorta ödenmiş olarak teslimdir.",
-        "start": 148.49,
-        "end": 153.09
+        "text": "Dış ticarette bir mal gönderilirken taşıma (navlun) ücretini kimin ödeyeceğini ve yoldaki riskin kime ait olacağını Ay Si Si Incoterms kuralları belirler.",
+        "start": 174.6,
+        "end": 185.48
       },
       {
         "index": 15,
-        "text": "DAP belirlenen yerde teslimdir.",
-        "start": 153.09,
-        "end": 156.44
+        "text": "İhracatçıya (Satana) En Fazla Yük Bindiren: DDP (Delivered Duty Paid). Gümrük vergileri dâhil her şeyi satıcı öder ve kapıya kadar teslim eder.",
+        "start": 185.48,
+        "end": 197.6
       },
       {
         "index": 16,
-        "text": "DPU belirlenen yerde boşaltılmış olarak teslimdir ve satıcının malı varış yerinde taşıma aracından boşaltma yükümlülüğü olduğu tek kuraldır.",
-        "start": 156.44,
-        "end": 167.1
+        "text": "İthalatçıya (Alana) En Fazla Yük Bindiren: EXW (Exworks). Mal fabrikada bırakılır. Kamyona yüklemeden tutun, yoldaki tüm sigorta ve taşıma riski tamamen alıcıya aittir.",
+        "start": 197.6,
+        "end": 212.94
       },
       {
         "index": 17,
-        "text": "DDP gümrük resmi ödenmiş olarak teslimdir ve satıcının sorumluluğunun en fazla olduğu teslim şeklidir.",
-        "start": 167.1,
-        "end": 175.6
+        "text": "BÖLÜM 6: Sigorta Zorunluluğu Olan İşlemler (I Harfi Kuralı)",
+        "start": 212.94,
+        "end": 218.51
       },
       {
         "index": 18,
-        "text": "Sadece deniz ve içsu taşımalarına özgü 4 kural ise şunlardır.",
-        "start": 175.6,
-        "end": 181.39
+        "text": "İhracatçı bazen malı yollarken sigorta yaptırmakla kanunen yükümlüdür.",
+        "start": 218.51,
+        "end": 225.14
       },
       {
         "index": 19,
-        "text": "FAS gemi doğrultusunda masrafsız teslimdir.",
-        "start": 181.39,
-        "end": 185.49
+        "text": "Sınav Tüyosu (I Harfi Kuralı): Sınavda Hangi teslim şeklinde sigortayı ihracatçı (satıcı) yapmak zorundadır? diye bir eşleştirme çıkarsa, içinde I (Insurance yani sigorta) harfi geçen CIP ve CIF seçeneklerini direkt işaretleyin.",
+        "start": 225.14,
+        "end": 243.27
       },
       {
         "index": 20,
-        "text": "FOB gemide masrafsız teslimdir.",
-        "start": 185.49,
-        "end": 188.8
+        "text": "BÖLÜM 7: Dış Ticarette Kullanılan Temel Belgeler",
+        "start": 243.27,
+        "end": 247.96
       },
       {
         "index": 21,
-        "text": "CFR masraflar ve navlun ödenmiş teslimdir.",
-        "start": 188.8,
-        "end": 193.33
+        "text": "Dış ticarette malları ve ödemeleri temsil eden belgelere Vesaik denir.",
+        "start": 247.96,
+        "end": 254.13
       },
       {
         "index": 22,
-        "text": "CIF masraflar, sigorta ve navlun ödenmiş olarak teslimdir.",
-        "start": 193.33,
-        "end": 198.84
+        "text": "Proforma Fatura: Kesin olmayan, sadece teklif niteliğindeki taslak faturadır.",
+        "start": 254.13,
+        "end": 261.01
       },
       {
         "index": 23,
-        "text": "DIŞ TİCARETTE KULLANILAN BELGELER",
-        "start": 198.84,
-        "end": 202.3
+        "text": "Ticari Fatura: Satışın kesinleştiğini gösteren gerçek faturadır.",
+        "start": 261.01,
+        "end": 266.55
       },
       {
         "index": 24,
-        "text": "Şuraya dikkat et, bu kısım sınavda hayat kurtarır! Taşıma belgelerinin kıymetli evrak niteliği taşıyıp taşımadığı ve mülkiyeti nasıl devrettiği sınavda kesinlikle sorulur.",
-        "start": 202.3,
-        "end": 214.84
+        "text": "Denizyolu Konşimentosu (B/L): Çok değerlidir. Çünkü, malların bizzat mülkiyetini temsil eder. Arkası cirolanarak başkasına devredilebilir.",
+        "start": 266.55,
+        "end": 278.87
       },
       {
         "index": 25,
-        "text": "Denizyolu Konşimentosu yani Bill of Lading, malların mülkiyetini temsil eden kıymetli evrak niteliğinde bir belgedir, emre düzenlenebilir ve ciro ile devredilebilir. Tam takım deniz konşimentosu genellikle 3 orijinal nüsha düzenlenir ve bunlardan biriyle mallar gümrükten çekildiğinde diğer orijinal nüshalar hükümsüz kalır.",
-        "start": 214.84,
-        "end": 236.76
+        "text": "Kritik Sınav Uyarısı: Havayolu ve Karayolu taşıma belgeleri malların mülkiyetini Temsil Etmez ve asla ciro edilemez. Bu taşıma türlerinde mülkiyetin devri ancak, Ordino Teslim Yazısı ile yapılır.",
+        "start": 278.87,
+        "end": 294.58
       },
       {
         "index": 26,
-        "text": "Buna karşılık Havayolu Konşimentosu, Demiryolu taşımacılığında düzenlenen Hamule Senedi ve Karayolu Taşıma Belgesi yani CMR, malların mülkiyetini göstermez, kıymetli evrak niteliğinde değildir ve ciro kabiliyetleri yoktur. Bu 3 taşıma belgesinde malların mülkiyetinin devri ciro ile değil, Ordino Teslim Yazısı verilmesi suretiyle gerçekleşir.",
-        "start": 236.76,
-        "end": 260.42
+        "text": "BÖLÜM 8: Ödeme Yöntemleri ve Akreditif",
+        "start": 294.58,
+        "end": 298.88
       },
       {
         "index": 27,
-        "text": "Dolaşım ve menşe belgelerindeki ayrımlar şunlardır. Avrupa Birliği ile Türkiye arasındaki Gümrük Birliği gereğince, ülkemizden AB üyesi ülkelere ihraç edilen malların gümrük muafiyetinden yararlanması için A. TR Dolaşım Belgesi düzenlenir. Serbest Ticaret Anlaşması imzalanan ülkeler ve EFTA ülkeleri ile yapılan ticarette Avro.1 Dolaşım Belgesi düzenlenir.",
-        "start": 260.42,
-        "end": 287.46
+        "text": "Peşin Ödeme: İthalatçı (alıcı) malı görmeden parayı gönderir. Satıcı için harika, alıcı için en riskli yöntemdir.",
+        "start": 298.88,
+        "end": 308.98
       },
       {
         "index": 28,
-        "text": "Malın hangi ülke kaynaklı olduğunu gösteren belgeye Menşe Şahadetnamesi denir. GSP'nin sağladığı tavizli gümrük oranlarından yararlanılması için yapılan ihracatta düzenlenen özel belgeye ise Özel Menşe Şahadetnamesi yani Form-A adı verilir.",
-        "start": 287.46,
-        "end": 305.97
+        "text": "Mal Mukabili: Satıcı malı gönderir, alıcı malı çeker sonra parasını yollar. Alıcı için harika, satıcı için en riskli yöntemdir.",
+        "start": 308.98,
+        "end": 319.93
       },
       {
         "index": 29,
-        "text": "DIŞ TİCARETTE ÖDEME YÖNTEMLERİ",
-        "start": 305.97,
-        "end": 309.35
+        "text": "Akreditif (Letter of Credit - L/C şıkkı: : Birbirine güvenmeyen alıcı ve satıcıyı koruyan en kusursuz sistemdir. Bankalar (Amir Banka ve Teyit Bankası) devreye girer. Şart koşulan doğru vesaikler bankaya teslim edildiğinde banka ödemeyi garanti eder. Dış ticaretin en güvenilir şemsiyesidir.",
+        "start": 319.93,
+        "end": 345.09
       },
       {
         "index": 30,
-        "text": "Birinci ödeme yöntemi Peşin Ödemedir. İthalatçının mal sevkiyatından önce mal bedelini satıcıya ödemesidir. İhracatçı için en güvenli, ithalatçı için en riskli yöntemdir. Bedelin peşin ödenmesi durumunda ithalatçının yüzde 6 K K D F ödeme yükümlülüğü yoktur ve Bakanlık sisteminden Belge ID üretilir.",
-        "start": 309.35,
-        "end": 334.68
+        "text": "BÖLÜM 9: Aval Nedir?",
+        "start": 345.09,
+        "end": 348.07
       },
       {
         "index": 31,
-        "text": "İkinci ödeme yöntemi Mal Mukabili Ödemedir. İhracatçının malı ve belgeleri doğrudan ithalatçıya gönderdiği, mal gümrükten çekildikten sonra ödeme yapılan yöntemdir. İthalatçı için en avantajlı, ihracatçı için en riskli yöntemdir. Mallar bedeli ödenmeden önce gümrükten çekildiği için vadeli ithalat sayılır ve yüzde 6 oranında K K D F'ye tabidir.",
-        "start": 334.68,
-        "end": 364.06
+        "text": "Aval, poliçeler (veya bonolar) üzerine düşülen müteselsil kefalet (garanti) şerhidir.",
+        "start": 348.07,
+        "end": 355.94
       },
       {
         "index": 32,
-        "text": "Üçüncü ödeme yöntemi Vesaik Mukabili Ödemedir. İhracatçı malı sevk ettikten sonra sevk vesaikini römiz mektubu ekinde kendi bankasına teslim eder, banka vesaiki ithalatçının bankasına gönderir ve bedel ödendiğinde vesaik alıcıya teslim edilir. Bankalar ödeme taahhüdü altına girmez. Bu yöntemde bedel ödendikten sonra mallar gümrükten çekildiği için yüzde 6'lık K K D F'ye tabi değildir ve Belge ID düzenlenir.",
-        "start": 364.06,
-        "end": 396.93
+        "text": "Akılda Kalıcı Açıklaması: Bir banka poliçeye aval verirse, ithalatçı borcunu ödemese dahi, vade günü geldiğinde banka o parayı satıcıya ödemek zorundadır. Banka taşın altına elini koyar.",
+        "start": 355.94,
+        "end": 370.47
       },
       {
         "index": 33,
-        "text": "Dördüncü ödeme yöntemi Kabul Kredili Ödemedir. Vesaik mukabili veya mal mukabili şeklinde işleyebilir. İhracatçı mala ilişkin vesaikle birlikte vadeli bir poliçe gönderir. Poliçe kabul edilerek veya banka avali alınarak vesaik teslim edilir.",
-        "start": 396.93,
-        "end": 417.09
+        "text": "BÖLÜM 10: K K D F (Kaynak Kullanımı Destekleme Fonu) Tuzağı",
+        "start": 370.47,
+        "end": 376.01
       },
       {
         "index": 34,
-        "text": "Dikkat burası çok kritik! Kabul kredili vesaik mukabilinde, bedel ihracatçıya ödenmeden önce mallar gümrükten çekildiği için işlem yüzde 6'lık K K D F'ye tabidir. Bu nedenle, Belge ID düzenlenmez, bunun yerine bankalarca Vadeli İthalat Bildirim Formu düzenlenir.",
-        "start": 417.09,
-        "end": 439.43
+        "text": "Peşin ithalat ödemeleri ile akreditifli peşin ödemelerde K K D F kesintisi yoktur (Çünkü, devlet dövizin zaten çıktığını görür).",
+        "start": 376.01,
+        "end": 385.64
       },
       {
         "index": 35,
-        "text": "Poliçenin protesto edilmesi sürecinde tahsil talimatında protesto şartı olup olmadığı mutlaka kontrol edilmelidir. Protesto şartı varsa poliçenin noterden protesto ettirilebilmesi için öncelikle yeminli tercüme bürosundan çevirisi yapılmalı ve vade tarihini takip eden 2 iş günü içinde protesto işlemi gerçekleştirilmelidir.",
-        "start": 439.43,
-        "end": 462.69
+        "text": "Altın Kural (Vadeli İthalat Tuzağı): Ancak, vadeli ithalat işlemlerinde (örneğin Kabul Kredili, Mal mukabili), mal yurda girip gümrükten çekildiği halde parası henüz yurtdışına ödenmediği için, devlete yüzde 6 K K D F (Kaynak Kullanımı Destekleme Fonu) ödenmesi zorunludur.",
+        "start": 385.64,
+        "end": 403.96
       },
       {
         "index": 36,
-        "text": "Beşinci ödeme yöntemi Akreditifli Ödemedir. Amir bankanın, şartların yerine getirilmesi ve uygun vesaikin ibraz edilmesi karşılığında lehtara ödeme yapacağını taahhüt ettiği geri dönülemez banka taahhüdüdür. Amir banka akreditifi teyit bankası aracılığıyla lehtara duyurabilir. Bankalar mallarla değil yalnızca belgelerle ilgilenir ve belgelerin uygunluğunu ibraz gününü takip eden en fazla 5 iş günü içinde inceleyerek karar verir.",
-        "start": 462.69,
-        "end": 494.61
+        "text": "BÖLÜM 11: İhracat Bedellerinin Yurda Getirilmesi (Terkin Sınırları)",
+        "start": 403.96,
+        "end": 410.06
       },
       {
         "index": 37,
-        "text": "İHRACAT BEDELLERİNİN TAHSİLİ VE GÖRÜNMEYEN KALEM TRANSFERLERİ",
-        "start": 494.61,
-        "end": 499.75
+        "text": "Fiili ihraç tarihinden itibaren, ihracat bedelinin Türkiye ye getirilmesi için tanınan yasal azami süre 180 gündür. Para geldiğinde İBKB (İhracat Bedeli Kabul Belgesi) düzenlenir.",
+        "start": 410.06,
+        "end": 425.7
       },
       {
         "index": 38,
-        "text": "İhracat bedellerinin fiili ihraç tarihinden itibaren azami 180 gün içinde yurda getirilmesi ve İhracat Bedeli Kabul Belgesi yani İBKB düzenlenerek kapatılması gerekir. Nakit Beyan Formu ile efektif olarak getirilen bedellerde formun düzenlenme tarihinden itibaren 30 gün süre vardır. Süresi içinde kapatılmayan hesaplar 5 iş günü içinde Vergi Dairesine ihbar edilir.",
-        "start": 499.75,
-        "end": 529.82
+        "text": "Sınavın Zor Sorusu (Terkin Limitleri): Bankalar 180 gün kuralını takip ederler ancak, ufak eksikliklerde hesabı doğrudan kapatabilirler (terkin edebilirler). Terkin limiti, ihracat hesabında 15 Bin ABD Dolarına kadar olan noksanlıklardır. 15 Bin Dolara kadar eksik varsa banka dosyayı kapatır. Eğer süresi içinde kapatılmayan hesaplar olursa, bankalar 5 iş günü içinde bunu ilgili Vergi Dairesine ihbar etmekle yükümlüdür.",
+        "start": 425.7,
+        "end": 460.58
       },
       {
         "index": 39,
-        "text": "Şuraya dikkat et, bu kısım sınavda hayat kurtarır! 15.000 ABD doları veya eşitine kadar olan ihracat hesapları ile beyanname veya formda yer alan bedelin yüzde 10'una kadar olan ve 15.000 ABD doları ile 100.000 ABD doları arasında kalan noksanlıklar terkin edilmek suretiyle bankaca kapatılır.",
-        "start": 529.82,
-        "end": 553.93
+        "text": "BÖLÜM 12: Görünmeyen Kalemler Transferleri (Belge Muafiyeti Sınırı)",
+        "start": 460.58,
+        "end": 466.73
       },
       {
         "index": 40,
-        "text": "Hizmet ihracatı, transit ticaret, özel faturalı satışlar, mikro ihracat ve serbest bölge işlem formu kapsamında gerçekleştirilen 5.000 ABD doları veya karşılığı döviz ya da Türk Lirasını geçmeyen tutardaki ihracat işlemlerinde bedellerin tamamının tasarrufu serbesttir ve takibi yapılmaz. Peşin döviz karşılığında yapılan ihracatın ise 24 ay içinde gerçekleştirilmesi zorunludur.",
-        "start": 553.93,
-        "end": 582.14
+        "text": "Sınav Tüyosu (Görünmeyen Kalem Sınırı): İthalat/İhracat harici olan (sağlık, seyahat, aidat, trafik cezası vb. ) yurt dışı para gönderimlerine Görünmeyen Kalem denir. Bunların normalde faturası belgesi şarttır. Ancak, 5 Bin Dolar ve altındaki transferlerde belge sunmak zorunlu değildir, sadece müşterinin beyanı yeterlidir.",
+        "start": 466.73,
+        "end": 492.11
       },
       {
         "index": 41,
-        "text": "Görünmeyen kalem transferlerinde fatura veya bordro ibrazı zorunludur. Ancak, 5.000 Amerikan Doları dahil veya eşiti döviz tutarının altındaki bedellerin transferi için, vergi yükümlülüklerinin yerine getirilmiş olması kaydıyla belge ibrazı zorunlu değildir ve beyana göre işlem yapılır. Yurt dışından kullanılan ve yurda inen krediler ile bu kredilere ait geri ödemeler Uzun Vadeli Kredi yani UVK ekranları üzerinden takip edilir.",
-        "start": 582.14,
-        "end": 613.06
+        "text": "BÖLÜM 13: Nakit Yönetimi (Doğrudan Borçlandırma Sistemi - DBS)",
+        "start": 492.11,
+        "end": 498.06
       },
       {
         "index": 42,
-        "text": "NAKİT YÖNETİMİ ÜRÜN VE HİZMETLERİ",
-        "start": 613.06,
-        "end": 616.4
+        "text": "Büyük toptancı bir Ana Firma ile, ondan mal alan küçük Bayiler arasındaki ödeme ve tahsilat sistemidir. Banka, alıcı bayiye bir DBS kredi limiti tanımlar ve faturanın günü geldiğinde ana firmaya parayı ödemeyi garanti eder.",
+        "start": 498.06,
+        "end": 515.12
       },
       {
         "index": 43,
-        "text": "TAHSİLAT ÜRÜNLERİ, VİNOV VE VANA",
-        "start": 616.4,
-        "end": 620.05
-      },
-      {
-        "index": 44,
-        "text": "Pratik Tahsilat Sistemi yani Çek Entegrasyonu, şubelerimize çok sayıda çek getiren firmaların çek tahsilatlarında otomatik muhasebeleştirme yapmasını sağlar. Kurum çek bilgilerini sisteme yükler, Banka akıbet dosyası iletir ve firma kendi sisteminde otomatik muhasebe kaydı oluşturur.",
-        "start": 620.05,
-        "end": 639.88
-      },
-      {
-        "index": 45,
-        "text": "VİNOV ürünümüz, ileri vadeli ödeme ve tahsilatların VakıfBank garantisi altında yapıldığı dijital ödeme ve tahsilat ekosistemidir.",
-        "start": 639.88,
-        "end": 649.79
-      },
-      {
-        "index": 46,
-        "text": "Dikkat burası çok kritik! VİNOV ödemelerinde iptal kuralı sınavda çok severek sorulur. VİNOV Borçlusu tarafından oluşturulan bir VİNOV kaydı, borçlu tarafından değil ancak, VİNOV Alıcısı tarafından iptal edilebilir. VİNOV Alıcısının kaydı iptal edebilmesi için VİNOV hesap tanımının bulunması gerekir. Alıcı iptal işlemini VİNOV Uygulaması, Mobil veya İnternet Bankacılığından en geç vade tarihinden önceki güne kadar, Şube kanalından ise vade tarihinden önceki iş günü mesai bitimine kadar iletmelidir. Ayrıca OYAK hesapları, ortak hesaplar, Ek Hesap tanımlı hesaplar ve maaş hesapları VİNOV hesabı olarak tanımlanamaz.",
-        "start": 649.79,
-        "end": 696.82
-      },
-      {
-        "index": 47,
-        "text": "VaNa yani VakıfBank Nakit Yönetimi Hesabı, firmaların vergi, S G K, gümrük, fatura ve icra gibi resmi ödemelerini gerçekleştirebildiği, taksit ve opsiyon imkanı sunan kapalı devre nakit yönetimi ürünüdür.",
-        "start": 696.82,
-        "end": 711.51
-      },
-      {
-        "index": 48,
-        "text": "ÖDEME, SÜPÜRME, VAKIFPAY VE KOLAY ADRES ÜRÜNLERİ",
-        "start": 711.51,
-        "end": 715.96
-      },
-      {
-        "index": 49,
-        "text": "Toplu Ödeme Sistemi yani TÖS, Offline TÖS ve Online TÖS olarak ikiye ayrılır. Offline TÖS uygulamasında firmalar ödeme bilgilerini dosya olarak Bankamıza iletir ve sistem otomatik gerçekleştirir. Online TÖS uygulamasında ise Banka ile firma arasında web servis aracılığıyla anlık entegrasyon sağlanır.",
-        "start": 715.96,
-        "end": 741.62
-      },
-      {
-        "index": 50,
-        "text": "Otomatik Süpürme ürünü, bir hesaptaki bakiyenin tamamının veya bir kısmının sistem tarafından farklı bir hesaba otomatik aktarılmasıdır. Paranın alındığı hesaba kaynak hesap, aktarıldığı hesaba hedef hesap denir. Müşteri isterse Hesapta Kalacak En Az Tutar veya Süpürme Yapılacak En Fazla Tutar kısıtları tanımlayabilir.",
-        "start": 741.62,
-        "end": 765.61
-      },
-      {
-        "index": 51,
-        "text": "Kolay Adres yani KOLAS Sistemi, İban numaralarının telefon numarası, e-posta adresi, T C Kimlik Numarası veya Vergi Kimlik Numarası ile eşleştirilmesini sağlar. Telefon numarası veya e-posta adresinde değişiklik olması durumunda müşteri bu değişikliği Bankamıza bildirmekle yükümlüdür; aksi takdirde güncel olmayan bilgilerle yapılacak para transferlerinin sorumluluğu müşteriye aittir.",
-        "start": 765.61,
-        "end": 792.52
-      },
-      {
-        "index": 52,
-        "text": "HESAP MUTABAKAT ÜRÜNLERİ",
-        "start": 792.52,
-        "end": 795.46
-      },
-      {
-        "index": 53,
-        "text": "Online Hesap Hareketleri Mutabakat Sistemi, web servis üzerinden hesap hareketlerinin XML formatında alınabildiği ve TÜRMOB LUCA programı entegrasyonu ile 7/24 erişilebildiği sistemdir.",
-        "start": 795.46,
-        "end": 809.24
-      },
-      {
-        "index": 54,
-        "text": "MT940 ve MT942 Hesap Mutabakat Sistemi, elektronik banka hesap ekstresidir.",
-        "start": 809.24,
-        "end": 818.27
-      },
-      {
-        "index": 55,
-        "text": "Şuraya dikkat et, bu kısım sınavda hayat kurtarır! MT940 ve MT942 arasındaki fark şudur: Tüm günün ekstresi iletilirse MT940 mesajı, yalnızca gün içi belirli saat dilimi aralıkları iletilirse MT942 mesajı gönderilir.",
-        "start": 818.27,
-        "end": 837.96
-      },
-      {
-        "index": 56,
-        "text": "Toplu Dekont Bildirimi ürünü ise tanımlı hesaplar için dekontların talep edilen periyotlarda e-posta veya FTP ile gönderilmesini sağlar. Bu talimat yalnızca tüzel müşterilerimize tanımlanabilmektedir.",
-        "start": 837.96,
-        "end": 852.92
-      },
-      {
-        "index": 57,
-        "text": "E-DÖNÜŞÜM ÜRÜNLERİ VE E-İMZA",
-        "start": 852.92,
-        "end": 856.13
-      },
-      {
-        "index": 58,
-        "text": "e-Fatura, e-Arşiv, e-Defter, e-İrsaliye ve e-Müstahsil Makbuzu dijital dönüşüm ürünlerimizdir. e-Müstahsil Makbuzu çiftçilerin ürün satış işlemlerini dijital ortama taşır ve altyapısı e-Arşiv uygulaması ile bire bir aynıdır.",
-        "start": 856.13,
-        "end": 873.66
-      },
-      {
-        "index": 59,
-        "text": "E-İmza, ıslak imzanın dijital halidir ve aynı hukuki geçerliliğe sahiptir. Usulüne göre e-imza ile oluşturulan elektronik veriler senet hükmündedir ve aksi ispat edilinceye kadar kesin delil sayılır.",
-        "start": 873.66,
-        "end": 889.41
-      },
-      {
-        "index": 60,
-        "text": "BÖLÜM 8 UYGULAMA SORUSU",
-        "start": 889.41,
-        "end": 892.44
-      },
-      {
-        "index": 61,
-        "text": "Soru: Bir dış ticaret firması, Türkiye'deki bir banka aracılığıyla yurt dışındaki satıcıya mal mukabili ödeme yöntemiyle 1.250.000 Türk Lirası tutarında mal ithal etmiş ve bedeli malı gümrükten çektikten sonra transfer etmiştir. Aynı firma, başka bir işlemde ise yurt dışından kabul kredili vesaik mukabili ödeme yöntemiyle hammadde ithal etmiş, poliçeyi kabul etmiş ve poliçe vadesinden önce malları gümrükten çekmiştir. Ayrıca firma, 12.000 ABD doları tutarındaki bir ihracat hesabını süresi içinde kapatamamıştır. Bu senaryoya göre",
-        "start": 892.44,
-        "end": 932.27
-      },
-      {
-        "index": 62,
-        "text": "Çözüm Açıklaması: Mal mukabili ithalatta mallar bedeli ödenmeden önce gümrükten çekildiği için vadeli ithalat sayılır ve yüzde 6 K K D F'ye tabidir. Kabul kredili vesaik mukabili ithalatta da mallar bedel ödenmeden önce çekildiği için yüzde 6 K K D F'ye tabidir ve Belge ID yerine Vadeli İthalat Bildirim Formü düzenlenir. 12.000 ABD doları tutarındaki ihracat hesabı 15.000 ABD doları sınırının altında kaldığı için terkin edilerek bankaca kapatılabilir, Vergi Dairesine ihbar zorunluluğu yoktur",
-        "start": 932.27,
-        "end": 971.66
+        "text": "Akılda Kalıcı Şifre (DBS Üçlüsü): Bu sistemde üç saç ayağı vardır; Banka, Ana Firma (Üretici) ve Bayi. En çok kazanan Ana Firmadır çünkü, tüm tahsilat derdinden kurtulur ve tahsilatını garantiler.",
+        "start": 515.12,
+        "end": 531.24
       }
     ]
   },
