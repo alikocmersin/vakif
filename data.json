@@ -7591,7 +7591,7 @@
     "id": "ticarikrediler",
     "title": "Ticari Krediler",
     "icon": "🏢",
-    "duration": 258.59,
+    "duration": 290.37,
     "paragraphs": [
       {
         "index": 0,
@@ -7601,117 +7601,165 @@
       },
       {
         "index": 1,
-        "text": "BÖLÜM 1: Kredinin Tanımı, Unsurları ve Sınırları",
+        "text": "BÖLÜM 1: Kredinin 3 Atlısı ve Gizli Krediler",
         "start": 2.44,
-        "end": 6.94
+        "end": 6.81
       },
       {
         "index": 2,
-        "text": "Bankacılıkta kredi, ihtiyaç sahiplerine belirli bir süre sonra geri alınmak şartıyla verilen nakit borçlara Nakdi Kredi, veya bir borcun veya taahhüdün banka tarafından garanti edilmesine ise Gayrinakdi Kredi denir. Kredinin üç temel unsuru vardır: Vade, Güven ve Risk.",
-        "start": 6.94,
-        "end": 26.31
+        "text": "Kredi demek sadece nakit para vermek demek değildir. Teminat mektubu gibi kefaletler Gayrinakdi Kredidir. Kredinin 3 atlısı vardır: Güven, Vade ve Risk. Güvenle başlar, vadeyle uzar, riskle sonuçlanır.",
+        "start": 6.81,
+        "end": 24.98
       },
       {
         "index": 3,
-        "text": "Akılda Kalıcı Şifre (VGR Kuralı): Kredi vereceğin kişiye Güveneceksin, belli bir Vade biçeceksin ve Riski göze alacaksın. Unutma, Vade uzadıkça Risk her zaman artar.",
-        "start": 26.31,
-        "end": 39.59
+        "text": "Sınav Tüyosu (Gizli Krediler): Ters repo işlemleri, vadeli işlem sözleşmeleri ve finansal kiralama yani leasing işlemleri de kanunen KREDİ sayılır. Şaşırtmaca sorulara düşmeyin!",
+        "start": 24.98,
+        "end": 38.73
       },
       {
         "index": 4,
-        "text": "Bankacılık kanunu 48. maddeye göre; satılan varlık alacakları, satın alınan tahviller, hatta vadesi geçmiş faizler bile kredi sayılır.",
-        "start": 39.59,
-        "end": 49.93
+        "text": "BÖLÜM 2: Yetki Kimde? (10 a 1 Kuralı)",
+        "start": 38.73,
+        "end": 44.01
       },
       {
         "index": 5,
-        "text": "BÖLÜM 2: Kredi Açmaya Yetkili Organlar ve Devir Sınırları",
-        "start": 49.93,
-        "end": 55.2
+        "text": "Kredi açma yetkisi sadece Yönetim Kurulundadır. Ancak, bu yetkiyi alt birimlere devredebilir.",
+        "start": 44.01,
+        "end": 52.34
       },
       {
         "index": 6,
-        "text": "Bir bankada kredi açmaya kanunen tek yetkili asıl organ Yönetim Kuruludur. Yönetim kurulu bu yetkisini sınırları dahilinde Kredi Komitesine ve Genel Müdürlüğe devredebilir.",
-        "start": 55.2,
-        "end": 68.94
+        "text": "Akılda Kalıcı Şifre: Yönetim Kurulu pastayı dağıtırken, Kredi Komitesi kalabalık diye onlara Özkaynağın Yüzde 10 unu, Genel Müdür tek kişi diye ona Özkaynağın Yüzde 1 ini devreder.",
+        "start": 52.34,
+        "end": 64.68
       },
       {
         "index": 7,
-        "text": "Sınavın Kesin Çıkacak Kodlaması (10 ve 1 Kuralı): Kurul yetki devri yaparken, Kredi Komitesi kalabalık olduğu için büyük payı alır yani Banka Özkaynaklarının Yüzde 10 unu kullanabilir. Genel Müdürlük ise tek bir makam olduğu için Banka Özkaynaklarının Yüzde 1 ini kullanabilir.",
-        "start": 68.94,
-        "end": 88.35
+        "text": "BÖLÜM 3: Bankacılara Kredi Yasağı ve İstisnası (5 ve 3 Kuralı)",
+        "start": 64.68,
+        "end": 70.85
       },
       {
         "index": 8,
-        "text": "BÖLÜM 3: Kredi Kullandırımında Yasaklar ve Kanuni Engeller",
-        "start": 88.35,
-        "end": 93.54
+        "text": "Bankalar kendi yöneticilerine, personeline ve onların eş ile çocuklarına ticari kredi açamaz. Vakıflarına veya sandıklarına da kredi veremez.",
+        "start": 70.85,
+        "end": 82.74
       },
       {
         "index": 9,
-        "text": "Banka; kendi yönetim kurulu üyelerine, genel müdürüne ve hatta kredi açmaya yetkili diğer tüm mensuplarına ve bunların velayeti altındaki çocuklarına asla ticari kredi açamaz. Ayrıca iflas edenler, konkordato talep edenler, tefeciler ve ticaretten men edilenlerle kesinlikle çalışılamaz.",
-        "start": 93.54,
-        "end": 115.18
+        "text": "Sınav Şifresi: Personele kredi vermenin tek istisnası maaş katlarıdır. Nakit ihtiyaç için aylık net maaşın 5 katına kadar nakdi kredi, harcama için maaşın 3 katına kadar kredi kartı veya çek karnesi verilebilir. Şifremiz: 5 Nakit, 3 Kart.",
+        "start": 82.74,
+        "end": 102.94
       },
       {
         "index": 10,
-        "text": "İstisnai Kural (5 ve 3 Kuralı): Bir banka personeli kredi kullanamaz kuralının tek bir insani istisnası vardır. Banka, kendi çalışanlarına ve onların eşlerine; aylık net ücretlerinin tam 5 katına kadar nakit kredi ve yine aylık net ücretlerinin 3 katına kadar kredi kartı (veya çek karnesi) verebilir. Şifre 5 Nakit, 3 Kart.",
-        "start": 115.18,
-        "end": 141.0
+        "text": "BÖLÜM 4: Belalı Müşteriler (Kredi Açılamayacaklar)",
+        "start": 102.94,
+        "end": 107.74
       },
       {
         "index": 11,
-        "text": "BÖLÜM 4: Risk Grubu Kavramı ve Hukuki Sınırları",
-        "start": 141.0,
-        "end": 145.69
+        "text": "İflas edenler, konkordato isteyenler, tefecilik yapanlar, vergi kaçakçıları ve ticaretten men edilenlere asla kredi açılamaz. Bunlar bankanın kırmızı çizgisidir.",
+        "start": 107.74,
+        "end": 121.07
       },
       {
         "index": 12,
-        "text": "Aralarında birinin ödeme güçlüğüne düşmesinin diğerini de batıracak boyutta kefalet, garanti veya ortaklık ilişkisi bulunan gerçek ve tüzel kişiler tek bir Risk Grubu oluşturur. Örneğin; eşler, şirket ortakları veya birbirine kefil olan fabrikalar böyledir.",
-        "start": 145.69,
-        "end": 163.36
+        "text": "BÖLÜM 5: Risk Grubu ve Çeyrek Pasta Sınırı (Yüzde 25)",
+        "start": 121.07,
+        "end": 126.63
       },
       {
         "index": 13,
-        "text": "Bankalar tek bir kişiye veya tek bir Risk Grubuna banka ana sermayesinin ve özkaynaklarının yüzde 25 inden fazlasını asla kredi olarak kullandıramaz. Yani banka, kasasındaki paranın çeyreğinden fazlasını tek bir sepete koyamaz.",
-        "start": 163.36,
-        "end": 181.13
+        "text": "Birbiriyle bağlantılı, biri batarsa diğeri de batacak olan şirketler, kefiller, eşler ve çocuklar tek bir Risk Grubu sayılır.",
+        "start": 126.63,
+        "end": 135.5
       },
       {
         "index": 14,
-        "text": "BÖLÜM 5: Büyük Kredi Tanımı ve 8 Kat Sınırı",
-        "start": 181.13,
-        "end": 185.59
+        "text": "Altın Kural: Banka, elindeki ana sermaye ve özkaynağın en fazla Yüzde 25 ini yani sadece çeyreğini tek bir kişiye veya bir risk grubuna verebilir. Tüm yumurtalar tek sepete konmaz!",
+        "start": 135.5,
+        "end": 150.09
       },
       {
         "index": 15,
-        "text": "Eğer bir kişiye kullandırılan kredi tutarı, banka özkaynaklarının yüzde 10 una veya daha fazlasına ulaştıysa bu artık bir Büyük Kredidir.",
-        "start": 185.59,
-        "end": 195.24
+        "text": "BÖLÜM 6: Bankanın Kendi Risk Grubu (Yüzde 20)",
+        "start": 150.09,
+        "end": 154.9
       },
       {
         "index": 16,
-        "text": "Mantıksal Şifre: Banka, elindeki pastanın onda birini (yüzde 10) bir kişiye veriyorsa bu büyük bir dilimdir. Kanun koyucu der ki; bu büyük kredilerin hepsini alt alta topladığında banka özkaynağının en fazla 8 katına kadar çıkabilirsin, 9. kat yasaktır.",
-        "start": 195.24,
-        "end": 215.24
+        "text": "Banka, kendi hissedarlarına ve yöneticilerinin şirketlerine torpil yapamaz. Bankanın Kendi Risk Grubuna verebileceği kredi, özkaynağının en fazla Yüzde 20 si olabilir. B D D K gerekli görürse bunu yüzde 25 e çıkarabilir.",
+        "start": 154.9,
+        "end": 174.24
       },
       {
         "index": 17,
-        "text": "BÖLÜM 6: Hesap Durumu Belgesi (Bilanço) Şartı",
-        "start": 215.24,
-        "end": 220.01
+        "text": "BÖLÜM 7: Büyük Krediler ve 8 Kat Kuralı",
+        "start": 174.24,
+        "end": 178.69
       },
       {
         "index": 18,
-        "text": "Bankalar tarafından müşterilerine verilecek nakdi ve gayri nakdi krediler toplamı 5 Milyon Türk Lirasının üzerinde ise, bu müşterilerden bağımsız denetimden geçmiş, resmi hesap durumu belgesi (bilanço) alınması zorunludur.",
-        "start": 220.01,
-        "end": 235.39
+        "text": "Bir müşteriye banka özkaynağının Yüzde 10 u veya daha fazlası kadar kredi verilmişse, buna Büyük Kredi denir.",
+        "start": 178.69,
+        "end": 187.64
       },
       {
         "index": 19,
-        "text": "Akılda Kalıcı Senaryo: Kredi isteyen Ahmet Bey, 4 Milyon 999 Bin Türk Lirası ye kadar bankadan resmi bilanço vermeden borç alabilir, bu kanunen bankanın insiyatifindedir. Ancak, 5 Milyon 1 Lira istediği an banka yasa gereği duruşunu değiştirip Ahmet Bey bize resmi hesap belgelerinizi vermek zorundasınız der.",
-        "start": 235.39,
-        "end": 258.59
+        "text": "Sınav Tüyosu (8 Kat Sınırı): Banka bu büyük kredileri herkese dağıtamaz. Tüm büyük kredilerin toplamı, banka özkaynağının en fazla 8 katı olabilir. Dokuzuncu kat kesinlikle yasaktır.",
+        "start": 187.64,
+        "end": 203.94
+      },
+      {
+        "index": 20,
+        "text": "BÖLÜM 8: Sınırlamalardan Muaf Olan VIP İşlemler",
+        "start": 203.94,
+        "end": 208.92
+      },
+      {
+        "index": 21,
+        "text": "Bazı risksiz işlemler kredi sınırlarına dahil edilmez ve limitleri doldurmaz.",
+        "start": 208.92,
+        "end": 215.52
+      },
+      {
+        "index": 22,
+        "text": "Sınav Şifresi (VIP İşlemler): Nakit ve altın karşılığı verilen krediler risksizdir. Hazine, Merkez Bankası, Özelleştirme İdaresi ve Türkiye Varlık Fonu ile yapılan işlemler devlet güvencesindedir. Bu işlemlerin kredisi limitsiz sayılır.",
+        "start": 215.52,
+        "end": 235.3
+      },
+      {
+        "index": 23,
+        "text": "BÖLÜM 9: Hesap Durumu Belgesi (Bilanço İsteme Sınırı)",
+        "start": 235.3,
+        "end": 240.29
+      },
+      {
+        "index": 24,
+        "text": "Bankalar, müşterilerine verecekleri kredi toplamı 5 Milyon Türk Lirasını geçiyorsa, resmi hesap durumu belgesi yani bilanço almak zorundadır.",
+        "start": 240.29,
+        "end": 250.85
+      },
+      {
+        "index": 25,
+        "text": "Bilanço Şifresi: Müşteriniz 4 Milyon 999 Bin lira isterse insiyatif bankadadır. Ama tam 5 Milyon sınırını aştığı an, yasa gereği resmi kurum onaylı bilanço istemek zorundasınız.",
+        "start": 250.85,
+        "end": 267.94
+      },
+      {
+        "index": 26,
+        "text": "BÖLÜM 10: 200 Milyon Lira Kırmızı Alarmı",
+        "start": 267.94,
+        "end": 272.19
+      },
+      {
+        "index": 27,
+        "text": "Sınavların zor sorusu şudur: Tüm bankacılık sektöründeki toplam borcu 200 Milyon liranın üzerinde olan dev firmalardan, kredi tahsis aşamasında ekstra olarak konsolide bağımsız denetim raporu alınması şarttır. 200 Milyon, kırmızı alarm sınırıdır.",
+        "start": 272.19,
+        "end": 290.37
       }
     ]
   }
